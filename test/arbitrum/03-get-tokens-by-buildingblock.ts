@@ -4,7 +4,7 @@ import { BuildingBlock } from '@factordao/sdk-studio';
 
 async function main() {
   const tokens = new FactorTokenlist(ChainId.ARBITRUM_ONE);
-  console.table(tokens.getTokensByBuildingBlock(BuildingBlock.SWAP));
+  console.table(tokens.getTokensByBuildingBlock(BuildingBlock.LEND));
 }
 
 main();

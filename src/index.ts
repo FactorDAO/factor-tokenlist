@@ -1,7 +1,7 @@
 import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
 import { BuildingBlock } from '@factordao/sdk-studio';
 import { arbitrumTokens } from './arbitrum';
-import { Token, Protocols } from './types';
+import { Token, Protocols, ProtocolsByBuildingBlock } from './types';
 
 export class FactorTokenlist {
   private tokens: Map<string, Token>;
@@ -56,9 +56,20 @@ export class FactorTokenlist {
    * @returns Array of tokens for the specified protocol
    */
   public getTokensByProtocol(protocol: Protocols): Token[] {
-    return Array.from(this.tokens.values()).filter((token: Token) =>
-      token.protocols.includes(protocol),
+    // First get all tokens that have the protocol
+    const tokensWithProtocol = Array.from(this.tokens.values()).filter(
+      (token: Token) => token.protocols.includes(protocol),
     );
+
+    // Create new tokens with filtered building blocks
+    return tokensWithProtocol.map((token: Token) => ({
+      ...token,
+      protocols: [protocol],
+      buildingBlocks: token.buildingBlocks.filter(
+        (buildingBlock: BuildingBlock) =>
+          ProtocolsByBuildingBlock[buildingBlock]?.includes(protocol),
+      ),
+    }));
   }
 
   /**
@@ -67,9 +78,19 @@ export class FactorTokenlist {
    * @returns Array of tokens for the specified building block
    */
   public getTokensByBuildingBlock(buildingBlock: BuildingBlock): Token[] {
-    return Array.from(this.tokens.values()).filter((token: Token) =>
-      token.buildingBlocks.includes(buildingBlock),
+    // First get all tokens that have the building block
+    const tokensWithBuildingBlock = Array.from(this.tokens.values()).filter(
+      (token: Token) => token.buildingBlocks.includes(buildingBlock),
     );
+
+    // Create new tokens with filtered protocols
+    return tokensWithBuildingBlock.map((token: Token) => ({
+      ...token,
+      buildingBlocks: [buildingBlock],
+      protocols: token.protocols.filter((protocol: Protocols) =>
+        ProtocolsByBuildingBlock[buildingBlock]?.includes(protocol),
+      ),
+    }));
   }
 }
 

@@ -1,22 +1,22 @@
 import { BuildingBlock } from '@factordao/sdk-studio';
 
 export enum Protocols {
-  AAVE = 'aave',
-  BALANCER = 'balancer',
-  CAMELOT = 'camelot',
-  COMPOUND = 'compound',
-  GLP = 'glp',
-  GMX = 'gmx',
-  GNS = 'gns',
-  MUX = 'mux',
-  OPENOCEAN = 'openocean',
-  PENDLE = 'pendle',
-  PENPIE = 'penpie',
-  PIREX = 'pirex',
-  SILO = 'silo',
-  UMAMI = 'umami',
-  UNISWAP = 'uniswap',
-  VLP = 'vlp',
+  AAVE = 'AAVE',
+  BALANCER = 'BALANCER',
+  CAMELOT = 'CAMELOT',
+  COMPOUND = 'COMPOUND',
+  GLP = 'GLP',
+  GMX = 'GMX',
+  GNS = 'GNS',
+  MUX = 'MUX',
+  OPENOCEAN = 'OPENOCEAN',
+  PENDLE = 'PENDLE',
+  PENPIE = 'PENPIE',
+  PIREX = 'PIREX',
+  SILO = 'SILO',
+  UMAMI = 'UMAMI',
+  UNISWAP = 'UNISWAP',
+  VLP = 'VLP',
 }
 
 export interface Token {
@@ -28,3 +28,11 @@ export interface Token {
   buildingBlocks: BuildingBlock[];
   logoUrl?: string;
 }
+
+export const ProtocolsByBuildingBlock: Partial<
+  Record<BuildingBlock, Protocols[]>
+> = {
+  [BuildingBlock.SWAP]: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+  [BuildingBlock.LEND]: [Protocols.AAVE, Protocols.COMPOUND],
+  [BuildingBlock.BORROW]: [Protocols.AAVE, Protocols.COMPOUND],
+};

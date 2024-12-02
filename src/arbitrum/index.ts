@@ -24,7 +24,12 @@ export const arbitrumTokens: Token[] = [
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
     ],
-    protocols: [Protocols.COMPOUND, Protocols.AAVE],
+    protocols: [
+      Protocols.COMPOUND,
+      Protocols.AAVE,
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+    ],
   },
   {
     address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
@@ -38,7 +43,12 @@ export const arbitrumTokens: Token[] = [
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
     ],
-    protocols: [Protocols.COMPOUND, Protocols.AAVE],
+    protocols: [
+      Protocols.COMPOUND,
+      Protocols.AAVE,
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+    ],
   },
   {
     address: '0x912ce59144191c1204e64559fe8253a0e49e6548',
@@ -50,22 +60,45 @@ export const arbitrumTokens: Token[] = [
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.AAVE,
+      Protocols.UNISWAP,
+      Protocols.COMPOUND,
+    ],
   },
   {
     address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
     name: 'Wrapped Ether',
     symbol: 'WETH',
     decimals: 18,
-    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
-    protocols: [Protocols.AAVE, Protocols.OPENOCEAN, Protocols.UNISWAP],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    protocols: [
+      Protocols.AAVE,
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.COMPOUND,
+    ],
   },
   {
     address: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f',
     name: 'Wrapped BTC',
     symbol: 'WBTC',
     decimals: 8,
-    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
-    protocols: [Protocols.AAVE, Protocols.OPENOCEAN, Protocols.UNISWAP],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    protocols: [
+      Protocols.AAVE,
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.COMPOUND,
+    ],
   },
 ];
