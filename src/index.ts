@@ -92,6 +92,14 @@ export class FactorTokenlist {
       ),
     }));
   }
+
+  public getToken(address: string): Token {
+    const token = this.tokens.get(address);
+    if (!token) {
+      throw new Error(`Token with address ${address} not found`);
+    }
+    return token;
+  }
 }
 
 export * from './types';
