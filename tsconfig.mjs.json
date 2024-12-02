@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "dist/mjs"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "src/examples",
+    "test",
+    "scripts",
+    "example",
+    "hardhat.config.ts"
+  ]
+}
