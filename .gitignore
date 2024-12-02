@@ -130,12 +130,6 @@ dist
 # Optional stylelint cache
 .stylelintcache
 
-# SvelteKit build / generate output
-.svelte-kit
-
-# End of https://www.toptal.com/developers/gitignore/api/node
-**/*.png
-
 node_modules
 .env
 coverage

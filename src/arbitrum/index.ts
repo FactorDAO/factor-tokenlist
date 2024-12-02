@@ -9,6 +9,8 @@ export const arbitrumTokens: Token[] = [
     decimals: 18,
     buildingBlocks: [BuildingBlock.SWAP],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FCTR.png',
   },
   {
     address: '0xaf88d065e77c8cc2239327c5edb3a432268e5831',
@@ -49,5 +51,21 @@ export const arbitrumTokens: Token[] = [
       BuildingBlock.SWAP,
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.AAVE],
+  },
+  {
+    address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+    name: 'Wrapped Ether',
+    symbol: 'WETH',
+    decimals: 18,
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
+    protocols: [Protocols.AAVE, Protocols.OPENOCEAN, Protocols.UNISWAP],
+  },
+  {
+    address: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f',
+    name: 'Wrapped BTC',
+    symbol: 'WBTC',
+    decimals: 8,
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
+    protocols: [Protocols.AAVE, Protocols.OPENOCEAN, Protocols.UNISWAP],
   },
 ];
