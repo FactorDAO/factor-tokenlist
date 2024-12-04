@@ -1,6 +1,6 @@
 import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
 import { BuildingBlock } from '@factordao/sdk-studio';
-import { arbitrumTokens } from './arbitrum';
+import { tokens as arbitrum } from './chains/arbitrum';
 import { Token, Protocols, ProtocolsByBuildingBlock } from './types';
 
 export class FactorTokenlist {
@@ -12,7 +12,7 @@ export class FactorTokenlist {
   constructor(chainId: ChainId) {
     this.tokens = new Map();
     this.availableTokens = {
-      arbitrum: arbitrumTokens,
+      arbitrum,
     };
     this.protocols = [];
     this.buildingBlocks = [];
