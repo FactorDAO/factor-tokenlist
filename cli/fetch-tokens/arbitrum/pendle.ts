@@ -1,12 +1,12 @@
 import { ChainId } from '@factordao/sdk';
 import { FactorTokenlist, Protocols, ExtendedPendleToken } from '../../../src';
 import { exec } from 'child_process';
+import { tokens } from '../../../src/chains/arbitrum.pendle';
 import fs from 'fs';
 import { BuildingBlock } from '@factordao/sdk-studio';
 import { compileFile } from '../../compile-file';
 
 async function main() {
-  const tokens: ExtendedPendleToken[] = [];
   const endpoint =
     'https://api-v2.pendle.finance/bff/v1/42161/markets?limit=100';
   const response = await fetch(endpoint);
@@ -14,7 +14,6 @@ async function main() {
   const pendleTokens = data.results;
   const tokenList = new FactorTokenlist(ChainId.ARBITRUM_ONE);
   for (const token of pendleTokens) {
-    console.log(token);
     try {
       const checkToken = tokenList.getToken(token.address);
       if (checkToken) {
@@ -29,6 +28,8 @@ async function main() {
       tokens.push({
         chainId: ChainId.ARBITRUM_ONE,
         expiry: token.expiry,
+        address: token.address,
+        symbol: token.pt.symbol,
         pt: {
           address: token.pt.address,
           symbol: token.pt.symbol,

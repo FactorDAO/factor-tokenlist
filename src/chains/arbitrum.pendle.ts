@@ -5,6 +5,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0x6b92feb89ed16aa971b096e247fe234db4aaa262',
+    symbol: 'PT-weETH-26DEC2024',
     pt: {
       address: '0xe2b2d203577c7cb3d043e89ccf90b5e24d19b66f',
       symbol: 'PT-weETH-26DEC2024',
@@ -38,6 +40,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0xaceee1ae91bc2f9244d699aa11b8a591f88b3778',
+    symbol: 'PT-mPendle-SY-26DEC2024',
     pt: {
       address: '0x733c9399bb4c550ccff63fcccc645bbc22f73c40',
       symbol: 'PT-mPendle-SY-26DEC2024',
@@ -71,6 +75,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0xc0cda2d5d4d75544cdf01ef69b1e5e56ea366d17',
+    symbol: 'PT-stk-EPendle-26DEC2024',
     pt: {
       address: '0xf93e88b07dfc860abf72d13a088a7092ce213190',
       symbol: 'PT-stk-EPendle-26DEC2024',
@@ -104,6 +110,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0x766ffd36125ce45bdfca913517ecf25a828996b4',
+    symbol: 'PT-HLP-26DEC2024',
     pt: {
       address: '0x04867479568e20e5e6b739b2858c642b9450cfe0',
       symbol: 'PT-HLP-26DEC2024',
@@ -137,6 +145,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x22e0f26320ace985e3cb2434095f18bfe114e28e',
+    symbol: 'PT-gUSDC-26JUN2025',
     pt: {
       address: '0x0b6121b4c00ca4fbbb6516c11eb4bf61722e0f8d',
       symbol: 'PT-gUSDC-26JUN2025',
@@ -170,6 +180,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x8cab5fd029ae2fbf28c53e965e4194c7260adf0c',
+    symbol: 'PT-dWBTC-26JUN2025',
     pt: {
       address: '0x98510fbe752a97f97abd7d971a1b3290dd62ec4a',
       symbol: 'PT-dWBTC-26JUN2025',
@@ -203,6 +215,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0xbf5e60ddf654085f80dae9dd33ec0e345773e1f8',
+    symbol: 'PT-weETH-26JUN2025',
     pt: {
       address: '0xb33808ea0e883138680ba29311a220a7377cdb92',
       symbol: 'PT-weETH-26JUN2025',
@@ -236,39 +250,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
-    pt: {
-      address: '0x355ec27c9d4530de01a103fa27f884a2f3da65ef',
-      symbol: 'PT-rsETH-26DEC2024',
-      name: 'PT-rsETH-26DEC2024',
-      decimals: 18,
-    },
-    yt: {
-      address: '0x4b755c030b455b959246fc0f940de3a95f8e81ec',
-      symbol: 'YT-rsETH-26DEC2024',
-      name: 'YT-rsETH-26DEC2024',
-      decimals: 18,
-    },
-    lp: {
-      address: '0xcb471665bf23b2ac6196d84d947490fd5571215f',
-      symbol: 'PENDLE-LPT',
-      name: 'PENDLE-LPT',
-      decimals: 18,
-    },
-    underlyingAsset: {
-      address: '0x4186bfc76e2e237523cbc30fd220fe055156b41f',
-      symbol: 'rsETH',
-      name: 'rsETH',
-      decimals: 18,
-    },
-    protocols: [Protocols.PENDLE],
-    buildingBlocks: [
-      BuildingBlock.PROVIDE_LIQUIDITY,
-      BuildingBlock.REMOVE_LIQUIDITY,
-    ],
-  },
-  {
-    chainId: 42161,
-    expiry: '2024-12-26T00:00:00.000Z',
+    address: '0x279b44e48226d40ec389129061cb0b56c5c09e46',
+    symbol: 'PT-uniETH-26DEC2024',
     pt: {
       address: '0x22e9ad26ea0e65a7073571d5d7172ff6336084ad',
       symbol: 'PT-uniETH-26DEC2024',
@@ -301,30 +284,32 @@ export const tokens: ExtendedPendleToken[] = [
   },
   {
     chainId: 42161,
-    expiry: '2025-06-26T00:00:00.000Z',
+    expiry: '2024-12-26T00:00:00.000Z',
+    address: '0xcb471665bf23b2ac6196d84d947490fd5571215f',
+    symbol: 'PT-rsETH-26DEC2024',
     pt: {
-      address: '0x137f793505e7884cb70ee5933c83447e85b1bd17',
-      symbol: 'PT-dUSDC-26JUN2025',
-      name: 'PT-dUSDC-26JUN2025',
-      decimals: 6,
+      address: '0x355ec27c9d4530de01a103fa27f884a2f3da65ef',
+      symbol: 'PT-rsETH-26DEC2024',
+      name: 'PT-rsETH-26DEC2024',
+      decimals: 18,
     },
     yt: {
-      address: '0xc617daee26f67edbed5bd978f4f8e02a1f8c9a6c',
-      symbol: 'YT-dUSDC-26JUN2025',
-      name: 'YT-dUSDC-26JUN2025',
-      decimals: 6,
+      address: '0x4b755c030b455b959246fc0f940de3a95f8e81ec',
+      symbol: 'YT-rsETH-26DEC2024',
+      name: 'YT-rsETH-26DEC2024',
+      decimals: 18,
     },
     lp: {
-      address: '0x0bd6890b3bb15f16430546147734b254d0b03059',
+      address: '0xcb471665bf23b2ac6196d84d947490fd5571215f',
       symbol: 'PENDLE-LPT',
       name: 'PENDLE-LPT',
       decimals: 18,
     },
     underlyingAsset: {
-      address: '0x6dbd962b4f62d18f756b5de57425574c4b8228d6',
-      symbol: 'dUSDC',
-      name: 'dUSDC',
-      decimals: 6,
+      address: '0x4186bfc76e2e237523cbc30fd220fe055156b41f',
+      symbol: 'rsETH',
+      name: 'rsETH',
+      decimals: 18,
     },
     protocols: [Protocols.PENDLE],
     buildingBlocks: [
@@ -335,6 +320,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x3e4e3291ed667fb4dee680d19e5702ef8275493d',
+    symbol: 'PT-uniETH-26JUN2025',
     pt: {
       address: '0xb3ebcc844f1eda040a3620267cdaaea6e14518a9',
       symbol: 'PT-uniETH-26JUN2025',
@@ -367,29 +354,31 @@ export const tokens: ExtendedPendleToken[] = [
   },
   {
     chainId: 42161,
-    expiry: '2024-12-26T00:00:00.000Z',
+    expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x0bd6890b3bb15f16430546147734b254d0b03059',
+    symbol: 'PT-dUSDC-26JUN2025',
     pt: {
-      address: '0x2be6fab4d1408e7ad6ad91ce7b77fa2a7670782f',
-      symbol: 'PT-gUSDC-26DEC2024',
-      name: 'PT-gUSDC-26DEC2024',
+      address: '0x137f793505e7884cb70ee5933c83447e85b1bd17',
+      symbol: 'PT-dUSDC-26JUN2025',
+      name: 'PT-dUSDC-26JUN2025',
       decimals: 6,
     },
     yt: {
-      address: '0x03577ffa91edb93ac3aee081efbe6f323da949e1',
-      symbol: 'YT-gUSDC-26DEC2024',
-      name: 'YT-gUSDC-26DEC2024',
+      address: '0xc617daee26f67edbed5bd978f4f8e02a1f8c9a6c',
+      symbol: 'YT-dUSDC-26JUN2025',
+      name: 'YT-dUSDC-26JUN2025',
       decimals: 6,
     },
     lp: {
-      address: '0xa877a0e177b54a37066c1786f91a1dab68f094af',
+      address: '0x0bd6890b3bb15f16430546147734b254d0b03059',
       symbol: 'PENDLE-LPT',
       name: 'PENDLE-LPT',
       decimals: 18,
     },
     underlyingAsset: {
-      address: '0xd3443ee1e91af28e5fb858fbd0d72a63ba8046e0',
-      symbol: 'gUSDC',
-      name: 'gUSDC',
+      address: '0x6dbd962b4f62d18f756b5de57425574c4b8228d6',
+      symbol: 'dUSDC',
+      name: 'dUSDC',
       decimals: 6,
     },
     protocols: [Protocols.PENDLE],
@@ -401,6 +390,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-03-27T00:00:00.000Z',
+    address: '0x3be83cc235455ae1b624cf6e326505769ad8f9ea',
+    symbol: 'PT-spSILO-27MAR2025',
     pt: {
       address: '0x0ab24ecb207602983a20cfcf0e3045c08c651778',
       symbol: 'PT-spSILO-27MAR2025',
@@ -434,6 +425,43 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0xa877a0e177b54a37066c1786f91a1dab68f094af',
+    symbol: 'PT-gUSDC-26DEC2024',
+    pt: {
+      address: '0x2be6fab4d1408e7ad6ad91ce7b77fa2a7670782f',
+      symbol: 'PT-gUSDC-26DEC2024',
+      name: 'PT-gUSDC-26DEC2024',
+      decimals: 6,
+    },
+    yt: {
+      address: '0x03577ffa91edb93ac3aee081efbe6f323da949e1',
+      symbol: 'YT-gUSDC-26DEC2024',
+      name: 'YT-gUSDC-26DEC2024',
+      decimals: 6,
+    },
+    lp: {
+      address: '0xa877a0e177b54a37066c1786f91a1dab68f094af',
+      symbol: 'PENDLE-LPT',
+      name: 'PENDLE-LPT',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0xd3443ee1e91af28e5fb858fbd0d72a63ba8046e0',
+      symbol: 'gUSDC',
+      name: 'gUSDC',
+      decimals: 6,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
+  {
+    chainId: 42161,
+    expiry: '2024-12-26T00:00:00.000Z',
+    address: '0xaccd9a7cb5518326bed715f90bd32cdf2fec2d14',
+    symbol: 'PT-sETH-wstEthSilo-26DEC2024',
     pt: {
       address: '0xd5aabeda88c31858e5f60905185f8697be185e55',
       symbol: 'PT-sETH-wstEthSilo-26DEC2024',
@@ -467,6 +495,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x816f59ffa2239fd7106f94eabdc0a9547a892f2f',
+    symbol: 'PT-rsETH-26JUN2025',
     pt: {
       address: '0x8db96f2fccf7cdd74a60e8eff5801df043cd11de',
       symbol: 'PT-rsETH-26JUN2025',
@@ -500,6 +530,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x14fbc760efaf36781cb0eb3cb255ad976117b9bd',
+    symbol: 'PT-rETH-26JUN2025',
     pt: {
       address: '0x685155d3bd593508fe32be39729810a591ed9c87',
       symbol: 'PT-rETH-26JUN2025',
@@ -533,6 +565,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0x875f154f4ec93255beaea9367c3adf71cdcb4cc0',
+    symbol: 'PT-aUSDC-26DEC2024',
     pt: {
       address: '0xbb47ad7f407cbd385c9269ebd0d1eb1cb634cdfa',
       symbol: 'PT-aUSDC-26DEC2024',
@@ -566,6 +600,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x08a152834de126d2ef83d612ff36e4523fd0017f',
+    symbol: 'PT-wstETH-26JUN2025',
     pt: {
       address: '0x1255638efeca62e12e344e0b6b22ea853ec6e2c7',
       symbol: 'PT-wstETH-26JUN2025',
@@ -599,6 +635,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-03-27T00:00:00.000Z',
+    address: '0xa9104b8b6698979568852c30231871e28a482b3c',
+    symbol: 'PT-gDAI-27MAR2025',
     pt: {
       address: '0x4d5d8375c39dc91a8aca33ff4a4564de92dcd04c',
       symbol: 'PT-gDAI-27MAR2025',
@@ -632,6 +670,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-03-28T00:00:00.000Z',
+    address: '0x7d49e5adc0eaad9c027857767638613253ef125f',
+    symbol: 'PT-GLP-28MAR2024',
     pt: {
       address: '0x96015d0fb97139567a9ba675951816a0bb719e3c',
       symbol: 'PT-GLP-28MAR2024',
@@ -665,6 +705,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-04-25T00:00:00.000Z',
+    address: '0x6f02c88650837c8dfe89f66723c4743e9cf833cd',
+    symbol: 'PT-rsETH-25APR2024',
     pt: {
       address: '0x8d164e0c662c9e199baac9e97b6a8664c75700ea',
       symbol: 'PT-rsETH-25APR2024',
@@ -697,7 +739,44 @@ export const tokens: ExtendedPendleToken[] = [
   },
   {
     chainId: 42161,
+    expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x551c423c441db0b691b5630f04d2080caee25963',
+    symbol: 'PT-GLP-26SEP2024',
+    pt: {
+      address: '0x89cd713a6607787f93d6743e67777be9ad73c54b',
+      symbol: 'PT-GLP-26SEP2024',
+      name: 'PT-GLP-26SEP2024',
+      decimals: 18,
+    },
+    yt: {
+      address: '0xf875f32648be14d04e0df4a977afd4290dd92713',
+      symbol: 'YT-GLP-26SEP2024',
+      name: 'YT-GLP-26SEP2024',
+      decimals: 18,
+    },
+    lp: {
+      address: '0x551c423c441db0b691b5630f04d2080caee25963',
+      symbol: 'PENDLE-LPT',
+      name: 'PENDLE-LPT',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0x1addd80e6039594ee970e5872d247bf0414c8903',
+      symbol: 'fsGLP',
+      name: 'fsGLP',
+      decimals: 18,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
+  {
+    chainId: 42161,
     expiry: '2024-04-25T00:00:00.000Z',
+    address: '0xe11f9786b06438456b044b3e21712228adcaa0d1',
+    symbol: 'PT-weETH-25APR2024',
     pt: {
       address: '0x9becd6b4fb076348a455518aea23d3799361fe95',
       symbol: 'PT-weETH-25APR2024',
@@ -731,39 +810,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
-    pt: {
-      address: '0x89cd713a6607787f93d6743e67777be9ad73c54b',
-      symbol: 'PT-GLP-26SEP2024',
-      name: 'PT-GLP-26SEP2024',
-      decimals: 18,
-    },
-    yt: {
-      address: '0xf875f32648be14d04e0df4a977afd4290dd92713',
-      symbol: 'YT-GLP-26SEP2024',
-      name: 'YT-GLP-26SEP2024',
-      decimals: 18,
-    },
-    lp: {
-      address: '0x551c423c441db0b691b5630f04d2080caee25963',
-      symbol: 'PENDLE-LPT',
-      name: 'PENDLE-LPT',
-      decimals: 18,
-    },
-    underlyingAsset: {
-      address: '0x1addd80e6039594ee970e5872d247bf0414c8903',
-      symbol: 'fsGLP',
-      name: 'fsGLP',
-      decimals: 18,
-    },
-    protocols: [Protocols.PENDLE],
-    buildingBlocks: [
-      BuildingBlock.PROVIDE_LIQUIDITY,
-      BuildingBlock.REMOVE_LIQUIDITY,
-    ],
-  },
-  {
-    chainId: 42161,
-    expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x35f3db08a6e9cb4391348b0b404f493e7ae264c0',
+    symbol: 'PT-ezETH-26SEP2024',
     pt: {
       address: '0x2ccfce9be49465cc6f947b5f6ac9383673733da9',
       symbol: 'PT-ezETH-26SEP2024',
@@ -797,6 +845,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0xf9f9779d8ff604732eba9ad345e6a27ef5c2a9d6',
+    symbol: 'PT-weETH-26SEP2024',
     pt: {
       address: '0xb8b0a120f6a68dd06209619f62429fb1a8e92fec',
       symbol: 'PT-weETH-26SEP2024',
@@ -830,6 +880,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0xed99fc8bdb8e9e7b8240f62f69609a125a0fbf14',
+    symbol: 'PT-rsETH-26SEP2024',
     pt: {
       address: '0x30c98c0139b62290e26ac2a2158ac341dcaf1333',
       symbol: 'PT-rsETH-26SEP2024',
@@ -863,6 +915,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-12-26T00:00:00.000Z',
+    address: '0x07fa8f8d7f7969520955ee3e8a45fbed451b43fa',
+    symbol: 'PT-MUXLP-26DEC2024',
     pt: {
       address: '0xfe49069d05d0d65559735fd74219460a11425bf0',
       symbol: 'PT-MUXLP-26DEC2024',
@@ -896,6 +950,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2025-06-26T00:00:00.000Z',
+    address: '0xf1de71573ee482f13ae4dcf980e83bfaba8b233d',
+    symbol: 'PT-MUXLP-26JUN2025',
     pt: {
       address: '0x9d8eadeb4e7311e340a5ee39dbf62d7694f1aa85',
       symbol: 'PT-MUXLP-26JUN2025',
@@ -929,6 +985,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0xf617792ea9dceb2208f4c440258b21d2f3fdb9a3',
+    symbol: 'PT-mPendle-26SEP2024',
     pt: {
       address: '0xad22fca714559da1eb25fb24443b0446b54246fc',
       symbol: 'PT-mPendle-26SEP2024',
@@ -962,6 +1020,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x5e03c94fc5fb2e21882000a96df0b63d2c4312e2',
+    symbol: 'PT-ezETH-27JUN2024',
     pt: {
       address: '0x8ea5040d423410f1fdc363379af88e1db5ea1c34',
       symbol: 'PT-ezETH-27JUN2024',
@@ -995,6 +1055,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-11-28T00:00:00.000Z',
+    address: '0x281fe15fd3e08a282f52d5cf09a4d13c3709e66d',
+    symbol: 'PT-USDe-28NOV2024',
     pt: {
       address: '0x1fa42e6730df74ff2742704761da41111bb7f019',
       symbol: 'PT-USDe-28NOV2024',
@@ -1028,6 +1090,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-08-29T00:00:00.000Z',
+    address: '0x2dfaf9a5e4f293bceede49f2dba29aacdd88e0c4',
+    symbol: 'PT-USDe-29AUG2024',
     pt: {
       address: '0xad853eb4fb3fe4a66cdfcd7b75922a0494955292',
       symbol: 'PT-USDe-29AUG2024',
@@ -1061,6 +1125,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2023-12-28T00:00:00.000Z',
+    address: '0xc8fd1f1e059d97ec71ae566dd6ca788dc92f36af',
+    symbol: 'PT-wstETH-28DEC2023',
     pt: {
       address: '0xbb33e51bdc598d710ff59fdf523e80ab7c882c83',
       symbol: 'PT-wstETH-28DEC2023',
@@ -1094,6 +1160,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x952083cde7aaa11ab8449057f7de23a970aa8472',
+    symbol: 'PT-weETH-27JUN2024',
     pt: {
       address: '0x1c27ad8a19ba026adabd615f6bc77158130cfbe4',
       symbol: 'PT-weETH-27JUN2024',
@@ -1127,6 +1195,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0xfd8aee8fcc10aac1897f8d5271d112810c79e022',
+    symbol: 'PT-wstETH-27JUN2024',
     pt: {
       address: '0x9741cac1a22ff3615fa074fd0b439975a5e137e9',
       symbol: 'PT-wstETH-27JUN2024',
@@ -1160,6 +1230,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x0a21291a184cf36ad3b0a0def4a17c12cbd66a14',
+    symbol: 'PT-Stargate USDT-27JUN2024',
     pt: {
       address: '0x7d180a4f451fc15b543b5d1ba7dda6b3014a4c49',
       symbol: 'PT-Stargate USDT-27JUN2024',
@@ -1193,6 +1265,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x6ea328bf810ef0f0bd1291eb52f1529aa073cefa',
+    symbol: 'PT-ARB-GRAIL_Camelot-27JUN2024',
     pt: {
       address: '0x1102fe0a9ae3b82e41b60f42201dbff466a9792c',
       symbol: 'PT-ARB-GRAIL_Camelot-27JUN2024',
@@ -1226,6 +1300,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-03-28T00:00:00.000Z',
+    address: '0x58f50de493b6be3585558f95f208de489c296e24',
+    symbol: 'PT-wstETH-28MAR2024',
     pt: {
       address: '0x5a4e68e1f82dd4eafbda13e47e0ec3cc452ed521',
       symbol: 'PT-wstETH-28MAR2024',
@@ -1259,6 +1335,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x6ae79089b2cf4be441480801bb741a531d94312b',
+    symbol: 'PT-rsETH-27JUN2024',
     pt: {
       address: '0xafd22f824d51fb7eed4778d303d4388ac644b026',
       symbol: 'PT-rsETH-27JUN2024',
@@ -1292,6 +1370,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0xb4781463a1261f60fca37732efa510c22dec5ada',
+    symbol: 'PT-sETH-ptezETHSilo-26SEP2024',
     pt: {
       address: '0xe281e58e99291e1cabbc04277c1681f7d995660e',
       symbol: 'PT-sETH-ptezETHSilo-26SEP2024',
@@ -1325,6 +1405,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x2ad746fa3faa0ad586021a633d10f4e2785a0349',
+    symbol: 'PT-sETH-ptrsETHSilo-26SEP2024',
     pt: {
       address: '0x421ef93fdc38ee10804c405cd28c9dba100f717b',
       symbol: 'PT-sETH-ptrsETHSilo-26SEP2024',
@@ -1358,6 +1440,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x24e4df37ea00c4954d668e3ce19ffdcffdec2cf6',
+    symbol: 'PT-PENDLE-ETH_Camelot-27JUN2024',
     pt: {
       address: '0xba1f509c6e5f1f6a529ecc0913b27658a678b4b9',
       symbol: 'PT-PENDLE-ETH_Camelot-27JUN2024',
@@ -1391,6 +1475,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x5f3c781b3a20299db27c8fc5f4415d895677c885',
+    symbol: 'PT-sETH-pteETHSilo-26SEP2024',
     pt: {
       address: '0x617cf00c50e0cbb9fdf54516e9e9540d61acfca8',
       symbol: 'PT-sETH-pteETHSilo-26SEP2024',
@@ -1424,6 +1510,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0xba4a858d664ddb052158168db04afa3cff5cfcc8',
+    symbol: 'PT-aUSDC-27JUN2024',
     pt: {
       address: '0xb72b988caf33f3d8a6d816974fe8caa199e5e86c',
       symbol: 'PT-aUSDC-27JUN2024',
@@ -1457,6 +1545,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x3803d89c31de8b7def55c86f2469a5ea4db41b92',
+    symbol: 'PT-ARB-ETH_Camelot-27JUN2024',
     pt: {
       address: '0xa3bedb2885bf23e9b8f72e38bbd9fddd1b50e1d6',
       symbol: 'PT-ARB-ETH_Camelot-27JUN2024',
@@ -1490,6 +1580,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x99ed4f0ab6524d26b31d0aea087ebe20d5949e0f',
+    symbol: 'PT-gDAI-26SEP2024',
     pt: {
       address: '0x4439fe47139be8b9b13635c142569c3e60d71259',
       symbol: 'PT-gDAI-26SEP2024',
@@ -1523,6 +1615,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x0d29182b7b663a967c5c41f03fc478c075fd4a1e',
+    symbol: 'PT-MUXLP-27JUN2024',
     pt: {
       address: '0x54a2c0dcf15d70fe0f3d02addc4be0bc93625a65',
       symbol: 'PT-MUXLP-27JUN2024',
@@ -1556,6 +1650,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-03-28T00:00:00.000Z',
+    address: '0x65819e4ee91923499934c86e93357f633033cb0b',
+    symbol: 'PT-MUXLP-28MAR2024',
     pt: {
       address: '0xf0a219e14d4c058022a828b16af9888b143ab5ad',
       symbol: 'PT-MUXLP-28MAR2024',
@@ -1589,6 +1685,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x0f249f735647992572eea231fc24b35f7b6b34e1',
+    symbol: 'PT-HLP-27JUN2024',
     pt: {
       address: '0xc595c9c28d78bb347c8177dfbb820484e2d99a66',
       symbol: 'PT-HLP-27JUN2024',
@@ -1622,6 +1720,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-09-26T00:00:00.000Z',
+    address: '0x2fb73d98b1d60b35fd12508933578098f352ce7e',
+    symbol: 'PT-dUSDC-26SEP2024',
     pt: {
       address: '0x9d17d67dda1256c5df78035ce6c8795ea3136e89',
       symbol: 'PT-dUSDC-26SEP2024',
@@ -1655,6 +1755,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0xcf602767e9c82194daf58eb67a3169d60dbaac62',
+    symbol: 'PT-sETH-ptezETHSilo-27JUN2024',
     pt: {
       address: '0xd7e810aed2988b8a7ea0187d55c939110b178521',
       symbol: 'PT-sETH-ptezETHSilo-27JUN2024',
@@ -1688,6 +1790,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-03-28T00:00:00.000Z',
+    address: '0xa0192f6567f8f5dc38c53323235fd08b318d2dca',
+    symbol: 'PT-gDAI-28MAR2024',
     pt: {
       address: '0x1684b747cd46858ae6312a7074353d2101154ef7',
       symbol: 'PT-gDAI-28MAR2024',
@@ -1721,6 +1825,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-03-28T00:00:00.000Z',
+    address: '0x1c3330f1886d8b7eec8af75c66fb6fd6ccbe28b5',
+    symbol: 'PT-GM-ARB-USDC-28MAR2024',
     pt: {
       address: '0x81f2c7b56f34290d2261f15883f2f80d78981b68',
       symbol: 'PT-GM-ARB-USDC-28MAR2024',
@@ -1754,6 +1860,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-04-25T00:00:00.000Z',
+    address: '0x99e9028e274feafa2e1d8787e1ee6de39c6f7724',
+    symbol: 'PT-sETH-pteETHSilo-25APR2024',
     pt: {
       address: '0xaa2c552279a394c9b0f4b668c288691c5b296182',
       symbol: 'PT-sETH-pteETHSilo-25APR2024',
@@ -1787,6 +1895,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-02-01T00:00:00.000Z',
+    address: '0x9bc62257ffe7d0f7c52a019e6fc0af3102f8f44e',
+    symbol: 'PT-sUSDC-ARBSilo-1FEB2024',
     pt: {
       address: '0xbfd3a44f673f4d4df9b1ec126c4a5f602f0380ad',
       symbol: 'PT-sUSDC-ARBSilo-1FEB2024',
@@ -1820,6 +1930,8 @@ export const tokens: ExtendedPendleToken[] = [
   {
     chainId: 42161,
     expiry: '2024-06-27T00:00:00.000Z',
+    address: '0x6abe9ac2df48490693bdb9d66fa898fc9cd7cc36',
+    symbol: 'PT-sETH-pteETHSilo-27JUN2024',
     pt: {
       address: '0x2d5405688f253d741a9f1090dd90d8a285cf5c79',
       symbol: 'PT-sETH-pteETHSilo-27JUN2024',

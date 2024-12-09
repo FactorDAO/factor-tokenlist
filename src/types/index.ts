@@ -27,11 +27,15 @@ export interface Token {
   protocols: Protocols[];
   buildingBlocks: BuildingBlock[];
   logoUrl?: string;
+  blacklisted?: boolean;
 }
 
 export interface ExtendedPendleToken extends PendleToken {
   protocols: Protocols[];
   buildingBlocks: BuildingBlock[];
+  address: string;
+  symbol: string;
+  blacklisted?: boolean;
 }
 
 export const ProtocolsByBuildingBlock: Partial<
