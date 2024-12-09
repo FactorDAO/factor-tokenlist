@@ -3,12 +3,14 @@ import { BuildingBlock } from '@factordao/sdk-studio';
 import { tokens as arbitrum } from './chains/arbitrum';
 import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
 import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
+import { tokens as arbitrumCompoundDebt } from './chains/arbitrum.compound';
 import {
   Token,
   Protocols,
   ProtocolsByBuildingBlock,
   ExtendedPendleToken,
   AaveDebtToken,
+  CompoundDebtToken,
 } from './types';
 
 export class FactorTokenlist {
@@ -19,7 +21,9 @@ export class FactorTokenlist {
   private availableTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
   private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
+  private availableCompoundDebtTokens: Record<string, CompoundDebtToken[]>;
   private aaveDebtTokens: AaveDebtToken[];
+  private compoundDebtTokens: CompoundDebtToken[];
 
   constructor(chainId: ChainId) {
     this.tokens = new Map();
@@ -31,6 +35,9 @@ export class FactorTokenlist {
     };
     this.availableAaveDebtTokens = {
       arbitrum: arbitrumAaveDebt,
+    };
+    this.availableCompoundDebtTokens = {
+      arbitrum: arbitrumCompoundDebt,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -66,6 +73,10 @@ export class FactorTokenlist {
     if (this.aaveDebtTokens.length > 0) {
       this.protocols.push(Protocols.AAVE);
     }
+    this.compoundDebtTokens = this.availableCompoundDebtTokens[network] ?? [];
+    if (this.compoundDebtTokens.length > 0) {
+      this.protocols.push(Protocols.COMPOUND);
+    }
   }
 
   /**
@@ -86,6 +97,10 @@ export class FactorTokenlist {
 
   public getAllAaveDebtTokens(): AaveDebtToken[] {
     return this.aaveDebtTokens;
+  }
+
+  public getAllCompoundDebtTokens(): CompoundDebtToken[] {
+    return this.compoundDebtTokens;
   }
 
   /**
@@ -192,6 +207,12 @@ export class FactorTokenlist {
     if (protocol === Protocols.AAVE) {
       debtToken = this.aaveDebtTokens.find(
         (token: AaveDebtToken) =>
+          token.underlyingAddress.toLowerCase() ===
+          underlyingAddress.toLowerCase(),
+      );
+    } else if (protocol === Protocols.COMPOUND) {
+      debtToken = this.compoundDebtTokens.find(
+        (token: CompoundDebtToken) =>
           token.underlyingAddress.toLowerCase() ===
           underlyingAddress.toLowerCase(),
       );

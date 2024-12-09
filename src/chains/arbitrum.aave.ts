@@ -79,7 +79,7 @@ export const tokens: AaveDebtToken[] = [
     underlyingSymbol: 'DAI',
   },
   {
-    address: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
+    address: '0x8Eb270e296023E9D92081fdF967dDd7878724424',
     symbol: 'aArbrETH',
     decimals: 18,
     underlyingAddress: '0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8',

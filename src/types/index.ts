@@ -46,6 +46,14 @@ export interface AaveDebtToken {
   underlyingSymbol: string;
 }
 
+export interface CompoundDebtToken {
+  address: string;
+  symbol: string;
+  decimals: number;
+  underlyingAddress: string;
+  underlyingSymbol: string;
+}
+
 export const ProtocolsByBuildingBlock: Partial<
   Record<BuildingBlock, Protocols[]>
 > = {
