@@ -2,6 +2,13 @@ import { AaveDebtToken } from '../types';
 
 export const tokens: AaveDebtToken[] = [
   {
+    address: '0xf329e36C7bF6E5E86ce2150875a84Ce77f477375',
+    symbol: 'aArbAAVE',
+    decimals: 18,
+    underlyingAddress: '0xba5ddd1f9d7f570dc94a51479a000e3bce967196',
+    underlyingSymbol: 'AAVE',
+  },
+  {
     address: '0x625E7708f30cA75bfd92586e17077590C60eb4cD',
     symbol: 'aArbUSDC',
     decimals: 6,
