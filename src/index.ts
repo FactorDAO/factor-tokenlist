@@ -1,18 +1,29 @@
 import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
 import { BuildingBlock } from '@factordao/sdk-studio';
 import { tokens as arbitrum } from './chains/arbitrum';
-import { Token, Protocols, ProtocolsByBuildingBlock } from './types';
+import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
+import {
+  Token,
+  Protocols,
+  ProtocolsByBuildingBlock,
+  ExtendedPendleToken,
+} from './types';
 
 export class FactorTokenlist {
   private tokens: Map<string, Token>;
+  private pendleTokens: ExtendedPendleToken[];
   public protocols: Protocols[];
   public buildingBlocks: BuildingBlock[];
   private availableTokens: Record<string, Token[]>;
+  private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
 
   constructor(chainId: ChainId) {
     this.tokens = new Map();
     this.availableTokens = {
       arbitrum,
+    };
+    this.availablePendleTokens = {
+      arbitrum: arbitrumPendle,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -40,6 +51,14 @@ export class FactorTokenlist {
         }
       }
     }
+    this.pendleTokens = this.availablePendleTokens[network] ?? [];
+    if (this.pendleTokens.length > 0) {
+      this.protocols.push(Protocols.PENDLE);
+      this.buildingBlocks.push(
+        BuildingBlock.PROVIDE_LIQUIDITY,
+        BuildingBlock.REMOVE_LIQUIDITY,
+      );
+    }
   }
 
   /**
@@ -55,7 +74,12 @@ export class FactorTokenlist {
    * @param protocol - Protocol name or identifier
    * @returns Array of tokens for the specified protocol
    */
-  public getTokensByProtocol(protocol: Protocols): Token[] {
+  public getTokensByProtocol(
+    protocol: Protocols,
+  ): Token[] | ExtendedPendleToken[] {
+    if (protocol === Protocols.PENDLE) {
+      return this.pendleTokens;
+    }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.tokens.values()).filter(
       (token: Token) => token.protocols.includes(protocol),

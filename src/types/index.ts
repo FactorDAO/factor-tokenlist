@@ -1,4 +1,4 @@
-import { BuildingBlock } from '@factordao/sdk-studio';
+import { BuildingBlock, PendleToken } from '@factordao/sdk-studio';
 
 export enum Protocols {
   AAVE = 'AAVE',
@@ -27,6 +27,11 @@ export interface Token {
   protocols: Protocols[];
   buildingBlocks: BuildingBlock[];
   logoUrl?: string;
+}
+
+export interface ExtendedPendleToken extends PendleToken {
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 }
 
 export const ProtocolsByBuildingBlock: Partial<
