@@ -2,11 +2,13 @@ import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
 import { BuildingBlock } from '@factordao/sdk-studio';
 import { tokens as arbitrum } from './chains/arbitrum';
 import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
+import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
 import {
   Token,
   Protocols,
   ProtocolsByBuildingBlock,
   ExtendedPendleToken,
+  AaveDebtToken,
 } from './types';
 
 export class FactorTokenlist {
@@ -16,6 +18,8 @@ export class FactorTokenlist {
   public buildingBlocks: BuildingBlock[];
   private availableTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
+  private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
+  private aaveDebtTokens: AaveDebtToken[];
 
   constructor(chainId: ChainId) {
     this.tokens = new Map();
@@ -24,6 +28,9 @@ export class FactorTokenlist {
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
+    };
+    this.availableAaveDebtTokens = {
+      arbitrum: arbitrumAaveDebt,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -54,10 +61,10 @@ export class FactorTokenlist {
     this.pendleTokens = this.availablePendleTokens[network] ?? [];
     if (this.pendleTokens.length > 0) {
       this.protocols.push(Protocols.PENDLE);
-      this.buildingBlocks.push(
-        BuildingBlock.PROVIDE_LIQUIDITY,
-        BuildingBlock.REMOVE_LIQUIDITY,
-      );
+    }
+    this.aaveDebtTokens = this.availableAaveDebtTokens[network] ?? [];
+    if (this.aaveDebtTokens.length > 0) {
+      this.protocols.push(Protocols.AAVE);
     }
   }
 
@@ -75,6 +82,10 @@ export class FactorTokenlist {
    */
   public getAllPendleTokens(): ExtendedPendleToken[] {
     return this.pendleTokens;
+  }
+
+  public getAllAaveDebtTokens(): AaveDebtToken[] {
+    return this.aaveDebtTokens;
   }
 
   /**
@@ -128,7 +139,8 @@ export class FactorTokenlist {
   public getToken(address: string): Token | ExtendedPendleToken {
     const token = this.tokens.get(address);
     const pendleToken = this.pendleTokens.find(
-      (token: ExtendedPendleToken) => token.address === address,
+      (token: ExtendedPendleToken) =>
+        token.address.toLowerCase() === address.toLowerCase(),
     );
     if (token) {
       return token;
@@ -136,6 +148,31 @@ export class FactorTokenlist {
       return pendleToken;
     }
     throw new Error(`Token with address ${address} not found`);
+  }
+
+  public getDebtToken(
+    underlyingAddress: string,
+    protocol: Protocols,
+  ): AaveDebtToken {
+    if (
+      protocol !== Protocols.AAVE &&
+      protocol !== Protocols.SILO &&
+      protocol !== Protocols.COMPOUND
+    ) {
+      throw new Error(`Protocol ${protocol} is not supported`);
+    }
+    let debtToken;
+    if (protocol === Protocols.AAVE) {
+      debtToken = this.aaveDebtTokens.find(
+        (token: AaveDebtToken) =>
+          token.underlyingAddress.toLowerCase() ===
+          underlyingAddress.toLowerCase(),
+      );
+    }
+    if (!debtToken) {
+      throw new Error(`Debt token with address ${underlyingAddress} not found`);
+    }
+    return debtToken;
   }
 }
 
