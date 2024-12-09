@@ -150,6 +150,17 @@ export class FactorTokenlist {
     throw new Error(`Token with address ${address} not found`);
   }
 
+  public getTokens(addresses: string[]): Token[] {
+    const tokens: Token[] = [];
+    for (const address of addresses) {
+      const token = this.tokens.get(address);
+      if (token) {
+        tokens.push(token);
+      }
+    }
+    return tokens;
+  }
+
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
