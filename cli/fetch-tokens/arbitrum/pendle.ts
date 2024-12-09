@@ -1,10 +1,10 @@
 import { ChainId } from '@factordao/sdk';
-import { FactorTokenlist, Protocols, ExtendedPendleToken } from '../../../src';
+import { FactorTokenlist, Protocols } from '../../../src';
 import { exec } from 'child_process';
 import { tokens } from '../../../src/chains/arbitrum.pendle';
 import fs from 'fs';
 import { BuildingBlock } from '@factordao/sdk-studio';
-import { compileFile } from '../../compile-file';
+import { compileFile } from '../../utils/format-file';
 
 async function main() {
   const endpoint =

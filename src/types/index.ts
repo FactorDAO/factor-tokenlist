@@ -39,7 +39,8 @@ export interface ExtendedPendleToken extends PendleToken {
 }
 
 export interface AaveDebtToken {
-  address: string;
+  aToken: string;
+  variableDebtToken: string;
   symbol: string;
   decimals: number;
   underlyingAddress: string;

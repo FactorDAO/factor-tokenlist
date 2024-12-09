@@ -1,14 +1,18 @@
 import { exec } from 'child_process';
-import { tokens } from '../src/chains/arbitrum';
+import { tokens } from '../src/chains/arbitrum.general';
 import fs from 'fs';
 import { Protocols } from '../src/types';
 import { BuildingBlock } from '@factordao/sdk-studio';
-import { compileFile } from './compile-file';
+import { compileFile } from './utils/format-file';
 
 async function main() {
+  // IMPORTANT /////////////////////////////////////////////////////////////////
+  // Change this parameters to update the tokens in batch
   const tokenAddress: any[] = [];
   const newProtocol = '';
-  const newBuildingBlocks = [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW];
+  const newBuildingBlocks = [];
+  //////////////////////////////////////////////////////////////////////////////
+
   let updated = false;
   const fixedList = tokens.map((token) => {
     let update = true;

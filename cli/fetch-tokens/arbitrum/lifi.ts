@@ -1,10 +1,10 @@
 import { ChainId } from '@factordao/sdk';
 import { FactorTokenlist, Protocols } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/arbitrum';
+import { tokens } from '../../../src/chains/arbitrum.general';
 import fs from 'fs';
 import { BuildingBlock } from '@factordao/sdk-studio';
-import { compileFile } from '../../compile-file';
+import { compileFile } from '../../utils/format-file';
 
 async function main() {
   const endpoint = 'https://li.quest/v1/tokens?chains=ARB';
@@ -64,7 +64,7 @@ async function main() {
   });
   const rawFile = compileFile(entireList);
   // Save the file
-  fs.writeFileSync('./src/chains/arbitrum.ts', rawFile);
+  fs.writeFileSync('./src/chains/arbitrum.general.ts', rawFile);
   exec('yarn format');
   console.log('🎉 Now tokens are:', tokens.length);
 }

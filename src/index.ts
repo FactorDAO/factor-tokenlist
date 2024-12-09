@@ -1,6 +1,6 @@
 import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
 import { BuildingBlock } from '@factordao/sdk-studio';
-import { tokens as arbitrum } from './chains/arbitrum';
+import { tokens as arbitrum } from './chains/arbitrum.general';
 import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
 import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum.compound';
@@ -195,7 +195,7 @@ export class FactorTokenlist {
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
-  ): AaveDebtToken {
+  ): AaveDebtToken | CompoundDebtToken {
     if (
       protocol !== Protocols.AAVE &&
       protocol !== Protocols.SILO &&
