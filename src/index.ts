@@ -136,6 +136,11 @@ export class FactorTokenlist {
     }));
   }
 
+  /**
+   * Get token by address
+   * @param address - Token address
+   * @returns Token or pendle token
+   */
   public getToken(address: string): Token | ExtendedPendleToken {
     const token = this.tokens.get(address);
     const pendleToken = this.pendleTokens.find(
@@ -150,6 +155,11 @@ export class FactorTokenlist {
     throw new Error(`Token with address ${address} not found`);
   }
 
+  /**
+   * Get tokens by addresses
+   * @param addresses - Array of token addresses
+   * @returns Array of tokens
+   */
   public getTokens(addresses: string[]): Token[] {
     const tokens: Token[] = [];
     for (const address of addresses) {
@@ -161,6 +171,12 @@ export class FactorTokenlist {
     return tokens;
   }
 
+  /**
+   * Get debt token by underlying address
+   * @param underlyingAddress - Underlying token address
+   * @param protocol - Protocol name or identifier
+   * @returns Debt token
+   */
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
