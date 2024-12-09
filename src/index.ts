@@ -70,6 +70,14 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get all available pendle tokens in Arbitrum
+   * @returns Array of all pendle tokens
+   */
+  public getAllPendleTokens(): ExtendedPendleToken[] {
+    return this.pendleTokens;
+  }
+
+  /**
    * Get tokens filtered by protocol
    * @param protocol - Protocol name or identifier
    * @returns Array of tokens for the specified protocol
@@ -117,12 +125,17 @@ export class FactorTokenlist {
     }));
   }
 
-  public getToken(address: string): Token {
+  public getToken(address: string): Token | ExtendedPendleToken {
     const token = this.tokens.get(address);
-    if (!token) {
-      throw new Error(`Token with address ${address} not found`);
+    const pendleToken = this.pendleTokens.find(
+      (token: ExtendedPendleToken) => token.address === address,
+    );
+    if (token) {
+      return token;
+    } else if (pendleToken) {
+      return pendleToken;
     }
-    return token;
+    throw new Error(`Token with address ${address} not found`);
   }
 }
 

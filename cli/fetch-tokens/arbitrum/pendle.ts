@@ -17,11 +17,7 @@ async function main() {
     try {
       const checkToken = tokenList.getToken(token.address);
       if (checkToken) {
-        console.log(
-          '🤌 Token already exists:',
-          checkToken.symbol,
-          'checking logo..',
-        );
+        console.log('🤌 Token already exists:', checkToken.symbol);
       }
     } catch (e: any) {
       console.log('👀 Error:', e.message);
