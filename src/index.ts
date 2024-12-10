@@ -1,9 +1,10 @@
-import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
-import { BuildingBlock } from '@factordao/sdk-studio';
+// Import tokens for Arbitrum
 import { tokens as arbitrum } from './chains/arbitrum.general';
 import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
 import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum.compound';
+import { tokens as arbitrumSilo } from './chains/arbitrum.silo';
+// Import types
 import {
   Token,
   Protocols,
@@ -11,23 +12,28 @@ import {
   ExtendedPendleToken,
   AaveDebtToken,
   CompoundDebtToken,
+  ExtendedSiloToken,
 } from './types';
+import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
+import { BuildingBlock } from '@factordao/sdk-studio';
 
 export class FactorTokenlist {
-  private tokens: Map<string, Token>;
+  private generalTokens: Map<string, Token>;
   private pendleTokens: ExtendedPendleToken[];
+  private siloTokens: ExtendedSiloToken[];
   public protocols: Protocols[];
   public buildingBlocks: BuildingBlock[];
-  private availableTokens: Record<string, Token[]>;
+  private availableGeneralTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
   private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
   private availableCompoundDebtTokens: Record<string, CompoundDebtToken[]>;
+  private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
   private aaveDebtTokens: AaveDebtToken[];
   private compoundDebtTokens: CompoundDebtToken[];
 
   constructor(chainId: ChainId) {
-    this.tokens = new Map();
-    this.availableTokens = {
+    this.generalTokens = new Map();
+    this.availableGeneralTokens = {
       arbitrum,
     };
     this.availablePendleTokens = {
@@ -39,6 +45,9 @@ export class FactorTokenlist {
     this.availableCompoundDebtTokens = {
       arbitrum: arbitrumCompoundDebt,
     };
+    this.availableSiloTokens = {
+      arbitrum: arbitrumSilo,
+    };
     this.protocols = [];
     this.buildingBlocks = [];
     this.initializeTokens(chainId);
@@ -48,12 +57,12 @@ export class FactorTokenlist {
     // Convert chainId to network
     const network = ChainIdToNetwork[chainId];
     // Check if tokens are available for the network
-    if (!(network in this.availableTokens)) {
+    if (!(network in this.availableGeneralTokens)) {
       throw new Error(`No tokens available for network ${network}`);
     }
     // Iterate over tokens for the network
-    for (const token of this.availableTokens[network]) {
-      this.tokens.set(token.address, token);
+    for (const token of this.availableGeneralTokens[network]) {
+      this.generalTokens.set(token.address, token);
       for (const protocol of token.protocols) {
         if (!this.protocols.includes(protocol)) {
           this.protocols.push(protocol);
@@ -77,14 +86,18 @@ export class FactorTokenlist {
     if (this.compoundDebtTokens.length > 0) {
       this.protocols.push(Protocols.COMPOUND);
     }
+    this.siloTokens = this.availableSiloTokens[network] ?? [];
+    if (this.siloTokens.length > 0) {
+      this.protocols.push(Protocols.SILO);
+    }
   }
 
   /**
    * Get all available tokens in Arbitrum
    * @returns Array of all tokens
    */
-  public getAllTokens(): Token[] {
-    return Array.from(this.tokens.values());
+  public getAllGeneralTokens(): Token[] {
+    return Array.from(this.generalTokens.values());
   }
 
   /**
@@ -95,12 +108,28 @@ export class FactorTokenlist {
     return this.pendleTokens;
   }
 
+  /**
+   * Get all available aave debt tokens in Arbitrum
+   * @returns Array of all aave debt tokens
+   */
   public getAllAaveDebtTokens(): AaveDebtToken[] {
     return this.aaveDebtTokens;
   }
 
+  /**
+   * Get all available compound debt tokens in Arbitrum
+   * @returns Array of all compound debt tokens
+   */
   public getAllCompoundDebtTokens(): CompoundDebtToken[] {
     return this.compoundDebtTokens;
+  }
+
+  /**
+   * Get all available silo tokens in Arbitrum
+   * @returns Array of all silo tokens
+   */
+  public getAllSiloTokens(): ExtendedSiloToken[] {
+    return this.siloTokens;
   }
 
   /**
@@ -110,12 +139,15 @@ export class FactorTokenlist {
    */
   public getTokensByProtocol(
     protocol: Protocols,
-  ): Token[] | ExtendedPendleToken[] {
+  ): Token[] | ExtendedPendleToken[] | ExtendedSiloToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.pendleTokens;
     }
+    if (protocol === Protocols.SILO) {
+      return this.siloTokens;
+    }
     // First get all tokens that have the protocol
-    const tokensWithProtocol = Array.from(this.tokens.values()).filter(
+    const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
       (token: Token) => token.protocols.includes(protocol),
     );
 
@@ -137,9 +169,9 @@ export class FactorTokenlist {
    */
   public getTokensByBuildingBlock(buildingBlock: BuildingBlock): Token[] {
     // First get all tokens that have the building block
-    const tokensWithBuildingBlock = Array.from(this.tokens.values()).filter(
-      (token: Token) => token.buildingBlocks.includes(buildingBlock),
-    );
+    const tokensWithBuildingBlock = Array.from(
+      this.generalTokens.values(),
+    ).filter((token: Token) => token.buildingBlocks.includes(buildingBlock));
 
     // Create new tokens with filtered protocols
     return tokensWithBuildingBlock.map((token: Token) => ({
@@ -152,12 +184,27 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get token by symbol
+   * @param symbol - Token symbol
+   * @returns Token
+   */
+  public getTokenFromSymbol(symbol: string): Token {
+    const token = Array.from(this.generalTokens.values()).find(
+      (token: Token) => token.symbol === symbol,
+    );
+    if (!token) {
+      throw new Error(`Token with symbol ${symbol} not found`);
+    }
+    return token;
+  }
+
+  /**
    * Get token by address
    * @param address - Token address
    * @returns Token or pendle token
    */
   public getToken(address: string): Token | ExtendedPendleToken {
-    const token = this.tokens.get(address);
+    const token = this.generalTokens.get(address);
     const pendleToken = this.pendleTokens.find(
       (token: ExtendedPendleToken) =>
         token.address.toLowerCase() === address.toLowerCase(),
@@ -178,7 +225,7 @@ export class FactorTokenlist {
   public getTokens(addresses: string[]): Token[] {
     const tokens: Token[] = [];
     for (const address of addresses) {
-      const token = this.tokens.get(address);
+      const token = this.generalTokens.get(address);
       if (token) {
         tokens.push(token);
       }

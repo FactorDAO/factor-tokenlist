@@ -1,4 +1,8 @@
-import { BuildingBlock, PendleToken } from '@factordao/sdk-studio';
+import {
+  BuildingBlock,
+  PendleToken,
+  TokenMetadata,
+} from '@factordao/sdk-studio';
 
 export enum Protocols {
   AAVE = 'AAVE',
@@ -36,6 +40,21 @@ export interface ExtendedPendleToken extends PendleToken {
   address: string;
   symbol: string;
   blacklisted?: boolean;
+}
+
+export type SiloAsset = {
+  underlyingAsset: TokenMetadata;
+  debtToken: TokenMetadata;
+  collateralToken: TokenMetadata;
+  collateralOnlyToken: TokenMetadata;
+};
+
+export interface ExtendedSiloToken {
+  marketName: string;
+  marketAddress: string;
+  asset: SiloAsset[];
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 }
 
 export interface AaveDebtToken {
