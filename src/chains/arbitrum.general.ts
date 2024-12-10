@@ -1,5 +1,4 @@
-import { BuildingBlock } from '@factordao/sdk-studio';
-import { Token, Protocols } from '../types';
+import { Token, Protocols, BuildingBlock } from '../types';
 
 export const tokens: Token[] = [
   {

@@ -1,8 +1,48 @@
-import {
-  BuildingBlock,
-  PendleToken,
-  TokenMetadata,
-} from '@factordao/sdk-studio';
+import { Address } from 'viem';
+
+export declare const ChainIdToNetwork: Record<number, string>;
+export declare enum ChainId {
+  ARBITRUM_ONE = 42161,
+}
+
+export interface TokenMetadata {
+  address: Address;
+  symbol: string;
+  name: string;
+  decimals: number;
+}
+
+export type PendleToken = {
+  chainId: number;
+  expiry: string;
+  pt: TokenMetadata;
+  yt: TokenMetadata;
+  lp: TokenMetadata;
+  underlyingAsset: TokenMetadata;
+};
+
+export enum BuildingBlock {
+  UNKNOWN = 'UNKNOWN',
+  FUND = 'FUND',
+  DEPOSIT = 'DEPOSIT',
+  FLASHLOAN = 'FLASHLOAN',
+  LEND = 'LEND',
+  BORROW = 'BORROW',
+  SWAP = 'SWAP',
+  REPAY = 'REPAY',
+  STAKE = 'STAKE',
+  UNSTAKE = 'UNSTAKE',
+  WITHDRAW = 'WITHDRAW',
+  REFUND = 'REFUND',
+  CONDITIONAL = 'CONDITIONAL',
+  AUTOMATION = 'AUTOMATION',
+  YIELD = 'YIELD',
+  PROVIDE_LIQUIDITY = 'PROVIDE_LIQUIDITY',
+  REMOVE_LIQUIDITY = 'REMOVE_LIQUIDITY',
+  COLLECT_FEE = 'COLLECT_FEE',
+  CREATE_LP = 'CREATE_LP',
+  ERC721 = 'ERC721',
+}
 
 export enum Protocols {
   AAVE = 'AAVE',

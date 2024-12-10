@@ -13,9 +13,10 @@ import {
   AaveDebtToken,
   CompoundDebtToken,
   ExtendedSiloToken,
+  BuildingBlock,
+  ChainId,
+  ChainIdToNetwork,
 } from './types';
-import { ChainId, ChainIdToNetwork } from '@factordao/sdk';
-import { BuildingBlock } from '@factordao/sdk-studio';
 
 export class FactorTokenlist {
   private generalTokens: Map<string, Token>;

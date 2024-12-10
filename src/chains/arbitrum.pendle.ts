@@ -1,5 +1,4 @@
-import { BuildingBlock } from '@factordao/sdk-studio';
-import { ExtendedPendleToken, Protocols } from '../types';
+import { ExtendedPendleToken, Protocols, BuildingBlock } from '../types';
 
 export const tokens: ExtendedPendleToken[] = [
   {

@@ -1,5 +1,4 @@
-import { BuildingBlock } from '@factordao/sdk-studio';
-import { ExtendedSiloToken, Protocols } from '../types';
+import { ExtendedSiloToken, Protocols, BuildingBlock } from '../types';
 
 export const tokens: ExtendedSiloToken[] = [
   {
