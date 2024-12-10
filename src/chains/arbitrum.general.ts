@@ -11696,4 +11696,20 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
   },
+  {
+    address: '0xE16e2548A576ad448FB014bBE85284D7f3542dF5',
+    symbol: 'MOZ',
+    name: 'Lumoz token',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOZ.png',
+  },
 ];
