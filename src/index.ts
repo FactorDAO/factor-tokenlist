@@ -63,7 +63,7 @@ export class FactorTokenlist {
     }
     // Iterate over tokens for the network
     for (const token of this.availableGeneralTokens[network]) {
-      this.generalTokens.set(token.address, token);
+      this.generalTokens.set(token.address.toLowerCase(), token);
       for (const protocol of token.protocols) {
         if (!this.protocols.includes(protocol)) {
           this.protocols.push(protocol);
@@ -205,7 +205,7 @@ export class FactorTokenlist {
    * @returns Token or pendle token
    */
   public getToken(address: string): Token | ExtendedPendleToken {
-    const token = this.generalTokens.get(address);
+    const token = this.generalTokens.get(address.toLowerCase());
     const pendleToken = this.pendleTokens.find(
       (token: ExtendedPendleToken) =>
         token.address.toLowerCase() === address.toLowerCase(),
