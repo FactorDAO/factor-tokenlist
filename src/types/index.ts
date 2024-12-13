@@ -1,7 +1,9 @@
 import { Address } from 'viem';
 
-export declare const ChainIdToNetwork: Record<number, string>;
-export declare enum ChainId {
+export const ChainIdToNetwork: Record<number, string> = {
+  42161: 'arbitrum',
+};
+export enum ChainId {
   ARBITRUM_ONE = 42161,
 }
 
