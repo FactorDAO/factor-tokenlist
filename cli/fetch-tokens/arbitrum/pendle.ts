@@ -69,8 +69,8 @@ async function main() {
     'export const tokens: ExtendedPendleToken[] = [',
   );
   rawFile = rawFile.replace(
-    "import { Token, Protocols } from '../types';",
-    "import { ExtendedPendleToken, Protocols } from '../types';",
+    "import { Token, Protocols, BuildingBlock } from '../types';",
+    "import { Token, Protocols, BuildingBlock, ExtendedPendleToken } from '../types';",
   );
   // Save the file
   fs.writeFileSync('./src/chains/arbitrum.pendle.ts', rawFile);
