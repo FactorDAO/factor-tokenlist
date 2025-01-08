@@ -1,4 +1,4 @@
-import { ExtendedPendleToken, Protocols, BuildingBlock } from '../types';
+import { Token, Protocols, BuildingBlock } from '../types';
 
 export const tokens: ExtendedPendleToken[] = [
   {
@@ -1954,6 +1954,111 @@ export const tokens: ExtendedPendleToken[] = [
       symbol: 'sWETH-PT-weETH-27JUN2024',
       name: 'sWETH-PT-weETH-27JUN2024',
       decimals: 18,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
+  {
+    chainId: 42161,
+    expiry: '2025-03-27T00:00:00.000Z',
+    address: '0xd0fdb5ee558b3bcd9e5bc1344b28b2249de6559c',
+    symbol: 'PT-stk-EPendle-27MAR2025',
+    pt: {
+      address: '0x2a18a490ec18b019837f6153269d21a772167292',
+      symbol: 'PT-stk-EPendle-27MAR2025',
+      name: 'PT-stk-EPendle-27MAR2025',
+      decimals: 18,
+    },
+    yt: {
+      address: '0xb5209cdbf58947b1189ab467f18365b0300570d0',
+      symbol: 'YT-stk-EPendle-27MAR2025',
+      name: 'YT-stk-EPendle-27MAR2025',
+      decimals: 18,
+    },
+    lp: {
+      address: '0xd0fdb5ee558b3bcd9e5bc1344b28b2249de6559c',
+      symbol: 'PENDLE-LPT',
+      name: 'PENDLE-LPT',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0x37227785a1f4545ed914690e395e4cfe96b8319f',
+      symbol: 'stk-ePendle',
+      name: 'stk-ePendle',
+      decimals: 18,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
+  {
+    chainId: 42161,
+    expiry: '2025-03-27T00:00:00.000Z',
+    address: '0x9ff912568eb011d719b5f4e940f8135633f4bcdc',
+    symbol: 'PT-mPendle-27MAR2025',
+    pt: {
+      address: '0x4a94091cadd74bdf313b74d58eac908c5fc53704',
+      symbol: 'PT-mPendle-27MAR2025',
+      name: 'PT-mPendle-27MAR2025',
+      decimals: 18,
+    },
+    yt: {
+      address: '0xf602eecd270eb87be1bfcc716d27083223b35f04',
+      symbol: 'YT-mPendle-27MAR2025',
+      name: 'YT-mPendle-27MAR2025',
+      decimals: 18,
+    },
+    lp: {
+      address: '0x9ff912568eb011d719b5f4e940f8135633f4bcdc',
+      symbol: 'PENDLE-LPT',
+      name: 'PENDLE-LPT',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0xb688ba096b7bb75d7841e47163cd12d18b36a5bf',
+      symbol: 'mPendle',
+      name: 'mPendle',
+      decimals: 18,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
+  {
+    chainId: 42161,
+    expiry: '2025-06-26T00:00:00.000Z',
+    address: '0x4505ec38982bb796b34d050ca8d765acff1abdee',
+    symbol: 'PT-aArbUSDCn-26JUN2025',
+    pt: {
+      address: '0x0fc042b32a9a6191834ea12ffa04f2044d0eb302',
+      symbol: 'PT-aArbUSDCn-26JUN2025',
+      name: 'PT-aArbUSDCn-26JUN2025',
+      decimals: 6,
+    },
+    yt: {
+      address: '0x8dc75acdc362e22febf0a9e358e501a6414aafa7',
+      symbol: 'YT-aArbUSDCn-26JUN2025',
+      name: 'YT-aArbUSDCn-26JUN2025',
+      decimals: 6,
+    },
+    lp: {
+      address: '0x4505ec38982bb796b34d050ca8d765acff1abdee',
+      symbol: 'PENDLE-LPT',
+      name: 'PENDLE-LPT',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0x724dc807b04555b71ed48a6896b6f41593b8c637',
+      symbol: 'aArbUSDCn',
+      name: 'aArbUSDCn',
+      decimals: 6,
     },
     protocols: [Protocols.PENDLE],
     buildingBlocks: [
