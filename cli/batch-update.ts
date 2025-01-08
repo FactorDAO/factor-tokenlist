@@ -1,8 +1,7 @@
 import { exec } from 'child_process';
 import { tokens } from '../src/chains/arbitrum.general';
 import fs from 'fs';
-import { Protocols } from '../src/types';
-import { BuildingBlock } from '@factordao/sdk-studio';
+import { Protocols, BuildingBlock } from '../src/types';
 import { compileFile } from './utils/format-file';
 
 async function main() {
