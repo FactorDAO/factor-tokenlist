@@ -7,6 +7,7 @@ import { compileFile } from './utils/format-file';
 async function main() {
   // IMPORTANT /////////////////////////////////////////////////////////////////
   // Change this parameters to update the tokens in batch
+  const chain = 'arbitrum';
   const tokenAddress: any[] = [];
   const newProtocol = '';
   const newBuildingBlocks = [];
@@ -40,7 +41,7 @@ async function main() {
   const entireList = sortedTokens.map((token) => JSON.stringify(token));
   const rawFile = compileFile(entireList);
   // Save the file
-  fs.writeFileSync('./src/chains/arbitrum.ts', rawFile);
+  fs.writeFileSync(`./src/chains/${chain}.ts`, rawFile);
   exec('yarn format');
   if (updated) {
     console.log('🔥 Done!');

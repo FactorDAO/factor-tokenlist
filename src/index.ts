@@ -4,6 +4,8 @@ import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
 import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum.compound';
 import { tokens as arbitrumSilo } from './chains/arbitrum.silo';
+import fs from 'fs';
+import { compileFile } from '../cli/utils/format-file';
 // Import types
 import {
   Token,
@@ -63,15 +65,17 @@ export class FactorTokenlist {
     }
     // Iterate over tokens for the network
     for (const token of this.availableGeneralTokens[network]) {
-      this.generalTokens.set(token.address.toLowerCase(), token);
-      for (const protocol of token.protocols) {
-        if (!this.protocols.includes(protocol)) {
-          this.protocols.push(protocol);
+      if (!this.generalTokens.has(token.address.toLowerCase())) {
+        this.generalTokens.set(token.address.toLowerCase(), token);
+        for (const protocol of token.protocols) {
+          if (!this.protocols.includes(protocol)) {
+            this.protocols.push(protocol);
+          }
         }
-      }
-      for (const buildingBlock of token.buildingBlocks) {
-        if (!this.buildingBlocks.includes(buildingBlock)) {
-          this.buildingBlocks.push(buildingBlock);
+        for (const buildingBlock of token.buildingBlocks) {
+          if (!this.buildingBlocks.includes(buildingBlock)) {
+            this.buildingBlocks.push(buildingBlock);
+          }
         }
       }
     }
@@ -172,7 +176,9 @@ export class FactorTokenlist {
     // First get all tokens that have the building block
     const tokensWithBuildingBlock = Array.from(
       this.generalTokens.values(),
-    ).filter((token: Token) => token.buildingBlocks.includes(buildingBlock));
+    ).filter((token: Token) => {
+      return token.buildingBlocks.includes(buildingBlock);
+    });
 
     // Create new tokens with filtered protocols
     return tokensWithBuildingBlock.map((token: Token) => ({

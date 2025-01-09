@@ -614,25 +614,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRAX.png',
   },
   {
-    address: '0x17fc002b466eec40dae837fc4be5c67993ddbd6f',
-    name: 'Frax',
-    symbol: 'FRAX',
-    decimals: 18,
-    buildingBlocks: [
-      BuildingBlock.BORROW,
-      BuildingBlock.LEND,
-      BuildingBlock.REPAY,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    protocols: [Protocols.AAVE, Protocols.UNISWAP],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRAX.png',
-  },
-  {
     address: '0x178412e79c25968a32e89b11f63b33f733770c2a',
     name: 'Frax Ether',
     symbol: 'FRXETH',
@@ -2190,102 +2171,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ZYB.png',
   },
   {
-    address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
-    symbol: 'WETH',
-    name: 'WETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH.png',
-  },
-  {
-    address: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
-    symbol: 'USDT',
-    name: 'USDT',
-    decimals: 6,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDT.png',
-  },
-  {
-    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
-    symbol: 'USDC',
-    name: 'USD Coin',
-    decimals: 6,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.png',
-  },
-  {
-    address: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
-    symbol: 'DAI',
-    name: 'DAI Stablecoin',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DAI.png',
-  },
-  {
-    address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
-    symbol: 'WBTC',
-    name: 'WBTC',
-    decimals: 8,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBTC.png',
-  },
-  {
-    address: '0x912CE59144191C1204E64559FE8253a0e49E6548',
-    symbol: 'ARB',
-    name: 'Arbitrum',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARB.png',
-  },
-  {
     address: '0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5',
     symbol: 'BETS',
     name: 'BetSwirl v2',
@@ -2334,22 +2219,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/W.png',
   },
   {
-    address: '0xBDeF0E9ef12E689F366fe494A7A7D0dad25D9286',
-    symbol: 'FUSE(old)',
-    name: 'Fuse Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FUSE(OLD).png',
-  },
-  {
     address: '0xb2F30A7C980f052f02563fb518dcc39e6bf38175',
     symbol: 'USDx',
     name: 'Synthetix USD',
@@ -2364,38 +2233,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDX.png',
-  },
-  {
-    address: '0xba5DdD1f9d7F570dc94a51479a000E3BCE967196',
-    symbol: Protocols.AAVE,
-    name: 'Aave Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AAVE.png',
-  },
-  {
-    address: '0xAAA6C1E32C55A7Bfa8066A6FAE9b42650F262418',
-    symbol: 'RAM',
-    name: 'Ramses',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RAM.png',
   },
   {
     address: '0xD74f5255D557944cf7Dd0E45FF521520002D5748',
@@ -2444,22 +2281,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WINR.png',
-  },
-  {
-    address: '0xd4d42F0b6DEF4CE0383636770eF773390d85c61A',
-    symbol: 'SUSHI',
-    name: 'SUSHI',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSHI.png',
   },
   {
     address: '0xD8724322f44E5c58D7A815F542036fb17DbbF839',
@@ -2566,54 +2387,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-  },
-  {
-    address: '0x95aB45875cFFdba1E5f451B950bC2E42c0053f39',
-    symbol: 'sfrxETH',
-    name: 'Staked Frax Ether',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SFRXETH.png',
-  },
-  {
-    address: '0x93b346b6BC2548dA6A1E7d98E9a421B42541425b',
-    symbol: 'LUSD',
-    name: 'LUSD Stablecoin',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LUSD.png',
-  },
-  {
-    address: '0xaFAfd68AFe3fe65d376eEC9Eab1802616cFacCb8',
-    symbol: 'SolvBTC.ENA',
-    name: 'SolvBTC Ethena',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.ENA.png',
   },
   {
     address: '0xba0Dda8762C24dA9487f5FA026a9B64b695A07Ea',
@@ -2802,38 +2575,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARKEN.png',
-  },
-  {
-    address: '0xabD587f2607542723b17f14d00d99b987C29b074',
-    symbol: 'SDEX',
-    name: 'SmarDex Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SDEX.png',
-  },
-  {
-    address: '0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E',
-    symbol: 'BADGER',
-    name: 'Badger',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BADGER.png',
   },
   {
     address: '0xC96F2715E2a242d50D1b0bC923dbe1740b8eCf18',
@@ -3026,22 +2767,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STYLE.png',
   },
   {
-    address: '0x99F40b01BA9C469193B360f72740E416B17Ac332',
-    symbol: 'MATH',
-    name: 'MATH Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MATH.png',
-  },
-  {
     address: '0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C',
     symbol: 'EQB',
     name: 'Equilibria Token',
@@ -3148,22 +2873,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x965772e0E9c84b6f359c8597C891108DcF1c5B1A',
-    symbol: 'PICKLE',
-    name: 'PickleToken',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PICKLE.png',
-  },
-  {
     address: '0x969131D8ddC06C2Be11a13e6E7fACF22CF57d95e',
     symbol: 'EUX',
     name: 'dForce EUR',
@@ -3208,22 +2917,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SAIL.png',
-  },
-  {
-    address: '0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689',
-    symbol: 'DF',
-    name: 'dForce',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DF.png',
   },
   {
     address: '0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF',
@@ -3338,22 +3031,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MGP.png',
   },
   {
-    address: '0xA970AF1a584579B618be4d69aD6F73459D112F95',
-    symbol: 'sUSD',
-    name: 'Synth sUSD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSD.png',
-  },
-  {
     address: '0xc136E6B376a9946B156db1ED3A34b08AFdAeD76d',
     symbol: 'CREDA',
     name: 'CreDA Protocol Token',
@@ -3368,22 +3045,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CREDA.png',
-  },
-  {
-    address: '0xD5954c3084a1cCd70B4dA011E67760B8e78aeE84',
-    symbol: 'ARX',
-    name: 'ArbiDex Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARX.png',
   },
   {
     address: '0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1',
@@ -3826,22 +3487,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBWETH.png',
   },
   {
-    address: '0xe05A08226c49b636ACf99c40Da8DC6aF83CE5bB3',
-    symbol: 'ankrETH',
-    name: 'Ankr Staked ETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ANKRETH.png',
-  },
-  {
     address: '0xdadeca1167fe47499e53Eb50F261103630974905',
     symbol: 'NRN',
     name: 'Neuron',
@@ -4032,22 +3677,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DMT.png',
   },
   {
-    address: '0x82e3A8F066a6989666b031d916c43672085b1582',
-    symbol: 'YFI',
-    name: 'yearn.finance',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YFI.png',
-  },
-  {
     address: '0xCa4e51F6AD4AFd9d1068E5899De9dd7d73F3463D',
     symbol: 'AARK',
     name: 'AARK Token',
@@ -4126,22 +3755,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GUSDC.png',
-  },
-  {
-    address: '0x83d6c8C06ac276465e4C92E7aC8C23740F435140',
-    symbol: 'HMX',
-    name: 'HMX',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HMX.png',
   },
   {
     address: '0xE4728F3E48E94C6DA2B53610E677cc241DAFB134',
@@ -4386,38 +3999,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33',
-    symbol: 'GHO',
-    name: 'Gho Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GHO.png',
-  },
-  {
-    address: '0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396',
-    symbol: 'OVN',
-    name: 'OVN',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OVN.png',
-  },
-  {
     address: '0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab',
     symbol: 'ETH+',
     name: 'ETH+',
@@ -4480,22 +4061,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBDAI.png',
-  },
-  {
-    address: '0x872bAD41CFc8BA731f811fEa8B2d0b9fd6369585',
-    symbol: 'GFLY',
-    name: 'gFLY',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GFLY.png',
   },
   {
     address: '0x8b5e4C9a188b1A187f2D1E80b1c2fB17fA2922e1',
@@ -4860,22 +4425,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARBYS.png',
   },
   {
-    address: '0x876Ec6bE52486Eeec06bc06434f3E629D695c6bA',
-    symbol: 'FLUID',
-    name: 'FluidFi',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLUID.png',
-  },
-  {
     address: '0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487',
     symbol: 'GRAI',
     name: 'Gravita Debt Token',
@@ -5032,22 +4581,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GETH.png',
   },
   {
-    address: '0xdE903E2712288A1dA82942DDdF2c20529565aC30',
-    symbol: 'SWPR',
-    name: 'Swapr',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SWPR.png',
-  },
-  {
     address: '0xDDf00Bb25A13e3ECd35a343B9165448cDd2228B6',
     symbol: 'mooEqb-eETH_27JUN24',
     name: 'Moo Eqb eETH_27JUN24',
@@ -5140,22 +4673,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x7B5EB3940021Ec0e8e463D5dBB4B7B09a89DDF96',
-    symbol: 'WOM',
-    name: 'Wombat Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WOM.png',
-  },
-  {
     address: '0x7AF00405916D823eDb1121546EfA6F4972B51b84',
     symbol: 'WBNB',
     name: 'Wrapped BNB',
@@ -5170,22 +4687,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBNB.png',
-  },
-  {
-    address: '0x7bA4a00d54A07461D9DB2aEF539e91409943AdC9',
-    symbol: 'SDT',
-    name: 'Stake DAO Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SDT.png',
   },
   {
     address: '0x7b0949204e7Da1B0beD6d4CCb68497F51621b574',
@@ -5246,70 +4747,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EZETH.png',
   },
   {
-    address: '0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F',
-    symbol: 'FRAX',
-    name: 'FRAX',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRAX.png',
-  },
-  {
-    address: '0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8',
-    symbol: Protocols.PENDLE,
-    name: 'Pendle',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PENDLE.png',
-  },
-  {
-    address: '0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe',
-    symbol: 'weETH',
-    name: 'Wrapped eETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WEETH.png',
-  },
-  {
-    address: '0x539bdE0d7Dbd336b79148AA742883198BBF60342',
-    symbol: 'MAGIC',
-    name: 'MAGIC',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAGIC.png',
-  },
-  {
     address: '0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530',
     symbol: 'aArbLINK',
     name: 'Aave Arbitrum LINK',
@@ -5324,70 +4761,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBLINK.png',
-  },
-  {
-    address: '0x289ba1701C2F088cf0faf8B3705246331cB8A839',
-    symbol: 'LPT',
-    name: 'Livepeer Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LPT.png',
-  },
-  {
-    address: '0x354A6dA3fcde098F8389cad84b0182725c6C91dE',
-    symbol: 'COMP',
-    name: 'Compound',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/COMP.png',
-  },
-  {
-    address: '0x5979D7b546E38E414F7E9822514be443A4800529',
-    symbol: 'wstETH',
-    name: 'Wrapped liquid staked Ether 2.0',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WSTETH.png',
-  },
-  {
-    address: '0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581',
-    symbol: 'DODO',
-    name: 'DODO',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DODO.png',
   },
   {
     address: '0x4186BFC76E2E237523CBC30FD220FE055156b41F',
@@ -5438,38 +4811,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHFI.png',
   },
   {
-    address: '0x46d0cE7de6247b0A95f67b43B589b4041BaE7fbE',
-    symbol: 'LRC',
-    name: 'LoopringCoin V2',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LRC.png',
-  },
-  {
-    address: '0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66',
-    symbol: 'XAI',
-    name: 'Xai',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XAI.png',
-  },
-  {
     address: '0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3',
     symbol: 'ETHx',
     name: 'Super ETH',
@@ -5482,56 +4823,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHX.png',
-  },
-  {
-    address: '0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60',
-    symbol: 'LDO',
-    name: 'Lido DAO Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LDO.png',
-  },
-  {
-    address: '0xf97f4df75117a78c1A5a0DBb814Af92458539FB4',
-    symbol: 'LINK',
-    name: 'ChainLink Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LINK.png',
-  },
-  {
-    address: '0x178412e79c25968a32e89b11f63B33F733770c2A',
-    symbol: 'frxETH',
-    name: 'Frax Ether',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRXETH.png',
   },
   {
     address: '0x724dc807b04555b71ed48a6896b6F41593b8C637',
@@ -5594,22 +4885,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x56b251d4b493ee3956E3f899D36b7290902D2326',
-    symbol: 'MMF',
-    name: 'Mad Meerkat Finance',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MMF.png',
-  },
-  {
     address: '0x1A6B3A62391ECcaaa992ade44cd4AFe6bEC8CfF1',
     symbol: 'UXLINK',
     name: 'UXLINK Token',
@@ -5642,22 +4917,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FUSDC.png',
   },
   {
-    address: '0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978',
-    symbol: 'CRV',
-    name: 'Curve DAO Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CRV.png',
-  },
-  {
     address: '0x10aAeD289a7b1B0155bF4b86c862f297E84465e0',
     symbol: 'RBC',
     name: 'RUBIC TOKEN',
@@ -5688,22 +4947,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDE.png',
-  },
-  {
-    address: '0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8',
-    symbol: 'GRAIL',
-    name: 'Camelot token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRAIL.png',
   },
   {
     address: '0x417a1aFD44250314BffB11ff68E989775e990ab6',
@@ -5816,54 +5059,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EURA.png',
-  },
-  {
-    address: '0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a',
-    symbol: 'GMX',
-    name: 'GMX',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GMX.png',
-  },
-  {
-    address: '0x371c7ec6D8039ff7933a2AA28EB827Ffe1F52f07',
-    symbol: 'JOE',
-    name: 'JoeToken',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JOE.png',
-  },
-  {
-    address: '0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0',
-    symbol: 'UNI',
-    name: 'Uniswap',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UNI.png',
   },
   {
     address: '0x3d15fD46CE9e551498328B1C83071D9509E2C3a0',
@@ -5992,22 +5187,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x580E933D90091b9cE380740E3a4A39c67eB85B4c',
-    symbol: 'GSWIFT',
-    name: 'GameSwift',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GSWIFT.png',
-  },
-  {
     address: '0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15',
     symbol: 'HAT',
     name: 'Hat',
@@ -6038,22 +5217,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BOOP.png',
-  },
-  {
-    address: '0x3647c54c4c2C65bC7a2D63c0Da2809B399DBBDC0',
-    symbol: 'SolvBTC',
-    name: 'Solv BTC',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.png',
   },
   {
     address: '0x772598E9e62155D7fDFe65FdF01EB5a53a8465BE',
@@ -6104,22 +5267,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PNP.png',
   },
   {
-    address: '0x11F98c7E42A367DaB4f200d2fdc460fb445CE9a8',
-    symbol: 'SPARTA',
-    name: 'SPARTA',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPARTA.png',
-  },
-  {
     address: '0x565609fAF65B92F7be02468acF86f8979423e514',
     symbol: 'WAVAX',
     name: 'Wrapped AVAX',
@@ -6136,22 +5283,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WAVAX.png',
   },
   {
-    address: '0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8',
-    symbol: 'rETH',
-    name: 'Rocket Pool ETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RETH.png',
-  },
-  {
     address: '0x6533afac2E7BCCB20dca161449A13A32D391fb00',
     symbol: 'aArbARB',
     name: 'Aave Arbitrum ARB',
@@ -6166,22 +5297,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBARB.png',
-  },
-  {
-    address: '0x18c11FD286C5EC11c3b683Caa813B77f5163A122',
-    symbol: 'GNS',
-    name: 'Gains Network',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNS.png',
   },
   {
     address: '0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f',
@@ -6246,36 +5361,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x3CD1833Ce959E087D0eF0Cb45ed06BffE60F23Ba',
-    symbol: 'LAND',
-    name: 'Land',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x3a8B787f78D775AECFEEa15706D4221B40F345AB',
-    symbol: 'CELR',
-    name: 'CELR',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CELR.png',
-  },
-  {
     address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
     symbol: 'frxETH',
     name: 'frxETH',
@@ -6304,22 +5389,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-  },
-  {
-    address: '0x10010078a54396F62c96dF8532dc2B4847d47ED3',
-    symbol: 'HND',
-    name: 'Hundred Finance',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HND.png',
   },
   {
     address: '0x2F73FB16933585Ba089100C05561D58FD342bDf5',
@@ -6460,22 +5529,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OHM.png',
   },
   {
-    address: '0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614',
-    symbol: 'GRT(old)',
-    name: 'Graph Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRT(OLD).png',
-  },
-  {
     address: '0x116172B2482c5dC3E6f445C16Ac13367aC3FCd35',
     symbol: 'fxEUR',
     name: 'handleEUR',
@@ -6536,22 +5589,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NOLA.png',
-  },
-  {
-    address: '0x3B475F6f2f41853706afc9Fa6a6b8C5dF1a2724c',
-    symbol: 'ZYB',
-    name: 'Zyber Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ZYB.png',
   },
   {
     address: '0x3124678D62D2aa1f615B54525310fbfDa6DcF7AE',
@@ -7002,38 +6039,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLSJONES.png',
   },
   {
-    address: '0xEB466342C4d449BC9f53A865D5Cb90586f405215',
-    symbol: 'axlUSDC',
-    name: 'Axelar Wrapped USDC',
-    decimals: 6,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXLUSDC.png',
-  },
-  {
-    address: '0xeD3fB761414DA74b74F33e5c5a1f78104b188DfC',
-    symbol: 'NYAN',
-    name: 'ArbiNYAN',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NYAN.png',
-  },
-  {
     address: '0xEe9801669C6138E84bD50dEB500827b776777d28',
     symbol: 'O3',
     name: 'O3 Swap Token',
@@ -7286,22 +6291,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FFM.png',
   },
   {
-    address: '0x346c574C56e1A4aAa8dc88Cda8F7EB12b39947aB',
-    symbol: 'SolvBTC.BBN',
-    name: 'SolvBTC Babylon',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.BBN.png',
-  },
-  {
     address: '0x3De81CE90f5A27C5E6A5aDb04b54ABA488a6d14E',
     symbol: 'PRIME',
     name: 'DeltaPrime',
@@ -7456,22 +6445,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALIEN.png',
-  },
-  {
-    address: '0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f',
-    symbol: 'USDD',
-    name: 'Decentralized USD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDD.png',
   },
   {
     address: '0x6bcc14B02CD624EbE1a8A665Cb6d4067Aa097230',
@@ -7664,22 +6637,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x5DB7b150c5F38c5F5db11dCBDB885028fcC51D68',
-    symbol: 'STR',
-    name: 'Sterling',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STR.png',
-  },
-  {
     address: '0x6A7661795C374c0bFC635934efAddFf3A7Ee23b6',
     symbol: 'DOLA',
     name: 'Dola USD Stablecoin',
@@ -7694,22 +6651,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DOLA.png',
-  },
-  {
-    address: '0x6dD963C510c2D2f09d5eDdB48Ede45FeD063Eb36',
-    symbol: 'FCTR',
-    name: 'Factor',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FCTR.png',
   },
   {
     address: '0xEEac5E75216571773C0064b3B591A86253791DB6',
@@ -7846,38 +6787,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-  },
-  {
-    address: '0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C',
-    symbol: 'USDM',
-    name: 'Mountain Protocol USD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDM.png',
-  },
-  {
-    address: '0x64343594Ab9b56e99087BfA6F2335Db24c2d1F17',
-    symbol: 'VST',
-    name: 'Vesta Stable',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VST.png',
   },
   {
     address: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
@@ -8070,22 +6979,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NEU.png',
   },
   {
-    address: '0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF',
-    symbol: 'SPELL',
-    name: 'Spell Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPELL.png',
-  },
-  {
     address: '0x777CF5ba9C291A1A8f57FF14836F6F9dC5c0F9Dd',
     symbol: 'SOLID',
     name: 'Solidly',
@@ -8242,22 +7135,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x15a808ed3846D25e88AE868DE79F1bcB1Ac382B5',
-    symbol: 'MVD',
-    name: 'Metavault DAO',
-    decimals: 9,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MVD.png',
-  },
-  {
     address: '0x2c852D3334188BE136bFC540EF2bB8C37b590BAD',
     symbol: 'MAGIC(magicland)',
     name: 'MAGICToken',
@@ -8272,22 +7149,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAGIC(MAGICLAND).png',
-  },
-  {
-    address: '0x51fC0f6660482Ea73330E414eFd7808811a57Fa2',
-    symbol: 'PREMIA',
-    name: 'Premia',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PREMIA.png',
   },
   {
     address: '0x6f9590958ce2beaf9c92a3a8Fca6D1dDF310e052',
@@ -8432,22 +7293,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IZI.png',
   },
   {
-    address: '0x641441c631e2F909700d2f41FD87F0aA6A6b4EDb',
-    symbol: 'USX',
-    name: 'dForce USD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USX.png',
-  },
-  {
     address: '0x2b41806CBf1FFB3D9e31A9ECE6B738Bf9D6f645F',
     symbol: 'ENO',
     name: 'EnoToken',
@@ -8494,22 +7339,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBFRAX.png',
-  },
-  {
-    address: '0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55',
-    symbol: 'DPX',
-    name: 'Dopex Governance Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DPX.png',
   },
   {
     address: '0xF42e2B8bc2aF8B110b65be98dB1321B1ab8D44f5',
@@ -8636,22 +7465,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XTK.png',
-  },
-  {
-    address: '0xf4D48Ce3ee1Ac3651998971541bAdbb9A14D7234',
-    symbol: 'CREAM',
-    name: 'Cream',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CREAM.png',
   },
   {
     address: '0xF80D589b3Dbe130c270a69F1a69D050f268786Df',
@@ -8788,22 +7601,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TGT.png',
   },
   {
-    address: '0x4425742F1EC8D98779690b5A3A6276Db85Ddc01A',
-    symbol: 'DOG (Own The Doge)',
-    name: 'The Doge NFT',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DOG (OWN THE DOGE).png',
-  },
-  {
     address: '0x45Df0656F8aDf017590009d2f1898eeca4F0a205',
     symbol: 'fWETH',
     name: 'Fluid Wrapped Ether',
@@ -8846,22 +7643,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x431402e8b9dE9aa016C743880e04E517074D8cEC',
-    symbol: 'HEGIC',
-    name: 'Hegic',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HEGIC.png',
-  },
-  {
     address: '0x42069d11A2CC72388a2e06210921E839Cfbd3280',
     symbol: 'GNOME',
     name: 'GnomeLand',
@@ -8876,22 +7657,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNOME.png',
-  },
-  {
-    address: '0x463913D3a3D3D291667D53B8325c598Eb88D3B0e',
-    symbol: 'SLIZ',
-    name: 'SolidLizard dex token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SLIZ.png',
   },
   {
     address: '0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8',
@@ -9022,22 +7787,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
-    symbol: 'USDC.e',
-    name: 'Bridged USD Coin',
-    decimals: 6,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.E.png',
-  },
-  {
     address: '0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28',
     symbol: 'ENS',
     name: 'Ethereum Name Service',
@@ -9050,22 +7799,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-  },
-  {
-    address: '0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A',
-    symbol: 'MIM',
-    name: 'Magic Internet Money',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MIM.png',
   },
   {
     address: '0x75eC618A817EB0A4a7E44aC3dFc64c963DAf921A',
@@ -9156,22 +7889,6 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-  },
-  {
-    address: '0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1',
-    symbol: 'GNO',
-    name: 'Gnosis Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNO.png',
   },
   {
     address: '0xA0dF47432d9d88bcc040E9ee66dDC7E17A882715',
@@ -9322,22 +8039,6 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBWBTC.png',
   },
   {
-    address: '0x088cd8f5eF3652623c22D48b1605DCfE860Cd704',
-    symbol: 'VELA',
-    name: 'VelaToken',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VELA.png',
-  },
-  {
     address: '0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86',
     symbol: 'MOR',
     name: 'MOR',
@@ -9352,22 +8053,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOR.png',
-  },
-  {
-    address: '0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8',
-    symbol: 'BAL',
-    name: 'Balancer',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BAL.png',
   },
   {
     address: '0x000F1720A263f96532D1ac2bb9CDC12b72C6f386',
@@ -9608,38 +8293,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0x00CBcF7B3d37844e44b888Bc747bDd75FCf4E555',
-    symbol: 'XPET',
-    name: 'xPet.tech Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XPET.png',
-  },
-  {
-    address: '0x07E49d5dE43DDA6162Fa28D24d5935C151875283',
-    symbol: 'GOVI',
-    name: 'GOVI',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOVI.png',
-  },
-  {
     address: '0x09ad12552ec45f82bE90B38dFE7b06332A680864',
     symbol: 'ARBY',
     name: 'Adamant Token (Arbitrum)',
@@ -9818,38 +8471,6 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EGP.png',
-  },
-  {
-    address: '0x17A8541B82BF67e10B0874284b4Ae66858cb1fd5',
-    symbol: 'PSM',
-    name: 'Possum',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PSM.png',
-  },
-  {
-    address: '0x15b2fb8f08E4Ac1Ce019EADAe02eE92AeDF06851',
-    symbol: 'CHR',
-    name: 'Chronos',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CHR.png',
   },
   {
     address: '0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5',
@@ -11368,22 +9989,6 @@ export const tokens: Token[] = [
     ],
   },
   {
-    address: '0xef888bcA6AB6B1d26dbeC977C455388ecd794794',
-    symbol: 'RGT',
-    name: 'Rari Governance Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RGT.png',
-  },
-  {
     address: '0xF01dB12F50D0CDF5Fe360ae005b9c52F92CA7811',
     symbol: 'API3',
     name: 'API3',
@@ -11712,453 +10317,5 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOZ.png',
-  },
-  {
-    address: '0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18',
-    symbol: 'swETH',
-    name: 'swETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SWETH.png',
-  },
-  {
-    address: '0xA586B3B80D7e3e8d439e25fBC16Bc5bcEE3E2c85',
-    symbol: 'CTOK',
-    name: 'Codyfight Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CTOK.png',
-  },
-  {
-    address: '0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2',
-    symbol: 'sUSDe',
-    name: 'Staked USDe',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSDE.png',
-  },
-  {
-    address: '0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1',
-    symbol: 'MOLTEN',
-    name: 'Molten',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOLTEN.png',
-  },
-  {
-    address: '0x11920f139a3121c2836E01551D43F95B3c31159c',
-    symbol: 'YBR',
-    name: 'YieldBricks',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YBR.png',
-  },
-  {
-    address: '0x4D840b741bc05FDE325D4Ec0B4CFCD0CeA237e4E',
-    symbol: 'QTLX',
-    name: 'Quantlytica Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/QTLX.png',
-  },
-  {
-    address: '0x3c09fb9630B8f89F73871506F445F5DbedBEB0DF',
-    symbol: 'miweETH',
-    name: 'Mitosis Wrapped EtherFi Ether',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x2Ea0bE86990E8Dac0D09e4316Bb92086F304622d',
-    symbol: 'USDs',
-    name: 'The Standard USD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDS.png',
-  },
-  {
-    address: '0xA71E2738704e367798bAa2755aF5A10499634953',
-    symbol: ' ',
-    name: 'Avarik Saga',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x8FfD9F31980f26Fbf4ac693678Db700f1d8C51f6',
-    symbol: 'LSETH',
-    name: 'Liquid Staked ETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LSETH.png',
-  },
-  {
-    address: '0x050C24dBf1eEc17babE5fc585F06116A259CC77A',
-    symbol: 'DLCBTC',
-    name: 'dlcBTC',
-    decimals: 8,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DLCBTC.png',
-  },
-  {
-    address: '0x4727a7D2022e99eE5c298513b730307F458f9B40',
-    symbol: 'GUBERTO',
-    name: 'GUBERTO',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GUBERTO.png',
-  },
-  {
-    address: '0x87AAfFdF26c6885f6010219208D5B161ec7609c0',
-    symbol: 'EQU',
-    name: 'Equation',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EQU.png',
-  },
-  {
-    address: '0x250f93c92AEbF7304c9e7e347D1acA8C0212Edea',
-    symbol: 'H20',
-    name: 'H20',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x83E60B9F7f4DB5cDb0877659b1740E73c662c55B',
-    symbol: 'PINGU (Pingu)',
-    name: 'Pingu',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PINGU (PINGU).png',
-  },
-  {
-    address: '0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850',
-    symbol: 'USD0',
-    name: 'Usual USD',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USD0.png',
-  },
-  {
-    address: '0x46777C76dBbE40fABB2AAB99E33CE20058e76C59',
-    symbol: 'L3',
-    name: 'Layer3',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x9EfCFc5b49390FC3fb9B58607D2e89445Bb380BF',
-    symbol: 'abcRAM',
-    name: 'abcRAM',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ABCRAM.png',
-  },
-  {
-    address: '0x498127B0A9fBB955084ebB5cFf1e1e53dC670731',
-    symbol: 'HAYA',
-    name: 'HAYA',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0xDDf7d080C82b8048BAAe54e376a3406572429b4e',
-    symbol: 'oooOOO',
-    name: 'GODDOG',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OOOOOO.png',
-  },
-  {
-    address: '0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7',
-    symbol: 'ETHx',
-    name: 'ETHx',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHX.png',
-  },
-  {
-    address: '0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763',
-    symbol: 'fETH',
-    name: 'Fractional ETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FETH.png',
-  },
-  {
-    address: '0xCE788B5a56F67Abe34A70f86c937894d667675Db',
-    symbol: 'YHDL',
-    name: 'Youhodler Token',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x60bf4E7cF16Ff34513514b968483B54Beff42a81',
-    symbol: 'VCNT',
-    name: 'ViciCoin',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VCNT.png',
-  },
-  {
-    address: '0x70Ed9e9fBc9f6a8A159bcE0485a1D0759f5e8c72',
-    symbol: 'WETH (MaiaDAO)',
-    name: 'Wrapped Ether',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH (MAIADAO).png',
-  },
-  {
-    address: '0x291A50E611035b6562a2374B8B44dE70aA8d7896',
-    symbol: 'PEN',
-    name: 'Pentagon',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0x55380fe7A1910dFf29A47B622057ab4139DA42C5',
-    symbol: 'xETH',
-    name: 'Leveraged ETH',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XETH.png',
-  },
-  {
-    address: '0xF63b14F5eE5574e3F337b2796Bbdf6dcfB4E2CB7',
-    symbol: 'KIP',
-    name: 'KIP Protocol',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-  },
-  {
-    address: '0xB01CF1bE9568f09449382a47Cd5bF58e2A9D5922',
-    symbol: 'Speed',
-    name: 'LightSpeed',
-    decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
-    buildingBlocks: [
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.SWAP,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-    ],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPEED.png',
   },
 ];

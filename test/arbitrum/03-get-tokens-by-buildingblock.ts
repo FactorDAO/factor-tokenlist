@@ -1,6 +1,4 @@
-import { FactorTokenlist } from '../../src';
-import { ChainId } from '@factordao/sdk';
-import { BuildingBlock } from '@factordao/sdk-studio';
+import { FactorTokenlist, ChainId, BuildingBlock } from '../../src';
 
 async function main() {
   const tokens = new FactorTokenlist(ChainId.ARBITRUM_ONE);

@@ -2,9 +2,14 @@ import { Address } from 'viem';
 
 export const ChainIdToNetwork: Record<number, string> = {
   42161: 'arbitrum',
+  10: 'optimism',
+  8453: 'base',
 };
+
 export enum ChainId {
   ARBITRUM_ONE = 42161,
+  OPTIMISM = 10,
+  BASE = 8453,
 }
 
 export interface TokenMetadata {
