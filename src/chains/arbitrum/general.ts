@@ -9,7 +9,7 @@ export const tokens: Token[] = [
     buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW],
     protocols: [],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH.png',
   },
   {
     address: '0x7cb16cb78ea464ad35c8a50abf95dff3c9e09d5d',
@@ -40,7 +40,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.AAVE, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AAVE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AAVE.png',
   },
   {
     address: '0x8888888888f004100C0353d657BE6300587A6CcD',
@@ -126,7 +126,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ANKRETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ANKRETH.png',
   },
   {
     address: '0x912ce59144191c1204e64559fe8253a0e49e6548',
@@ -150,7 +150,7 @@ export const tokens: Token[] = [
       Protocols.COMPOUND,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARB.png',
   },
   {
     address: '0xd5954c3084a1ccd70b4da011e67760b8e78aee84',
@@ -166,7 +166,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARX.png',
   },
   {
     address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
@@ -182,7 +182,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXLUSDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXLUSDC.png',
   },
   {
     address: '0xbfa641051ba0a0ad1b0acf549a89536a0d76472e',
@@ -198,7 +198,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BADGER.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BADGER.png',
   },
   {
     address: '0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8',
@@ -214,7 +214,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BAL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BAL.png',
   },
   {
     address: '0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D',
@@ -230,7 +230,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BFR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BFR.png',
   },
   {
     address: '0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae',
@@ -288,7 +288,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CELR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CELR.png',
   },
   {
     address: '0x15b2fb8f08e4ac1ce019eadae02ee92aedf06851',
@@ -304,7 +304,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CHR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CHR.png',
   },
   {
     address: '0x354a6da3fcde098f8389cad84b0182725c6c91de',
@@ -320,7 +320,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/COMP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/COMP.png',
   },
   {
     address: '0xf4d48ce3ee1ac3651998971541badbb9a14d7234',
@@ -336,7 +336,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CREAM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CREAM.png',
   },
   {
     address: '0x250Caff618cf205997309940c14C52B5DcEb351E',
@@ -366,7 +366,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CRV.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CRV.png',
   },
   {
     address: '0xeb8E93A0c7504Bffd8A8fFa56CD754c63aAeBFe8',
@@ -382,7 +382,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DAI.png',
   },
   {
     address: '0xda10009cbd5d07dd0cecc66161fc93d7c9000da1',
@@ -401,7 +401,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DAI.png',
   },
   {
     address: '0xcAB86F6Fb6d1C2cBeeB97854A0C023446A075Fe3',
@@ -445,7 +445,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DF.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DF.png',
   },
   {
     address: '0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581',
@@ -461,7 +461,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DODO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DODO.png',
   },
   {
     address: '0x4425742f1ec8d98779690b5a3a6276db85ddc01a',
@@ -491,7 +491,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DPX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DPX.png',
   },
   {
     address: '0xc3ae0333f0f34aa734d5493276223d95b8f9cb37',
@@ -521,7 +521,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH.png',
   },
   {
     address: '0x6dd963c510c2d2f09d5eddb48ede45fed063eb36',
@@ -537,7 +537,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FCTR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FCTR.png',
   },
   {
     address: '0xb348b87b23d5977e2948e6f36ca07e1ec94d7328',
@@ -567,7 +567,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLUID.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLUID.png',
   },
   {
     address: '0xcbe94d75ec713b7ead84f55620dc3174beeb1cfe',
@@ -611,7 +611,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRAX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRAX.png',
   },
   {
     address: '0x178412e79c25968a32e89b11f63b33f733770c2a',
@@ -627,7 +627,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRXETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRXETH.png',
   },
   {
     address: '0xbdef0e9ef12e689f366fe494a7a7d0dad25d9286',
@@ -657,7 +657,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FXS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FXS.png',
   },
   {
     address: '0x872bad41cfc8ba731f811fea8b2d0b9fd6369585',
@@ -673,7 +673,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GFLY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GFLY.png',
   },
   {
     address: '0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33',
@@ -689,7 +689,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GHO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GHO.png',
   },
   {
     address: '0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a',
@@ -708,7 +708,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.COMPOUND],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GMX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GMX.png',
   },
   {
     address: '0xa0b862f60edef4452f25b4160f177db44deb6cf1',
@@ -724,7 +724,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GNO.png',
   },
   {
     address: '0x18c11fd286c5ec11c3b683caa813b77f5163a122',
@@ -740,7 +740,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GNS.png',
   },
   {
     address: '0x07e49d5de43dda6162fa28d24d5935c151875283',
@@ -756,7 +756,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOVI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOVI.png',
   },
   {
     address: '0x3d9907f9a368ad0a51be60f7da3b97cf940982d8',
@@ -772,7 +772,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRAIL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRAIL.png',
   },
   {
     address: '0x23a941036ae778ac51ab04cea08ed6e2fe103614',
@@ -788,7 +788,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRT.png',
   },
   {
     address: '0x580e933d90091b9ce380740e3a4a39c67eb85b4c',
@@ -804,7 +804,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GSWIFT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GSWIFT.png',
   },
   {
     address: '0x431402e8b9de9aa016c743880e04e517074d8cec',
@@ -820,7 +820,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HEGIC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HEGIC.png',
   },
   {
     address: '0x83d6c8c06ac276465e4c92e7ac8c23740f435140',
@@ -836,7 +836,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HMX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HMX.png',
   },
   {
     address: '0x10010078a54396f62c96df8532dc2b4847d47ed3',
@@ -852,7 +852,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HND.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HND.png',
   },
   {
     address: '0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07',
@@ -868,7 +868,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JOE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JOE.png',
   },
   {
     address: '0x10393c20975cF177a3513071bC110f7962CD67da',
@@ -884,7 +884,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JONES.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JONES.png',
   },
   {
     address: '0x3A18dcC9745eDcD1Ef33ecB93b0b6eBA5671e7Ca',
@@ -900,7 +900,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KUJI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KUJI.png',
   },
   {
     address: '0x04cb2d263a7489f02d813eaab9ba1bb8466347f2',
@@ -958,7 +958,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LDO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LDO.png',
   },
   {
     address: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
@@ -977,7 +977,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LINK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LINK.png',
   },
   {
     address: '0x289ba1701c2f088cf0faf8b3705246331cb8a839',
@@ -993,7 +993,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LPT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LPT.png',
   },
   {
     address: '0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe',
@@ -1009,7 +1009,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LRC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LRC.png',
   },
   {
     address: '0x93b346b6bc2548da6a1e7d98e9a421b42541425b',
@@ -1028,7 +1028,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.AAVE, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LUSD.png',
   },
   {
     address: '0x079504b86d38119f859c4194765029f692b7b7aa',
@@ -1058,7 +1058,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAGIC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MAGIC.png',
   },
   {
     address: '0x99f40b01ba9c469193b360f72740e416b17ac332',
@@ -1074,7 +1074,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MATH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MATH.png',
   },
   {
     address: '0x4e352cf164e64adcbad318c3a1e222e9eba4ce42',
@@ -1104,7 +1104,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MIM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MIM.png',
   },
   {
     address: '0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879',
@@ -1120,7 +1120,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MKR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MKR.png',
   },
   {
     address: '0x56b251d4b493ee3956e3f899d36b7290902d2326',
@@ -1136,7 +1136,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MMF.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MMF.png',
   },
   {
     address: '0xA6D7D0e650aa40FFa42d845A354c12c2bc0aB15f',
@@ -1152,7 +1152,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MMY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MMY.png',
   },
   {
     address: '0x15a808ed3846d25e88ae868de79f1bcb1ac382b5',
@@ -1168,7 +1168,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MVD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MVD.png',
   },
   {
     address: '0xed3fb761414da74b74f33e5c5a1f78104b188dfc',
@@ -1184,7 +1184,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NYAN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NYAN.png',
   },
   {
     address: '0xDCbf4CB83d27C408B30dD7F39bfcabD7176B1Ba3',
@@ -1200,7 +1200,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OOE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OOE.png',
   },
   {
     address: '0xa3d1a8deb97b111454b294e2324efad13a9d8396',
@@ -1216,7 +1216,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OVN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OVN.png',
   },
   {
     address: '0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8',
@@ -1232,7 +1232,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PENDLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PENDLE.png',
   },
   {
     address: '0x965772e0e9c84b6f359c8597c891108dcf1c5b1a',
@@ -1248,7 +1248,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PICKLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PICKLE.png',
   },
   {
     address: '0x51fc0f6660482ea73330e414efd7808811a57fa2',
@@ -1264,7 +1264,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PREMIA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PREMIA.png',
   },
   {
     address: '0x17a8541b82bf67e10b0874284b4ae66858cb1fd5',
@@ -1280,7 +1280,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PSM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PSM.png',
   },
   {
     address: '0x07aaa29e63ffeb2ebf59b33ee61437e1a91a3bb2',
@@ -1310,7 +1310,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RAM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RAM.png',
   },
   {
     address: '0x3082CC23568eA640225c2467653dB90e9250AaA0',
@@ -1326,7 +1326,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RDNT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RDNT.png',
   },
   {
     address: '0x033f193b3fceb22a440e89a2867e8fee181594d9',
@@ -1370,7 +1370,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RENBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RENBTC.png',
   },
   {
     address: '0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8',
@@ -1389,7 +1389,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.AAVE, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RETH.png',
   },
   {
     address: '0xef888bca6ab6b1d26dbec977c455388ecd794794',
@@ -1405,7 +1405,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RGT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RGT.png',
   },
   {
     address: '0xd6c0156E85deCdF2983c7A2c4A3015eD268d6f8A',
@@ -1421,7 +1421,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ROSX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ROSX.png',
   },
   {
     address: '0xabd587f2607542723b17f14d00d99b987c29b074',
@@ -1437,7 +1437,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SDEX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SDEX.png',
   },
   {
     address: '0x7ba4a00d54a07461d9db2aef539e91409943adc9',
@@ -1453,7 +1453,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SDT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SDT.png',
   },
   {
     address: '0x95ab45875cffdba1e5f451b950bc2e42c0053f39',
@@ -1469,7 +1469,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SFRXETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SFRXETH.png',
   },
   {
     address: '0x9E758B8a98a42d612b3D38B66a22074DC03D7370',
@@ -1485,7 +1485,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SIS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SIS.png',
   },
   {
     address: '0x463913d3a3d3d291667d53b8325c598eb88d3b0e',
@@ -1501,7 +1501,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SLIZ.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SLIZ.png',
   },
   {
     address: '0x3647c54c4c2c65bc7a2d63c0da2809b399dbbdc0',
@@ -1517,7 +1517,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.png',
   },
   {
     address: '0x346c574c56e1a4aaa8dc88cda8f7eb12b39947ab',
@@ -1533,7 +1533,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.BBN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.BBN.png',
   },
   {
     address: '0xafafd68afe3fe65d376eec9eab1802616cfaccb8',
@@ -1549,7 +1549,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLVBTC.ENA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.ENA.png',
   },
   {
     address: '0x11f98c7e42a367dab4f200d2fdc460fb445ce9a8',
@@ -1565,7 +1565,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPARTA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPARTA.png',
   },
   {
     address: '0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af',
@@ -1581,7 +1581,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPELL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPELL.png',
   },
   {
     address: '0x6694340fc020c5E6B96567843da2df01b2CE1eb6',
@@ -1597,7 +1597,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STG.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STG.png',
   },
   {
     address: '0x5db7b150c5f38c5f5db11dcbdb885028fcc51d68',
@@ -1613,7 +1613,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STR.png',
   },
   {
     address: '0xa970af1a584579b618be4d69ad6f73459d112f95',
@@ -1629,7 +1629,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSD.png',
   },
   {
     address: '0xd4d42f0b6def4ce0383636770ef773390d85c61a',
@@ -1645,7 +1645,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSHI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSHI.png',
   },
   {
     address: '0xde903e2712288a1da82942dddf2c20529565ac30',
@@ -1661,7 +1661,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SWPR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SWPR.png',
   },
   {
     address: '0xfac38532829fdd744373fdcd4708ab90fa0c4078',
@@ -1691,7 +1691,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TROVE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TROVE.png',
   },
   {
     address: '0x4D15a3A2286D883AF0AA1B3f21367843FAc63E07',
@@ -1707,7 +1707,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TUSD.png',
   },
   {
     address: '0x1622bf67e6e5747b81866fe0b85178a93c7f86e3',
@@ -1737,7 +1737,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UNI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UNI.png',
   },
   {
     address: '0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65',
@@ -1753,7 +1753,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USD+.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USD+.png',
   },
   {
     address: '0xaf88d065e77c8cc2239327c5edb3a432268e5831',
@@ -1777,7 +1777,7 @@ export const tokens: Token[] = [
       Protocols.COMPOUND,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDC.png',
   },
   {
     address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
@@ -1801,7 +1801,7 @@ export const tokens: Token[] = [
       Protocols.COMPOUND,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.E.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDC.E.png',
   },
   {
     address: '0x680447595e8b7b3aa1b43beb9f6098c79ac2ab3f',
@@ -1817,7 +1817,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDD.png',
   },
   {
     address: '0x59d9356e565ab3a36dd77763fc0d87feaf85508c',
@@ -1833,7 +1833,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDM.png',
   },
   {
     address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
@@ -1852,7 +1852,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDT.png',
   },
   {
     address: '0x641441c631e2f909700d2f41fd87f0aa6a6b4edb',
@@ -1868,7 +1868,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USX.png',
   },
   {
     address: '0x088cd8f5ef3652623c22d48b1605dcfe860cd704',
@@ -1884,7 +1884,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VELA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VELA.png',
   },
   {
     address: '0x995c235521820f2637303ca1970c7c044583df44',
@@ -1914,7 +1914,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VST.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VST.png',
   },
   {
     address: '0xa684cd057951541187f288294a1e1C2646aA2d24',
@@ -1930,7 +1930,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VSTA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VSTA.png',
   },
   {
     address: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f',
@@ -1954,7 +1954,7 @@ export const tokens: Token[] = [
       Protocols.COMPOUND,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WBTC.png',
   },
   {
     address: '0x35751007a407ca6feffe80b3cb397736d2cf4dbe',
@@ -1973,7 +1973,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WEETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WEETH.png',
   },
   {
     address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
@@ -1997,7 +1997,7 @@ export const tokens: Token[] = [
       Protocols.COMPOUND,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WETH.png',
   },
   {
     address: '0x7b5eb3940021ec0e8e463d5dbb4b7b09a89ddf96',
@@ -2013,7 +2013,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WOM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WOM.png',
   },
   {
     address: '0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b',
@@ -2046,7 +2046,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WSTETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WSTETH.png',
   },
   {
     address: '0x4cb9a7ae498cedcbb5eae9f25736ae7d428c9d66',
@@ -2062,7 +2062,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XAI.png',
   },
   {
     address: '0x9ef758ac000a354479e538b8b2f01b917b8e89e7',
@@ -2092,7 +2092,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XPET.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XPET.png',
   },
   {
     address: '0x3509f19581afedeff07c53592bc0ca84e4855475',
@@ -2122,7 +2122,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YFI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YFI.png',
   },
   {
     address: '0xdb96f8efd6865644993505318cc08ff9c42fb9ac',
@@ -2152,7 +2152,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ZRO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ZRO.png',
   },
   {
     address: '0x3b475f6f2f41853706afc9fa6a6b8c5df1a2724c',
@@ -2168,7 +2168,7 @@ export const tokens: Token[] = [
     ],
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ZYB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ZYB.png',
   },
   {
     address: '0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5',
@@ -2184,7 +2184,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BETS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BETS.png',
   },
   {
     address: '0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C',
@@ -2200,7 +2200,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TIA.N.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TIA.N.png',
   },
   {
     address: '0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91',
@@ -2216,7 +2216,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/W.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/W.png',
   },
   {
     address: '0xb2F30A7C980f052f02563fb518dcc39e6bf38175',
@@ -2232,7 +2232,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDX.png',
   },
   {
     address: '0xD74f5255D557944cf7Dd0E45FF521520002D5748',
@@ -2248,7 +2248,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDS.png',
   },
   {
     address: '0x9623063377AD1B27544C965cCd7342f7EA7e88C7',
@@ -2264,7 +2264,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRT.png',
   },
   {
     address: '0xD77B108d4f6cefaa0Cae9506A934e825BEccA46E',
@@ -2280,7 +2280,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WINR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WINR.png',
   },
   {
     address: '0xD8724322f44E5c58D7A815F542036fb17DbbF839',
@@ -2296,7 +2296,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WOETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WOETH.png',
   },
   {
     address: '0xB67c014FA700E69681a673876eb8BAFAA36BFf71',
@@ -2340,7 +2340,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XVS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XVS.png',
   },
   {
     address: '0xa9004A5421372E1D83fB1f85b0fc986c912f91f3',
@@ -2356,7 +2356,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBNB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WBNB.png',
   },
   {
     address: '0xBBEa044f9e7c0520195e49Ad1e561572E7E1B948',
@@ -2372,7 +2372,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MZR TOKEN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MZR TOKEN.png',
   },
   {
     address: '0xC8a4EeA31E9B6b61c406DF013DD4FEc76f21E279',
@@ -2402,7 +2402,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OX.png',
   },
   {
     address: '0x95146881b86B3ee99e63705eC87AfE29Fcc044D9',
@@ -2418,7 +2418,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VRTX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VRTX.png',
   },
   {
     address: '0xaC800FD6159c2a2CB8fC31EF74621eB430287a5A',
@@ -2434,7 +2434,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OP.png',
   },
   {
     address: '0xc24A365A870821EB83Fd216c9596eDD89479d8d7',
@@ -2450,7 +2450,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/G3.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/G3.png',
   },
   {
     address: '0xB299751B088336E165dA313c33e3195B8c6663A6',
@@ -2466,7 +2466,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STAR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STAR.png',
   },
   {
     address: '0xB59c8912c83157a955f9D715E556257F432C35D7',
@@ -2482,7 +2482,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TRUF.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TRUF.png',
   },
   {
     address: '0xdA0a57B710768ae17941a9Fa33f8B720c8bD9ddD',
@@ -2498,7 +2498,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/POND.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/POND.png',
   },
   {
     address: '0x9d0c0675a995d5F12b03E880763F639d0628b5C6',
@@ -2528,7 +2528,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VKA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VKA.png',
   },
   {
     address: '0xc87B37a581ec3257B734886d9d3a581F5A9d056c',
@@ -2544,7 +2544,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ATH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ATH.png',
   },
   {
     address: '0xa6C895EB332E91c5b3D00B7baeEAae478cc502DA',
@@ -2574,7 +2574,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARKEN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARKEN.png',
   },
   {
     address: '0xC96F2715E2a242d50D1b0bC923dbe1740b8eCf18',
@@ -2590,7 +2590,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC(WORMHOLE).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDC(WORMHOLE).png',
   },
   {
     address: '0xD8369C2EDA18dD6518eABb1F85BD60606dEb39Ec',
@@ -2606,7 +2606,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH(WORMHOLE).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WETH(WORMHOLE).png',
   },
   {
     address: '0xbC4c97Fb9befaa8B41448e1dFcC5236dA543217F',
@@ -2622,7 +2622,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CATCH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CATCH.png',
   },
   {
     address: '0xb1084db8D3C05CEbd5FA9335dF95EE4b8a0edc30',
@@ -2638,7 +2638,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDT+.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDT+.png',
   },
   {
     address: '0xB766039cc6DB368759C1E56B79AFfE831d0Cc507',
@@ -2654,7 +2654,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RPL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RPL.png',
   },
   {
     address: '0x9842989969687f7d249d01Cae1D2ff6b7b6b6D35',
@@ -2670,7 +2670,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CRYPTO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CRYPTO.png',
   },
   {
     address: '0xb165a74407fE1e519d6bCbDeC1Ed3202B35a4140',
@@ -2700,7 +2700,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLR.png',
   },
   {
     address: '0xa68Ec98D7ca870cF1Dd0b00EBbb7c4bF60A8e74d',
@@ -2716,7 +2716,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BICO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BICO.png',
   },
   {
     address: '0xaeF5bbcbFa438519a5ea80B4c7181B4E78d419f2',
@@ -2732,7 +2732,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RAI.png',
   },
   {
     address: '0xB6093B61544572Ab42A0E43AF08aBaFD41bf25A6',
@@ -2748,7 +2748,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WXM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WXM.png',
   },
   {
     address: '0x9500Ba777560daf9d3AB148ea1cf1ED39Df9eBDb',
@@ -2764,7 +2764,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STYLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STYLE.png',
   },
   {
     address: '0xBfbCFe8873fE28Dfa25f1099282b088D52bbAD9C',
@@ -2780,7 +2780,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EQB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EQB.png',
   },
   {
     address: '0xB41bd4C99dA73510d9e081C5FADBE7A27Ac1F814',
@@ -2796,7 +2796,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IMO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IMO.png',
   },
   {
     address: '0x9791d590788598535278552EEcD4b211bFc790CB',
@@ -2826,7 +2826,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ROSNET.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ROSNET.png',
   },
   {
     address: '0xDa2307A45D298e855415675bF388e2bd64351D5b',
@@ -2856,7 +2856,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HOP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HOP.png',
   },
   {
     address: '0x933d31561e470478079FEB9A6Dd2691fAD8234DF',
@@ -2886,7 +2886,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EUX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EUX.png',
   },
   {
     address: '0x9Ab3FD50FcAe73A1AEDa959468FD0D662c881b42',
@@ -2916,7 +2916,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SAIL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SAIL.png',
   },
   {
     address: '0xB688BA096b7Bb75d7841e47163Cd12D18B36A5bF',
@@ -2932,7 +2932,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MPENDLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MPENDLE.png',
   },
   {
     address: '0x95F1eE4CB6DC16136a79d367a010aDD361e5192C',
@@ -2948,7 +2948,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EUROEX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EUROEX.png',
   },
   {
     address: '0x93C15cd7DE26f07265f0272E0b831C5D7fAb174f',
@@ -2964,7 +2964,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LIQD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LIQD.png',
   },
   {
     address: '0x93D504070AB0eede5449C89C5eA0F5e34D8103f8',
@@ -2980,7 +2980,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARCHI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARCHI.png',
   },
   {
     address: '0x955b9fe60a5b5093df9Dc4B1B18ec8e934e77162',
@@ -2996,7 +2996,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SWPR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SWPR.png',
   },
   {
     address: '0xA58663FAEF461761e44066ea26c1FCddF2927B80',
@@ -3012,7 +3012,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KOM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KOM.png',
   },
   {
     address: '0xa61F74247455A40b01b0559ff6274441FAfa22A3',
@@ -3028,7 +3028,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MGP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MGP.png',
   },
   {
     address: '0xc136E6B376a9946B156db1ED3A34b08AFdAeD76d',
@@ -3044,7 +3044,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CREDA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CREDA.png',
   },
   {
     address: '0x999FAF0AF2fF109938eeFE6A7BF91CA56f0D07e1',
@@ -3060,7 +3060,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LDY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LDY.png',
   },
   {
     address: '0x97A9C02CFBBf0332D8172331461aB476dF1E8c95',
@@ -3104,7 +3104,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BUCK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BUCK.png',
   },
   {
     address: '0xB64E280e9D1B5DbEc4AcceDb2257A87b400DB149',
@@ -3120,7 +3120,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LVL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LVL.png',
   },
   {
     address: '0xBAfbCB010D920e0Dab9DFdcF634De1B777028a85',
@@ -3136,7 +3136,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH(WORMHOLE).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WETH(WORMHOLE).png',
   },
   {
     address: '0xBcc9C1763d54427bDF5EfB6e9EB9494E5a1fbAbf',
@@ -3152,7 +3152,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HWT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HWT.png',
   },
   {
     address: '0xAD4b9c1FbF4923061814dD9d5732EB703FaA53D4',
@@ -3168,7 +3168,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WNT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WNT.png',
   },
   {
     address: '0xadf5DD3E51bF28aB4F07e684eCF5d00691818790',
@@ -3184,7 +3184,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ICHI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ICHI.png',
   },
   {
     address: '0xbcd4D5AC29E06e4973a1dDcd782cd035d04BC0b7',
@@ -3200,7 +3200,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/QKNTL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/QKNTL.png',
   },
   {
     address: '0x9dCA587dc65AC0a043828B0acd946d71eb8D46c1',
@@ -3216,7 +3216,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IFARM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IFARM.png',
   },
   {
     address: '0xAD435674417520aeeED6b504bBe654d4f556182F',
@@ -3232,7 +3232,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JEUR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JEUR.png',
   },
   {
     address: '0xb21Be1Caf592A5DC1e75e418704d1B6d50B0d083',
@@ -3248,7 +3248,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CRX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CRX.png',
   },
   {
     address: '0xB86fb1047A955C0186c77ff6263819b37B32440D',
@@ -3264,7 +3264,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WUSD+.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WUSD+.png',
   },
   {
     address: '0xB9C8F0d3254007eE4b98970b94544e473Cd610EC',
@@ -3280,7 +3280,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/QI(OLD).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/QI(OLD).png',
   },
   {
     address: '0xdA51015b73cE11F77A115Bb1b8a7049e02dDEcf0',
@@ -3296,7 +3296,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NEU(OLD).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NEU(OLD).png',
   },
   {
     address: '0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B',
@@ -3312,7 +3312,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BOB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BOB.png',
   },
   {
     address: '0xaaE0c3856e665ff9b3E2872B6D75939D810b7E40',
@@ -3328,7 +3328,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YFX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YFX.png',
   },
   {
     address: '0xC72633F995e98Ac3BB8a89e6a9C4Af335C3D6E44',
@@ -3344,7 +3344,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OSEA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OSEA.png',
   },
   {
     address: '0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA',
@@ -3374,7 +3374,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AA.png',
   },
   {
     address: '0x8ffDf2DE812095b1D19CB146E4c004587C0A0692',
@@ -3390,7 +3390,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBLUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBLUSD.png',
   },
   {
     address: '0x9e724698051DA34994F281bD81C3E7372d1960AE',
@@ -3406,7 +3406,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ASCEND.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ASCEND.png',
   },
   {
     address: '0xb49B6A3Fd1F4bB510Ef776de7A88A9e65904478A',
@@ -3422,7 +3422,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALP.png',
   },
   {
     address: '0x9b06F3C5de42D4623D7A2Bd940EC735103c68A76',
@@ -3438,7 +3438,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VOLTA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VOLTA.png',
   },
   {
     address: '0x93981d31ADE2C84882a9A1ABA9Cb49978C83389a',
@@ -3468,7 +3468,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALUSD.png',
   },
   {
     address: '0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8',
@@ -3484,7 +3484,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBWETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBWETH.png',
   },
   {
     address: '0xdadeca1167fe47499e53Eb50F261103630974905',
@@ -3500,7 +3500,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NRN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NRN.png',
   },
   {
     address: '0xe1d3495717f9534Db67A6A8d4940Dd17435b6A9E',
@@ -3516,7 +3516,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LOCUS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LOCUS.png',
   },
   {
     address: '0x89C49A3fA372920aC23ce757A029e6936c0b8e02',
@@ -3532,7 +3532,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CU.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CU.png',
   },
   {
     address: '0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77',
@@ -3562,7 +3562,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FTM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FTM.png',
   },
   {
     address: '0x7f90122BF0700F9E7e1F688fe926940E8839F353',
@@ -3578,7 +3578,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/2CRV.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/2CRV.png',
   },
   {
     address: '0xA3Ab90c49C2e7C873fB047d30Cef87464Ba1cB59',
@@ -3594,7 +3594,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XBL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XBL.png',
   },
   {
     address: '0x80bB30D62a16e1F2084dEAE84dc293531c3AC3A1',
@@ -3610,7 +3610,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRAIN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRAIN.png',
   },
   {
     address: '0xDFB8BE6F8c87f74295A87de951974362CedCFA30',
@@ -3626,7 +3626,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EMC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EMC.png',
   },
   {
     address: '0x7E6A0A3d5Cb736868fe5D0943C7593f185081ED2',
@@ -3642,7 +3642,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DEAGLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DEAGLE.png',
   },
   {
     address: '0x8616E8EA83f048ab9A5eC513c9412Dd2993bcE3F',
@@ -3658,7 +3658,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FXUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FXUSD.png',
   },
   {
     address: '0x8B0E6f19Ee57089F7649A455D89D7bC6314D04e8',
@@ -3674,7 +3674,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DMT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DMT.png',
   },
   {
     address: '0xCa4e51F6AD4AFd9d1068E5899De9dd7d73F3463D',
@@ -3690,7 +3690,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARK.png',
   },
   {
     address: '0xa2F9ECf83a48b86265ff5fD36cDBAAa1F349916C',
@@ -3706,7 +3706,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOB.png',
   },
   {
     address: '0xcCd05A0fcfc1380e9Da27862Adb2198E58e0D66f',
@@ -3722,7 +3722,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ANIMA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ANIMA.png',
   },
   {
     address: '0xDC8184ba488e949815d4AAfb35B3c56ad03B4179',
@@ -3738,7 +3738,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ROSX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ROSX.png',
   },
   {
     address: '0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0',
@@ -3754,7 +3754,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GUSDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GUSDC.png',
   },
   {
     address: '0xE4728F3E48E94C6DA2B53610E677cc241DAFB134',
@@ -3784,7 +3784,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBRETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBRETH.png',
   },
   {
     address: '0x816E21c33fa5F8440EBcDF6e01D39314541BEA72',
@@ -3800,7 +3800,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LQDR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LQDR.png',
   },
   {
     address: '0x7FB7EDe54259Cb3D4E1EaF230C7e2b1FfC951E9A',
@@ -3816,7 +3816,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NUMA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NUMA.png',
   },
   {
     address: '0xe4DDDfe67E7164b0FE14E218d80dC4C08eDC01cB',
@@ -3832,7 +3832,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KNC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KNC.png',
   },
   {
     address: '0xc9f52540976385A84BF416903e1Ca3983c539E34',
@@ -3890,7 +3890,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SX.png',
   },
   {
     address: '0x7E141940932E3D13bfa54B224cb4a16510519308',
@@ -3920,7 +3920,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CVOL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CVOL.png',
   },
   {
     address: '0xcb8b5CD20BdCaea9a010aC1F8d835824F5C87A04',
@@ -3936,7 +3936,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/COW.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/COW.png',
   },
   {
     address: '0x892785f33CdeE22A30AEF750F285E18c18040c3e',
@@ -3966,7 +3966,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALTD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALTD.png',
   },
   {
     address: '0x8d7c2588c365b9e98Ea464b63DBCCDf13ECd9809',
@@ -3982,7 +3982,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AI.png',
   },
   {
     address: '0x8DCD3393a6e48E898A60e05baeC0d568df128F89',
@@ -4012,7 +4012,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETH+.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH+.png',
   },
   {
     address: '0xDa7c0de432a9346bB6e96aC74e3B61A36d8a77eB',
@@ -4028,7 +4028,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HETH.png',
   },
   {
     address: '0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44',
@@ -4044,7 +4044,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DEUS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DEUS.png',
   },
   {
     address: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
@@ -4060,7 +4060,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBDAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBDAI.png',
   },
   {
     address: '0x8b5e4C9a188b1A187f2D1E80b1c2fB17fA2922e1',
@@ -4076,7 +4076,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOLD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOLD.png',
   },
   {
     address: '0xa334884bF6b0A066d553D19e507315E839409e62',
@@ -4092,7 +4092,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ERN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ERN.png',
   },
   {
     address: '0xD22a58f79e9481D1a88e00c343885A588b34b68B',
@@ -4108,7 +4108,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EURS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EURS.png',
   },
   {
     address: '0xDbcD16e622c95AcB2650b38eC799f76BFC557a0b',
@@ -4138,7 +4138,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PEUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PEUSD.png',
   },
   {
     address: '0xDDc0385169797937066bBd8EF409b5B3c0dFEB52',
@@ -4154,7 +4154,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WUSDR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WUSDR.png',
   },
   {
     address: '0xe3b3FE7bcA19cA77Ad877A5Bebab186bEcfAD906',
@@ -4170,7 +4170,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SFRAX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SFRAX.png',
   },
   {
     address: '0x7CbaF5a14D953fF896E5B3312031515c858737C8',
@@ -4186,7 +4186,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MUXLP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MUXLP.png',
   },
   {
     address: '0x7F4638A58C0615037deCc86f1daE60E55fE92874',
@@ -4202,7 +4202,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRG.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRG.png',
   },
   {
     address: '0x7C8a1A80FDd00C9Cccd6EbD573E9EcB49BFa2a59',
@@ -4218,7 +4218,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AICODE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AICODE.png',
   },
   {
     address: '0x7F465507f058e17Ad21623927a120ac05CA32741',
@@ -4234,7 +4234,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARC.png',
   },
   {
     address: '0x7f9a7DB853Ca816B9A138AEe3380Ef34c437dEe0',
@@ -4250,7 +4250,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GTC.png',
   },
   {
     address: '0x8c6Bd546fB8B53fE371654a0E54D7a5bD484b319',
@@ -4266,7 +4266,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOA.png',
   },
   {
     address: '0xE4D5c6aE46ADFAF04313081e8C0052A30b6Dd724',
@@ -4282,7 +4282,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PYTH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PYTH.png',
   },
   {
     address: '0x7CFaDFD5645B50bE87d546f42699d863648251ad',
@@ -4312,7 +4312,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/URD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/URD.png',
   },
   {
     address: '0x849B40AB2469309117Ed1038c5A99894767C7282',
@@ -4328,7 +4328,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FIS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FIS.png',
   },
   {
     address: '0x86f65121804D2Cdbef79F9f072D4e0c2eEbABC08',
@@ -4344,7 +4344,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SEED.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SEED.png',
   },
   {
     address: '0x88a269Df8fe7F53E590c561954C52FCCC8EC0cFB',
@@ -4360,7 +4360,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NST.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NST.png',
   },
   {
     address: '0x8EA5040d423410f1fdc363379Af88e1DB5eA1C34',
@@ -4390,7 +4390,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBAN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WBAN.png',
   },
   {
     address: '0xE22c452bd2AdE15DfC8ad98286bc6bDF0c9219b7',
@@ -4406,7 +4406,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TRADE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TRADE.png',
   },
   {
     address: '0x86A1012d437BBFf84fbDF62569D12d4FD3396F8c',
@@ -4422,7 +4422,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARBYS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARBYS.png',
   },
   {
     address: '0x894134a25a5faC1c2C26F1d8fBf05111a3CB9487',
@@ -4438,7 +4438,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRAI.png',
   },
   {
     address: '0xcF985abA4647a432E60efcEeB8054BBd64244305',
@@ -4454,7 +4454,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EUROE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EUROE.png',
   },
   {
     address: '0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1',
@@ -4470,7 +4470,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GOHM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOHM.png',
   },
   {
     address: '0xc9c2B86CD4cdbAB70cd65D22EB044574c3539F6c',
@@ -4500,7 +4500,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALPHA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALPHA.png',
   },
   {
     address: '0x7fe5e5befa99A57CD690f2e220C251c90422da8B',
@@ -4530,7 +4530,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USX.png',
   },
   {
     address: '0xCF934E2402A5e072928a39a956964eb8F2B5B79C',
@@ -4546,7 +4546,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/POOL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/POOL.png',
   },
   {
     address: '0xCF8600347Dc375C5f2FdD6Dab9BB66e0b6773cd7',
@@ -4562,7 +4562,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RARI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RARI.png',
   },
   {
     address: '0xdD69DB25F6D620A7baD3023c5d32761D353D3De9',
@@ -4578,7 +4578,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GETH.png',
   },
   {
     address: '0xDDf00Bb25A13e3ECd35a343B9165448cDd2228B6',
@@ -4608,7 +4608,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXGT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXGT.png',
   },
   {
     address: '0xCa5Ca9083702c56b481D1eec86F1776FDbd2e594',
@@ -4624,7 +4624,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RSR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RSR.png',
   },
   {
     address: '0xda71EA8ef58D015de8C5cEA8f7B890db3A103E67',
@@ -4640,7 +4640,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EMDX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EMDX.png',
   },
   {
     address: '0xCA5d8F8a8d49439357d3CF46Ca2e720702F132b8',
@@ -4656,7 +4656,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GYD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GYD.png',
   },
   {
     address: '0xCACBa8Be4bc225FB8d15a9A3b702f84ca3EBa991',
@@ -4686,7 +4686,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBNB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WBNB.png',
   },
   {
     address: '0x7b0949204e7Da1B0beD6d4CCb68497F51621b574',
@@ -4744,7 +4744,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EZETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EZETH.png',
   },
   {
     address: '0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530',
@@ -4760,7 +4760,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBLINK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBLINK.png',
   },
   {
     address: '0x4186BFC76E2E237523CBC30FD220FE055156b41F',
@@ -4776,7 +4776,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RSETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RSETH.png',
   },
   {
     address: '0x1b896893dfc86bb67Cf57767298b9073D2c1bA2c',
@@ -4792,7 +4792,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CAKE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CAKE.png',
   },
   {
     address: '0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27',
@@ -4808,7 +4808,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHFI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETHFI.png',
   },
   {
     address: '0xe6C8d111337D0052b9D88BF5d7D55B7f8385ACd3',
@@ -4824,7 +4824,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETHX.png',
   },
   {
     address: '0x724dc807b04555b71ed48a6896b6F41593b8C637',
@@ -4840,7 +4840,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBUSDCN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBUSDCN.png',
   },
   {
     address: '0x561877b6b3DD7651313794e5F2894B2F18bE0766',
@@ -4856,7 +4856,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MATIC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MATIC.png',
   },
   {
     address: '0xEc7c0205a6f426c2Cb1667d783B5B4fD2f875434',
@@ -4900,7 +4900,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UXLINK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UXLINK.png',
   },
   {
     address: '0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A',
@@ -4916,7 +4916,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FUSDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FUSDC.png',
   },
   {
     address: '0x10aAeD289a7b1B0155bF4b86c862f297E84465e0',
@@ -4932,7 +4932,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RBC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RBC.png',
   },
   {
     address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
@@ -4948,7 +4948,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDE.png',
   },
   {
     address: '0x417a1aFD44250314BffB11ff68E989775e990ab6',
@@ -4964,7 +4964,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VOLTA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VOLTA.png',
   },
   {
     address: '0x4E51aC49bC5e2d87e0EF713E9e5AB2D71EF4F336',
@@ -4980,7 +4980,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CELO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CELO.png',
   },
   {
     address: '0x2bcC6D6CdBbDC0a4071e48bb3B969b06B3330c07',
@@ -4996,7 +4996,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOL.png',
   },
   {
     address: '0x76BC2e765414E6C8b596c0f52c4240f80268f41D',
@@ -5012,7 +5012,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UIBT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UIBT.png',
   },
   {
     address: '0x3ea9B0ab55F34Fb188824Ee288CeaEfC63cf908e',
@@ -5028,7 +5028,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NETH.png',
   },
   {
     address: '0x6B5B5eAc259e883B484ED879d43DD4d616A90E65',
@@ -5044,7 +5044,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KNOW.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KNOW.png',
   },
   {
     address: '0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7',
@@ -5060,7 +5060,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EURA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EURA.png',
   },
   {
     address: '0x3d15fD46CE9e551498328B1C83071D9509E2C3a0',
@@ -5076,7 +5076,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UNIETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UNIETH.png',
   },
   {
     address: '0xf929de51D91C77E42f5090069E0AD7A09e513c73',
@@ -5092,7 +5092,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FOX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FOX.png',
   },
   {
     address: '0x319f865b287fCC10b30d8cE6144e8b6D1b476999',
@@ -5108,7 +5108,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CTSI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CTSI.png',
   },
   {
     address: '0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1',
@@ -5124,7 +5124,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SQD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SQD.png',
   },
   {
     address: '0x1D1498166DDCEeE616a6d99868e1E0677300056f',
@@ -5140,7 +5140,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XSPACE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XSPACE.png',
   },
   {
     address: '0x6b021b3f68491974bE6D4009fEe61a4e3C708fD6',
@@ -5156,7 +5156,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FUSE(LAYERZERO).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FUSE(LAYERZERO).png',
   },
   {
     address: '0x20547341E58fB558637FA15379C92e11F7b7F710',
@@ -5172,7 +5172,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOZ.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MOZ.png',
   },
   {
     address: '0x1Dbc1809486460DcD189b8a15990bCa3272Ee04e',
@@ -5202,7 +5202,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HAT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HAT.png',
   },
   {
     address: '0x13A7DeDb7169a17bE92B0E3C7C2315B46f4772B3',
@@ -5218,7 +5218,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BOOP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BOOP.png',
   },
   {
     address: '0x772598E9e62155D7fDFe65FdF01EB5a53a8465BE',
@@ -5234,7 +5234,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EMP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EMP.png',
   },
   {
     address: '0x5117f4Ad0bc70Dbb3B05bF39A1EC1Ee40DD67654',
@@ -5250,7 +5250,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AVIVE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AVIVE.png',
   },
   {
     address: '0x2Ac2B254Bc18cD4999f64773a966E4f4869c34Ee',
@@ -5266,7 +5266,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PNP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PNP.png',
   },
   {
     address: '0x565609fAF65B92F7be02468acF86f8979423e514',
@@ -5282,7 +5282,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WAVAX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WAVAX.png',
   },
   {
     address: '0x6533afac2E7BCCB20dca161449A13A32D391fb00',
@@ -5298,7 +5298,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBARB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBARB.png',
   },
   {
     address: '0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f',
@@ -5314,7 +5314,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/Y2K.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/Y2K.png',
   },
   {
     address: '0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40',
@@ -5330,7 +5330,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TBTC.png',
   },
   {
     address: '0x31C91D8Fb96BfF40955DD2dbc909B36E8b104Dde',
@@ -5346,7 +5346,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/POI$ON.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/POI$ON.png',
   },
   {
     address: '0x4897679a3E506F0bedC118250369D782F6CCA03e',
@@ -5376,7 +5376,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRXETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRXETH.png',
   },
   {
     address: '0x3803D89c31dE8B7DEf55C86f2469A5ea4Db41B92',
@@ -5420,7 +5420,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BABY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BABY.png',
   },
   {
     address: '0x656B80B667a46869144047E6e6C0000C81610253',
@@ -5436,7 +5436,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ANGLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ANGLE.png',
   },
   {
     address: '0x1C43D05be7E5b54D506e3DdB6f0305e8A66CD04e',
@@ -5452,7 +5452,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ZTX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ZTX.png',
   },
   {
     address: '0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f',
@@ -5468,7 +5468,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CBETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CBETH.png',
   },
   {
     address: '0x35cA1E5A9B1c09Fa542Fa18D1Ba4D61c8eDfF852',
@@ -5484,7 +5484,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SCHRODI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SCHRODI.png',
   },
   {
     address: '0x47c031236e19d024b42f8AE6780E44A573170703',
@@ -5528,7 +5528,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OHM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OHM.png',
   },
   {
     address: '0x116172B2482c5dC3E6f445C16Ac13367aC3FCd35',
@@ -5558,7 +5558,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YFX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YFX.png',
   },
   {
     address: '0x369eB8197062093a20402935D3a707b4aE414E9D',
@@ -5574,7 +5574,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PANA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PANA.png',
   },
   {
     address: '0xe934AB7e98d81E39477b1E47B961876c2d902598',
@@ -5590,7 +5590,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NOLA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NOLA.png',
   },
   {
     address: '0x3124678D62D2aa1f615B54525310fbfDa6DcF7AE',
@@ -5606,7 +5606,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SNSY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SNSY.png',
   },
   {
     address: '0x41b94c5867f7F6217C9a30520Cb3e793B1ee1b97',
@@ -5622,7 +5622,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXLTIA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXLTIA.png',
   },
   {
     address: '0x59D0C3f25cB3bD86E03D827C773892d247452227',
@@ -5652,7 +5652,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PLS.png',
   },
   {
     address: '0x12275DCB9048680c4Be40942eA4D92c74C63b844',
@@ -5668,7 +5668,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EUSD.png',
   },
   {
     address: '0x1310952Bc5594852459Ee45bfD0df70b34Ac5509',
@@ -5684,7 +5684,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PRF.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PRF.png',
   },
   {
     address: '0x51f9f9fF6cB2266D68c04eC289c7ABa81378a383',
@@ -5700,7 +5700,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IGS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IGS.png',
   },
   {
     address: '0x5375616bB6c52A90439fF96882a986d8FCdCe421',
@@ -5730,7 +5730,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NEXT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NEXT.png',
   },
   {
     address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
@@ -5746,7 +5746,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WUSDM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WUSDM.png',
   },
   {
     address: '0x58CB98A966F62aA6F2190eB3AA03132A0c3de3D5',
@@ -5762,7 +5762,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OPEN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OPEN.png',
   },
   {
     address: '0x79EaD7a012D97eD8DeEcE279f9bC39e264d7Eef9',
@@ -5778,7 +5778,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BONSAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BONSAI.png',
   },
   {
     address: '0x18C14C2D707b2212e17d1579789Fc06010cfca23',
@@ -5794,7 +5794,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETH+.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH+.png',
   },
   {
     address: '0x1C986661170c1834db49C3830130D4038eEeb866',
@@ -5810,7 +5810,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/APTR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/APTR.png',
   },
   {
     address: '0x64081252c497FCfeC247a664e9D10Ca8eD71b276',
@@ -5826,7 +5826,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARBIFLUX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARBIFLUX.png',
   },
   {
     address: '0x6478377A399bE8c92bD35254aA7bF287836de32e',
@@ -5842,7 +5842,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH.png',
   },
   {
     address: '0x662d0f9Ff837A51cF89A1FE7E0882a906dAC08a3',
@@ -5872,7 +5872,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PARAM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PARAM.png',
   },
   {
     address: '0x6C68eB45D5c2019136C8362cC928FB4f13F5385d',
@@ -5902,7 +5902,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/QODA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/QODA.png',
   },
   {
     address: '0x6dAF586B7370B14163171544fca24AbcC0862ac5',
@@ -5918,7 +5918,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BPET.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BPET.png',
   },
   {
     address: '0x218337d7DAe070e219c44783A64cA107dffc533e',
@@ -5948,7 +5948,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JGLP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JGLP.png',
   },
   {
     address: '0x73700aeCfC4621E112304B6eDC5BA9e36D7743D3',
@@ -5964,7 +5964,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LQETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LQETH.png',
   },
   {
     address: '0x3c72A2A78C29D1f6454CAA1bcB17a7792a180a2e',
@@ -6022,7 +6022,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/L2DAO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/L2DAO.png',
   },
   {
     address: '0xe7f6C3c1F0018E4C08aCC52965e5cbfF99e34A44',
@@ -6038,7 +6038,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLSJONES.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PLSJONES.png',
   },
   {
     address: '0xEe9801669C6138E84bD50dEB500827b776777d28',
@@ -6054,7 +6054,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/O3.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/O3.png',
   },
   {
     address: '0x521677A61D101A80cE0fB903b13cb485232774ee',
@@ -6070,7 +6070,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DAIX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DAIX.png',
   },
   {
     address: '0xF236ea74B515eF96a9898F5a4ed4Aa591f253Ce1',
@@ -6086,7 +6086,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLSDPX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PLSDPX.png',
   },
   {
     address: '0xf50874f8246776CA4B89eEF471E718F70f38458F',
@@ -6102,7 +6102,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARBS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARBS.png',
   },
   {
     address: '0xF602A45812040D90B202355bdc05438918CD3FE3',
@@ -6132,7 +6132,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NOLA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NOLA.png',
   },
   {
     address: '0xfb9Fed8cB962548A11fE7F6F282949061395c7F5',
@@ -6148,7 +6148,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NUON.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NUON.png',
   },
   {
     address: '0xEFa54BE8D63FD0d95eDd7965d0bd7477C33995A8',
@@ -6164,7 +6164,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RPLX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RPLX.png',
   },
   {
     address: '0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD',
@@ -6180,7 +6180,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAV.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MAV.png',
   },
   {
     address: '0xFB853ACEa0E76f73F8274B521FE1611C888670Cc',
@@ -6196,7 +6196,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PLX.png',
   },
   {
     address: '0x11Bf4f05EB28b802ED3aB672594DEcB20ffe2313',
@@ -6212,7 +6212,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AURY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AURY.png',
   },
   {
     address: '0x1a0590F951bc9C3818Ce75ba5Bbe92831b2cf57e',
@@ -6228,7 +6228,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDCBNB(WORMHOLE).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDCBNB(WORMHOLE).png',
   },
   {
     address: '0x1B8d516E2146D7a32Aca0FcBf9482db85fD42c3a',
@@ -6244,7 +6244,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ASCN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ASCN.png',
   },
   {
     address: '0x2ce5Fd6f6F4a159987eac99FF5158B7B62189Acf',
@@ -6274,7 +6274,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YDF.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YDF.png',
   },
   {
     address: '0x3269a3C00AB86c753856fD135d97b87FACB0d848',
@@ -6290,7 +6290,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FFM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FFM.png',
   },
   {
     address: '0x3De81CE90f5A27C5E6A5aDb04b54ABA488a6d14E',
@@ -6306,7 +6306,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PRIME.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PRIME.png',
   },
   {
     address: '0x498C620C7C91C6eba2E3Cd5485383f41613b7EB6',
@@ -6322,7 +6322,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AMKT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AMKT.png',
   },
   {
     address: '0x4F137f5b3756Cc46B0fafC62bb47B4c84E6Cef68',
@@ -6352,7 +6352,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDGLO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDGLO.png',
   },
   {
     address: '0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf',
@@ -6368,7 +6368,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBWSTETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBWSTETH.png',
   },
   {
     address: '0x54BDBF3cE36f451Ec61493236b8E6213ac87c0f6',
@@ -6384,7 +6384,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RDP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RDP.png',
   },
   {
     address: '0x560363BdA52BC6A44CA6C8c9B4a5FadbDa32fa60',
@@ -6400,7 +6400,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SFUND.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SFUND.png',
   },
   {
     address: '0x599ADB10E6A012dF34935D47407450f6D7170e3C',
@@ -6416,7 +6416,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDC.png',
   },
   {
     address: '0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D',
@@ -6446,7 +6446,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALIEN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALIEN.png',
   },
   {
     address: '0x6bcc14B02CD624EbE1a8A665Cb6d4067Aa097230',
@@ -6462,7 +6462,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FOX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FOX.png',
   },
   {
     address: '0x764BFC309090E7f93EDcE53E5BeFa374CDCB7b8e',
@@ -6478,7 +6478,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GRIMACE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRIMACE.png',
   },
   {
     address: '0x7a5D193fE4ED9098F7EAdC99797087C96b002907',
@@ -6494,7 +6494,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PLSARB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PLSARB.png',
   },
   {
     address: '0x33C88D4caC6aC34F77020915a2a88cd0417dC069',
@@ -6510,7 +6510,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USSD.png',
   },
   {
     address: '0xe66998533a1992ecE9eA99cDf47686F4fc8458E0',
@@ -6526,7 +6526,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/JUSDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JUSDC.png',
   },
   {
     address: '0xf1264873436A0771E440E2b28072FAfcC5EEBd01',
@@ -6542,7 +6542,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KNS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KNS.png',
   },
   {
     address: '0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB',
@@ -6558,7 +6558,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LODE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LODE.png',
   },
   {
     address: '0xF6938032c44bB69CD0aF34a2A50eAB75d89b35dc',
@@ -6574,7 +6574,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDC.png',
   },
   {
     address: '0x1509706a6c66CA549ff0cB464de88231DDBe213B',
@@ -6590,7 +6590,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AURA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AURA.png',
   },
   {
     address: '0x352F4bF396a7353A0877f99e99757E5d294Df374',
@@ -6606,7 +6606,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUNDAE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUNDAE.png',
   },
   {
     address: '0x51A80238B5738725128d3a3e06Ab41c1d4C05C74',
@@ -6622,7 +6622,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USH.png',
   },
   {
     address: '0x5B904f19fb9ccf493b623e5c8cE91603665788b0',
@@ -6652,7 +6652,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DOLA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DOLA.png',
   },
   {
     address: '0xEEac5E75216571773C0064b3B591A86253791DB6',
@@ -6668,7 +6668,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ELM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ELM.png',
   },
   {
     address: '0x20f9628a485ebCc566622314f6e07E7Ee61fF332',
@@ -6698,7 +6698,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DERI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DERI.png',
   },
   {
     address: '0x1824a51C106EFC27d35A74efB56d9BF54dDb22d4',
@@ -6714,7 +6714,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PRY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PRY.png',
   },
   {
     address: '0x27b58D226fe8f792730a795764945Cf146815AA7',
@@ -6730,7 +6730,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALCX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALCX.png',
   },
   {
     address: '0x2913E812Cf0dcCA30FB28E6Cac3d2DCFF4497688',
@@ -6746,7 +6746,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NUSD.png',
   },
   {
     address: '0x30dF229cefa463e991e29D42DB0bae2e122B2AC7',
@@ -6804,7 +6804,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBUSDT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBUSDT.png',
   },
   {
     address: '0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97',
@@ -6820,7 +6820,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBEURS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBEURS.png',
   },
   {
     address: '0x5575552988A3A80504bBaeB1311674fCFd40aD4B',
@@ -6836,7 +6836,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPA.png',
   },
   {
     address: '0x72f99511615Cd8fA4D776d76bb8B8f7A5162F60F',
@@ -6866,7 +6866,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GTA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GTA.png',
   },
   {
     address: '0x73eD68B834e44096eB4beA6eDeAD038c945722F1',
@@ -6882,7 +6882,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SHARKY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SHARKY.png',
   },
   {
     address: '0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE',
@@ -6898,7 +6898,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ELK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ELK.png',
   },
   {
     address: '0xf329e36C7bF6E5E86ce2150875a84Ce77f477375',
@@ -6914,7 +6914,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBAAVE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBAAVE.png',
   },
   {
     address: '0x326c33FD1113c1F29B35B4407F3d6312a8518431',
@@ -6930,7 +6930,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STRP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STRP.png',
   },
   {
     address: '0x3096e7BFd0878Cc65be71f8899Bc4CFB57187Ba3',
@@ -6946,7 +6946,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RWA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RWA.png',
   },
   {
     address: '0x487f6baB6DEC7815dcd7Dfa2C44a8a17bd3dEd27',
@@ -6962,7 +6962,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KTC.png',
   },
   {
     address: '0x6609BE1547166D1C4605F3A243FDCFf467e600C3',
@@ -6978,7 +6978,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NEU.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NEU.png',
   },
   {
     address: '0x777CF5ba9C291A1A8f57FF14836F6F9dC5c0F9Dd',
@@ -6994,7 +6994,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOLID.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLID.png',
   },
   {
     address: '0x3F56e0c36d275367b8C502090EDF38289b3dEa0d',
@@ -7010,7 +7010,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MAI.png',
   },
   {
     address: '0x1cC128a5d977B3BA7d598f01dB20A2116F59ef68',
@@ -7026,7 +7026,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ESRDNT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ESRDNT.png',
   },
   {
     address: '0x27D8De4c30ffDE34e982482AE504fC7F23061f61',
@@ -7042,7 +7042,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MMT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MMT.png',
   },
   {
     address: '0x2b1D36f5B61AdDAf7DA7ebbd11B35FD8cfb0DE31',
@@ -7058,7 +7058,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ITP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ITP.png',
   },
   {
     address: '0x32dF62dc3aEd2cD6224193052Ce665DC18165841',
@@ -7088,7 +7088,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SYNO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SYNO.png',
   },
   {
     address: '0x6Db8b088c4d41d622B44CD81B900bA690f2d496C',
@@ -7104,7 +7104,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IDIA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IDIA.png',
   },
   {
     address: '0x76CE14237110C865F431e18F91fC1B225fb6fE99',
@@ -7120,7 +7120,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/POT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/POT.png',
   },
   {
     address: '0xE946Dd7d03F6F5C440F68c84808Ca88d26475FC5',
@@ -7150,7 +7150,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MAGIC(MAGICLAND).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MAGIC(MAGICLAND).png',
   },
   {
     address: '0x6f9590958ce2beaf9c92a3a8Fca6D1dDF310e052',
@@ -7166,7 +7166,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GAST.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GAST.png',
   },
   {
     address: '0x21CCbc5e7f353EC43b2F5b1Fb12c3E9D89D30Dca',
@@ -7182,7 +7182,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BDT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BDT.png',
   },
   {
     address: '0x55678cd083fcDC2947a0Df635c93C838C89454A3',
@@ -7198,7 +7198,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LON.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LON.png',
   },
   {
     address: '0x13278cD824D33A7aDB9f0a9A84ACA7C0D2DEEBf7',
@@ -7214,7 +7214,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TAROT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TAROT.png',
   },
   {
     address: '0x55fF62567f09906A85183b866dF84bf599a4bf70',
@@ -7230,7 +7230,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KROM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KROM.png',
   },
   {
     address: '0x70d95587d40A2caf56bd97485aB3Eec10Bee6336',
@@ -7260,7 +7260,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IBEX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IBEX.png',
   },
   {
     address: '0xef261714F7E5ba6b86F4780eb6e3bf26B10729CF',
@@ -7276,7 +7276,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LOTUS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LOTUS.png',
   },
   {
     address: '0x60D01EC2D5E98Ac51C8B4cF84DfCCE98D527c747',
@@ -7292,7 +7292,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/IZI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/IZI.png',
   },
   {
     address: '0x2b41806CBf1FFB3D9e31A9ECE6B738Bf9D6f645F',
@@ -7308,7 +7308,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ENO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ENO.png',
   },
   {
     address: '0x3106E2e148525b3DB36795b04691D444c24972fB',
@@ -7324,7 +7324,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WSTLINK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WSTLINK.png',
   },
   {
     address: '0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5',
@@ -7340,7 +7340,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBFRAX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBFRAX.png',
   },
   {
     address: '0xF42e2B8bc2aF8B110b65be98dB1321B1ab8D44f5',
@@ -7356,7 +7356,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DONUT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DONUT.png',
   },
   {
     address: '0x4AA81D7AB59C775fe6F9F45E6941A0FB8cD692a6',
@@ -7372,7 +7372,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MILKTIA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MILKTIA.png',
   },
   {
     address: '0xE85B662Fe97e8562f4099d8A1d5A92D4B453bF30',
@@ -7388,7 +7388,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/THALES.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/THALES.png',
   },
   {
     address: '0x70f9daff47ddFB3A8E776450fba0F0301022aF57',
@@ -7418,7 +7418,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BTC.B.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BTC.B.png',
   },
   {
     address: '0x17573150d67d820542EFb24210371545a4868B03',
@@ -7434,7 +7434,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ALETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ALETH.png',
   },
   {
     address: '0x1F2b426417663Ac76eB92149a037753a45969F31',
@@ -7450,7 +7450,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RWAS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RWAS.png',
   },
   {
     address: '0xF0A5717Ec0883eE56438932b0fe4A20822735fBa',
@@ -7466,7 +7466,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XTK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XTK.png',
   },
   {
     address: '0xF80D589b3Dbe130c270a69F1a69D050f268786Df',
@@ -7482,7 +7482,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLUX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLUX.png',
   },
   {
     address: '0xfb9E5D956D889D91a82737B9bFCDaC1DCE3e1449',
@@ -7498,7 +7498,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LQTY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LQTY.png',
   },
   {
     address: '0x11e969e9B3f89cB16D686a03Cd8508C9fC0361AF',
@@ -7570,7 +7570,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXLWMAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXLWMAI.png',
   },
   {
     address: '0x93FA0B88C0C78e45980Fa74cdd87469311b7B3E4',
@@ -7600,7 +7600,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TGT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TGT.png',
   },
   {
     address: '0x45Df0656F8aDf017590009d2f1898eeca4F0a205',
@@ -7658,7 +7658,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GNOME.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GNOME.png',
   },
   {
     address: '0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8',
@@ -7674,7 +7674,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ORDER.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ORDER.png',
   },
   {
     address: '0x22389Dd0dF30487A8feaA4eEbF98cc64D3273294',
@@ -7830,7 +7830,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PEAR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PEAR.png',
   },
   {
     address: '0x9E75f8298e458B76382870982788988A0799195b',
@@ -7860,7 +7860,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/REUNI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/REUNI.png',
   },
   {
     address: '0x9f6AbbF0Ba6B5bfa27f4deb6597CC6Ec20573FDA',
@@ -7876,7 +7876,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRM.png',
   },
   {
     address: '0xa05245Ade25cC1063EE50Cf7c083B4524c1C4302',
@@ -7906,7 +7906,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PETH.png',
   },
   {
     address: '0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a',
@@ -7936,7 +7936,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AXLKNC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXLKNC.png',
   },
   {
     address: '0x59062301Fb510F4ea2417B67404CB16D31E604BA',
@@ -8022,7 +8022,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDZ.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDZ.png',
   },
   {
     address: '0x078f358208685046a11C85e8ad32895DED33A249',
@@ -8038,7 +8038,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/AARBWBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AARBWBTC.png',
   },
   {
     address: '0x092bAaDB7DEf4C3981454dD9c0A0D7FF07bCFc86',
@@ -8054,7 +8054,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MOR.png',
   },
   {
     address: '0x000F1720A263f96532D1ac2bb9CDC12b72C6f386',
@@ -8070,7 +8070,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLY.png',
   },
   {
     address: '0x000000000026839b3f4181f2cF69336af6153b99',
@@ -8086,7 +8086,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GG.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GG.png',
   },
   {
     address: '0x0341C0C0ec423328621788d4854119B97f44E391',
@@ -8102,7 +8102,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SILO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SILO.png',
   },
   {
     address: '0x0C4681e6C0235179ec3D4F4fc4DF3d14FDD96017',
@@ -8118,7 +8118,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RDNT(OLD).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RDNT(OLD).png',
   },
   {
     address: '0x0Ae38f7E10A43B5b2fB064B42a2f4514cbA909ef',
@@ -8134,7 +8134,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/UNSHETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UNSHETH.png',
   },
   {
     address: '0x0000206329b97DB379d5E1Bf586BbDB969C63274',
@@ -8150,7 +8150,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDA.png',
   },
   {
     address: '0x06e90A57D1ECe8752d6CE92D1aD348EaD5Eae4f4',
@@ -8166,7 +8166,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ШАЙЛУШАЙ(WORMHOLE).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ШАЙЛУШАЙ(WORMHOLE).png',
   },
   {
     address: '0x080F6AEd32Fc474DD5717105Dba5ea57268F46eb',
@@ -8182,7 +8182,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SYN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SYN.png',
   },
   {
     address: '0x004626A008B1aCdC4c74ab51644093b155e59A23',
@@ -8198,7 +8198,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STEUR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STEUR.png',
   },
   {
     address: '0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776',
@@ -8214,7 +8214,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STUSD.png',
   },
   {
     address: '0x019bE259BC299F3F653688c7655C87F998Bc7bC1',
@@ -8230,7 +8230,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/NOTE (NOTIONAL).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NOTE (NOTIONAL).png',
   },
   {
     address: '0x07D65C18CECbA423298c0aEB5d2BeDED4DFd5736',
@@ -8246,7 +8246,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHFI(BRIDGED).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETHFI(BRIDGED).png',
   },
   {
     address: '0x0BBF664D46becc28593368c97236FAa0fb397595',
@@ -8262,7 +8262,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KNOX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KNOX.png',
   },
   {
     address: '0x000D636bD52BFc1B3a699165Ef5aa340BEA8939c',
@@ -8278,7 +8278,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ODG.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ODG.png',
   },
   {
     address: '0x0Bc9E52051f553E75550CA22C196bf132c52Cf0B',
@@ -8308,7 +8308,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ARBY.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARBY.png',
   },
   {
     address: '0x0C1Cf6883efA1B496B01f654E247B9b419873054',
@@ -8338,7 +8338,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OPUL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OPUL.png',
   },
   {
     address: '0x45940000009600102A1c002F0097C4A500fa00AB',
@@ -8410,7 +8410,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WBC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WBC.png',
   },
   {
     address: '0xBc76f0FAd3C87B94Ef2e79C29680BD988E1a6C22',
@@ -8440,7 +8440,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GS (GAMMASWAP).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GS (GAMMASWAP).png',
   },
   {
     address: '0x666966Ef3925B1c92fa355FDA9722899f3e73451',
@@ -8456,7 +8456,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STABLE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STABLE.png',
   },
   {
     address: '0x7E7a7C916c19a45769f6BDAF91087f93c6C12F78',
@@ -8472,7 +8472,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EGP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EGP.png',
   },
   {
     address: '0x498Bf2B1e120FeD3ad3D42EA2165E9b73f99C1e5',
@@ -8488,7 +8488,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CRVUSD.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CRVUSD.png',
   },
   {
     address: '0xA6219B4Bf4B861A2b1C02da43b2aF266186eDC04',
@@ -8532,7 +8532,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OATH V1.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OATH V1.png',
   },
   {
     address: '0xd1E094CabC5aCB9D3b0599C3F76f2D01fF8d3563',
@@ -8548,7 +8548,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VRSW.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VRSW.png',
   },
   {
     address: '0x8f5c1A99b1df736Ad685006Cb6ADCA7B7Ae4b514',
@@ -8620,7 +8620,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MIM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MIM.png',
   },
   {
     address: '0xb74Da9FE2F96B9E0a5f4A3cf0b92dd2bEC617124',
@@ -8636,7 +8636,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SOL.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOL.png',
   },
   {
     address: '0xBD591Bd4DdB64b77B5f76Eab8f03d02519235Ae2',
@@ -8680,7 +8680,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TRB.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TRB.png',
   },
   {
     address: '0xd962C1895c46AC0378C502c207748b7061421e8e',
@@ -8808,7 +8808,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FXS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FXS.png',
   },
   {
     address: '0xBE06ca305A5Cb49ABf6B1840da7c42690406177b',
@@ -8866,7 +8866,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TBTC.png',
   },
   {
     address: '0x8d8e1b6ffc6832E8D2eF0DE8a3d957cAE7ac5067',
@@ -8882,7 +8882,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PRIME.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PRIME.png',
   },
   {
     address: '0xdf8F0c63D9335A0AbD89F9F752d293A98EA977d8',
@@ -8912,7 +8912,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STFX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STFX.png',
   },
   {
     address: '0x7f9cf5a2630a0d58567122217dF7609c26498956',
@@ -8956,7 +8956,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DHT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DHT.png',
   },
   {
     address: '0x82164a8B646401a8776F9dC5c8Cba35DcAf60Cd2',
@@ -8986,7 +8986,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CTX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CTX.png',
   },
   {
     address: '0x8553d254Cb6934b16F87D2e486b64BbD24C83C70',
@@ -9100,7 +9100,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/STG.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STG.png',
   },
   {
     address: '0xE12F29704F635F4A6E7Ae154838d21F9B33809e9',
@@ -9312,7 +9312,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BLUR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BLUR.png',
   },
   {
     address: '0x377c1Fc73D4D0f5600cd943776CED07c2B9783cd',
@@ -9356,7 +9356,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/BOND.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BOND.png',
   },
   {
     address: '0x1BDCC2075d5370293E248Cab0173eC3E551e6218',
@@ -9414,7 +9414,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SYN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SYN.png',
   },
   {
     address: '0x1bfc5d35bf0f7B9e15dc24c78b8C02dbC1e95447',
@@ -9472,7 +9472,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ERN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ERN.png',
   },
   {
     address: '0x29024832eC3baBF5074D4F46102aA988097f0Ca0',
@@ -9600,7 +9600,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FST.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FST.png',
   },
   {
     address: '0x4e91F2AF1ee0F84B529478f19794F5AFD423e4A6',
@@ -9714,7 +9714,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ACX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ACX.png',
   },
   {
     address: '0x552E4e96A0Ce6D36d161b63984848c8dAC471ea2',
@@ -9814,7 +9814,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OHM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OHM.png',
   },
   {
     address: '0x6F67043201C903bbCBC129750CB3b328Dd56a0a5',
@@ -9844,7 +9844,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/COTI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/COTI.png',
   },
   {
     address: '0x6FEb262FEb0f775B5312D2e009923f7f58AE423E',
@@ -9888,7 +9888,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FRAX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRAX.png',
   },
   {
     address: '0x753D224bCf9AAFaCD81558c32341416df61D3DAC',
@@ -9904,7 +9904,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PERP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PERP.png',
   },
   {
     address: '0xE6320ebF209971b4F4696F7f0954b8457Aa2FCC2',
@@ -10074,7 +10074,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/HOP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HOP.png',
   },
   {
     address: '0xfEb4DfC8C4Cf7Ed305bb08065D08eC6ee6728429',
@@ -10132,7 +10132,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/RARI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RARI.png',
   },
   {
     address: '0x044d8e7F3A17751D521efEa8CCf9282268fE08CC',
@@ -10162,7 +10162,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ATH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ATH.png',
   },
   {
     address: '0xC760F9782F8ceA5B06D862574464729537159966',
@@ -10178,7 +10178,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/TANGO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TANGO.png',
   },
   {
     address: '0x4e68cB952CCfb71321B8F864AEf0d034FA1B3448',
@@ -10194,7 +10194,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OHM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OHM.png',
   },
   {
     address: '0x63806C056Fa458c548Fb416B15E358A9D685710A',
@@ -10210,7 +10210,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FLUX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLUX.png',
   },
   {
     address: '0xe5a5Efe7ec8cdFA5F031D5159839A3b5E11B2e0F',
@@ -10226,7 +10226,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPA.png',
   },
   {
     address: '0x655a6BeEBF2361A19549a99486FF65f709BD2646',
@@ -10242,7 +10242,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LILAI.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LILAI.png',
   },
   {
     address: '0x94fCD9c18f99538C0f7C61c5500cA79F0D5C4dab',
@@ -10258,7 +10258,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/KIMA.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KIMA.png',
   },
   {
     address: '0xe4642fa13C164e57d9F46Dc88593BfBd608eDC4A',
@@ -10288,7 +10288,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VEMP.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VEMP.png',
   },
   {
     address: '0xCBAB6076b4B0c482e7127a201b79a13D117E2B53',
@@ -10318,7 +10318,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOZ.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MOZ.png',
   },
   {
     address: '0xbc011A12Da28e8F0f528d9eE5E7039E22F91cf18',
@@ -10334,7 +10334,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SWETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SWETH.png',
   },
   {
     address: '0xA586B3B80D7e3e8d439e25fBC16Bc5bcEE3E2c85',
@@ -10350,7 +10350,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/CTOK.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CTOK.png',
   },
   {
     address: '0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2',
@@ -10366,7 +10366,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SUSDE.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSDE.png',
   },
   {
     address: '0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1',
@@ -10382,7 +10382,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/MOLTEN.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MOLTEN.png',
   },
   {
     address: '0x11920f139a3121c2836E01551D43F95B3c31159c',
@@ -10398,7 +10398,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/YBR.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YBR.png',
   },
   {
     address: '0x4D840b741bc05FDE325D4Ec0B4CFCD0CeA237e4E',
@@ -10414,7 +10414,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/QTLX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/QTLX.png',
   },
   {
     address: '0x3c09fb9630B8f89F73871506F445F5DbedBEB0DF',
@@ -10444,7 +10444,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USDS.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDS.png',
   },
   {
     address: '0xA71E2738704e367798bAa2755aF5A10499634953',
@@ -10474,7 +10474,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/LSETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LSETH.png',
   },
   {
     address: '0x050C24dBf1eEc17babE5fc585F06116A259CC77A',
@@ -10490,7 +10490,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/DLCBTC.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DLCBTC.png',
   },
   {
     address: '0x4727a7D2022e99eE5c298513b730307F458f9B40',
@@ -10506,7 +10506,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/GUBERTO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GUBERTO.png',
   },
   {
     address: '0x87AAfFdF26c6885f6010219208D5B161ec7609c0',
@@ -10522,7 +10522,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/EQU.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EQU.png',
   },
   {
     address: '0x250f93c92AEbF7304c9e7e347D1acA8C0212Edea',
@@ -10552,7 +10552,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/PINGU (PINGU).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PINGU (PINGU).png',
   },
   {
     address: '0x35f1C5cB7Fb977E669fD244C567Da99d8a3a6850',
@@ -10568,7 +10568,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/USD0.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USD0.png',
   },
   {
     address: '0x46777C76dBbE40fABB2AAB99E33CE20058e76C59',
@@ -10598,7 +10598,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ABCRAM.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ABCRAM.png',
   },
   {
     address: '0x498127B0A9fBB955084ebB5cFf1e1e53dC670731',
@@ -10642,7 +10642,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/OOOOOO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OOOOOO.png',
   },
   {
     address: '0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7',
@@ -10658,7 +10658,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ETHX.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETHX.png',
   },
   {
     address: '0xc608Dfb90A430Df79a8a1eDBC8be7f1A0Eb4E763',
@@ -10674,7 +10674,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/FETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FETH.png',
   },
   {
     address: '0xCE788B5a56F67Abe34A70f86c937894d667675Db',
@@ -10704,7 +10704,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/VCNT.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VCNT.png',
   },
   {
     address: '0x70Ed9e9fBc9f6a8A159bcE0485a1D0759f5e8c72',
@@ -10720,7 +10720,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/WETH (MAIADAO).png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WETH (MAIADAO).png',
   },
   {
     address: '0x291A50E611035b6562a2374B8B44dE70aA8d7896',
@@ -10750,7 +10750,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/XETH.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XETH.png',
   },
   {
     address: '0xF63b14F5eE5574e3F337b2796Bbdf6dcfB4E2CB7',
@@ -10780,6 +10780,6 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/SPEED.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPEED.png',
   },
 ];

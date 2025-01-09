@@ -25,7 +25,11 @@ async function main() {
           'checking logo..',
         );
         if (token.logoURI) {
-          if (!fs.existsSync(`./assets/${token.symbol.toUpperCase()}.png`)) {
+          if (
+            !fs.existsSync(
+              `./assets/arbitrum/${token.symbol.toUpperCase()}.png`,
+            )
+          ) {
             console.log('🤌 Downloading logo from:', token.logoURI);
             await fetch(token.logoURI)
               .then((res) => res.arrayBuffer())
@@ -60,8 +64,8 @@ async function main() {
   }
 
   const entireList = tokens.map((token) => {
-    if (fs.existsSync(`./assets/${token.symbol.toUpperCase()}.png`)) {
-      token.logoUrl = `https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/${token.symbol.toUpperCase()}.png`;
+    if (fs.existsSync(`./assets/arbitrum/${token.symbol.toUpperCase()}.png`)) {
+      token.logoUrl = `https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/${token.symbol.toUpperCase()}.png`;
     }
     return JSON.stringify(token);
   });
