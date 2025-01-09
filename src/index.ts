@@ -1,11 +1,11 @@
 // Import tokens for Arbitrum
-import { tokens as arbitrum } from './chains/arbitrum.general';
-import { tokens as arbitrumPendle } from './chains/arbitrum.pendle';
-import { tokens as arbitrumAaveDebt } from './chains/arbitrum.aave';
-import { tokens as arbitrumCompoundDebt } from './chains/arbitrum.compound';
-import { tokens as arbitrumSilo } from './chains/arbitrum.silo';
-import fs from 'fs';
-import { compileFile } from '../cli/utils/format-file';
+import { tokens as arbitrum } from './chains/arbitrum/general';
+import { tokens as arbitrumPendle } from './chains/arbitrum/pendle';
+import { tokens as arbitrumAaveDebt } from './chains/arbitrum/aave';
+import { tokens as arbitrumCompoundDebt } from './chains/arbitrum/compound';
+import { tokens as arbitrumSilo } from './chains/arbitrum/silo';
+import { tokens as optimism } from './chains/optimism/general';
+import { tokens as base } from './chains/base/general';
 // Import types
 import {
   Token,
@@ -38,6 +38,8 @@ export class FactorTokenlist {
     this.generalTokens = new Map();
     this.availableGeneralTokens = {
       arbitrum,
+      optimism,
+      base,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,

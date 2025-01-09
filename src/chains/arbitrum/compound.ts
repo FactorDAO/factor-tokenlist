@@ -1,4 +1,4 @@
-import { CompoundDebtToken } from '../types';
+import { CompoundDebtToken } from '../../types';
 
 export const tokens: CompoundDebtToken[] = [
   {

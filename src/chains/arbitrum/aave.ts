@@ -1,4 +1,4 @@
-import { AaveDebtToken } from '../types';
+import { AaveDebtToken } from '../../types';
 
 export const tokens: AaveDebtToken[] = [
   {
