@@ -1,8 +1,8 @@
 import { exec } from 'child_process';
-import { tokens } from '../src/chains/arbitrum.general';
+import { tokens } from '../../../src/chains/arbitrum/general';
 import fs from 'fs';
-import { Protocols, BuildingBlock } from '../src/types';
-import { compileFile } from './utils/format-file';
+import { Protocols, BuildingBlock } from '../../../src/types';
+import { compileFile } from '../../utils/format-file';
 
 async function main() {
   // IMPORTANT /////////////////////////////////////////////////////////////////
@@ -41,7 +41,7 @@ async function main() {
   const entireList = sortedTokens.map((token) => JSON.stringify(token));
   const rawFile = compileFile(entireList);
   // Save the file
-  fs.writeFileSync(`./src/chains/${chain}.ts`, rawFile);
+  fs.writeFileSync(`./src/chains/${chain}/general.ts`, rawFile);
   exec('yarn format');
   if (updated) {
     console.log('🔥 Done!');

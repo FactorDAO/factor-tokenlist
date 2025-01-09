@@ -1,6 +1,6 @@
 export const compileFile = (entireList: string[]) => {
   let rawFile = `
-    import { Token, Protocols, BuildingBlock } from '../types';
+    import { Token, Protocols, BuildingBlock } from '../../types';
     
     export const tokens: Token[] = [${entireList}]
     `;

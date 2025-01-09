@@ -5,7 +5,7 @@ import {
   ChainId,
 } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/arbitrum.pendle';
+import { tokens } from '../../../src/chains/arbitrum/pendle';
 import fs from 'fs';
 import { compileFile } from '../../utils/format-file';
 

@@ -5,7 +5,7 @@ import {
   BuildingBlock,
 } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/arbitrum.general';
+import { tokens } from '../../../src/chains/arbitrum/general';
 import fs from 'fs';
 import { compileFile } from '../../utils/format-file';
 
@@ -67,7 +67,7 @@ async function main() {
   });
   const rawFile = compileFile(entireList);
   // Save the file
-  fs.writeFileSync('./src/chains/arbitrum.general.ts', rawFile);
+  fs.writeFileSync('./src/chains/arbitrum/general.ts', rawFile);
   exec('yarn format');
   console.log('🎉 Now tokens are:', tokens.length);
 }
