@@ -1,5 +1,13 @@
 import { AaveDebtToken } from '../../types';
 
+/**
+ * AAVE TOKEN LIST CAN BE FOUND HERE:
+ * https://arbiscan.io/address/0x7F23D86Ee20D869112572136221e173428DD740B#readContract
+ * By calling: getAllReservesTokens() to get all tokens
+ * then calling one by one:
+ * getReserveTokensAddresses(address) to get the aToken and variableDebtToken
+ */
+
 export const tokens: AaveDebtToken[] = [
   {
     aToken: '0xf329e36C7bF6E5E86ce2150875a84Ce77f477375',
