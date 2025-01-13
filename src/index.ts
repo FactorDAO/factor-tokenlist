@@ -6,8 +6,10 @@ import { tokens as arbitrumCompoundDebt } from './chains/arbitrum/compound';
 import { tokens as arbitrumSilo } from './chains/arbitrum/silo';
 import { tokens as optimism } from './chains/optimism/general';
 import { tokens as optimismAaveDebt } from './chains/optimism/aave';
+import { tokens as optimismCompoundDebt } from './chains/optimism/compound';
 import { tokens as base } from './chains/base/general';
 import { tokens as baseAaveDebt } from './chains/base/aave';
+import { tokens as baseCompoundDebt } from './chains/base/compound';
 // Import types
 import {
   Token,
@@ -53,6 +55,8 @@ export class FactorTokenlist {
     };
     this.availableCompoundDebtTokens = {
       arbitrum: arbitrumCompoundDebt,
+      optimism: optimismCompoundDebt,
+      base: baseCompoundDebt,
     };
     this.availableSiloTokens = {
       arbitrum: arbitrumSilo,
