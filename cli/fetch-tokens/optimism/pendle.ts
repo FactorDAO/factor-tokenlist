@@ -5,17 +5,16 @@ import {
   ChainId,
 } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/arbitrum/pendle';
+import { tokens } from '../../../src/chains/optimism/pendle';
 import fs from 'fs';
 import { compileFile } from '../../utils/format-file';
 
 async function main() {
-  const endpoint =
-    'https://api-v2.pendle.finance/bff/v1/42161/markets?limit=100';
+  const endpoint = 'https://api-v2.pendle.finance/bff/v1/10/markets?limit=100';
   const response = await fetch(endpoint);
   const data = await response.json();
   const pendleTokens = data.results;
-  const tokenList = new FactorTokenlist(ChainId.ARBITRUM_ONE);
+  const tokenList = new FactorTokenlist(ChainId.OPTIMISM);
   for (const token of pendleTokens) {
     try {
       const checkToken = tokenList.getToken(token.address);
@@ -25,7 +24,7 @@ async function main() {
     } catch (e: any) {
       console.log('👀 Error:', e.message);
       tokens.push({
-        chainId: ChainId.ARBITRUM_ONE,
+        chainId: ChainId.OPTIMISM,
         expiry: token.expiry,
         address: token.address,
         symbol: token.pt.symbol,
@@ -70,10 +69,10 @@ async function main() {
   );
   rawFile = rawFile.replace(
     "import { Token, Protocols, BuildingBlock } from '../../types';",
-    "import { Token, Protocols, BuildingBlock, ExtendedPendleToken } from '../../types';",
+    "import { Token, Protocols, BuildingBlock, ExtendedPendleToken } from '../../../types';",
   );
   // Save the file
-  fs.writeFileSync('./src/chains/arbitrum/pendle.ts', rawFile);
+  fs.writeFileSync('./src/chains/optimism/pendle.ts', rawFile);
   exec('yarn format');
   console.log('🎉 Now tokens are:', tokens.length);
 }
