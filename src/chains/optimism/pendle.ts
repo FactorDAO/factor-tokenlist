@@ -3,7 +3,7 @@ import {
   Protocols,
   BuildingBlock,
   ExtendedPendleToken,
-} from '../../../types';
+} from '../../types';
 
 export const tokens: ExtendedPendleToken[] = [
   {
