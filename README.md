@@ -2,6 +2,8 @@
 
 This repository contains the tokenlist for Factor.
 
-## Development
+## Contribute
 
-To add a new token, add it to the `src/<chain>` directory and run `yarn build`.
+To contribute to the tokenlist you can fork the repository and add the tokens inside the `src/chain/<protocol>` file.
+
+Once you have added the tokens you can open a PR and we will review it.
