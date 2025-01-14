@@ -155,6 +155,17 @@ export class FactorTokenlist {
     return this.siloTokens;
   }
 
+  public getSiloToken(marketAddress: string): ExtendedSiloToken {
+    const market = this.siloTokens.find(
+      (token: ExtendedSiloToken) =>
+        token.marketAddress.toLowerCase() === marketAddress.toLowerCase(),
+    );
+    if (!market) {
+      throw new Error(`Silo market with address ${marketAddress} not found`);
+    }
+    return market;
+  }
+
   /**
    * Get tokens filtered by protocol
    * @param protocol - Protocol name or identifier

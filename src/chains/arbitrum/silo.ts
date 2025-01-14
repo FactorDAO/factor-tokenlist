@@ -1,4 +1,9 @@
-import { ExtendedSiloToken, Protocols, BuildingBlock } from '../../types';
+import {
+  Token,
+  Protocols,
+  BuildingBlock,
+  ExtendedSiloToken,
+} from '../../types';
 
 export const tokens: ExtendedSiloToken[] = [
   {
@@ -835,7 +840,7 @@ export const tokens: ExtendedSiloToken[] = [
         underlyingAsset: {
           address: '0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8',
           name: 'Pendle',
-          symbol: 'PENDLE',
+          symbol: Protocols.PENDLE,
           decimals: 18,
         },
         debtToken: {
@@ -4001,6 +4006,357 @@ export const tokens: ExtendedSiloToken[] = [
           name: 'Silo Finance Protected USDC Deposit in RAM Silo',
           symbol: 'spUSDC-RAM',
           decimals: 6,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'CAP',
+    marketAddress: '0x0a386825e513ebe07e25d6570d21a932276c2327',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x031d35296154279dc1984dcd93e392b1f946737b',
+          name: 'Cap',
+          symbol: 'CAP',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0x349cedb9999dbf95ed12230bc1bc6cdd808f400a',
+          name: 'Silo Finance CAP Debt',
+          symbol: 'dCAP',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0x8b7d7626143160d2029201f1e700d3151742616b',
+          name: 'Silo Finance Borrowable CAP Deposit',
+          symbol: 'sCAP',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x0ee78b5103f6bf5b463032f710fafefab67ddbae',
+          name: 'Silo Finance Protected CAP Deposit',
+          symbol: 'spCAP',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'PT-weETH-26JUN2025-WETH',
+    marketAddress: '0x1324d3765d08763a0399ae6c2eaabfc1d98e557b',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+          name: 'Wrapped Ether',
+          symbol: 'WETH',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xb4f70efb3c8a85c8ef37c1084f5aa5735992b307',
+          name: 'Silo Finance WETH Debt in PT-weETH-26JUN2025 Silo',
+          symbol: 'dWETH-PT-weETH-26JUN2025',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0xfdf152025a160add5e81bc2b2bda27d1d8e0204c',
+          name: 'Silo Finance Borrowable WETH Deposit in PT-weETH-26JUN2025 Silo',
+          symbol: 'sWETH-PT-weETH-26JUN2025',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0xfba3d29bdd27b0e6b10e9b3641a834a56fb51823',
+          name: 'Silo Finance Protected WETH Deposit in PT-weETH-26JUN2025 Silo',
+          symbol: 'spWETH-PT-weETH-26JUN2025',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'SPA',
+    marketAddress: '0x15c0783cf29697cc9d8dc32c96bb512bb0015ad1',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x5575552988a3a80504bbaeb1311674fcfd40ad4b',
+          name: 'Sperax',
+          symbol: 'SPA',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xb8f14366b97313ee76fd5ff9617c981d1485487b',
+          name: 'Silo Finance SPA Debt',
+          symbol: 'dSPA',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0xd2ac79e0c8c6dbf64fa189525481ed20f0b841f4',
+          name: 'Silo Finance Borrowable SPA Deposit',
+          symbol: 'sSPA',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0xc3794952a673c502ba4a9f4c4898987c88423cf0',
+          name: 'Silo Finance Protected SPA Deposit',
+          symbol: 'spSPA',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'PT-rsETH-26JUN2025-WETH',
+    marketAddress: '0x29892e34791f55654cc7f1c40697d1c54cf21634',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+          name: 'Wrapped Ether',
+          symbol: 'WETH',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xd17afe40aa1e7684351491ce1116c0063d77372f',
+          name: 'Silo Finance WETH Debt in PT-rsETH-26JUN2025 Silo',
+          symbol: 'dWETH-PT-rsETH-26JUN2025',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0xa83263fdcd3ad845f94fc9c34c80a9c77824c0fe',
+          name: 'Silo Finance Borrowable WETH Deposit in PT-rsETH-26JUN2025 Silo',
+          symbol: 'sWETH-PT-rsETH-26JUN2025',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x7497d3e3f6ad3cc7bef624f5c0126452972a0dc3',
+          name: 'Silo Finance Protected WETH Deposit in PT-rsETH-26JUN2025 Silo',
+          symbol: 'spWETH-PT-rsETH-26JUN2025',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'GM',
+    marketAddress: '0x2a4bc099c743553890f62fd74ca0cb05e23334ff',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x70d95587d40a2caf56bd97485ab3eec10bee6336',
+          name: 'GMX Market',
+          symbol: 'GM',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xfb30b0e2249cf7a216e255a7c4448c5cb46321b8',
+          name: 'Silo Finance GM Debt',
+          symbol: 'dGM',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0x8c53597acee04417f4bcb62517e48e17c868557f',
+          name: 'Silo Finance Borrowable GM Deposit',
+          symbol: 'sGM',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0xdf53113f989e9469465dadb017fe68fd69bc6863',
+          name: 'Silo Finance Protected GM Deposit',
+          symbol: 'spGM',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'USDT-WETH',
+    marketAddress: '0x2ae0c6d43102c1f4413abe3001e0554622211351',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+          name: 'Wrapped Ether',
+          symbol: 'WETH',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xf28ee626037af138c265d99f738667e8a049c159',
+          name: 'Silo Finance WETH Debt in USDT Silo',
+          symbol: 'dWETH-USDT',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0x0d6a7c0d18f9e0622e766ffa1cad0892032d5aa9',
+          name: 'Silo Finance Borrowable WETH Deposit in USDT Silo',
+          symbol: 'sWETH-USDT',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x567cc14c133f407a0352b2cc86afd9e8ca821414',
+          name: 'Silo Finance Protected WETH Deposit in USDT Silo',
+          symbol: 'spWETH-USDT',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'STG',
+    marketAddress: '0x2c597152b203f5271d510fc05319e18198a1c1a2',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x6694340fc020c5e6b96567843da2df01b2ce1eb6',
+          name: 'StargateToken',
+          symbol: 'STG',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0x3dd74a719a70bdecfd891696066fb9686231f46d',
+          name: 'Silo Finance STG Debt',
+          symbol: 'dSTG',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0xc2a9794a2731c7e22b89b37510457ac6fe0a78c7',
+          name: 'Silo Finance Borrowable STG Deposit',
+          symbol: 'sSTG',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x5d8cc00299912f7286babeb28cddb11498b11095',
+          name: 'Silo Finance Protected STG Deposit',
+          symbol: 'spSTG',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'GYD-WETH',
+    marketAddress: '0x4373a155bc9211af6e8b6fc406c7bf55326195ac',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+          name: 'Wrapped Ether',
+          symbol: 'WETH',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0x3fce14ebaa2bdc7112e8b7120242d80a1c577ac3',
+          name: 'Silo Finance WETH Debt in GYD Silo',
+          symbol: 'dWETH-GYD',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0x7df26d309b37e1790191dc686ae45ed140b83f16',
+          name: 'Silo Finance Borrowable WETH Deposit in GYD Silo',
+          symbol: 'sWETH-GYD',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x25efb09501ee9ac30a043b3602c43da7bb6c3415',
+          name: 'Silo Finance Protected WETH Deposit in GYD Silo',
+          symbol: 'spWETH-GYD',
+          decimals: 18,
+        },
+      },
+    ],
+  },
+  {
+    marketName: 'ORDER',
+    marketAddress: '0x5196c0a390d6507246a5e7b8db8f197c51694861',
+    protocols: [Protocols.SILO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+    asset: [
+      {
+        underlyingAsset: {
+          address: '0x4e200fe2f3efb977d5fd9c430a41531fb04d97b8',
+          name: 'Orderly Network',
+          symbol: 'ORDER',
+          decimals: 18,
+        },
+        debtToken: {
+          address: '0xe4b8926c3433ce3b2909f2e50da9cb43cd252aef',
+          name: 'Silo Finance ORDER Debt',
+          symbol: 'dORDER',
+          decimals: 18,
+        },
+        collateralToken: {
+          address: '0xa252e31e7ab155b8bdea7dee1e3b05aa5c504ec5',
+          name: 'Silo Finance Borrowable ORDER Deposit',
+          symbol: 'sORDER',
+          decimals: 18,
+        },
+        collateralOnlyToken: {
+          address: '0x8d81fe13788474aed860cac4d73c0b942612d656',
+          name: 'Silo Finance Protected ORDER Deposit',
+          symbol: 'spORDER',
+          decimals: 18,
         },
       },
     ],
