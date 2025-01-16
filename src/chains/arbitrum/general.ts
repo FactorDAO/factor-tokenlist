@@ -1989,6 +1989,7 @@ export const tokens: Token[] = [
       BuildingBlock.DEPOSIT,
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.CONDITIONAL,
     ],
     protocols: [
       Protocols.AAVE,
