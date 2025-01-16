@@ -4,6 +4,7 @@ import { tokens as arbitrumPendle } from './chains/arbitrum/pendle';
 import { tokens as arbitrumAaveDebt } from './chains/arbitrum/aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum/compound';
 import { tokens as arbitrumSilo } from './chains/arbitrum/silo';
+import { tokens as arbitrumProVaults } from './chains/arbitrum/pro-vaults';
 import { tokens as optimism } from './chains/optimism/general';
 import { tokens as optimismAaveDebt } from './chains/optimism/aave';
 import { tokens as optimismCompoundDebt } from './chains/optimism/compound';
@@ -29,11 +30,14 @@ import {
 } from './types';
 
 export class FactorTokenlist {
+  private chainId: ChainId;
   private generalTokens: Map<string, Token>;
   private pendleTokens: ExtendedPendleToken[];
   private siloTokens: ExtendedSiloToken[];
+  private proVaultsTokens: Token[];
   public protocols: Protocols[];
   public buildingBlocks: BuildingBlock[];
+  private availableProVaultsTokens: Record<string, Token[]>;
   private availableGeneralTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
   private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
@@ -43,6 +47,7 @@ export class FactorTokenlist {
   private compoundDebtTokens: CompoundDebtToken[];
 
   constructor(chainId: ChainId) {
+    this.chainId = chainId;
     this.generalTokens = new Map();
     this.availableGeneralTokens = {
       arbitrum,
@@ -97,21 +102,50 @@ export class FactorTokenlist {
         }
       }
     }
+    // Add pendle tokens
     this.pendleTokens = this.availablePendleTokens[network] ?? [];
     if (this.pendleTokens.length > 0) {
       this.protocols.push(Protocols.PENDLE);
     }
+    // Add aave debt tokens
     this.aaveDebtTokens = this.availableAaveDebtTokens[network] ?? [];
     if (this.aaveDebtTokens.length > 0) {
       this.protocols.push(Protocols.AAVE);
     }
+    // Add compound debt tokens
     this.compoundDebtTokens = this.availableCompoundDebtTokens[network] ?? [];
     if (this.compoundDebtTokens.length > 0) {
       this.protocols.push(Protocols.COMPOUND);
     }
+    // Add silo tokens
     this.siloTokens = this.availableSiloTokens[network] ?? [];
     if (this.siloTokens.length > 0) {
       this.protocols.push(Protocols.SILO);
+    }
+  }
+
+  public async initializeProVaultsTokens(): Promise<void> {
+    const network = ChainIdToNetwork[this.chainId];
+    const proVaultsTokens = await arbitrumProVaults;
+    this.availableProVaultsTokens = {
+      arbitrum: proVaultsTokens,
+    };
+    // Add pro vaults tokens
+    this.proVaultsTokens = this.availableProVaultsTokens[network] ?? [];
+    if (this.proVaultsTokens.length > 0) {
+      for (const token of this.proVaultsTokens) {
+        this.generalTokens.set(token.address.toLowerCase(), token);
+        for (const protocol of token.protocols) {
+          if (!this.protocols.includes(protocol)) {
+            this.protocols.push(protocol);
+          }
+        }
+        for (const buildingBlock of token.buildingBlocks) {
+          if (!this.buildingBlocks.includes(buildingBlock)) {
+            this.buildingBlocks.push(buildingBlock);
+          }
+        }
+      }
     }
   }
 
@@ -164,6 +198,14 @@ export class FactorTokenlist {
       throw new Error(`Silo market with address ${marketAddress} not found`);
     }
     return market;
+  }
+
+  /**
+   * Get all available pro vaults tokens
+   * @returns Array of all pro vaults tokens
+   */
+  public getAllProVaultsTokens(): Token[] {
+    return this.proVaultsTokens;
   }
 
   /**
