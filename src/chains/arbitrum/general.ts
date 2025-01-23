@@ -1850,7 +1850,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.AAVE,
+      Protocols.COMPOUND,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDT.png',
   },
