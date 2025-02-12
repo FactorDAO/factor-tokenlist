@@ -1,4 +1,4 @@
-import { Token, Protocols, BuildingBlock } from '../../types';
+Uimport { Token, Protocols, BuildingBlock } from '../../types';
 
 export const tokens: Token[] = [
   {
@@ -1781,7 +1781,7 @@ export const tokens: Token[] = [
   },
   {
     address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
-    name: 'USD Coin (Arb1)',
+    name: 'Bridged USDC',
     symbol: 'USDC.e',
     decimals: 6,
     buildingBlocks: [
@@ -1850,7 +1850,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.AAVE,
+      Protocols.COMPOUND,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDT.png',
   },
@@ -2045,7 +2050,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.AAVE,
+      Protocols.COMPOUND,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WSTETH.png',
   },
@@ -4736,13 +4746,16 @@ export const tokens: Token[] = [
     symbol: 'ezETH',
     name: 'Renzo Restaked ETH',
     decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN, Protocols.COMPOUND],
     buildingBlocks: [
       BuildingBlock.DEPOSIT,
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/EZETH.png',
@@ -5738,13 +5751,16 @@ export const tokens: Token[] = [
     symbol: 'wUSDM',
     name: 'Wrapped Mountain Protocol USD',
     decimals: 18,
-    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN, Protocols.COMPOUND],
     buildingBlocks: [
       BuildingBlock.DEPOSIT,
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WUSDM.png',

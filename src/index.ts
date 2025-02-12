@@ -27,6 +27,7 @@ import {
   BuildingBlock,
   ChainId,
   ChainIdToNetwork,
+  SiloAsset,
 } from './types';
 
 export class FactorTokenlist {
@@ -346,6 +347,45 @@ export class FactorTokenlist {
       throw new Error(`Debt token with address ${underlyingAddress} not found`);
     }
     return debtToken;
+  }
+
+  public getUnderlyingAsset(address: string): any {
+    let underlyingAsset;
+    let protocol;
+    underlyingAsset = this.aaveDebtTokens.find(
+      (token: AaveDebtToken) =>
+        token.aToken.toLowerCase() === address.toLowerCase(),
+    )?.underlyingAddress;
+    if (underlyingAsset) {
+      protocol = Protocols.AAVE;
+    }
+    if (!underlyingAsset) {
+      underlyingAsset = this.compoundDebtTokens.find(
+        (token: CompoundDebtToken) =>
+          token.address.toLowerCase() === address.toLowerCase(),
+      )?.underlyingAddress;
+      if (underlyingAsset) {
+        protocol = Protocols.COMPOUND;
+      }
+    }
+    if (!underlyingAsset) {
+      underlyingAsset = this.pendleTokens.find(
+        (token: ExtendedPendleToken) =>
+          token.address.toLowerCase() === address.toLowerCase(),
+      )?.underlyingAsset.address;
+      if (underlyingAsset) {
+        protocol = Protocols.PENDLE;
+      }
+    }
+    if (!underlyingAsset) {
+      throw new Error(`Underlying asset with address ${address} not found`);
+    }
+    const token = this.getToken(underlyingAsset);
+    return {
+      underlyingAsset,
+      protocol,
+      token,
+    };
   }
 }
 
