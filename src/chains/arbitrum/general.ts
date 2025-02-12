@@ -1,4 +1,4 @@
-import { Token, Protocols, BuildingBlock } from '../../types';
+Uimport { Token, Protocols, BuildingBlock } from '../../types';
 
 export const tokens: Token[] = [
   {
@@ -1781,7 +1781,7 @@ export const tokens: Token[] = [
   },
   {
     address: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
-    name: 'USD Coin (Arb1)',
+    name: 'Bridged USDC',
     symbol: 'USDC.e',
     decimals: 6,
     buildingBlocks: [
