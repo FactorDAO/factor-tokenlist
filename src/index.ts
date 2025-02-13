@@ -387,6 +387,48 @@ export class FactorTokenlist {
       token,
     };
   }
+
+  public getMainAsset(address: string): any {
+    const allTokens = [
+      ...this.availableAaveDebtTokens[ChainIdToNetwork[this.chainId]],
+      ...this.availablePendleTokens[ChainIdToNetwork[this.chainId]],
+      ...this.availableSiloTokens[ChainIdToNetwork[this.chainId]],
+    ];
+    const token = allTokens.find(
+      (token: AaveDebtToken | ExtendedPendleToken | ExtendedSiloToken) => {
+        // Parsing Aave debt tokens
+        if ('variableDebtToken' in token) {
+          return (
+            token.variableDebtToken.toLowerCase() === address.toLowerCase()
+          );
+        }
+        // Parsing Pendle tokens
+        if ('pt' in token) {
+          return (
+            token.pt.address.toLowerCase() === address.toLowerCase() ||
+            token.yt.address.toLowerCase() === address.toLowerCase()
+          );
+        }
+        // Parsing Silo tokens
+        if ('marketAddress' in token) {
+          return token.asset.find(
+            (asset: SiloAsset) =>
+              asset.debtToken.address.toLowerCase() === address.toLowerCase() ||
+              asset.collateralToken.address.toLowerCase() ===
+                address.toLowerCase() ||
+              asset.collateralOnlyToken.address.toLowerCase() ===
+                address.toLowerCase() ||
+              asset.collateralToken.address.toLowerCase() ===
+                address.toLowerCase(),
+          );
+        }
+      },
+    );
+    if (!token) {
+      throw new Error(`Token with address ${address} not found`);
+    }
+    return token;
+  }
 }
 
 export * from './types';
