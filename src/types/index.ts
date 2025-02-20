@@ -48,6 +48,7 @@ export enum BuildingBlock {
   REMOVE_LIQUIDITY = 'REMOVE_LIQUIDITY',
   COLLECT_FEE = 'COLLECT_FEE',
   CREATE_LP = 'CREATE_LP',
+  CLAIM_REWARDS = 'CLAIM_REWARDS',
   ERC721 = 'ERC721',
 }
 
@@ -111,6 +112,8 @@ export interface AaveDebtToken {
   decimals: number;
   underlyingAddress: string;
   underlyingSymbol: string;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 }
 
 export interface CompoundDebtToken {
@@ -119,6 +122,8 @@ export interface CompoundDebtToken {
   decimals: number;
   underlyingAddress: string;
   underlyingSymbol: string;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 }
 
 export const ProtocolsByBuildingBlock: Partial<

@@ -1,4 +1,4 @@
-import { AaveDebtToken } from '../../types';
+import { AaveDebtToken, BuildingBlock, Protocols } from '../../types';
 
 /**
  * AAVE TOKEN LIST CAN BE FOUND HERE:
@@ -16,6 +16,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0xba5ddd1f9d7f570dc94a51479a000e3bce967196',
     underlyingSymbol: 'AAVE',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97',
@@ -24,6 +31,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 2,
     underlyingAddress: '0xD22a58f79e9481D1a88e00c343885A588b34b68B',
     underlyingSymbol: 'EURS',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x625E7708f30cA75bfd92586e17077590C60eb4cD',
@@ -32,6 +46,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 6,
     underlyingAddress: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
     underlyingSymbol: 'USDC.e',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8',
@@ -40,6 +61,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
     underlyingSymbol: 'WETH',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77',
@@ -48,6 +76,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x35751007a407ca6feffe80b3cb397736d2cf4dbe',
     underlyingSymbol: 'weETH',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x078f358208685046a11C85e8ad32895DED33A249',
@@ -56,6 +91,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 8,
     underlyingAddress: '0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f',
     underlyingSymbol: 'WBTC',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x724dc807b04555b71ed48a6896b6F41593b8C637',
@@ -64,6 +106,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 6,
     underlyingAddress: '0xaf88d065e77c8cc2239327c5edb3a432268e5831',
     underlyingSymbol: 'USDC',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA',
@@ -72,6 +121,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x3F56e0c36d275367b8C502090EDF38289b3dEa0d',
     underlyingSymbol: 'MAI',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf',
@@ -80,6 +136,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x5979d7b546e38e414f7e9822514be443a4800529',
     underlyingSymbol: 'wstETH',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x6ab707Aca953eDAeFBc4fD23bA73294241490620',
@@ -88,6 +151,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 6,
     underlyingAddress: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
     underlyingSymbol: 'USDT',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x6533afac2E7BCCB20dca161449A13A32D391fb00',
@@ -96,6 +166,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x912ce59144191c1204e64559fe8253a0e49e6548',
     underlyingSymbol: 'ARB',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530',
@@ -104,6 +181,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0xf97f4df75117a78c1a5a0dbb814af92458539fb4',
     underlyingSymbol: 'LINK',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
@@ -112,6 +196,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0xda10009cbd5d07dd0cecc66161fc93d7c9000da1',
     underlyingSymbol: 'DAI',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x8Eb270e296023E9D92081fdF967dDd7878724424',
@@ -120,6 +211,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8',
     underlyingSymbol: 'rETH',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0xeBe517846d0F36eCEd99C735cbF6131e1fEB775D',
@@ -128,6 +226,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x7dff72693f6a4149b17e7c6314655f6a9f7c8b33',
     underlyingSymbol: 'GHO',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x8ffDf2DE812095b1D19CB146E4c004587C0A0692',
@@ -136,6 +241,13 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x93b346b6bc2548da6a1e7d98e9a421b42541425b',
     underlyingSymbol: 'LUSD',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
   {
     aToken: '0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5',
@@ -144,5 +256,12 @@ export const tokens: AaveDebtToken[] = [
     decimals: 18,
     underlyingAddress: '0x17fc002b466eec40dae837fc4be5c67993ddbd6f',
     underlyingSymbol: 'FRAX',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
   },
 ];

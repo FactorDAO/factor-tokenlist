@@ -1,4 +1,4 @@
-import { CompoundDebtToken } from '../../types';
+import { BuildingBlock, CompoundDebtToken, Protocols } from '../../types';
 
 export const tokens: CompoundDebtToken[] = [
   {
@@ -7,5 +7,13 @@ export const tokens: CompoundDebtToken[] = [
     decimals: 6,
     underlyingAddress: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
     underlyingSymbol: 'USDC',
+    protocols: [Protocols.COMPOUND],
+    buildingBlocks: [
+      BuildingBlock.BORROW,
+      BuildingBlock.REPAY,
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.CLAIM_REWARDS,
+    ],
   },
 ];

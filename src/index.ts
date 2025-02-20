@@ -216,12 +216,23 @@ export class FactorTokenlist {
    */
   public getTokensByProtocol(
     protocol: Protocols,
-  ): Token[] | ExtendedPendleToken[] | ExtendedSiloToken[] {
+  ):
+    | Token[]
+    | ExtendedPendleToken[]
+    | ExtendedSiloToken[]
+    | AaveDebtToken[]
+    | CompoundDebtToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.pendleTokens;
     }
     if (protocol === Protocols.SILO) {
       return this.siloTokens;
+    }
+    if (protocol === Protocols.AAVE) {
+      return this.aaveDebtTokens;
+    }
+    if (protocol === Protocols.COMPOUND) {
+      return this.compoundDebtTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
