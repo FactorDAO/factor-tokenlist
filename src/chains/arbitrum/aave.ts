@@ -27,7 +27,7 @@ export const tokens: AaveDebtToken[] = [
   {
     aToken: '0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97',
     variableDebtToken: '0x4a1c3aD6Ed28a636ee1751C69071f6be75DEb8B8',
-    symbol: 'aArbAAVE',
+    symbol: 'aArbEURS',
     decimals: 2,
     underlyingAddress: '0xD22a58f79e9481D1a88e00c343885A588b34b68B',
     underlyingSymbol: 'EURS',
