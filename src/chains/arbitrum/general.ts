@@ -508,22 +508,6 @@ export const tokens: Token[] = [
     protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
   },
   {
-    address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-    name: 'ETH',
-    symbol: 'ETH',
-    decimals: 18,
-    buildingBlocks: [
-      BuildingBlock.SWAP,
-      BuildingBlock.DEPOSIT,
-      BuildingBlock.CREATE_LP,
-      BuildingBlock.PROVIDE_LIQUIDITY,
-      BuildingBlock.WITHDRAW,
-    ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
-    logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH.png',
-  },
-  {
     address: '0x6dd963c510c2d2f09d5eddb48ede45fed063eb36',
     name: 'Factor',
     symbol: 'FCTR',
