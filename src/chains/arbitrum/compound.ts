@@ -36,7 +36,7 @@ export const tokens: CompoundDebtToken[] = [
     symbol: 'cWETHv3',
     decimals: 18,
     underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
-    underlyingSymbol: 'wETH',
+    underlyingSymbol: 'WETH',
     protocols: [Protocols.COMPOUND],
     buildingBlocks: [
       BuildingBlock.BORROW,
