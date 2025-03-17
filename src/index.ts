@@ -22,7 +22,7 @@ import {
   ProtocolsByBuildingBlock,
   ExtendedPendleToken,
   AaveDebtToken,
-  CompoundDebtToken,
+  CompoundBaseToken,
   ExtendedSiloToken,
   BuildingBlock,
   ChainId,
@@ -42,10 +42,10 @@ export class FactorTokenlist {
   private availableGeneralTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
   private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
-  private availableCompoundDebtTokens: Record<string, CompoundDebtToken[]>;
+  private availableCompoundBaseTokens: Record<string, CompoundBaseToken[]>;
   private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
   private aaveDebtTokens: AaveDebtToken[];
-  private compoundDebtTokens: CompoundDebtToken[];
+  private CompoundBaseTokens: CompoundBaseToken[];
 
   constructor(chainId: ChainId) {
     this.chainId = chainId;
@@ -65,7 +65,7 @@ export class FactorTokenlist {
       optimism: optimismAaveDebt,
       base: baseAaveDebt,
     };
-    this.availableCompoundDebtTokens = {
+    this.availableCompoundBaseTokens = {
       arbitrum: arbitrumCompoundDebt,
       optimism: optimismCompoundDebt,
       base: baseCompoundDebt,
@@ -114,8 +114,8 @@ export class FactorTokenlist {
       this.protocols.push(Protocols.AAVE);
     }
     // Add compound debt tokens
-    this.compoundDebtTokens = this.availableCompoundDebtTokens[network] ?? [];
-    if (this.compoundDebtTokens.length > 0) {
+    this.CompoundBaseTokens = this.availableCompoundBaseTokens[network] ?? [];
+    if (this.CompoundBaseTokens.length > 0) {
       this.protocols.push(Protocols.COMPOUND);
     }
     // Add silo tokens
@@ -178,8 +178,8 @@ export class FactorTokenlist {
    * Get all available compound debt tokens in Arbitrum
    * @returns Array of all compound debt tokens
    */
-  public getAllCompoundDebtTokens(): CompoundDebtToken[] {
-    return this.compoundDebtTokens;
+  public getAllCompoundBaseTokens(): CompoundBaseToken[] {
+    return this.CompoundBaseTokens;
   }
 
   /**
@@ -221,7 +221,7 @@ export class FactorTokenlist {
     | ExtendedPendleToken[]
     | ExtendedSiloToken[]
     | AaveDebtToken[]
-    | CompoundDebtToken[] {
+    | CompoundBaseToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.pendleTokens;
     }
@@ -232,7 +232,7 @@ export class FactorTokenlist {
       return this.aaveDebtTokens;
     }
     if (protocol === Protocols.COMPOUND) {
-      return this.compoundDebtTokens;
+      return this.CompoundBaseTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
@@ -332,7 +332,7 @@ export class FactorTokenlist {
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
-  ): AaveDebtToken | CompoundDebtToken {
+  ): AaveDebtToken | CompoundBaseToken {
     if (
       protocol !== Protocols.AAVE &&
       protocol !== Protocols.SILO &&
@@ -348,8 +348,8 @@ export class FactorTokenlist {
           underlyingAddress.toLowerCase(),
       );
     } else if (protocol === Protocols.COMPOUND) {
-      debtToken = this.compoundDebtTokens.find(
-        (token: CompoundDebtToken) =>
+      debtToken = this.CompoundBaseTokens.find(
+        (token: CompoundBaseToken) =>
           token.underlyingAddress.toLowerCase() ===
           underlyingAddress.toLowerCase(),
       );
@@ -360,6 +360,11 @@ export class FactorTokenlist {
     return debtToken;
   }
 
+  /**
+   * Get underlying asset by address
+   * @param address - Token address
+   * @returns Underlying asset
+   */
   public getUnderlyingAsset(address: string): any {
     let underlyingAsset;
     let protocol;
@@ -371,9 +376,9 @@ export class FactorTokenlist {
       protocol = Protocols.AAVE;
     }
     if (!underlyingAsset) {
-      underlyingAsset = this.compoundDebtTokens.find(
-        (token: CompoundDebtToken) =>
-          token.address.toLowerCase() === address.toLowerCase(),
+      underlyingAsset = this.CompoundBaseTokens.find(
+        (token: CompoundBaseToken) =>
+          token.baseAssetAddress.toLowerCase() === address.toLowerCase(),
       )?.underlyingAddress;
       if (underlyingAsset) {
         protocol = Protocols.COMPOUND;
@@ -399,6 +404,11 @@ export class FactorTokenlist {
     };
   }
 
+  /**
+   * Get main asset by address
+   * @param address - Token address
+   * @returns Main asset
+   */
   public getMainAsset(address: string): any {
     const allTokens = [
       ...this.availableAaveDebtTokens[ChainIdToNetwork[this.chainId]],
