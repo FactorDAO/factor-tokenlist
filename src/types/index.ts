@@ -116,14 +116,22 @@ export interface AaveDebtToken {
   buildingBlocks: BuildingBlock[];
 }
 
-export interface CompoundDebtToken {
+export type CompoundCollateral = {
   address: string;
+  name: string;
+  symbol: string;
+  decimals: number;
+}
+
+export interface CompoundBaseToken {
+  baseAssetAddress: string;
   symbol: string;
   decimals: number;
   underlyingAddress: string;
   underlyingSymbol: string;
   protocols: Protocols[];
   buildingBlocks: BuildingBlock[];
+  collateralTokens: CompoundCollateral[]
 }
 
 export const ProtocolsByBuildingBlock: Partial<
