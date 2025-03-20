@@ -10799,4 +10799,36 @@ export const tokens: Token[] = [
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPEED.png',
   },
+  {
+    address: '0x6491c05A82219b8D1479057361ff1654749b876b',
+    symbol: 'USDS',
+    name: 'USDS Stablecoin',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SKYUSDS.png',
+  },
+  {
+    address: '0xdDb46999F8891663a8F2828d25298f70416d7610',
+    symbol: 'sUSDS',
+    name: 'Savings USDS',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSDS.png',
+  },
 ];
