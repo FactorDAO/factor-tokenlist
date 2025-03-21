@@ -15,14 +15,19 @@ import { tokens as baseAaveDebt } from './chains/base/aave';
 import { tokens as baseCompoundDebt } from './chains/base/compound';
 import { tokens as basePendle } from './chains/base/pendle';
 import { tokens as baseSilo } from './chains/base/silo';
+import { tokens as baseMorpho } from './chains/base/morpho';
+import { tokens as arbitrumMorpho } from './chains/arbitrum/morpho';
+import { tokens as optimismMorpho } from './chains/optimism/morpho';
+
 // Import types
 import {
   Token,
   Protocols,
   ProtocolsByBuildingBlock,
   ExtendedPendleToken,
-  AaveDebtToken,
-  CompoundBaseToken,
+  AaveToken,
+  CompoundToken,
+  MorphoToken,
   ExtendedSiloToken,
   BuildingBlock,
   ChainId,
@@ -41,11 +46,13 @@ export class FactorTokenlist {
   private availableProVaultsTokens: Record<string, Token[]>;
   private availableGeneralTokens: Record<string, Token[]>;
   private availablePendleTokens: Record<string, ExtendedPendleToken[]>;
-  private availableAaveDebtTokens: Record<string, AaveDebtToken[]>;
-  private availableCompoundBaseTokens: Record<string, CompoundBaseToken[]>;
+  private availableAaveTokens: Record<string, AaveToken[]>;
+  private availableCompoundTokens: Record<string, CompoundToken[]>;
   private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
-  private aaveDebtTokens: AaveDebtToken[];
-  private CompoundBaseTokens: CompoundBaseToken[];
+  private availableMorphoTokens: Record<string, MorphoToken[]>;
+  private AaveTokens: AaveToken[];
+  private CompoundTokens: CompoundToken[];
+  private MorphoTokens: MorphoToken[];
 
   constructor(chainId: ChainId) {
     this.chainId = chainId;
@@ -60,12 +67,12 @@ export class FactorTokenlist {
       optimism: optimismPendle,
       base: basePendle,
     };
-    this.availableAaveDebtTokens = {
+    this.availableAaveTokens = {
       arbitrum: arbitrumAaveDebt,
       optimism: optimismAaveDebt,
       base: baseAaveDebt,
     };
-    this.availableCompoundBaseTokens = {
+    this.availableCompoundTokens = {
       arbitrum: arbitrumCompoundDebt,
       optimism: optimismCompoundDebt,
       base: baseCompoundDebt,
@@ -74,6 +81,11 @@ export class FactorTokenlist {
       arbitrum: arbitrumSilo,
       optimism: optimismSilo,
       base: baseSilo,
+    };
+    this.availableMorphoTokens = {
+      arbitrum: arbitrumMorpho,
+      optimism: optimismMorpho,
+      base: baseMorpho,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -109,19 +121,24 @@ export class FactorTokenlist {
       this.protocols.push(Protocols.PENDLE);
     }
     // Add aave debt tokens
-    this.aaveDebtTokens = this.availableAaveDebtTokens[network] ?? [];
-    if (this.aaveDebtTokens.length > 0) {
+    this.AaveTokens = this.availableAaveTokens[network] ?? [];
+    if (this.AaveTokens.length > 0) {
       this.protocols.push(Protocols.AAVE);
     }
     // Add compound debt tokens
-    this.CompoundBaseTokens = this.availableCompoundBaseTokens[network] ?? [];
-    if (this.CompoundBaseTokens.length > 0) {
+    this.CompoundTokens = this.availableCompoundTokens[network] ?? [];
+    if (this.CompoundTokens.length > 0) {
       this.protocols.push(Protocols.COMPOUND);
     }
     // Add silo tokens
     this.siloTokens = this.availableSiloTokens[network] ?? [];
     if (this.siloTokens.length > 0) {
       this.protocols.push(Protocols.SILO);
+    }
+    // Add morpho tokens
+    this.MorphoTokens = this.availableMorphoTokens[network] ?? [];
+    if (this.MorphoTokens.length > 0) {
+      this.protocols.push(Protocols.MORPHO);
     }
   }
 
@@ -170,16 +187,16 @@ export class FactorTokenlist {
    * Get all available aave debt tokens in Arbitrum
    * @returns Array of all aave debt tokens
    */
-  public getAllAaveDebtTokens(): AaveDebtToken[] {
-    return this.aaveDebtTokens;
+  public getAllAaveTokens(): AaveToken[] {
+    return this.AaveTokens;
   }
 
   /**
    * Get all available compound debt tokens in Arbitrum
    * @returns Array of all compound debt tokens
    */
-  public getAllCompoundBaseTokens(): CompoundBaseToken[] {
-    return this.CompoundBaseTokens;
+  public getAllCompoundTokens(): CompoundToken[] {
+    return this.CompoundTokens;
   }
 
   /**
@@ -190,6 +207,11 @@ export class FactorTokenlist {
     return this.siloTokens;
   }
 
+  /**
+   * Get silo token by market address
+   * @param marketAddress - Market address
+   * @returns Silo token
+   */
   public getSiloToken(marketAddress: string): ExtendedSiloToken {
     const market = this.siloTokens.find(
       (token: ExtendedSiloToken) =>
@@ -199,6 +221,29 @@ export class FactorTokenlist {
       throw new Error(`Silo market with address ${marketAddress} not found`);
     }
     return market;
+  }
+
+  /**
+   * Get all available morpho tokens
+   * @returns Array of all morpho tokens
+   */
+  public getAllMorphoTokens(): MorphoToken[] {
+    return this.MorphoTokens;
+  }
+
+  /**
+   * Get morpho token by market id
+   * @param marketId - Market id
+   * @returns Morpho token
+   */
+  public getMorphoToken(marketId: string): MorphoToken {
+    const token = this.MorphoTokens.find(
+      (token: MorphoToken) => token.id.toLowerCase() === marketId.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(`Morpho token with id ${marketId} not found`);
+    }
+    return token;
   }
 
   /**
@@ -220,8 +265,9 @@ export class FactorTokenlist {
     | Token[]
     | ExtendedPendleToken[]
     | ExtendedSiloToken[]
-    | AaveDebtToken[]
-    | CompoundBaseToken[] {
+    | AaveToken[]
+    | CompoundToken[]
+    | MorphoToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.pendleTokens;
     }
@@ -229,10 +275,13 @@ export class FactorTokenlist {
       return this.siloTokens;
     }
     if (protocol === Protocols.AAVE) {
-      return this.aaveDebtTokens;
+      return this.AaveTokens;
     }
     if (protocol === Protocols.COMPOUND) {
-      return this.CompoundBaseTokens;
+      return this.CompoundTokens;
+    }
+    if (protocol === Protocols.MORPHO) {
+      return this.MorphoTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
@@ -332,25 +381,32 @@ export class FactorTokenlist {
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
-  ): AaveDebtToken | CompoundBaseToken {
+  ): AaveToken | CompoundToken | MorphoToken {
     if (
       protocol !== Protocols.AAVE &&
       protocol !== Protocols.SILO &&
-      protocol !== Protocols.COMPOUND
+      protocol !== Protocols.COMPOUND &&
+      protocol !== Protocols.MORPHO
     ) {
       throw new Error(`Protocol ${protocol} is not supported`);
     }
     let debtToken;
     if (protocol === Protocols.AAVE) {
-      debtToken = this.aaveDebtTokens.find(
-        (token: AaveDebtToken) =>
+      debtToken = this.AaveTokens.find(
+        (token: AaveToken) =>
           token.underlyingAddress.toLowerCase() ===
           underlyingAddress.toLowerCase(),
       );
     } else if (protocol === Protocols.COMPOUND) {
-      debtToken = this.CompoundBaseTokens.find(
-        (token: CompoundBaseToken) =>
+      debtToken = this.CompoundTokens.find(
+        (token: CompoundToken) =>
           token.underlyingAddress.toLowerCase() ===
+          underlyingAddress.toLowerCase(),
+      );
+    } else if (protocol === Protocols.MORPHO) {
+      debtToken = this.MorphoTokens.find(
+        (token: MorphoToken) =>
+          token.collateralAsset.address.toLowerCase() ===
           underlyingAddress.toLowerCase(),
       );
     }
@@ -368,16 +424,16 @@ export class FactorTokenlist {
   public getUnderlyingAsset(address: string): any {
     let underlyingAsset;
     let protocol;
-    underlyingAsset = this.aaveDebtTokens.find(
-      (token: AaveDebtToken) =>
+    underlyingAsset = this.AaveTokens.find(
+      (token: AaveToken) =>
         token.aToken.toLowerCase() === address.toLowerCase(),
     )?.underlyingAddress;
     if (underlyingAsset) {
       protocol = Protocols.AAVE;
     }
     if (!underlyingAsset) {
-      underlyingAsset = this.CompoundBaseTokens.find(
-        (token: CompoundBaseToken) =>
+      underlyingAsset = this.CompoundTokens.find(
+        (token: CompoundToken) =>
           token.baseAssetAddress.toLowerCase() === address.toLowerCase(),
       )?.underlyingAddress;
       if (underlyingAsset) {
@@ -394,13 +450,20 @@ export class FactorTokenlist {
       }
     }
     if (!underlyingAsset) {
+      underlyingAsset = this.MorphoTokens.find(
+        (token: MorphoToken) =>
+          token.collateralAsset.address.toLowerCase() === address.toLowerCase(),
+      )?.loanAsset.address;
+      if (underlyingAsset) {
+        protocol = Protocols.MORPHO;
+      }
+    }
+    if (!underlyingAsset) {
       throw new Error(`Underlying asset with address ${address} not found`);
     }
-    const token = this.getToken(underlyingAsset);
     return {
       underlyingAsset,
       protocol,
-      token,
     };
   }
 
@@ -411,12 +474,19 @@ export class FactorTokenlist {
    */
   public getMainAsset(address: string): any {
     const allTokens = [
-      ...this.availableAaveDebtTokens[ChainIdToNetwork[this.chainId]],
+      ...this.availableAaveTokens[ChainIdToNetwork[this.chainId]],
       ...this.availablePendleTokens[ChainIdToNetwork[this.chainId]],
       ...this.availableSiloTokens[ChainIdToNetwork[this.chainId]],
+      ...this.availableMorphoTokens[ChainIdToNetwork[this.chainId]],
     ];
     const token = allTokens.find(
-      (token: AaveDebtToken | ExtendedPendleToken | ExtendedSiloToken) => {
+      (
+        token:
+          | AaveToken
+          | ExtendedPendleToken
+          | ExtendedSiloToken
+          | MorphoToken,
+      ) => {
         // Parsing Aave debt tokens
         if ('variableDebtToken' in token) {
           return (
@@ -441,6 +511,12 @@ export class FactorTokenlist {
                 address.toLowerCase() ||
               asset.collateralToken.address.toLowerCase() ===
                 address.toLowerCase(),
+          );
+        }
+        // Parsing Morpho tokens
+        if ('loanAsset' in token) {
+          return (
+            token.loanAsset.address.toLowerCase() === address.toLowerCase()
           );
         }
       },

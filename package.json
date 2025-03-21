@@ -1,6 +1,6 @@
 {
   "name": "@factordao/tokenlist",
-  "version": "1.1.19",
+  "version": "1.2.0",
   "license": "MIT",
   "files": [
     "dist",

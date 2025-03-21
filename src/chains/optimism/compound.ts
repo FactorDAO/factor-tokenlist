@@ -1,6 +1,6 @@
-import { BuildingBlock, CompoundBaseToken, Protocols } from '../../types';
+import { BuildingBlock, CompoundToken, Protocols } from '../../types';
 
-export const tokens: CompoundBaseToken[] = [
+export const tokens: CompoundToken[] = [
   {
     baseAssetAddress: '0x2e44e174f7D53F0212823acC11C01A11d58c5bCB',
     symbol: 'cUSDCv3',
