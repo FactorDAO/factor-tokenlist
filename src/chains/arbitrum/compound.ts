@@ -23,9 +23,9 @@ export const tokens: CompoundBaseToken[] = [
         decimals: 8,
       },
       {
-        address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-        name: 'ETH',
-        symbol: 'ETH',
+        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        name: 'Wrapped Ether',
+        symbol: 'WETH',
         decimals: 18,
       },
       {
@@ -82,9 +82,9 @@ export const tokens: CompoundBaseToken[] = [
         decimals: 8,
       },
       {
-        address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-        name: 'ETH',
-        symbol: 'ETH',
+        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        name: 'Wrapped Ether',
+        symbol: 'WETH',
         decimals: 18,
       },
       {
@@ -188,9 +188,9 @@ export const tokens: CompoundBaseToken[] = [
         decimals: 8,
       },
       {
-        address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-        name: 'ETH',
-        symbol: 'ETH',
+        address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        name: 'Wrapped Ether',
+        symbol: 'WETH',
         decimals: 18,
       },
       {
