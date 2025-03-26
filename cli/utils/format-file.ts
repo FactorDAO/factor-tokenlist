@@ -27,6 +27,7 @@ export const compileFile = (entireList: string[]) => {
   rawFile = rawFile.replace(/"COMPOUND"/g, 'Protocols.COMPOUND');
   rawFile = rawFile.replace(/"PENDLE"/g, 'Protocols.PENDLE');
   rawFile = rawFile.replace(/"SILO"/g, 'Protocols.SILO');
+  rawFile = rawFile.replace(/"MORPHO"/g, 'Protocols.MORPHO');
 
   return rawFile;
 };

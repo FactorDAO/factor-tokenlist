@@ -1,4 +1,10 @@
-import { FactorTokenlist, ChainId, Protocols } from '../../../src';
+import {
+  FactorTokenlist,
+  ChainId,
+  Protocols,
+  BuildingBlock,
+  AaveToken,
+} from '../../../src';
 import { exec } from 'child_process';
 import { tokens } from '../../../src/chains/base/aave';
 import fs from 'fs';
@@ -15,7 +21,7 @@ import { aaveAbi } from '../../utils/aaveAbi';
  * getReserveTokensAddresses(address) to get the aToken and variableDebtToken
  */
 
-type AaveToken = {
+type AaveOnchainToken = {
   symbol: string;
   tokenAddress: `0x${string}`;
 };
@@ -31,7 +37,7 @@ async function main() {
     address: AaveProtocolDataProvider,
     abi: aaveAbi,
     functionName: 'getAllReservesTokens',
-  })) as AaveToken[];
+  })) as AaveOnchainToken[];
 
   console.log(aaveTokens);
 
@@ -40,7 +46,7 @@ async function main() {
       const checkToken = tokenList.getDebtToken(
         token.tokenAddress,
         Protocols.AAVE,
-      );
+      ) as any as AaveToken;
       if (checkToken) {
         console.log('🤌 Token already exists:', checkToken.symbol);
       }
@@ -72,6 +78,13 @@ async function main() {
         decimals: aTokenDecimals,
         underlyingAddress: token.tokenAddress,
         underlyingSymbol: token.symbol,
+        protocols: [Protocols.AAVE],
+        buildingBlocks: [
+          BuildingBlock.LEND,
+          BuildingBlock.BORROW,
+          BuildingBlock.WITHDRAW,
+          BuildingBlock.REPAY,
+        ],
       });
       console.log('🔥 Pushing token:', aTokenSymbol);
     }
@@ -83,11 +96,11 @@ async function main() {
   let rawFile = compileFile(entireList);
   rawFile = rawFile.replace(
     'export const tokens: Token[] = [',
-    'export const tokens: AaveDebtToken[] = [',
+    'export const tokens: AaveToken[] = [',
   );
   rawFile = rawFile.replace(
     "import { Token, Protocols, BuildingBlock } from '../../types';",
-    "import { AaveDebtToken } from '../../types';",
+    "import { AaveToken } from '../../types';",
   );
   // Save the file
   fs.writeFileSync('./src/chains/base/aave.ts', rawFile);

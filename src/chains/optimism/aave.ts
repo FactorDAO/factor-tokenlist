@@ -1,6 +1,6 @@
-import { AaveDebtToken, BuildingBlock, Protocols } from '../../types';
+import { AaveToken, BuildingBlock, Protocols } from '../../types';
 
-export const tokens: AaveDebtToken[] = [
+export const tokens: AaveToken[] = [
   {
     aToken: '0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE',
     variableDebtToken: '0x8619d80FB0141ba7F184CbF22fd724116D9f7ffC',

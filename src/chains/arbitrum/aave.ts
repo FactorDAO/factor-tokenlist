@@ -1,4 +1,4 @@
-import { AaveDebtToken, BuildingBlock, Protocols } from '../../types';
+import { AaveToken, BuildingBlock, Protocols } from '../../types';
 
 /**
  * AAVE TOKEN LIST CAN BE FOUND HERE:
@@ -8,7 +8,7 @@ import { AaveDebtToken, BuildingBlock, Protocols } from '../../types';
  * getReserveTokensAddresses(address) to get the aToken and variableDebtToken
  */
 
-export const tokens: AaveDebtToken[] = [
+export const tokens: AaveToken[] = [
   {
     aToken: '0xf329e36C7bF6E5E86ce2150875a84Ce77f477375',
     variableDebtToken: '0xE80761Ea617F66F96274eA5e8c37f03960ecC679',

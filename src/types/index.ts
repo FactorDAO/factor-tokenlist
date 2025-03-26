@@ -69,6 +69,7 @@ export enum Protocols {
   UMAMI = 'UMAMI',
   UNISWAP = 'UNISWAP',
   VLP = 'VLP',
+  MORPHO = 'MORPHO',
 }
 
 export interface Token {
@@ -105,7 +106,7 @@ export interface ExtendedSiloToken {
   buildingBlocks: BuildingBlock[];
 }
 
-export interface AaveDebtToken {
+export interface AaveToken {
   aToken: string;
   variableDebtToken: string;
   symbol: string;
@@ -116,12 +117,22 @@ export interface AaveDebtToken {
   buildingBlocks: BuildingBlock[];
 }
 
-export interface CompoundDebtToken {
-  address: string;
+export interface CompoundToken {
+  baseAssetAddress: string;
   symbol: string;
   decimals: number;
   underlyingAddress: string;
   underlyingSymbol: string;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
+  collateralTokens: TokenMetadata[];
+}
+
+export interface MorphoToken {
+  name: string;
+  id: string;
+  collateralAsset: TokenMetadata;
+  loanAsset: TokenMetadata;
   protocols: Protocols[];
   buildingBlocks: BuildingBlock[];
 }
