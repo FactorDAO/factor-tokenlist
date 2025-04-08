@@ -5,7 +5,7 @@ export const tokens: CompoundToken[] = [
     baseAssetAddress: '0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf',
     symbol: 'cUSDCv3',
     decimals: 6,
-    underlyingAddress: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+    underlyingAddress: '0xaf88d065e77c8cc2239327c5edb3a432268e5831',
     underlyingSymbol: 'USDC',
     protocols: [Protocols.COMPOUND],
     buildingBlocks: [
@@ -53,7 +53,7 @@ export const tokens: CompoundToken[] = [
         decimals: 18,
       },
       {
-        address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
+        address: '0x57f5e098cad7a3d1eed53991d4d66c45c9af7812',
         symbol: 'wUSDM',
         name: 'Wrapped Mountain Protocol USD',
         decimals: 18,
@@ -61,10 +61,10 @@ export const tokens: CompoundToken[] = [
     ],
   },
   {
-    baseAssetAddress: '0xA5EDBDD9646f8dFF606d7448e414884C7d905dCA',
+    baseAssetAddress: '0xa5edbdd9646f8dff606d7448e414884c7d905dca',
     symbol: 'cUSDCv3',
     decimals: 6,
-    underlyingAddress: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
+    underlyingAddress: '0xff970a61a04b1ca14834a43f5de4533ebddb5cc8',
     underlyingSymbol: 'USDC.e',
     protocols: [Protocols.COMPOUND],
     buildingBlocks: [
@@ -102,10 +102,10 @@ export const tokens: CompoundToken[] = [
     ],
   },
   {
-    baseAssetAddress: '0x6f7D514bbD4aFf3BcD1140B7344b32f063dEe486',
+    baseAssetAddress: '0x6f7d514bbd4aff3bcd1140b7344b32f063dee486',
     symbol: 'cWETHv3',
     decimals: 18,
-    underlyingAddress: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
+    underlyingAddress: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
     underlyingSymbol: 'wETH',
     protocols: [Protocols.COMPOUND],
     buildingBlocks: [
@@ -129,13 +129,13 @@ export const tokens: CompoundToken[] = [
         decimals: 18,
       },
       {
-        address: '0x2416092f143378750bb29b79eD961ab195CcEea5',
+        address: '0x2416092f143378750bb29b79ed961ab195cceea5',
         symbol: 'ezETH',
         name: 'Renzo Restaked ETH',
         decimals: 18,
       },
       {
-        address: '0x4186BFC76E2E237523CBC30FD220FE055156b41F',
+        address: '0x4186bfc76e2e237523cbc30fd220fe055156b41f',
         symbol: 'rsETH',
         name: 'KelpDao Restaked ETH',
         decimals: 18,
@@ -167,7 +167,7 @@ export const tokens: CompoundToken[] = [
     ],
   },
   {
-    baseAssetAddress: '0xd98Be00b5D27fc98112BdE293e487f8D4cA57d07',
+    baseAssetAddress: '0xd98be00b5d27fc98112bde293e487f8d4ca57d07',
     symbol: 'cUSDTv3',
     decimals: 6,
     underlyingAddress: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
