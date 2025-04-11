@@ -247,6 +247,24 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get compound token by base asset address
+   * @param baseAssetAddress - Base asset address
+   * @returns Compound token
+   */
+  public getCompoundToken(baseAssetAddress: string): CompoundToken {
+    const token = this.CompoundTokens.find(
+      (token: CompoundToken) =>
+        token.baseAssetAddress.toLowerCase() === baseAssetAddress.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(
+        `Compound token with base asset address ${baseAssetAddress} not found`,
+      );
+    }
+    return token;
+  }
+
+  /**
    * Get all available pro vaults tokens
    * @returns Array of all pro vaults tokens
    */
