@@ -265,6 +265,24 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get pendle token by market address
+   * @param marketAddress - Market address
+   * @returns Pendle token
+   */
+  public getPendleToken(marketAddress: string): ExtendedPendleToken {
+    const token = this.pendleTokens.find(
+      (token: ExtendedPendleToken) =>
+        token.address.toLowerCase() === marketAddress.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(
+        `Pendle token with market address ${marketAddress} not found`,
+      );
+    }
+    return token;
+  }
+
+  /**
    * Get all available pro vaults tokens
    * @returns Array of all pro vaults tokens
    */
