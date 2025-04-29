@@ -18,6 +18,7 @@ import { tokens as baseSilo } from './chains/base/silo';
 import { tokens as baseMorpho } from './chains/base/morpho';
 import { tokens as arbitrumMorpho } from './chains/arbitrum/morpho';
 import { tokens as optimismMorpho } from './chains/optimism/morpho';
+import { tokens as sonic } from './chains/sonic/general';
 
 // Import types
 import {
@@ -61,6 +62,7 @@ export class FactorTokenlist {
       arbitrum,
       optimism,
       base,
+      sonic,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
@@ -242,6 +244,42 @@ export class FactorTokenlist {
     );
     if (!token) {
       throw new Error(`Morpho token with id ${marketId} not found`);
+    }
+    return token;
+  }
+
+  /**
+   * Get compound token by base asset address
+   * @param baseAssetAddress - Base asset address
+   * @returns Compound token
+   */
+  public getCompoundToken(baseAssetAddress: string): CompoundToken {
+    const token = this.CompoundTokens.find(
+      (token: CompoundToken) =>
+        token.baseAssetAddress.toLowerCase() === baseAssetAddress.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(
+        `Compound token with base asset address ${baseAssetAddress} not found`,
+      );
+    }
+    return token;
+  }
+
+  /**
+   * Get pendle token by market address
+   * @param marketAddress - Market address
+   * @returns Pendle token
+   */
+  public getPendleToken(marketAddress: string): ExtendedPendleToken {
+    const token = this.pendleTokens.find(
+      (token: ExtendedPendleToken) =>
+        token.address.toLowerCase() === marketAddress.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(
+        `Pendle token with market address ${marketAddress} not found`,
+      );
     }
     return token;
   }
