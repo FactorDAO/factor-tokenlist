@@ -18,6 +18,7 @@ import { tokens as baseSilo } from './chains/base/silo';
 import { tokens as baseMorpho } from './chains/base/morpho';
 import { tokens as arbitrumMorpho } from './chains/arbitrum/morpho';
 import { tokens as optimismMorpho } from './chains/optimism/morpho';
+import { tokens as sonic } from './chains/sonic/general';
 
 // Import types
 import {
@@ -61,6 +62,7 @@ export class FactorTokenlist {
       arbitrum,
       optimism,
       base,
+      sonic,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
