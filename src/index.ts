@@ -1,17 +1,17 @@
 // Import tokens for Arbitrum
 import { tokens as arbitrum } from './chains/arbitrum/general';
 import { tokens as arbitrumPendle } from './chains/arbitrum/pendle';
-import { tokens as arbitrumAaveDebt } from './chains/arbitrum/aave';
+import { tokens as arbitrumAave } from './chains/arbitrum/aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum/compound';
 import { tokens as arbitrumSilo } from './chains/arbitrum/silo';
 import { tokens as arbitrumProVaults } from './chains/arbitrum/pro-vaults';
 import { tokens as optimism } from './chains/optimism/general';
-import { tokens as optimismAaveDebt } from './chains/optimism/aave';
+import { tokens as optimismAave } from './chains/optimism/aave';
 import { tokens as optimismCompoundDebt } from './chains/optimism/compound';
 import { tokens as optimismPendle } from './chains/optimism/pendle';
 import { tokens as optimismSilo } from './chains/optimism/silo';
 import { tokens as base } from './chains/base/general';
-import { tokens as baseAaveDebt } from './chains/base/aave';
+import { tokens as baseAave } from './chains/base/aave';
 import { tokens as baseCompoundDebt } from './chains/base/compound';
 import { tokens as basePendle } from './chains/base/pendle';
 import { tokens as baseSilo } from './chains/base/silo';
@@ -19,6 +19,7 @@ import { tokens as baseMorpho } from './chains/base/morpho';
 import { tokens as arbitrumMorpho } from './chains/arbitrum/morpho';
 import { tokens as optimismMorpho } from './chains/optimism/morpho';
 import { tokens as sonic } from './chains/sonic/general';
+import { tokens as sonicAave } from './chains/sonic/aave';
 
 // Import types
 import {
@@ -51,7 +52,7 @@ export class FactorTokenlist {
   private availableCompoundTokens: Record<string, CompoundToken[]>;
   private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
   private availableMorphoTokens: Record<string, MorphoToken[]>;
-  private AaveTokens: AaveToken[];
+  private Aave: AaveToken[];
   private CompoundTokens: CompoundToken[];
   private MorphoTokens: MorphoToken[];
 
@@ -70,9 +71,10 @@ export class FactorTokenlist {
       base: basePendle,
     };
     this.availableAaveTokens = {
-      arbitrum: arbitrumAaveDebt,
-      optimism: optimismAaveDebt,
-      base: baseAaveDebt,
+      arbitrum: arbitrumAave,
+      optimism: optimismAave,
+      base: baseAave,
+      sonic: sonicAave,
     };
     this.availableCompoundTokens = {
       arbitrum: arbitrumCompoundDebt,
@@ -123,8 +125,8 @@ export class FactorTokenlist {
       this.protocols.push(Protocols.PENDLE);
     }
     // Add aave debt tokens
-    this.AaveTokens = this.availableAaveTokens[network] ?? [];
-    if (this.AaveTokens.length > 0) {
+    this.Aave = this.availableAaveTokens[network] ?? [];
+    if (this.Aave.length > 0) {
       this.protocols.push(Protocols.AAVE);
     }
     // Add compound debt tokens
@@ -190,7 +192,7 @@ export class FactorTokenlist {
    * @returns Array of all aave debt tokens
    */
   public getAllAaveTokens(): AaveToken[] {
-    return this.AaveTokens;
+    return this.Aave;
   }
 
   /**
@@ -313,7 +315,7 @@ export class FactorTokenlist {
       return this.siloTokens;
     }
     if (protocol === Protocols.AAVE) {
-      return this.AaveTokens;
+      return this.Aave;
     }
     if (protocol === Protocols.COMPOUND) {
       return this.CompoundTokens;
@@ -430,7 +432,7 @@ export class FactorTokenlist {
     }
     let debtToken;
     if (protocol === Protocols.AAVE) {
-      debtToken = this.AaveTokens.find(
+      debtToken = this.Aave.find(
         (token: AaveToken) =>
           token.underlyingAddress.toLowerCase() ===
           underlyingAddress.toLowerCase(),
@@ -462,7 +464,7 @@ export class FactorTokenlist {
   public getUnderlyingAsset(address: string): any {
     let underlyingAsset;
     let protocol;
-    underlyingAsset = this.AaveTokens.find(
+    underlyingAsset = this.Aave.find(
       (token: AaveToken) =>
         token.aToken.toLowerCase() === address.toLowerCase(),
     )?.underlyingAddress;
