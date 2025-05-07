@@ -1,7 +1,7 @@
 import { Token, Protocols, BuildingBlock, ChainId } from '../../types';
 
 const getTokens = async (): Promise<Token[]> => {
-  const endpoint = `https://subgraph.satsuma-prod.com/d65bfd62f3da/factor/studio-pro-arbitrum.production/api`;
+  const endpoint = `https://subgraph.satsuma-prod.com/d65bfd62f3da/factor/studio-pro-base.production/api`;
   const query = `
   query ProVaults {
     vaults  {
