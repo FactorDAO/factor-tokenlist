@@ -20,6 +20,7 @@ import { tokens as arbitrumMorpho } from './chains/arbitrum/morpho';
 import { tokens as optimismMorpho } from './chains/optimism/morpho';
 import { tokens as sonic } from './chains/sonic/general';
 import { tokens as sonicAave } from './chains/sonic/aave';
+import { tokens as sonicSiloV2 } from './chains/sonic/silo-v2';
 
 // Import types
 import {
@@ -35,13 +36,14 @@ import {
   ChainId,
   ChainIdToNetwork,
   SiloAsset,
+  SiloV2Token,
 } from './types';
 
 export class FactorTokenlist {
   private chainId: ChainId;
   private generalTokens: Map<string, Token>;
-  private pendleTokens: ExtendedPendleToken[];
-  private siloTokens: ExtendedSiloToken[];
+  private PendleTokens: ExtendedPendleToken[];
+  private SiloTokens: ExtendedSiloToken[];
   private proVaultsTokens: Token[];
   public protocols: Protocols[];
   public buildingBlocks: BuildingBlock[];
@@ -52,10 +54,11 @@ export class FactorTokenlist {
   private availableCompoundTokens: Record<string, CompoundToken[]>;
   private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
   private availableMorphoTokens: Record<string, MorphoToken[]>;
+  private availableSiloV2Tokens: Record<string, SiloV2Token[]>;
   private Aave: AaveToken[];
   private CompoundTokens: CompoundToken[];
   private MorphoTokens: MorphoToken[];
-
+  private SiloV2Tokens: SiloV2Token[];
   constructor(chainId: ChainId) {
     this.chainId = chainId;
     this.generalTokens = new Map();
@@ -91,6 +94,9 @@ export class FactorTokenlist {
       optimism: optimismMorpho,
       base: baseMorpho,
     };
+    this.availableSiloV2Tokens = {
+      sonic: sonicSiloV2,
+    };
     this.protocols = [];
     this.buildingBlocks = [];
     this.initializeTokens(chainId);
@@ -120,8 +126,8 @@ export class FactorTokenlist {
       }
     }
     // Add pendle tokens
-    this.pendleTokens = this.availablePendleTokens[network] ?? [];
-    if (this.pendleTokens.length > 0) {
+    this.PendleTokens = this.availablePendleTokens[network] ?? [];
+    if (this.PendleTokens.length > 0) {
       this.protocols.push(Protocols.PENDLE);
     }
     // Add aave debt tokens
@@ -135,9 +141,14 @@ export class FactorTokenlist {
       this.protocols.push(Protocols.COMPOUND);
     }
     // Add silo tokens
-    this.siloTokens = this.availableSiloTokens[network] ?? [];
-    if (this.siloTokens.length > 0) {
+    this.SiloTokens = this.availableSiloTokens[network] ?? [];
+    if (this.SiloTokens.length > 0) {
       this.protocols.push(Protocols.SILO);
+    }
+    // Add silo v2 tokens
+    this.SiloV2Tokens = this.availableSiloV2Tokens[network] ?? [];
+    if (this.SiloV2Tokens.length > 0) {
+      this.protocols.push(Protocols.SILO_V2);
     }
     // Add morpho tokens
     this.MorphoTokens = this.availableMorphoTokens[network] ?? [];
@@ -184,7 +195,7 @@ export class FactorTokenlist {
    * @returns Array of all pendle tokens
    */
   public getAllPendleTokens(): ExtendedPendleToken[] {
-    return this.pendleTokens;
+    return this.PendleTokens;
   }
 
   /**
@@ -208,7 +219,7 @@ export class FactorTokenlist {
    * @returns Array of all silo tokens
    */
   public getAllSiloTokens(): ExtendedSiloToken[] {
-    return this.siloTokens;
+    return this.SiloTokens;
   }
 
   /**
@@ -217,7 +228,7 @@ export class FactorTokenlist {
    * @returns Silo token
    */
   public getSiloToken(marketAddress: string): ExtendedSiloToken {
-    const market = this.siloTokens.find(
+    const market = this.SiloTokens.find(
       (token: ExtendedSiloToken) =>
         token.marketAddress.toLowerCase() === marketAddress.toLowerCase(),
     );
@@ -225,6 +236,32 @@ export class FactorTokenlist {
       throw new Error(`Silo market with address ${marketAddress} not found`);
     }
     return market;
+  }
+
+  /**
+   * Get all available silo v2 tokens
+   * @returns Array of all silo v2 tokens
+   */
+  public getAllSiloV2Tokens(): SiloV2Token[] {
+    return this.SiloV2Tokens;
+  }
+
+  /**
+   * Get silo v2 token by market address
+   * @param marketAddress - Market address
+   * @returns Silo v2 token
+   */
+  public getSiloV2Token(marketAddress: string): SiloV2Token {
+    const token = this.SiloV2Tokens.find(
+      (token: SiloV2Token) =>
+        token.marketAddress.toLowerCase() === marketAddress.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(
+        `Silo v2 token with market address ${marketAddress} not found`,
+      );
+    }
+    return token;
   }
 
   /**
@@ -274,7 +311,7 @@ export class FactorTokenlist {
    * @returns Pendle token
    */
   public getPendleToken(marketAddress: string): ExtendedPendleToken {
-    const token = this.pendleTokens.find(
+    const token = this.PendleTokens.find(
       (token: ExtendedPendleToken) =>
         token.address.toLowerCase() === marketAddress.toLowerCase(),
     );
@@ -309,10 +346,10 @@ export class FactorTokenlist {
     | CompoundToken[]
     | MorphoToken[] {
     if (protocol === Protocols.PENDLE) {
-      return this.pendleTokens;
+      return this.PendleTokens;
     }
     if (protocol === Protocols.SILO) {
-      return this.siloTokens;
+      return this.SiloTokens;
     }
     if (protocol === Protocols.AAVE) {
       return this.Aave;
@@ -384,7 +421,7 @@ export class FactorTokenlist {
    */
   public getToken(address: string): Token | ExtendedPendleToken {
     const token = this.generalTokens.get(address.toLowerCase());
-    const pendleToken = this.pendleTokens.find(
+    const pendleToken = this.PendleTokens.find(
       (token: ExtendedPendleToken) =>
         token.address.toLowerCase() === address.toLowerCase(),
     );
@@ -481,7 +518,7 @@ export class FactorTokenlist {
       }
     }
     if (!underlyingAsset) {
-      underlyingAsset = this.pendleTokens.find(
+      underlyingAsset = this.PendleTokens.find(
         (token: ExtendedPendleToken) =>
           token.address.toLowerCase() === address.toLowerCase(),
       )?.underlyingAsset.address;
