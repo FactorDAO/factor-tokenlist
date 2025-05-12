@@ -1,994 +1,1685 @@
-import {
-  Token,
-  Protocols,
-  BuildingBlock,
-  ExtendedSiloToken,
-} from '../../types';
+import { Token, Protocols, BuildingBlock, SiloV2Token } from '../../types';
 
-export const tokens: ExtendedSiloToken[] = [
+export const tokens: SiloV2Token[] = [
   {
     marketName: 'stS/S',
     marketAddress: '0x78C246f67c8A6cE03a1d894d4Cf68004Bd55Deea',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
+        symbol: 'stS',
+        name: 'Beets Staked Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xf47Be4aaa1a5DcE379a801f712Ac21a7BDF63D40',
+        symbol: 'dstS-3',
+        name: 'Silo Finance stS Debt, SiloId: 3',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x01593F83B6fEF5Bd4bEc73BA1dE2536FD31F541a',
+        symbol: 'nbstS-3',
+        name: 'Silo Finance Non-borrowable stS Deposit, SiloId: 3',
+        decimals: 21,
+      },
+      debtToken: {
+        address: '0x396922EF30Cf012973343f7174db850c7D265278',
+        symbol: 'bstS-3',
+        name: 'Silo Finance Borrowable stS Deposit, SiloId: 3',
+        decimals: 21,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xc5eb7E39637f1d894c0F710F6b9F35168E9fa331',
+        symbol: 'dwS-3',
+        name: 'Silo Finance wS Debt, SiloId: 3',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xB2fCA0e72DF1B7f844E439668dc3A58646C7D65a',
+        symbol: 'nbwS-3',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 3',
+        decimals: 21,
+      },
+      debtToken: {
+        address: '0x47d8490Be37ADC7Af053322d6d779153689E13C1',
+        symbol: 'bwS-3',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 3',
+        decimals: 21,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'S/USDC',
     marketAddress: '0x062A36Bbe0306c2Fd7aecdf25843291fBAB96AD2',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xE5c066B23c7A97899646b0bbe69f3E8bc4b61C1C',
+        symbol: 'dwS-20',
+        name: 'Silo Finance wS Debt, SiloId: 20',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xAecD6cBf567AE7dE05f7E32eB051525e9fcd9bc6',
+        symbol: 'nbwS-20',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 20',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xf55902DE87Bd80c6a35614b48d7f8B612a083C12',
+        symbol: 'bwS-20',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 20',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xbc4eF1B5453672a98073fbFF216966F5039ad256',
+        symbol: 'dUSDC.e-20',
+        name: 'Silo Finance USDC.e Debt, SiloId: 20',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x0B960e953649269B4c895C593108fBc7F8b61a24',
+        symbol: 'nbUSDC.e-20',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 20',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x322e1d5384aa4ED66AeCa770B95686271de61dc3',
+        symbol: 'bUSDC.e-20',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 20',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-aUSDC (14 Aug)/scUSD',
     marketAddress: '0xDa6787a3543a01Bf770DDF3953bE5B9C99c1cBD0',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x930441Aa7Ab17654dF5663781CA0C02CC17e6643',
-          symbol: 'PT-aUSDC (14 Aug)',
-          name: 'Aave • Pendle',
-          decimals: 6,
-        },
-        debtToken: {
-          address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
-          symbol: 'scUSD',
-          name: 'Sonic USD',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x930441Aa7Ab17654dF5663781CA0C02CC17e6643',
-          symbol: 'PT-aUSDC (14 Aug)',
-          name: 'Aave • Pendle',
-          decimals: 6,
-        },
-        collateralOnlyToken: {
-          address: '0x930441Aa7Ab17654dF5663781CA0C02CC17e6643',
-          symbol: 'PT-aUSDC (14 Aug)',
-          name: 'Aave • Pendle',
-          decimals: 6,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x930441Aa7Ab17654dF5663781CA0C02CC17e6643',
+        symbol: 'PT-aUSDC (14 Aug)',
+        name: 'Aave • Pendle',
+        decimals: 6,
       },
-    ],
+      collateralToken: {
+        address: '0xaaFb2471c048571AF3Bdd7879e6473e4fd81941f',
+        symbol: 'dPT-aSonUSDC-14AUG2025-46',
+        name: 'Silo Finance PT-aSonUSDC-14AUG2025 Debt, SiloId: 46',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xc3dE17F93Fe4067E83379bB3ee96a5608230e5d9',
+        symbol: 'nbPT-aSonUSDC-14AUG2025-46',
+        name: 'Silo Finance Non-borrowable PT-aSonUSDC-14AUG2025 Deposit, SiloId: 46',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x558d6D6D53270ae8ba622daF123983D9F3c21792',
+        symbol: 'bPT-aSonUSDC-14AUG2025-46',
+        name: 'Silo Finance Borrowable PT-aSonUSDC-14AUG2025 Deposit, SiloId: 46',
+        decimals: 6,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
+        symbol: 'scUSD',
+        name: 'Sonic USD',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xE34841964003d4957936A4c94d3B0aC378153164',
+        symbol: 'dscUSD-46',
+        name: 'Silo Finance scUSD Debt, SiloId: 46',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x490D3333Ea771A16357379D2eF0da2B16C130a4A',
+        symbol: 'nbscUSD-46',
+        name: 'Silo Finance Non-borrowable scUSD Deposit, SiloId: 46',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0xe6605932e4a686534D19005BB9dB0FBA1F101272',
+        symbol: 'bscUSD-46',
+        name: 'Silo Finance Borrowable scUSD Deposit, SiloId: 46',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'LBTC/scBTC',
     marketAddress: '0xe67cce118e9CcEaE51996E4d290f9B77D960E3d7',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
-        debtToken: {
-          address: '0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd',
-          symbol: 'scBTC',
-          name: 'Sonic BTC',
-          decimals: 8,
-        },
-        collateralToken: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
-        collateralOnlyToken: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
+        symbol: 'LBTC',
+        name: 'Lombard Staked Bitcoin',
+        decimals: 8,
       },
-    ],
+      collateralToken: {
+        address: '0xFBf8f82DE501aE38e5712ba691095987608A8dfb',
+        symbol: 'dLBTC-32',
+        name: 'Silo Finance LBTC Debt, SiloId: 32',
+        decimals: 8,
+      },
+      collateralOnlyToken: {
+        address: '0x50e6Aa6d4a6d8C67F423175c428f66D32e685c92',
+        symbol: 'nbLBTC-32',
+        name: 'Silo Finance Non-borrowable LBTC Deposit, SiloId: 32',
+        decimals: 8,
+      },
+      debtToken: {
+        address: '0x0DFA6b53c05b07e29B49a878Fc96153cc03c3E72',
+        symbol: 'bLBTC-32',
+        name: 'Silo Finance Borrowable LBTC Deposit, SiloId: 32',
+        decimals: 8,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd',
+        symbol: 'scBTC',
+        name: 'Sonic BTC',
+        decimals: 8,
+      },
+      collateralToken: {
+        address: '0x77e8EFc4b7BdE38EdCa6b513Ab019CbB6966ee3C',
+        symbol: 'dscBTC-32',
+        name: 'Silo Finance scBTC Debt, SiloId: 32',
+        decimals: 8,
+      },
+      collateralOnlyToken: {
+        address: '0xFb118699e0454cC96661e2e01FC3d5C28f91c297',
+        symbol: 'nbscBTC-32',
+        name: 'Silo Finance Non-borrowable scBTC Deposit, SiloId: 32',
+        decimals: 8,
+      },
+      debtToken: {
+        address: '0x0A94e18bdbCcD048198806d7FF28A1B1D2590724',
+        symbol: 'bscBTC-32',
+        name: 'Silo Finance Borrowable scBTC Deposit, SiloId: 32',
+        decimals: 8,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'wanS/S',
     marketAddress: '0x6BdF0D12d4B534d5F46c53a90ddDFBe6C0e85dC7',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70',
-          symbol: 'wanS',
-          name: 'Wrapped anS',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70',
-          symbol: 'wanS',
-          name: 'Wrapped anS',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70',
-          symbol: 'wanS',
-          name: 'Wrapped anS',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xfA85Fe5A8F5560e9039C04f2b0a90dE1415aBD70',
+        symbol: 'wanS',
+        name: 'Wrapped anS',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x71EDF73739d5E1Eed396E38096baA972449aC50f',
+        symbol: 'dwanS-25',
+        name: 'Silo Finance wanS Debt, SiloId: 25',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x42526feDD57706d73eBD3ffb0A7a299d6b36dEB7',
+        symbol: 'nbwanS-25',
+        name: 'Silo Finance Non-borrowable wanS Deposit, SiloId: 25',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x21580de05C4F3d6D6a5345b03a898C33B872Ab51',
+        symbol: 'bwanS-25',
+        name: 'Silo Finance Borrowable wanS Deposit, SiloId: 25',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x3F5Fa5642AfeA358d65F818102008F6F88BF5cae',
+        symbol: 'dwS-25',
+        name: 'Silo Finance wS Debt, SiloId: 25',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x7F11b35102A74BA6b5597fa5495f6B93627E7D86',
+        symbol: 'nbwS-25',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 25',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x016C306e103FbF48EC24810D078C65aD13c5f11B',
+        symbol: 'bwS-25',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 25',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'S/USDC',
     marketAddress: '0x4915F6d3C9a7B20CedFc5d3854f2802f30311d13',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x75875d9405DF9bD80f6a7a1B2b7e40dD848427A4',
+        symbol: 'dwS-8',
+        name: 'Silo Finance wS Debt, SiloId: 8',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xD385fFd74588D01464C8A55e8031a8eCDeE2567D',
+        symbol: 'nbwS-8',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 8',
+        decimals: 21,
+      },
+      debtToken: {
+        address: '0xE223C8e92AA91e966CA31d5C6590fF7167E25801',
+        symbol: 'bwS-8',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 8',
+        decimals: 21,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xB1d70D54eC3caAfeCE8812111681d93A3C524875',
+        symbol: 'dUSDC.e-8',
+        name: 'Silo Finance USDC.e Debt, SiloId: 8',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x4B65F19cCc4c387f7D649ea42fA70feEaF613925',
+        symbol: 'nbUSDC.e-8',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 8',
+        decimals: 9,
+      },
+      debtToken: {
+        address: '0x4E216C15697C1392fE59e1014B009505E05810Df',
+        symbol: 'bUSDC.e-8',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 8',
+        decimals: 9,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wstkscUSD (29 May)/frxUSD',
     marketAddress: '0xe7579D515BD1676b6Da703786189a457B9bB3Fc3',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        debtToken: {
-          address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
-          symbol: 'frxUSD',
-          name: 'Frax USD',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        collateralOnlyToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
+        symbol: 'PT-wstkscUSD (29 May)',
+        name: 'Rings • Pendle',
+        decimals: 6,
       },
-    ],
+      collateralToken: {
+        address: '0x32e2F214d2A8526dafeCE989A03C85F79C83E2ad',
+        symbol: 'dPT-wstkscUSD-29MAY2025-37',
+        name: 'Silo Finance PT-wstkscUSD-29MAY2025 Debt, SiloId: 37',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x14360D1B2b94d3057d514c186A52378ad6a794aF',
+        symbol: 'nbPT-wstkscUSD-29MAY2025-37',
+        name: 'Silo Finance Non-borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 37',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x854475b78880767e246163031b5bE44f14426c26',
+        symbol: 'bPT-wstkscUSD-29MAY2025-37',
+        name: 'Silo Finance Borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 37',
+        decimals: 6,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        symbol: 'frxUSD',
+        name: 'Frax USD',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x5Ba062f76DF31485B2a5CA3E5F33617E82e285d2',
+        symbol: 'dfrxUSD-37',
+        name: 'Silo Finance frxUSD Debt, SiloId: 37',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xEa27319F52E0106FEF49Bc87ab27CFEDbedd8657',
+        symbol: 'nbfrxUSD-37',
+        name: 'Silo Finance Non-borrowable frxUSD Deposit, SiloId: 37',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xdA14A41DbdA731F03A94cb722191639DD22b35b2',
+        symbol: 'bfrxUSD-37',
+        name: 'Silo Finance Borrowable frxUSD Deposit, SiloId: 37',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'S/scUSD',
     marketAddress: '0xFe514E71F0933F63B374056557AED3dBB381C646',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
-          symbol: 'scUSD',
-          name: 'Sonic USD',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xE3AC644A039A3A1d8Ca27934731DB29CBd5b8F07',
+        symbol: 'dwS-15',
+        name: 'Silo Finance wS Debt, SiloId: 15',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x6d7E383eA3A982Df7ff3acBF8EBF44fdae0A7Ac1',
+        symbol: 'nbwS-15',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 15',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x34BB967d21bfED31F2A2Eb4478A520c254b16d2e',
+        symbol: 'bwS-15',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 15',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
+        symbol: 'scUSD',
+        name: 'Sonic USD',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x735f203Cf45bFf06cc19798f8e966Ec91FA04015',
+        symbol: 'dscUSD-15',
+        name: 'Silo Finance scUSD Debt, SiloId: 15',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x29f3c3c6C9bB90F734bb2064A9B812134FC6F3E7',
+        symbol: 'nbscUSD-15',
+        name: 'Silo Finance Non-borrowable scUSD Deposit, SiloId: 15',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x2f5Dc399B1E31f9808D1EF1256917ABD2447c74f',
+        symbol: 'bscUSD-15',
+        name: 'Silo Finance Borrowable scUSD Deposit, SiloId: 15',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'wstkscUSD/USDC',
     marketAddress: '0xbC24c0F594ECA381956895957c771437D61400D3',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x9fb76f7ce5FCeAA2C42887ff441D46095E494206',
-          symbol: 'wstkscUSD',
-          name: 'Wrapped stkscUSD',
-          decimals: 6,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x9fb76f7ce5FCeAA2C42887ff441D46095E494206',
-          symbol: 'wstkscUSD',
-          name: 'Wrapped stkscUSD',
-          decimals: 6,
-        },
-        collateralOnlyToken: {
-          address: '0x9fb76f7ce5FCeAA2C42887ff441D46095E494206',
-          symbol: 'wstkscUSD',
-          name: 'Wrapped stkscUSD',
-          decimals: 6,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x9fb76f7ce5FCeAA2C42887ff441D46095E494206',
+        symbol: 'wstkscUSD',
+        name: 'Wrapped stkscUSD',
+        decimals: 6,
       },
-    ],
+      collateralToken: {
+        address: '0x1EC220746c08034Ea119c27B987Faa1fC9Dd36b6',
+        symbol: 'dwstkscUSD-23',
+        name: 'Silo Finance wstkscUSD Debt, SiloId: 23',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xD135d6e61bb5773C19117d68715dF04c5790567d',
+        symbol: 'nbwstkscUSD-23',
+        name: 'Silo Finance Non-borrowable wstkscUSD Deposit, SiloId: 23',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x4E09FF794D255a123b00efa30162667A8054a845',
+        symbol: 'bwstkscUSD-23',
+        name: 'Silo Finance Borrowable wstkscUSD Deposit, SiloId: 23',
+        decimals: 6,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x70E9bc275E6AFc7222eC011CE182208648ACa0d9',
+        symbol: 'dUSDC.e-23',
+        name: 'Silo Finance USDC.e Debt, SiloId: 23',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x910927944B87011383BA378260077bb23Ad46518',
+        symbol: 'nbUSDC.e-23',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 23',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x5954ce6671d97D24B782920ddCdBB4b1E63aB2De',
+        symbol: 'bUSDC.e-23',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 23',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-stS (29 May)/S',
     marketAddress: '0xC38a36CC0f1D616351d901A75BF3D58FCA4De71F',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x420df605D062F8611EFb3F203BF258159b8FfFdE',
-          symbol: 'PT-stS (29 May)',
-          name: 'Beets • Pendle',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x420df605D062F8611EFb3F203BF258159b8FfFdE',
-          symbol: 'PT-stS (29 May)',
-          name: 'Beets • Pendle',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x420df605D062F8611EFb3F203BF258159b8FfFdE',
-          symbol: 'PT-stS (29 May)',
-          name: 'Beets • Pendle',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x420df605D062F8611EFb3F203BF258159b8FfFdE',
+        symbol: 'PT-stS (29 May)',
+        name: 'Beets • Pendle',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x2D5bC0c993fE9E50554Da00d64680c03fcFb2525',
+        symbol: 'dPT-stS-29MAY2025-40',
+        name: 'Silo Finance PT-stS-29MAY2025 Debt, SiloId: 40',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x2a2F196CEA02931923E50764AeabeC96534BD2f1',
+        symbol: 'nbPT-stS-29MAY2025-40',
+        name: 'Silo Finance Non-borrowable PT-stS-29MAY2025 Deposit, SiloId: 40',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x058766008d237faF3B05eeEebABc73C64d677bAE',
+        symbol: 'bPT-stS-29MAY2025-40',
+        name: 'Silo Finance Borrowable PT-stS-29MAY2025 Deposit, SiloId: 40',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x954c713AB98735a2829d1f4Fc9eD7E55437BeDf7',
+        symbol: 'dwS-40',
+        name: 'Silo Finance wS Debt, SiloId: 40',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x1a335afa9E2620A76b1EAd558f5175C3CDa9e406',
+        symbol: 'nbwS-40',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 40',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x24F7692af5231d559219d07c65276Ad8C8ceE9A3',
+        symbol: 'bwS-40',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 40',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'wOS/S',
     marketAddress: '0x1A030F39a8cf9f0b2649e97cF6d0C7853AeaCf78',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1',
-          symbol: 'wOS',
-          name: 'Wrapped OS',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1',
-          symbol: 'wOS',
-          name: 'Wrapped OS',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1',
-          symbol: 'wOS',
-          name: 'Wrapped OS',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1',
+        symbol: 'wOS',
+        name: 'Wrapped OS',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xb5DbaA43e54F1b04A11f310A93e9834533B8fE63',
+        symbol: 'dwOS-22',
+        name: 'Silo Finance wOS Debt, SiloId: 22',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x8738a58D6d9C1A7dA39647fA57c00C024Bf6e38b',
+        symbol: 'nbwOS-22',
+        name: 'Silo Finance Non-borrowable wOS Deposit, SiloId: 22',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x1d7E3726aFEc5088e11438258193A199F9D5Ba93',
+        symbol: 'bwOS-22',
+        name: 'Silo Finance Borrowable wOS Deposit, SiloId: 22',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xb8abA7c4e192De20e67D4229326C92ADC5f664ea',
+        symbol: 'dwS-22',
+        name: 'Silo Finance wS Debt, SiloId: 22',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xD8756c6F0C9D830e5958a64cbB2F5752B069dfcD',
+        symbol: 'nbwS-22',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 22',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x112380065A2cb73A5A429d9Ba7368cc5e8434595',
+        symbol: 'bwS-22',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 22',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'x33/USDC',
     marketAddress: '0x18555e17A97974A07841F652E45263b9CE8AD369',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x3333111A391cC08fa51353E9195526A70b333333',
-          symbol: 'x33',
-          name: 'Shadow Liquid Staking Token',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x3333111A391cC08fa51353E9195526A70b333333',
-          symbol: 'x33',
-          name: 'Shadow Liquid Staking Token',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x3333111A391cC08fa51353E9195526A70b333333',
-          symbol: 'x33',
-          name: 'Shadow Liquid Staking Token',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x3333111A391cC08fa51353E9195526A70b333333',
+        symbol: 'x33',
+        name: 'Shadow Liquid Staking Token',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x663FdEBC3940b7a0B36842e8b6D6A695675b0A0f',
+        symbol: 'dx33-49',
+        name: 'Silo Finance x33 Debt, SiloId: 49',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x51F5DC1c581e309D73E1c6Ea74176077b3c44e60',
+        symbol: 'nbx33-49',
+        name: 'Silo Finance Non-borrowable x33 Deposit, SiloId: 49',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x21b7def97680992B1f1A8B8E5966EaE32e6Ab8F3',
+        symbol: 'bx33-49',
+        name: 'Silo Finance Borrowable x33 Deposit, SiloId: 49',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x14cc2Edb64479083CCe9669E3299f32429a47B96',
+        symbol: 'dUSDC.e-49',
+        name: 'Silo Finance USDC.e Debt, SiloId: 49',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xF1b5b4630ce1106415236f684AF560E3112bDcE6',
+        symbol: 'nbUSDC.e-49',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 49',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0xa18a8f100f2c976044f2f84fae1eE9f807Ae7893',
+        symbol: 'bUSDC.e-49',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 49',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'Anon/USDC',
     marketAddress: '0xaaF2F78f5eA77bF4EA150E869C54eEb73185a3BF',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C',
-          symbol: 'Anon',
-          name: 'HeyAnon',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C',
-          symbol: 'Anon',
-          name: 'HeyAnon',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C',
-          symbol: 'Anon',
-          name: 'HeyAnon',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C',
+        symbol: 'Anon',
+        name: 'HeyAnon',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xcA11DB92ba12dB7D5D82Cc2c4e1b3Ed043f225E0',
+        symbol: 'dAnon-27',
+        name: 'Silo Finance Anon Debt, SiloId: 27',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x24061FF357dA16B7885d5310739278af7A8564DA',
+        symbol: 'nbAnon-27',
+        name: 'Silo Finance Non-borrowable Anon Deposit, SiloId: 27',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xE453c128f9Fa860960913f40eF975B1Fe5621E9e',
+        symbol: 'bAnon-27',
+        name: 'Silo Finance Borrowable Anon Deposit, SiloId: 27',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xdEf18A0a4b6c8E2E77547755c0d15b2448D6B710',
+        symbol: 'dUSDC.e-27',
+        name: 'Silo Finance USDC.e Debt, SiloId: 27',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x94A306D8DEd78e0443cDf1CC752143b46C49eD76',
+        symbol: 'nbUSDC.e-27',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 27',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x7e88AE5E50474A48deA4c42a634aA7485e7CaA62',
+        symbol: 'bUSDC.e-27',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 27',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wstkscETH (29 May)/ETH',
     marketAddress: '0x4BB15418ef55367c638CA376b50276FACB4A30Ca',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
-          symbol: 'ETH',
-          name: 'Ether',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
+        symbol: 'PT-wstkscETH (29 May)',
+        name: 'Rings • Pendle',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x4124775C5a3B85EcB2ED4C74339bFca38cF97399',
+        symbol: 'dPT-wstkscETH-29MAY2025-35',
+        name: 'Silo Finance PT-wstkscETH-29MAY2025 Debt, SiloId: 35',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x45bEabdA03964657F3AC27c67024ee7ea8d643C5',
+        symbol: 'nbPT-wstkscETH-29MAY2025-35',
+        name: 'Silo Finance Non-borrowable PT-wstkscETH-29MAY2025 Deposit, SiloId: 35',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x356FCc93b96C8590E02fD6077f8886e1B31E2122',
+        symbol: 'bPT-wstkscETH-29MAY2025-35',
+        name: 'Silo Finance Borrowable PT-wstkscETH-29MAY2025 Deposit, SiloId: 35',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+        symbol: 'ETH',
+        name: 'Ether',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x71aBBee7a0B1729Eb60A6883726a58bCa051Fd8b',
+        symbol: 'dWETH-35',
+        name: 'Silo Finance WETH Debt, SiloId: 35',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xA38E1dd4C79EA35C97b71f87E7a2E9f918F9B1b8',
+        symbol: 'nbWETH-35',
+        name: 'Silo Finance Non-borrowable WETH Deposit, SiloId: 35',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x08C320A84a59c6f533e0DcA655cf497594BCa1F9',
+        symbol: 'bWETH-35',
+        name: 'Silo Finance Borrowable WETH Deposit, SiloId: 35',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'sfrxUSD/scUSD',
     marketAddress: '0x6452b9aE8011800457b42C4fBBDf4579afB96228',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0',
-          symbol: 'sfrxUSD',
-          name: 'Staked Frax USD',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
-          symbol: 'scUSD',
-          name: 'Sonic USD',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0',
-          symbol: 'sfrxUSD',
-          name: 'Staked Frax USD',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0',
-          symbol: 'sfrxUSD',
-          name: 'Staked Frax USD',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x5Bff88cA1442c2496f7E475E9e7786383Bc070c0',
+        symbol: 'sfrxUSD',
+        name: 'Staked Frax USD',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x330Ceed2Ce7484FDBd07E481ec6A050B2B7938C2',
+        symbol: 'dsfrxUSD-48',
+        name: 'Silo Finance sfrxUSD Debt, SiloId: 48',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xEb93F4CbdF76bd556d237d1B6B05A47827483E0C',
+        symbol: 'nbsfrxUSD-48',
+        name: 'Silo Finance Non-borrowable sfrxUSD Deposit, SiloId: 48',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x0df2B7c7E2023a3EEfcD24486C47aBaC9dF80AC3',
+        symbol: 'bsfrxUSD-48',
+        name: 'Silo Finance Borrowable sfrxUSD Deposit, SiloId: 48',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
+        symbol: 'scUSD',
+        name: 'Sonic USD',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x3850420b2a7eAA3dCFcb2505E477144a3c210B26',
+        symbol: 'dscUSD-48',
+        name: 'Silo Finance scUSD Debt, SiloId: 48',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xb1EdC20fB60b855856c8F3Bb65505c2a6A1303e7',
+        symbol: 'nbscUSD-48',
+        name: 'Silo Finance Non-borrowable scUSD Deposit, SiloId: 48',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x5863A7B7e087e6576DE1B6ACb38C6C72caC20Ac4',
+        symbol: 'bscUSD-48',
+        name: 'Silo Finance Borrowable scUSD Deposit, SiloId: 48',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'wstkscETH/ETH',
     marketAddress: '0xefA367570B11f8745B403c0D458b9D2EAf424686',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47',
-          symbol: 'wstkscETH',
-          name: 'Wrapped stkscETH',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
-          symbol: 'ETH',
-          name: 'Ether',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47',
-          symbol: 'wstkscETH',
-          name: 'Wrapped stkscETH',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47',
-          symbol: 'wstkscETH',
-          name: 'Wrapped stkscETH',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xE8a41c62BB4d5863C6eadC96792cFE90A1f37C47',
+        symbol: 'wstkscETH',
+        name: 'Wrapped stkscETH',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x56eA3E615D904fB26511db0Db6A6AA00f035Cff8',
+        symbol: 'dwstkscETH-26',
+        name: 'Silo Finance wstkscETH Debt, SiloId: 26',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xcD39a55Dc7D26ad760D7FEb09fca80b0F1adB873',
+        symbol: 'nbwstkscETH-26',
+        name: 'Silo Finance Non-borrowable wstkscETH Deposit, SiloId: 26',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xE8e1A980a7fc8D47D337d704FA73FBb81eE55C25',
+        symbol: 'bwstkscETH-26',
+        name: 'Silo Finance Borrowable wstkscETH Deposit, SiloId: 26',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+        symbol: 'ETH',
+        name: 'Ether',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xeA5A72c77124E282a6DF3567e9c4a064bF6B7d6b',
+        symbol: 'dWETH-26',
+        name: 'Silo Finance WETH Debt, SiloId: 26',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x071844094e15d4C7122243A4b1a4486a15f00b29',
+        symbol: 'nbWETH-26',
+        name: 'Silo Finance Non-borrowable WETH Deposit, SiloId: 26',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x219656F33c58488D09d518BaDF50AA8CdCAcA2Aa',
+        symbol: 'bWETH-26',
+        name: 'Silo Finance Borrowable WETH Deposit, SiloId: 26',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'xSolvBTC/SolvBTC',
     marketAddress: '0xC1F3d4F5f734d6Dc9E7D4f639EbE489Acd4542ab',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xCC0966D8418d412c599A6421b760a847eB169A8c',
-          symbol: 'xSolvBTC',
-          name: 'xSolvBTC',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x541FD749419CA806a8bc7da8ac23D346f2dF8B77',
-          symbol: 'SolvBTC',
-          name: 'Solv BTC',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xCC0966D8418d412c599A6421b760a847eB169A8c',
-          symbol: 'xSolvBTC',
-          name: 'xSolvBTC',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xCC0966D8418d412c599A6421b760a847eB169A8c',
-          symbol: 'xSolvBTC',
-          name: 'xSolvBTC',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xCC0966D8418d412c599A6421b760a847eB169A8c',
+        symbol: 'xSolvBTC',
+        name: 'xSolvBTC',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x80E2Ebc2eD157A16B2d5dF829faF3e9791E3382d',
+        symbol: 'dxSolvBTC-13',
+        name: 'Silo Finance xSolvBTC Debt, SiloId: 13',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x96B6Bda63BB652dF309E2499457dbF5cf316B5aF',
+        symbol: 'nbxSolvBTC-13',
+        name: 'Silo Finance Non-borrowable xSolvBTC Deposit, SiloId: 13',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x52Fc9E0a68b6a4C9b57b9D1d99fB71449A99DCd8',
+        symbol: 'bxSolvBTC-13',
+        name: 'Silo Finance Borrowable xSolvBTC Deposit, SiloId: 13',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x541FD749419CA806a8bc7da8ac23D346f2dF8B77',
+        symbol: 'SolvBTC',
+        name: 'Solv BTC',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xA63114cd12EB9048Bd572E2a64971bC3E7477e87',
+        symbol: 'dSolvBTC-13',
+        name: 'Silo Finance SolvBTC Debt, SiloId: 13',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x9Fc1bf6dC659E43465BB22d7037633024d09551e',
+        symbol: 'nbSolvBTC-13',
+        name: 'Silo Finance Non-borrowable SolvBTC Deposit, SiloId: 13',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x87178fe8698C7eDa8aA207083C3d66aEa569aB98',
+        symbol: 'bSolvBTC-13',
+        name: 'Silo Finance Borrowable SolvBTC Deposit, SiloId: 13',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'S/ETH',
     marketAddress: '0x9603Af53dC37F4BB6386f358A51a04fA8f599101',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
-          symbol: 'ETH',
-          name: 'Ether',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x18Db077a375881BaeF95c8BF1d9eE7Cf43943737',
+        symbol: 'dwS-9',
+        name: 'Silo Finance wS Debt, SiloId: 9',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x703E6109B8dc31f14AF6D038ee02d4F4348EE6Ad',
+        symbol: 'nbwS-9',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 9',
+        decimals: 21,
+      },
+      debtToken: {
+        address: '0x4bFead9975A64545C3594090327ef6666C2f6164',
+        symbol: 'bwS-9',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 9',
+        decimals: 21,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+        symbol: 'ETH',
+        name: 'Ether',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x55522ef8eB7CC1fb692703fa7e1e8d3Ddc826e22',
+        symbol: 'dWETH-9',
+        name: 'Silo Finance WETH Debt, SiloId: 9',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xad86c09DB6751be5CeC2f6FDBab3c3f2D7Ba5E94',
+        symbol: 'nbWETH-9',
+        name: 'Silo Finance Non-borrowable WETH Deposit, SiloId: 9',
+        decimals: 21,
+      },
+      debtToken: {
+        address: '0x427514a905fa6bEaed9A36E308Fcfa06cE54e95b',
+        symbol: 'bWETH-9',
+        name: 'Silo Finance Borrowable WETH Deposit, SiloId: 9',
+        decimals: 21,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wstkscUSD (29 May)/USDC',
     marketAddress: '0x3605509B2C8Bff9808da5dd5c81547d9EDC4Ffa2',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        collateralOnlyToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
+        symbol: 'PT-wstkscUSD (29 May)',
+        name: 'Rings • Pendle',
+        decimals: 6,
       },
-    ],
+      collateralToken: {
+        address: '0xfB89E923F0E0DEC53De38C8Cdad06Fc9DDcC7F3F',
+        symbol: 'dPT-wstkscUSD-29MAY2025-34',
+        name: 'Silo Finance PT-wstkscUSD-29MAY2025 Debt, SiloId: 34',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x0D40A290Af2Fc03496A9974b2bD92e14e888666d',
+        symbol: 'nbPT-wstkscUSD-29MAY2025-34',
+        name: 'Silo Finance Non-borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 34',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x8CBFF16C01154669b4DDA5B2cf8724d8ccBD3516',
+        symbol: 'bPT-wstkscUSD-29MAY2025-34',
+        name: 'Silo Finance Borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 34',
+        decimals: 6,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x199af916af23240561E04f61E75ac1a519b76052',
+        symbol: 'dUSDC.e-34',
+        name: 'Silo Finance USDC.e Debt, SiloId: 34',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x476297AD870D8Dc82354d560f89EB1dd568Fb57A',
+        symbol: 'nbUSDC.e-34',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 34',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x6030aD53d90ec2fB67F3805794dBB3Fa5FD6Eb64',
+        symbol: 'bUSDC.e-34',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 34',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wstkscETH (29 May)/scETH',
     marketAddress: '0x6478362fbefd083F71705bD2BbBf3465170CDf4f',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812',
-          symbol: 'scETH',
-          name: 'Sonic ETH',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
-          symbol: 'PT-wstkscETH (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xa2161E75EDf50d70544e6588788A5732A3105c00',
+        symbol: 'PT-wstkscETH (29 May)',
+        name: 'Rings • Pendle',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x9204aB4aDAe5B9F17DFee6f8264E30C5d7e5E4A8',
+        symbol: 'dPT-wstkscETH-29MAY2025-47',
+        name: 'Silo Finance PT-wstkscETH-29MAY2025 Debt, SiloId: 47',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x04BDa7c92D46753C7192D1ABd3c9D2bdf40f0692',
+        symbol: 'nbPT-wstkscETH-29MAY2025-47',
+        name: 'Silo Finance Non-borrowable PT-wstkscETH-29MAY2025 Deposit, SiloId: 47',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x83e23bEBeDDf0B4a9C56305D142b70cf5d8187eF',
+        symbol: 'bPT-wstkscETH-29MAY2025-47',
+        name: 'Silo Finance Borrowable PT-wstkscETH-29MAY2025 Deposit, SiloId: 47',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x3bcE5CB273F0F148010BbEa2470e7b5df84C7812',
+        symbol: 'scETH',
+        name: 'Sonic ETH',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x3486bfa577f07BBEAb12185a11E54fe204C95331',
+        symbol: 'dscETH-47',
+        name: 'Silo Finance scETH Debt, SiloId: 47',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x656D046e11be5954266B1154CA0524DbC340e838',
+        symbol: 'nbscETH-47',
+        name: 'Silo Finance Non-borrowable scETH Deposit, SiloId: 47',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x24c74B30d1a4261608E84Bf5a618693032681DAc',
+        symbol: 'bscETH-47',
+        name: 'Silo Finance Borrowable scETH Deposit, SiloId: 47',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'beS/S',
     marketAddress: '0xEd7f8C077711B86b574ed94bB84895fbf147Cd8e',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x871A101Dcf22fE4fE37be7B654098c801CBA1c88',
-          symbol: 'beS',
-          name: 'Beefy Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x871A101Dcf22fE4fE37be7B654098c801CBA1c88',
-          symbol: 'beS',
-          name: 'Beefy Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x871A101Dcf22fE4fE37be7B654098c801CBA1c88',
-          symbol: 'beS',
-          name: 'Beefy Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x871A101Dcf22fE4fE37be7B654098c801CBA1c88',
+        symbol: 'beS',
+        name: 'Beefy Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x4f06D8F15B928D94Cf6a9BeC5bcb32387f1cB52f',
+        symbol: 'dbeS-52',
+        name: 'Silo Finance beS Debt, SiloId: 52',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x90aB736C529D9b980ED33206A066F23BDDbcA9b9',
+        symbol: 'nbbeS-52',
+        name: 'Silo Finance Non-borrowable beS Deposit, SiloId: 52',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x19926d2163Fde0d77f7D50bb88701a6f51F45FAB',
+        symbol: 'bbeS-52',
+        name: 'Silo Finance Borrowable beS Deposit, SiloId: 52',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x69C986fB2a86B5b5371e51DBeb1261E686c96dcE',
+        symbol: 'dwS-52',
+        name: 'Silo Finance wS Debt, SiloId: 52',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x542f05fb915f201258955478496730F3FbB6141b',
+        symbol: 'nbwS-52',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 52',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xfbD3CCCb196Ce900BE5E2D008A6C2fDE90760408',
+        symbol: 'bwS-52',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 52',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wOS (29 May)/S',
     marketAddress: '0x115d53d01df03293A5c5A1df569f450869613BDD',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1',
-          symbol: 'PT-wOS (29 May)',
-          name: 'Origin • Pendle',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1',
-          symbol: 'PT-wOS (29 May)',
-          name: 'Origin • Pendle',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1',
-          symbol: 'PT-wOS (29 May)',
-          name: 'Origin • Pendle',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x46eb02b9F47634c4fab3110CC7ADc1C6311DfAC1',
+        symbol: 'PT-wOS (29 May)',
+        name: 'Origin • Pendle',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x51E69Fa6b54CC48fA6aEF67463feb833620921C9',
+        symbol: 'dPT-wOS-29MAY2025-41',
+        name: 'Silo Finance PT-wOS-29MAY2025 Debt, SiloId: 41',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x3A57034303b2a5939AD54c3355E828217b135821',
+        symbol: 'nbPT-wOS-29MAY2025-41',
+        name: 'Silo Finance Non-borrowable PT-wOS-29MAY2025 Deposit, SiloId: 41',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x7dB82f430f333Ac5D93963e0a93FAfEF7061F998',
+        symbol: 'bPT-wOS-29MAY2025-41',
+        name: 'Silo Finance Borrowable PT-wOS-29MAY2025 Deposit, SiloId: 41',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xC9d073568f905f3ca957Cc5560F022D4d6802799',
+        symbol: 'dwS-41',
+        name: 'Silo Finance wS Debt, SiloId: 41',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x184d13a871E8cdc41e27e63b0457a59c6188261F',
+        symbol: 'nbwS-41',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 41',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xE75B0B3d24B988Ada7136F6b8D491b727c36c27F',
+        symbol: 'bwS-41',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 41',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'stS/S',
     marketAddress: '0xA3BF8b1eE377bBe6152A6885eaeE8747dcBEa35D',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
+        symbol: 'stS',
+        name: 'Beets Staked Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x933a1ac3D4Ac09487EcAE2eC0B3F301b39123B64',
+        symbol: 'dstS-28',
+        name: 'Silo Finance stS Debt, SiloId: 28',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x3Acf410436F9FAac700459b6bde2Cc8BfD9BA699',
+        symbol: 'nbstS-28',
+        name: 'Silo Finance Non-borrowable stS Deposit, SiloId: 28',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xF03c5b0CCbC4840AA2A0c896DC56ca79E75D1879',
+        symbol: 'bstS-28',
+        name: 'Silo Finance Borrowable stS Deposit, SiloId: 28',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0xc908e972afD709218e83c3644E68b14851198165',
+        symbol: 'dwS-28',
+        name: 'Silo Finance wS Debt, SiloId: 28',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xBE00a77373804213f12678F47E9565e541368136',
+        symbol: 'nbwS-28',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 28',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x6c49B18333A1135e9A376560c07E6D1Fd0350EaF',
+        symbol: 'bwS-28',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 28',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'LBTC/WBTC',
     marketAddress: '0x91D87099fA714a201297856D29380195adB62962',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
-        debtToken: {
-          address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
-          symbol: 'WBTC',
-          name: 'Wrapped BTC',
-          decimals: 8,
-        },
-        collateralToken: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
-        collateralOnlyToken: {
-          address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
-          symbol: 'LBTC',
-          name: 'Lombard Staked Bitcoin',
-          decimals: 8,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
+        symbol: 'LBTC',
+        name: 'Lombard Staked Bitcoin',
+        decimals: 8,
       },
-    ],
+      collateralToken: {
+        address: '0x4514048ac3d072091298551c9fE73Db379117e0b',
+        symbol: 'dLBTC-31',
+        name: 'Silo Finance LBTC Debt, SiloId: 31',
+        decimals: 8,
+      },
+      collateralOnlyToken: {
+        address: '0xCcE0dEA2b0bAf3151eF7E11571A7F908517E849a',
+        symbol: 'nbLBTC-31',
+        name: 'Silo Finance Non-borrowable LBTC Deposit, SiloId: 31',
+        decimals: 8,
+      },
+      debtToken: {
+        address: '0xf2f6609C0D9A8E6bd9be51359E67b58c9D33e771',
+        symbol: 'bLBTC-31',
+        name: 'Silo Finance Borrowable LBTC Deposit, SiloId: 31',
+        decimals: 8,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        symbol: 'WBTC',
+        name: 'Wrapped BTC',
+        decimals: 8,
+      },
+      collateralToken: {
+        address: '0xB8FCC46EfcE5e3341d8ABe9A1DD70265d8841301',
+        symbol: 'dWBTC-31',
+        name: 'Silo Finance WBTC Debt, SiloId: 31',
+        decimals: 8,
+      },
+      collateralOnlyToken: {
+        address: '0x60CA8d165ca0179ABE677A8e85c123e8Ec919629',
+        symbol: 'nbWBTC-31',
+        name: 'Silo Finance Non-borrowable WBTC Deposit, SiloId: 31',
+        decimals: 8,
+      },
+      debtToken: {
+        address: '0x0588651eE0B84b3CA8035a69d60fF18c0263DF71',
+        symbol: 'bWBTC-31',
+        name: 'Silo Finance Borrowable WBTC Deposit, SiloId: 31',
+        decimals: 8,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'stS/USDC',
     marketAddress: '0xDace786ceF546C258C67B3EF68AeD91B887BE0f0',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
-          symbol: 'stS',
-          name: 'Beets Staked Sonic',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
+        symbol: 'stS',
+        name: 'Beets Staked Sonic',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x274F83Ccf8952E77e49D2c4eD2bB1f4B8e77AA60',
+        symbol: 'dstS-36',
+        name: 'Silo Finance stS Debt, SiloId: 36',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x360fD93023467c095C509Ec365D278d1ac8410b1',
+        symbol: 'nbstS-36',
+        name: 'Silo Finance Non-borrowable stS Deposit, SiloId: 36',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xd90545B06e7a6f9D2194d8f26E72c9B0D4e00D60',
+        symbol: 'bstS-36',
+        name: 'Silo Finance Borrowable stS Deposit, SiloId: 36',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x469Aa25e89CA4378E5E99e775F34D3073628d047',
+        symbol: 'dUSDC.e-36',
+        name: 'Silo Finance USDC.e Debt, SiloId: 36',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xaD3ecc9Bdd88757F8bFE41AC96E9A33C28A40FE5',
+        symbol: 'nbUSDC.e-36',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 36',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x11Ba70c0EBAB7946Ac84F0E6d79162b0cBb2693f',
+        symbol: 'bUSDC.e-36',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 36',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'EGGS/USDC',
     marketAddress: '0x11BBa83002915bB204B348C2174626612260DDaa',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xf26Ff70573ddc8a90Bd7865AF8d7d70B8Ff019bC',
-          symbol: 'EGGS',
-          name: 'Eggs',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0xf26Ff70573ddc8a90Bd7865AF8d7d70B8Ff019bC',
-          symbol: 'EGGS',
-          name: 'Eggs',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0xf26Ff70573ddc8a90Bd7865AF8d7d70B8Ff019bC',
-          symbol: 'EGGS',
-          name: 'Eggs',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xf26Ff70573ddc8a90Bd7865AF8d7d70B8Ff019bC',
+        symbol: 'EGGS',
+        name: 'Eggs',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0x74948bF63c979a96B29feD9E2A3b7f8C03F68a25',
+        symbol: 'dEGGS-33',
+        name: 'Silo Finance EGGS Debt, SiloId: 33',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x7F5953a469529E4E3A1E2118d17803FA5C2bDa11',
+        symbol: 'nbEGGS-33',
+        name: 'Silo Finance Non-borrowable EGGS Deposit, SiloId: 33',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x38207373C2cF5FF809da0D72F9965eeC1c87420F',
+        symbol: 'bEGGS-33',
+        name: 'Silo Finance Borrowable EGGS Deposit, SiloId: 33',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xDd6D048f80cC64a53949A1Bb8E0FCc38f3388056',
+        symbol: 'dUSDC.e-33',
+        name: 'Silo Finance USDC.e Debt, SiloId: 33',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xDf041461650Cfce922A052FC0BbA9a8311839A3c',
+        symbol: 'nbUSDC.e-33',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 33',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0x42CE2234fd5a26bF161477a996961c4d01F466a3',
+        symbol: 'bUSDC.e-33',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 33',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wanS (28 Aug)/S',
     marketAddress: '0x12e082a98C2292382f9e2Bd03CAD7Fb41242831A',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x789cA09b0B4bcc83062d817C43206f96bd464015',
-          symbol: 'PT-wanS (28 Aug)',
-          name: 'Angles • Pendle',
-          decimals: 18,
-        },
-        debtToken: {
-          address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
-          symbol: 'S',
-          name: 'Sonic',
-          decimals: 18,
-        },
-        collateralToken: {
-          address: '0x789cA09b0B4bcc83062d817C43206f96bd464015',
-          symbol: 'PT-wanS (28 Aug)',
-          name: 'Angles • Pendle',
-          decimals: 18,
-        },
-        collateralOnlyToken: {
-          address: '0x789cA09b0B4bcc83062d817C43206f96bd464015',
-          symbol: 'PT-wanS (28 Aug)',
-          name: 'Angles • Pendle',
-          decimals: 18,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x789cA09b0B4bcc83062d817C43206f96bd464015',
+        symbol: 'PT-wanS (28 Aug)',
+        name: 'Angles • Pendle',
+        decimals: 18,
       },
-    ],
+      collateralToken: {
+        address: '0xc4C2151fB8BCBD54D2fb2B521F5a26b9ad21ff0c',
+        symbol: 'dPT-wanS-28AUG2025-51',
+        name: 'Silo Finance PT-wanS-28AUG2025 Debt, SiloId: 51',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0x266a6ba6fa2feB7a571bD05EA855159EBe6f9ADf',
+        symbol: 'nbPT-wanS-28AUG2025-51',
+        name: 'Silo Finance Non-borrowable PT-wanS-28AUG2025 Deposit, SiloId: 51',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0x36798869d32FA5a617085044d84E0636a7830Abb',
+        symbol: 'bPT-wanS-28AUG2025-51',
+        name: 'Silo Finance Borrowable PT-wanS-28AUG2025 Deposit, SiloId: 51',
+        decimals: 18,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+        symbol: 'S',
+        name: 'Sonic',
+        decimals: 18,
+      },
+      collateralToken: {
+        address: '0x57863e9127135E756A5954D05ea72b9d9cd08da7',
+        symbol: 'dwS-51',
+        name: 'Silo Finance wS Debt, SiloId: 51',
+        decimals: 18,
+      },
+      collateralOnlyToken: {
+        address: '0xE54e7C58C3AE97b617257086B7a5D44FB64A9815',
+        symbol: 'nbwS-51',
+        name: 'Silo Finance Non-borrowable wS Deposit, SiloId: 51',
+        decimals: 18,
+      },
+      debtToken: {
+        address: '0xC92E96acb616476Ed117f263Fa68Ce21F6D554D3',
+        symbol: 'bwS-51',
+        name: 'Silo Finance Borrowable wS Deposit, SiloId: 51',
+        decimals: 18,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'WBTC/USDC',
     marketAddress: '0x2F33cCbB08743d51E086BDC1bA20fB8CEB9bAD40',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
-          symbol: 'WBTC',
-          name: 'Wrapped BTC',
-          decimals: 8,
-        },
-        debtToken: {
-          address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-          symbol: 'USDC',
-          name: 'Bridged USDC (Sonic Labs)',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
-          symbol: 'WBTC',
-          name: 'Wrapped BTC',
-          decimals: 8,
-        },
-        collateralOnlyToken: {
-          address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
-          symbol: 'WBTC',
-          name: 'Wrapped BTC',
-          decimals: 8,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        symbol: 'WBTC',
+        name: 'Wrapped BTC',
+        decimals: 8,
       },
-    ],
+      collateralToken: {
+        address: '0x4e5B294f6D97a43CD96Baf920742b01dB5A08661',
+        symbol: 'dWBTC-50',
+        name: 'Silo Finance WBTC Debt, SiloId: 50',
+        decimals: 8,
+      },
+      collateralOnlyToken: {
+        address: '0x95482Caf605B488EA6F5792dc4b5E5cC8FcFa690',
+        symbol: 'nbWBTC-50',
+        name: 'Silo Finance Non-borrowable WBTC Deposit, SiloId: 50',
+        decimals: 8,
+      },
+      debtToken: {
+        address: '0xB0f7931C300097C462f2C8568750D1C496F62205',
+        symbol: 'bWBTC-50',
+        name: 'Silo Finance Borrowable WBTC Deposit, SiloId: 50',
+        decimals: 8,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        symbol: 'USDC',
+        name: 'Bridged USDC (Sonic Labs)',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0xFB892860c26Dd514E8158B0310c4B03BD3D08f9A',
+        symbol: 'dUSDC.e-50',
+        name: 'Silo Finance USDC.e Debt, SiloId: 50',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0xED0bDDdf202D5376B4E0F45e1D99da7dd088a13e',
+        symbol: 'nbUSDC.e-50',
+        name: 'Silo Finance Non-borrowable USDC.e Deposit, SiloId: 50',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0xb488af9A423eE9012db3b90B213dcca2CD9C4070',
+        symbol: 'bUSDC.e-50',
+        name: 'Silo Finance Borrowable USDC.e Deposit, SiloId: 50',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
     marketName: 'PT-wstkscUSD (29 May)/scUSD',
     marketAddress: '0xAD108d6c7Bcfc529B889598d96653Bbb3D00e2fc',
-    asset: [
-      {
-        underlyingAsset: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        debtToken: {
-          address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
-          symbol: 'scUSD',
-          name: 'Sonic USD',
-          decimals: 6,
-        },
-        collateralToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
-        collateralOnlyToken: {
-          address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
-          symbol: 'PT-wstkscUSD (29 May)',
-          name: 'Rings • Pendle',
-          decimals: 6,
-        },
+    silo0: {
+      underlyingAsset: {
+        address: '0xBe27993204Ec64238F71A527B4c4D5F4949034C3',
+        symbol: 'PT-wstkscUSD (29 May)',
+        name: 'Rings • Pendle',
+        decimals: 6,
       },
-    ],
+      collateralToken: {
+        address: '0x9134F31832B9821FCcA2784E7Ef6A6B872EE23c9',
+        symbol: 'dPT-wstkscUSD-29MAY2025-44',
+        name: 'Silo Finance PT-wstkscUSD-29MAY2025 Debt, SiloId: 44',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x06E9DCF8110382F3F9319B8fF7B4980AA6083848',
+        symbol: 'nbPT-wstkscUSD-29MAY2025-44',
+        name: 'Silo Finance Non-borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 44',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0xc5584e00349158dc04E9E5a857aB6C6F34b00C03',
+        symbol: 'bPT-wstkscUSD-29MAY2025-44',
+        name: 'Silo Finance Borrowable PT-wstkscUSD-29MAY2025 Deposit, SiloId: 44',
+        decimals: 6,
+      },
+    },
+    silo1: {
+      underlyingAsset: {
+        address: '0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE',
+        symbol: 'scUSD',
+        name: 'Sonic USD',
+        decimals: 6,
+      },
+      collateralToken: {
+        address: '0x8bc1DCAeeE4f2D5a730d58D53Ca016731147e1cd',
+        symbol: 'dscUSD-44',
+        name: 'Silo Finance scUSD Debt, SiloId: 44',
+        decimals: 6,
+      },
+      collateralOnlyToken: {
+        address: '0x50618995C36fC1EE4727050d9e78E8b992FC2b10',
+        symbol: 'nbscUSD-44',
+        name: 'Silo Finance Non-borrowable scUSD Deposit, SiloId: 44',
+        decimals: 6,
+      },
+      debtToken: {
+        address: '0xC3A18f1Efa66234e7D233C8ad00D597F6e585f2b',
+        symbol: 'bscUSD-44',
+        name: 'Silo Finance Borrowable scUSD Deposit, SiloId: 44',
+        decimals: 6,
+      },
+    },
     protocols: [Protocols.SILO],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
