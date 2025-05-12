@@ -72,6 +72,7 @@ export enum Protocols {
   UNISWAP = 'UNISWAP',
   VLP = 'VLP',
   MORPHO = 'MORPHO',
+  SILO_V2 = 'SILO_V2',
 }
 
 export interface Token {

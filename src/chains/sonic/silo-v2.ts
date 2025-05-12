@@ -56,7 +56,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -114,7 +114,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -172,7 +172,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -230,7 +230,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 8,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -288,7 +288,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -346,7 +346,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -404,7 +404,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -462,7 +462,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -520,7 +520,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -578,7 +578,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -636,7 +636,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -694,7 +694,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -752,7 +752,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -810,7 +810,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -868,7 +868,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -926,7 +926,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -984,7 +984,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1042,7 +1042,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1100,7 +1100,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1158,7 +1158,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1216,7 +1216,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1274,7 +1274,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1332,7 +1332,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1390,7 +1390,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 8,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1448,7 +1448,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1506,7 +1506,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1564,7 +1564,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 18,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1622,7 +1622,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
   {
@@ -1680,7 +1680,7 @@ export const tokens: SiloV2Token[] = [
         decimals: 6,
       },
     },
-    protocols: [Protocols.SILO],
+    protocols: [Protocols.SILO_V2],
     buildingBlocks: [BuildingBlock.LEND, BuildingBlock.BORROW],
   },
 ];
