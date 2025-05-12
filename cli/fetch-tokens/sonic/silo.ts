@@ -90,11 +90,11 @@ async function main() {
         client,
         silo0ShareTokens[0] as `0x${string}`,
       );
-      const silo0DebtShareToken = await returnTokenMetadata(
+      const silo0CollateralShareToken = await returnTokenMetadata(
         client,
         silo0ShareTokens[1] as `0x${string}`,
       );
-      const silo0CollateralShareToken = await returnTokenMetadata(
+      const silo0DebtShareToken = await returnTokenMetadata(
         client,
         silo0ShareTokens[2] as `0x${string}`,
       );
@@ -103,11 +103,11 @@ async function main() {
         client,
         silo1ShareTokens[0] as `0x${string}`,
       );
-      const silo1DebtShareToken = await returnTokenMetadata(
+      const silo1CollateralShareToken = await returnTokenMetadata(
         client,
         silo1ShareTokens[1] as `0x${string}`,
       );
-      const silo1CollateralShareToken = await returnTokenMetadata(
+      const silo1DebtShareToken = await returnTokenMetadata(
         client,
         silo1ShareTokens[2] as `0x${string}`,
       );
