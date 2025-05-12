@@ -139,6 +139,15 @@ export interface MorphoToken {
   buildingBlocks: BuildingBlock[];
 }
 
+export interface SiloV2Token {
+  marketName: string;
+  marketAddress: string;
+  silo0: SiloAsset;
+  silo1: SiloAsset;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
+}
+
 export const ProtocolsByBuildingBlock: Partial<
   Record<BuildingBlock, Protocols[]>
 > = {

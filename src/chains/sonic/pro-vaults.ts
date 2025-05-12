@@ -1,7 +1,7 @@
 import { Token, Protocols, BuildingBlock, ChainId } from '../../types';
 
 const getTokens = async (): Promise<Token[]> => {
-  const endpoint = `https://subgraph.satsuma-prod.com/d65bfd62f3da/factor/studio-pro-base.production/api`;
+  const endpoint = `https://subgraph.satsuma-prod.com/d65bfd62f3da/factor/studio-pro-sonic.production/api`;
   const query = `
   query ProVaults {
     vaults  {
@@ -19,7 +19,7 @@ const getTokens = async (): Promise<Token[]> => {
 
   const data = await response.json();
   return data.data.vaults.map((vault: any) => ({
-    chainId: ChainId.ARBITRUM_ONE,
+    chainId: ChainId.SONIC,
     address: vault.id,
     symbol: vault.symbol,
     name: vault.name,
