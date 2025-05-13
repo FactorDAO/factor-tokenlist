@@ -11,7 +11,7 @@ import { compileFile } from '../../utils/format-file';
 
 async function main() {
   const endpoint =
-    'https://api-v2.pendle.finance/bff/v1/8453/markets?limit=100';
+    'https://api-v2.pendle.finance/core/v1/8453/markets?limit=100';
   const response = await fetch(endpoint);
   const data = await response.json();
   const pendleTokens = data.results;
