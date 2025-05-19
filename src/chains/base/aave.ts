@@ -279,4 +279,17 @@ export const tokens: AaveToken[] = [
       BuildingBlock.WITHDRAW,
     ],
   },
+  {
+    aToken: '0x67EAF2BeE4384a2f84Da9Eb8105C661C123736BA',
+    variableDebtToken: '',
+    symbol: 'aBasAAVE',
+    decimals: 18,
+    underlyingAddress: '0x63706e401c06ac8513145b7687A14804d17f814b',
+    underlyingSymbol: 'AAVE',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
+  },
 ];
