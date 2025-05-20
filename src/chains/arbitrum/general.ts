@@ -23,7 +23,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xba5ddd1f9d7f570dc94a51479a000e3bce967196',
@@ -38,7 +38,7 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-    protocols: [Protocols.AAVE, Protocols.UNISWAP],
+    protocols: [Protocols.AAVE, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AAVE.png',
   },
@@ -54,7 +54,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x09e18590e8f76b6cf471b3cd75fe1a1a9d2b2c2b',
@@ -68,7 +68,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x0e15258734300290a651fdbae8deb039a8e7a2fa',
@@ -82,7 +82,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x8fbd420956fdd301f4493500fd0bcaaa80f2389c',
@@ -96,7 +96,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xaeaeed23478c3a4b798e4ed40d8b7f41366ae861',
@@ -110,7 +110,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xe05a08226c49b636acf99c40da8dc6af83ce5bb3',
@@ -124,7 +124,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ANKRETH.png',
   },
@@ -164,7 +164,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ARX.png',
   },
@@ -180,7 +180,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/AXLUSDC.png',
   },
@@ -196,7 +196,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BADGER.png',
   },
@@ -212,7 +212,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BAL.png',
   },
@@ -228,7 +228,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/BFR.png',
   },
@@ -244,7 +244,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x031d35296154279dc1984dcd93e392b1f946737b',
@@ -258,7 +258,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xfa42da1bd08341537a44a4ca9d236d1c00a98b40',
@@ -272,7 +272,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x3a8b787f78d775aecfeea15706d4221b40f345ab',
@@ -286,7 +286,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CELR.png',
   },
@@ -302,7 +302,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CHR.png',
   },
@@ -318,7 +318,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/COMP.png',
   },
@@ -334,7 +334,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CREAM.png',
   },
@@ -350,7 +350,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x11cdb42b0eb46d95f990bedd4695a6e3fa034978',
@@ -364,7 +364,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/CRV.png',
   },
@@ -380,7 +380,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DAI.png',
   },
@@ -399,7 +399,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.CAMELOT,
+      Protocols.AAVE,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DAI.png',
   },
@@ -415,7 +420,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x1dDcaa4Ed761428ae348BEfC6718BCb12e63bFaa',
@@ -429,7 +434,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xae6aab43c4f3e0cea4ab83752c278f8debaba689',
@@ -443,7 +448,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DF.png',
   },
@@ -459,7 +464,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DODO.png',
   },
@@ -475,7 +480,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55',
@@ -489,7 +494,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/DPX.png',
   },
@@ -505,7 +510,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
@@ -519,7 +524,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ETH.png',
   },
@@ -535,7 +540,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FCTR.png',
   },
@@ -551,7 +556,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x876ec6be52486eeec06bc06434f3e629d695c6ba',
@@ -565,7 +570,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FLUID.png',
   },
@@ -581,7 +586,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xdb298285fe4c5410b05390ca80e8fbe9de1f259b',
@@ -595,7 +600,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x17fc002b466eec40dae837fc4be5c67993ddbd6f',
@@ -609,7 +614,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRAX.png',
   },
@@ -625,7 +630,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FRXETH.png',
   },
@@ -641,7 +646,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7',
@@ -655,7 +660,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/FXS.png',
   },
@@ -671,7 +676,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GFLY.png',
   },
@@ -687,7 +692,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GHO.png',
   },
@@ -706,7 +711,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.COMPOUND],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.CAMELOT,
+      Protocols.COMPOUND,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GMX.png',
   },
@@ -722,7 +732,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GNO.png',
   },
@@ -738,7 +748,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GNS.png',
   },
@@ -754,7 +764,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GOVI.png',
   },
@@ -770,7 +780,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRAIL.png',
   },
@@ -786,7 +796,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GRT.png',
   },
@@ -802,7 +812,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GSWIFT.png',
   },
@@ -818,7 +828,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HEGIC.png',
   },
@@ -834,7 +844,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HMX.png',
   },
@@ -850,7 +860,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/HND.png',
   },
@@ -866,7 +876,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JOE.png',
   },
@@ -882,7 +892,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/JONES.png',
   },
@@ -898,7 +908,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/KUJI.png',
   },
@@ -914,7 +924,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x3b60ff35d3f7f62d636b067dd0dc0dfdad670e4e',
@@ -928,7 +938,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba',
@@ -942,7 +952,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60',
@@ -956,7 +966,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LDO.png',
   },
@@ -975,7 +985,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.CAMELOT,
+      Protocols.AAVE,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LINK.png',
   },
@@ -991,7 +1006,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LPT.png',
   },
@@ -1007,7 +1022,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LRC.png',
   },
@@ -1026,7 +1041,7 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-    protocols: [Protocols.AAVE, Protocols.UNISWAP],
+    protocols: [Protocols.AAVE, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/LUSD.png',
   },
@@ -1042,7 +1057,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x539bde0d7dbd336b79148aa742883198bbf60342',
@@ -1056,7 +1071,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MAGIC.png',
   },
@@ -1072,7 +1087,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MATH.png',
   },
@@ -1088,7 +1103,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a',
@@ -1102,7 +1117,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MIM.png',
   },
@@ -1118,7 +1133,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MKR.png',
   },
@@ -1134,7 +1149,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MMF.png',
   },
@@ -1150,7 +1165,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MMY.png',
   },
@@ -1166,7 +1181,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/MVD.png',
   },
@@ -1182,7 +1197,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/NYAN.png',
   },
@@ -1198,7 +1213,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OOE.png',
   },
@@ -1214,7 +1229,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/OVN.png',
   },
@@ -1230,7 +1245,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PENDLE.png',
   },
@@ -1246,7 +1261,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PICKLE.png',
   },
@@ -1262,7 +1277,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PREMIA.png',
   },
@@ -1278,7 +1293,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/PSM.png',
   },
@@ -1294,7 +1309,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418',
@@ -1308,7 +1323,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RAM.png',
   },
@@ -1324,7 +1339,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RDNT.png',
   },
@@ -1340,7 +1355,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x32eb7902d4134bf98a28b963d26de779af92a212',
@@ -1354,7 +1369,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xDBf31dF14B66535aF65AaC99C32e9eA844e14501',
@@ -1368,7 +1383,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RENBTC.png',
   },
@@ -1387,7 +1402,7 @@ export const tokens: Token[] = [
       BuildingBlock.CREATE_LP,
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
-    protocols: [Protocols.AAVE, Protocols.UNISWAP],
+    protocols: [Protocols.AAVE, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RETH.png',
   },
@@ -1403,7 +1418,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/RGT.png',
   },
@@ -1419,7 +1434,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ROSX.png',
   },
@@ -1435,7 +1450,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SDEX.png',
   },
@@ -1451,7 +1466,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SDT.png',
   },
@@ -1467,7 +1482,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SFRXETH.png',
   },
@@ -1483,7 +1498,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SIS.png',
   },
@@ -1499,7 +1514,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SLIZ.png',
   },
@@ -1515,7 +1530,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.png',
   },
@@ -1531,7 +1546,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.BBN.png',
   },
@@ -1547,7 +1562,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SOLVBTC.ENA.png',
   },
@@ -1563,7 +1578,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPARTA.png',
   },
@@ -1579,7 +1594,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SPELL.png',
   },
@@ -1595,7 +1610,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STG.png',
   },
@@ -1611,7 +1626,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/STR.png',
   },
@@ -1627,7 +1642,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSD.png',
   },
@@ -1643,7 +1658,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SUSHI.png',
   },
@@ -1659,7 +1674,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/SWPR.png',
   },
@@ -1675,7 +1690,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x982239D38Af50B0168dA33346d85Fb12929c4c07',
@@ -1689,7 +1704,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TROVE.png',
   },
@@ -1705,7 +1720,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/TUSD.png',
   },
@@ -1721,7 +1736,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0',
@@ -1735,7 +1750,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/UNI.png',
   },
@@ -1751,7 +1766,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USD+.png',
   },
@@ -1815,7 +1830,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDD.png',
   },
@@ -1831,7 +1846,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDM.png',
   },
@@ -1871,7 +1886,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USX.png',
   },
@@ -1887,7 +1902,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VELA.png',
   },
@@ -1903,7 +1918,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x64343594ab9b56e99087bfa6f2335db24c2d1f17',
@@ -1917,7 +1932,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VST.png',
   },
@@ -1933,7 +1948,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/VSTA.png',
   },
@@ -1976,7 +1991,12 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.AAVE],
+    protocols: [
+      Protocols.OPENOCEAN,
+      Protocols.UNISWAP,
+      Protocols.CAMELOT,
+      Protocols.AAVE,
+    ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WEETH.png',
   },
@@ -2017,7 +2037,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/WOM.png',
   },
@@ -2033,7 +2053,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x5979d7b546e38e414f7e9822514be443a4800529',
@@ -2071,7 +2091,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XAI.png',
   },
@@ -2087,7 +2107,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x00cbcf7b3d37844e44b888bc747bdd75fcf4e555',
@@ -2101,7 +2121,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/XPET.png',
   },
@@ -2117,7 +2137,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x82e3a8f066a6989666b031d916c43672085b1582',
@@ -2131,7 +2151,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/YFI.png',
   },
@@ -2147,7 +2167,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
   },
   {
     address: '0x6985884C4392D348587B19cb9eAAf157F13271cd',
@@ -2161,7 +2181,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ZRO.png',
   },
@@ -2177,7 +2197,7 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.WITHDRAW,
     ],
-    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+    protocols: [Protocols.OPENOCEAN, Protocols.UNISWAP, Protocols.CAMELOT],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/ZYB.png',
   },
