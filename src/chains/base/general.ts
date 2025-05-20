@@ -12637,4 +12637,32 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
   },
+  {
+    address: '0x63706e401c06ac8513145b7687A14804d17f814b',
+    symbol: 'AAVE',
+    name: 'Aave Token',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+  },
+  {
+    address: '0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee',
+    symbol: 'GHO',
+    name: 'Gho Token',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+  },
 ];
