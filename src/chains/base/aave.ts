@@ -14,6 +14,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -29,6 +30,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -44,6 +46,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -59,6 +62,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -74,6 +78,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -89,6 +94,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -104,6 +110,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -119,6 +126,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -134,6 +142,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -149,6 +158,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -164,6 +174,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -179,6 +190,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -194,6 +206,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -209,6 +222,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
@@ -238,6 +252,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
+      BuildingBlock.FLASHLOAN
     ],
   },
   {
