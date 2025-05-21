@@ -101,6 +101,15 @@ export type SiloAsset = {
   collateralOnlyToken: TokenMetadata;
 };
 
+export interface BalancerToken {
+  address: string;
+  symbol: string;
+  name: string;
+  decimals: number;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
+}
+
 export interface ExtendedSiloToken {
   marketName: string;
   marketAddress: string;
@@ -152,7 +161,17 @@ export interface SiloV2Token {
 export const ProtocolsByBuildingBlock: Partial<
   Record<BuildingBlock, Protocols[]>
 > = {
-  [BuildingBlock.SWAP]: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+  [BuildingBlock.SWAP]: [
+    Protocols.OPENOCEAN,
+    Protocols.UNISWAP,
+    Protocols.CAMELOT,
+  ],
   [BuildingBlock.LEND]: [Protocols.AAVE, Protocols.COMPOUND],
   [BuildingBlock.BORROW]: [Protocols.AAVE, Protocols.COMPOUND],
+  [BuildingBlock.FLASHLOAN]: [Protocols.BALANCER, Protocols.AAVE],
+  [BuildingBlock.PROVIDE_LIQUIDITY]: [Protocols.UNISWAP, Protocols.CAMELOT],
+  [BuildingBlock.REMOVE_LIQUIDITY]: [Protocols.UNISWAP, Protocols.CAMELOT],
+  [BuildingBlock.CREATE_LP]: [Protocols.UNISWAP, Protocols.CAMELOT],
+  [BuildingBlock.CLAIM_REWARDS]: [Protocols.AAVE, Protocols.COMPOUND],
+  [BuildingBlock.YIELD]: [Protocols.AAVE, Protocols.COMPOUND],
 };

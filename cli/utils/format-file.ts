@@ -12,6 +12,7 @@ export const compileFile = (entireList: string[]) => {
   rawFile = rawFile.replace(/"BORROW"/g, 'BuildingBlock.BORROW');
   rawFile = rawFile.replace(/"DEPOSIT"/g, 'BuildingBlock.DEPOSIT');
   rawFile = rawFile.replace(/"CREATE_LP"/g, 'BuildingBlock.CREATE_LP');
+  rawFile = rawFile.replace(/"FLASHLOAN"/g, 'BuildingBlock.FLASHLOAN');
   rawFile = rawFile.replace(
     /"PROVIDE_LIQUIDITY"/g,
     'BuildingBlock.PROVIDE_LIQUIDITY',
@@ -28,6 +29,7 @@ export const compileFile = (entireList: string[]) => {
   rawFile = rawFile.replace(/"PENDLE"/g, 'Protocols.PENDLE');
   rawFile = rawFile.replace(/"SILO"/g, 'Protocols.SILO');
   rawFile = rawFile.replace(/"MORPHO"/g, 'Protocols.MORPHO');
+  rawFile = rawFile.replace(/"BALANCER"/g, 'Protocols.BALANCER');
 
   return rawFile;
 };
