@@ -23,13 +23,12 @@ async function main() {
   const endpoint = `https://gateway-arbitrum.network.thegraph.com/api/${theGraphApiKey}/subgraphs/id/98cQDy6tufTJtshDCuhh9z2kWXsQWBHVh2bqnLHsGAeS`;
   const query = `
     {
-     tokens {
-      id
-      name
+     poolTokens {
       symbol
-      decimals
       address
-     }
+      decimals
+      name
+    }
     }
   `;
   const response = await fetch(endpoint, {
@@ -38,7 +37,7 @@ async function main() {
     body: JSON.stringify({ query }),
   });
   const data = await response.json();
-  const balancerTokens = data.data.tokens;
+  const balancerTokens = data.data.poolTokens;
   const tokenList = new FactorTokenlist(ChainId.ARBITRUM_ONE);
   for (const token of balancerTokens) {
     console.log(token);
