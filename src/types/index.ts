@@ -161,7 +161,11 @@ export interface SiloV2Token {
 export const ProtocolsByBuildingBlock: Partial<
   Record<BuildingBlock, Protocols[]>
 > = {
-  [BuildingBlock.SWAP]: [Protocols.OPENOCEAN, Protocols.UNISWAP],
+  [BuildingBlock.SWAP]: [
+    Protocols.OPENOCEAN,
+    Protocols.UNISWAP,
+    Protocols.CAMELOT,
+  ],
   [BuildingBlock.LEND]: [Protocols.AAVE, Protocols.COMPOUND],
   [BuildingBlock.BORROW]: [Protocols.AAVE, Protocols.COMPOUND],
   [BuildingBlock.FLASHLOAN]: [Protocols.BALANCER, Protocols.AAVE],
