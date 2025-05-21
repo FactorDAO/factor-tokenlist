@@ -101,6 +101,15 @@ export type SiloAsset = {
   collateralOnlyToken: TokenMetadata;
 };
 
+export interface BalancerToken {
+  address: string;
+  symbol: string;
+  name: string;
+  decimals: number;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
+}
+
 export interface ExtendedSiloToken {
   marketName: string;
   marketAddress: string;
