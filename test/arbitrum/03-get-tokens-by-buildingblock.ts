@@ -6,6 +6,8 @@ async function main() {
   console.table(tokens.getTokensByBuildingBlock(BuildingBlock.LEND));
   console.log('==== BORROW ====');
   console.table(tokens.getTokensByBuildingBlock(BuildingBlock.BORROW));
+  console.log('==== FLASHLOAN ====');
+  console.table(tokens.getTokensByBuildingBlock(BuildingBlock.FLASHLOAN));
 }
 
 main();
