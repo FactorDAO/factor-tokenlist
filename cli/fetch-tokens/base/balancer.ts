@@ -5,7 +5,7 @@ import {
   ChainId,
 } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/arbitrum/balancer';
+import { tokens } from '../../../src/chains/base/balancer';
 import fs from 'fs';
 import { compileFile } from '../../utils/format-file';
 const dotenv = fs.readFileSync('./cli/.env').toString().split('\n');
@@ -20,7 +20,7 @@ if (!theGraphApiKey) {
 }
 
 async function main() {
-  const endpoint = `https://gateway-arbitrum.network.thegraph.com/api/${theGraphApiKey}/subgraphs/id/98cQDy6tufTJtshDCuhh9z2kWXsQWBHVh2bqnLHsGAeS`;
+  const endpoint = `https://gateway.thegraph.com/api/${theGraphApiKey}/subgraphs/id/E7XyutxXVLrp8njmjF16Hh38PCJuHm12RRyMt5ma4ctX`;
   const query = `
     {
      poolTokens {
@@ -38,7 +38,7 @@ async function main() {
   });
   const data = await response.json();
   const balancerTokens = data.data.poolTokens;
-  const tokenList = new FactorTokenlist(ChainId.ARBITRUM_ONE);
+  const tokenList = new FactorTokenlist(ChainId.BASE);
   for (const token of balancerTokens) {
     console.log(token);
     try {
@@ -70,7 +70,7 @@ async function main() {
     "import { Token, Protocols, BuildingBlock, BalancerToken } from '../../types';",
   );
   // Save the file
-  fs.writeFileSync('./src/chains/arbitrum/balancer.ts', rawFile);
+  fs.writeFileSync('./src/chains/base/balancer.ts', rawFile);
   exec('yarn format');
   console.log('🎉 Now tokens are:', tokens.length);
 }
