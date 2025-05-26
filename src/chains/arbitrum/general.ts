@@ -2058,7 +2058,7 @@ export const tokens: Token[] = [
   {
     address: '0x5979d7b546e38e414f7e9822514be443a4800529',
     name: 'Wrapped stETH',
-    symbol: 'WSTETH',
+    symbol: 'wstETH',
     decimals: 18,
     buildingBlocks: [
       BuildingBlock.SWAP,
