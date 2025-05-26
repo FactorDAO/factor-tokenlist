@@ -114,22 +114,6 @@ export const tokens: AaveToken[] = [
     ],
   },
   {
-    aToken: '0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7',
-    variableDebtToken: '0x24e6e0795b3c7c71D965fCc4f371803d1c1DcA1E',
-    symbol: 'aBasWETH',
-    decimals: 18,
-    underlyingAddress: '0x4200000000000000000000000000000000000006',
-    underlyingSymbol: 'WETH',
-    protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.BORROW,
-      BuildingBlock.REPAY,
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN,
-    ],
-  },
-  {
     aToken: '0xcf3D55c10DB69f28fD1A75Bd73f3D8A2d9c595ad',
     variableDebtToken: '0x1DabC36f19909425f654777249815c073E8Fd79F',
     symbol: 'aBascbETH',
