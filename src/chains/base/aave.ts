@@ -14,7 +14,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -30,7 +30,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -46,7 +46,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -62,7 +62,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -78,7 +78,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -94,7 +94,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -110,7 +110,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -126,7 +126,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -142,7 +142,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -158,7 +158,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -174,7 +174,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -190,7 +190,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -206,7 +206,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -222,7 +222,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -252,7 +252,7 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
       BuildingBlock.LEND,
       BuildingBlock.WITHDRAW,
-      BuildingBlock.FLASHLOAN
+      BuildingBlock.FLASHLOAN,
     ],
   },
   {
@@ -263,10 +263,7 @@ export const tokens: AaveToken[] = [
     underlyingAddress: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
     underlyingSymbol: 'LBTC',
     protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-    ],
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
   },
   {
     aToken: '0xDD5745756C2de109183c6B5bB886F9207bEF114D',
@@ -276,10 +273,7 @@ export const tokens: AaveToken[] = [
     underlyingAddress: '0x2416092f143378750bb29b79eD961ab195CcEea5',
     underlyingSymbol: 'ezETH',
     protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-    ],
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
   },
   {
     aToken: '0x80a94C36747CF51b2FbabDfF045f6D22c1930eD1',
@@ -289,10 +283,7 @@ export const tokens: AaveToken[] = [
     underlyingAddress: '0xEDfa23602D0EC14714057867A78d01e94176BEA0',
     underlyingSymbol: 'wrsETH',
     protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-    ],
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
   },
   {
     aToken: '0x67EAF2BeE4384a2f84Da9Eb8105C661C123736BA',
@@ -302,9 +293,6 @@ export const tokens: AaveToken[] = [
     underlyingAddress: '0x63706e401c06ac8513145b7687A14804d17f814b',
     underlyingSymbol: 'AAVE',
     protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-    ],
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
   },
 ];

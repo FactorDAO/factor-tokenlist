@@ -21,6 +21,10 @@ import { tokens as optimismMorpho } from './chains/optimism/morpho';
 import { tokens as sonic } from './chains/sonic/general';
 import { tokens as sonicAave } from './chains/sonic/aave';
 import { tokens as sonicSiloV2 } from './chains/sonic/silo-v2';
+import { tokens as arbitrumBalancer } from './chains/arbitrum/balancer';
+import { tokens as optimismBalancer } from './chains/optimism/balancer';
+import { tokens as baseBalancer } from './chains/base/balancer';
+import { tokens as sonicBalancer } from './chains/sonic/balancer';
 
 // Import types
 import {
@@ -37,13 +41,12 @@ import {
   ChainIdToNetwork,
   SiloAsset,
   SiloV2Token,
+  BalancerToken,
 } from './types';
 
 export class FactorTokenlist {
   private chainId: ChainId;
   private generalTokens: Map<string, Token>;
-  private PendleTokens: ExtendedPendleToken[];
-  private SiloTokens: ExtendedSiloToken[];
   private proVaultsTokens: Token[];
   public protocols: Protocols[];
   public buildingBlocks: BuildingBlock[];
@@ -55,7 +58,11 @@ export class FactorTokenlist {
   private availableSiloTokens: Record<string, ExtendedSiloToken[]>;
   private availableMorphoTokens: Record<string, MorphoToken[]>;
   private availableSiloV2Tokens: Record<string, SiloV2Token[]>;
+  private availableBalancerTokens: Record<string, BalancerToken[]>;
   private Aave: AaveToken[];
+  private PendleTokens: ExtendedPendleToken[];
+  private SiloTokens: ExtendedSiloToken[];
+  private BalancerTokens: BalancerToken[];
   private CompoundTokens: CompoundToken[];
   private MorphoTokens: MorphoToken[];
   private SiloV2Tokens: SiloV2Token[];
@@ -96,6 +103,12 @@ export class FactorTokenlist {
     };
     this.availableSiloV2Tokens = {
       sonic: sonicSiloV2,
+    };
+    this.availableBalancerTokens = {
+      arbitrum: arbitrumBalancer,
+      optimism: optimismBalancer,
+      base: baseBalancer,
+      sonic: sonicBalancer,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -154,6 +167,11 @@ export class FactorTokenlist {
     this.MorphoTokens = this.availableMorphoTokens[network] ?? [];
     if (this.MorphoTokens.length > 0) {
       this.protocols.push(Protocols.MORPHO);
+    }
+    // Add balancer tokens
+    this.BalancerTokens = this.availableBalancerTokens[network] ?? [];
+    if (this.BalancerTokens.length > 0) {
+      this.protocols.push(Protocols.BALANCER);
     }
   }
 
@@ -288,6 +306,30 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get balancer token by address
+   * @param address - Token address
+   * @returns Balancer token
+   */
+  public getBalancerToken(address: string): BalancerToken {
+    const token = this.BalancerTokens.find(
+      (token: BalancerToken) =>
+        token.address.toLowerCase() === address.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(`Balancer token with address ${address} not found`);
+    }
+    return token;
+  }
+
+  /**
+   * Get all available balancer tokens
+   * @returns Array of all balancer tokens
+   */
+  public getAllBalancerTokens(): BalancerToken[] {
+    return this.BalancerTokens;
+  }
+
+  /**
    * Get compound token by base asset address
    * @param baseAssetAddress - Base asset address
    * @returns Compound token
@@ -381,16 +423,51 @@ export class FactorTokenlist {
    * @param buildingBlock - Building block category
    * @returns Array of tokens for the specified building block
    */
-  public getTokensByBuildingBlock(buildingBlock: BuildingBlock): Token[] {
+  public getTokensByBuildingBlock(buildingBlock: BuildingBlock): any[] {
     // First get all tokens that have the building block
     const tokensWithBuildingBlock = Array.from(
       this.generalTokens.values(),
     ).filter((token: Token) => {
       return token.buildingBlocks.includes(buildingBlock);
     });
-
+    // Get all tokens from the other protocols
+    const aaveTokensWithBuildingBlock = this.Aave.filter((token: AaveToken) => {
+      return token.buildingBlocks.includes(buildingBlock);
+    });
+    const pendleTokensWithBuildingBlock = this.PendleTokens.filter(
+      (token: ExtendedPendleToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
+    const siloTokensWithBuildingBlock = this.SiloTokens.filter(
+      (token: ExtendedSiloToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
+    const compoundTokensWithBuildingBlock = this.CompoundTokens.filter(
+      (token: CompoundToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
+    const morphoTokensWithBuildingBlock = this.MorphoTokens.filter(
+      (token: MorphoToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
+    const balancerTokensWithBuildingBlock = this.BalancerTokens.filter(
+      (token: BalancerToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
+    const mergedTokens = [
+      ...tokensWithBuildingBlock,
+      ...aaveTokensWithBuildingBlock,
+      ...pendleTokensWithBuildingBlock,
+      ...siloTokensWithBuildingBlock,
+      ...compoundTokensWithBuildingBlock,
+    ];
     // Create new tokens with filtered protocols
-    return tokensWithBuildingBlock.map((token: Token) => ({
+    return mergedTokens.map((token: any) => ({
       ...token,
       buildingBlocks: [buildingBlock],
       protocols: token.protocols.filter((protocol: Protocols) =>
