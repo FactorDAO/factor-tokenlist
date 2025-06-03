@@ -386,6 +386,7 @@ export class FactorTokenlist {
     | ExtendedSiloToken[]
     | AaveToken[]
     | CompoundToken[]
+    | BalancerToken[]
     | MorphoToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.PendleTokens;
@@ -401,6 +402,9 @@ export class FactorTokenlist {
     }
     if (protocol === Protocols.MORPHO) {
       return this.MorphoTokens;
+    }
+    if (protocol === Protocols.BALANCER) {
+      return this.BalancerTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
@@ -465,6 +469,8 @@ export class FactorTokenlist {
       ...pendleTokensWithBuildingBlock,
       ...siloTokensWithBuildingBlock,
       ...compoundTokensWithBuildingBlock,
+      ...balancerTokensWithBuildingBlock,
+      ...morphoTokensWithBuildingBlock,
     ];
     // Create new tokens with filtered protocols
     return mergedTokens.map((token: any) => ({
