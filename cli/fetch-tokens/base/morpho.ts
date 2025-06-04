@@ -81,7 +81,7 @@ async function main() {
         } catch (e: any) {
           console.log('👀 Error:', e.message);
           tokens.push({
-            name: token.collateralAsset.name + ' / ' + token.loanAsset.name,
+            name: token.collateralAsset.symbol + ' / ' + token.loanAsset.symbol,
             id: token.uniqueKey,
             loanAsset: {
               address: token.loanAsset.address,
