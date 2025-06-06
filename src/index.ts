@@ -386,6 +386,7 @@ export class FactorTokenlist {
     | ExtendedSiloToken[]
     | AaveToken[]
     | CompoundToken[]
+    | BalancerToken[]
     | MorphoToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.PendleTokens;
@@ -401,6 +402,9 @@ export class FactorTokenlist {
     }
     if (protocol === Protocols.MORPHO) {
       return this.MorphoTokens;
+    }
+    if (protocol === Protocols.BALANCER) {
+      return this.BalancerTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
@@ -465,6 +469,8 @@ export class FactorTokenlist {
       ...pendleTokensWithBuildingBlock,
       ...siloTokensWithBuildingBlock,
       ...compoundTokensWithBuildingBlock,
+      ...balancerTokensWithBuildingBlock,
+      ...morphoTokensWithBuildingBlock,
     ];
     // Create new tokens with filtered protocols
     return mergedTokens.map((token: any) => ({
@@ -496,16 +502,62 @@ export class FactorTokenlist {
    * @param address - Token address
    * @returns Token or pendle token
    */
-  public getToken(address: string): Token | ExtendedPendleToken {
+  public getToken(
+    address: string,
+  ):
+    | Token
+    | ExtendedPendleToken
+    | ExtendedSiloToken
+    | MorphoToken
+    | BalancerToken
+    | SiloV2Token
+    | CompoundToken
+    | AaveToken {
     const token = this.generalTokens.get(address.toLowerCase());
     const pendleToken = this.PendleTokens.find(
       (token: ExtendedPendleToken) =>
         token.address.toLowerCase() === address.toLowerCase(),
     );
+    const siloToken = this.SiloTokens.find(
+      (token: ExtendedSiloToken) =>
+        token.marketAddress.toLowerCase() === address.toLowerCase(),
+    );
+    const morphoToken = this.MorphoTokens.find(
+      (token: MorphoToken) =>
+        token.collateralAsset.address.toLowerCase() === address.toLowerCase(),
+    );
+    const balancerToken = this.BalancerTokens.find(
+      (token: BalancerToken) =>
+        token.address.toLowerCase() === address.toLowerCase(),
+    );
+    const siloV2Token = this.SiloV2Tokens.find(
+      (token: SiloV2Token) =>
+        token.marketAddress.toLowerCase() === address.toLowerCase(),
+    );
+    const compoundToken = this.CompoundTokens.find(
+      (token: CompoundToken) =>
+        token.baseAssetAddress.toLowerCase() === address.toLowerCase(),
+    );
+    const aaveToken = this.Aave.find(
+      (token: AaveToken) =>
+        token.aToken.toLowerCase() === address.toLowerCase(),
+    );
     if (token) {
       return token;
     } else if (pendleToken) {
       return pendleToken;
+    } else if (siloToken) {
+      return siloToken;
+    } else if (morphoToken) {
+      return morphoToken;
+    } else if (balancerToken) {
+      return balancerToken;
+    } else if (siloV2Token) {
+      return siloV2Token;
+    } else if (compoundToken) {
+      return compoundToken;
+    } else if (aaveToken) {
+      return aaveToken;
     }
     throw new Error(`Token with address ${address} not found`);
   }

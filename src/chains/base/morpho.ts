@@ -2,7 +2,7 @@ import { Token, Protocols, BuildingBlock, MorphoToken } from '../../types';
 
 export const tokens: MorphoToken[] = [
   {
-    name: 'Resolv USD / USD Coin',
+    name: 'USR / USDC',
     id: '0xff0f2bd52ca786a4f8149f96622885e880222d8bed12bbbf5950296be8d03f89',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -25,7 +25,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Based ETH / Electronic Dollar',
+    name: 'weETH / WETH',
+    id: '0xfd0895ba253889c243bf59bc4b96fd1e06d68631241383947b04d1c293a0cfea',
+    loanAsset: {
+      address: '0x4200000000000000000000000000000000000006',
+      symbol: 'WETH',
+      decimals: 18,
+      name: 'Wrapped Ether',
+    },
+    collateralAsset: {
+      address: '0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A',
+      symbol: 'weETH',
+      decimals: 18,
+      name: 'Wrapped eETH',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'bsdETH / eUSD',
     id: '0xf9ed1dba3b6ba1ede10e2115a9554e9c52091c9f1b1af21f9e0fecc855ee74bf',
     loanAsset: {
       address: '0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4',
@@ -48,7 +71,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / Resolv USD',
+    name: 'cbBTC / USR',
     id: '0xf8b9786f2f2163e7d618cd8eaf5c0380a1af22424184356dfdd1912f18cb069a',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -71,7 +94,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / EURC',
+    name: 'wstETH / EURC',
     id: '0xf7e40290f8ca1d5848b3c129502599aa0f0602eb5f5235218797a34242719561',
     loanAsset: {
       address: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
@@ -94,7 +117,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Mai Stablecoin',
+    name: 'cbETH / MAI',
     id: '0xf761e909ee2f87f118e36b7efb42c5915752a6d39263eec0c000c15d0ab7f489',
     loanAsset: {
       address: '0xbf1aeA8670D2528E08334083616dD9C5F3B087aE',
@@ -117,7 +140,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Renzo Restaked ETH / USD Coin',
+    name: 'aprUSR / USDC',
+    id: '0xf4d219ed36d38634f89c992a1bc50e73324f9c5c663d29d089d3f8aa74c700f3',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xC484D83F667b779cc9907248101214235642258B',
+      symbol: 'aprUSR',
+      decimals: 18,
+      name: 'Apostro Resolv USR',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'ezETH / USDC',
     id: '0xf24417ee06adc0b0836cf0dbec3ba56c1059f62f53a55990a38356d42fa75fa2',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -140,7 +186,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / EURA (previously agEUR)',
+    name: 'cbETH / EURA',
     id: '0xefb576606581c5ac9f731d80cb453519d06776fdc1de51d6230d180d74890c3b',
     loanAsset: {
       address: '0xA61BeB4A3d02decb01039e378237032B351125B4',
@@ -163,7 +209,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / USD Coin',
+    name: 'cbETH / USDC',
     id: '0xe73d71cacb1a11ce1033966787e21b85573b8b8a3936bbd7d83b2546a1077c26',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -186,7 +232,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Aerodrome Finance / USD Coin',
+    name: 'AERO / USDC',
     id: '0xe63d3f30d872e49e86cf06b2ffab5aa016f26095e560cb8d6486f9a5f774631e',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -209,7 +255,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Ether',
+    name: 'wstETH / WETH',
     id: '0xe3c4d4d0e214fdc52635d7f9b2f7b3b0081771ae2efeb3cb5aae26009f34f7a7',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -232,7 +278,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Aptos (Universal) / USD Coin',
+    name: 'uAPT / USDC',
     id: '0xe0a6ea61ee79c0ea05268064525538b8290139b60b972fc83c5d5d26cec7cc89',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -255,7 +301,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / USDA',
+    name: 'wstETH / USDA',
     id: '0xdfd701f0e53c7281432a11743408cc52a6cf27761e7c70829318a0213a61b1b2',
     loanAsset: {
       address: '0x0000206329b97DB379d5E1Bf586BbDB969C63274',
@@ -278,7 +324,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Based ETH / Wrapped Ether',
+    name: 'bsdETH / WETH',
     id: '0xdf6aa0df4eb647966018f324db97aea09d2a7dde0d3c0a72115e8b20d58ea81f',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -301,7 +347,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Renzo Restaked ETH / Wrapped Ether',
+    name: 'ezETH / WETH',
     id: '0xdf13c46bf7bd41597f27e32ae9c306eb63859c134073cb81c796ff20b520c7cf',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -324,7 +370,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / USDA',
+    name: 'cbETH / USDA',
     id: '0xde1979b67c815863afd1105cae097ecb71b05b0978bc1605d0a58a25231d924f',
     loanAsset: {
       address: '0x0000206329b97DB379d5E1Bf586BbDB969C63274',
@@ -347,7 +393,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Rocket Pool ETH / Wrapped Ether',
+    name: 'rETH / WETH',
     id: '0xdc69cf2caae7b7d1783fb5a9576dc875888afad17ab3d1a3fc102f741441c165',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -370,7 +416,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / USD Coin',
+    name: 'cbETH / USDC',
     id: '0xdba352d93a64b17c71104cbddc6aef85cd432322a1446b5b65163cbbc615cd0c',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -393,7 +439,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Rocket Pool ETH / USD Coin',
+    name: 'rETH / USDC',
     id: '0xdb0bc9f10a174f29a345c5f30a719933f71ccea7a2a75a632a281929bba1b535',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -416,7 +462,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Aerodrome Finance / USD Coin',
+    name: 'AERO / USDC',
     id: '0xdaa04f6819210b11fe4e3b65300c725c32e55755e3598671559b9ae3bac453d7',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -439,7 +485,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Wrapped Ether',
+    name: 'cbETH / WETH',
     id: '0xd75387f30c983be0aec58b03b51cca52337b496e38cf4effbe995531bf34901c',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -462,7 +508,53 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Resolv USD 24APR2025 / USD Coin',
+    name: 'LP-USR-25SEP2025 / USDC',
+    id: '0xd381cbd66435415598d9db96e7c28e871099014e400a716e5838c1d25a6ca5ab',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0x715509Bde846104cF2cCeBF6fdF7eF1BB874Bc45',
+      symbol: 'LP-USR-25SEP2025',
+      decimals: 18,
+      name: 'Pendle LP USR 25SEP2025',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'wBLT / USDC',
+    id: '0xd1892032c68f94d2650238b363195c6c3c142ba80c0c71269d14f8ea42c0abdf',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0x4E74D4Db6c0726ccded4656d0BCE448876BB4C7A',
+      symbol: 'wBLT',
+      decimals: 18,
+      name: 'Wrapped BMX Liquidity Token',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'PT-USR-24APR2025 / USDC',
     id: '0xcf21c3ca9434959fbf882f7d977f90fe22b7a79e6f39cada5702b56b25e58613',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -485,7 +577,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Electronic Dollar',
+    name: 'wstETH / eUSD',
     id: '0xce89aeb081d719cd35cb1aafb31239c4dfd9c017b2fec26fc2e9a443461e9aea',
     loanAsset: {
       address: '0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4',
@@ -508,7 +600,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Midas US Treasury Bill Token / Verified USDC',
+    name: 'mTBILL / verUSDC',
     id: '0xca2e6f878e273f6587276b44470467f94175e92840ad0d7231e9deb64c190591',
     loanAsset: {
       address: '0x59aaF835D34b1E3dF2170e4872B785f11E2a964b',
@@ -531,7 +623,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / Electronic Dollar',
+    name: 'cbBTC / eUSD',
     id: '0xc9658cac13a9b9b5c1ebaa8ce19c735283cc761ff528d149a7221047bb7fab45',
     loanAsset: {
       address: '0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4',
@@ -554,7 +646,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Renzo Restaked ETH / Wrapped Ether',
+    name: 'ezETH / WETH',
     id: '0xc338cc2dc3f6a25bace40a920eea39ff27f184899def6bda478e27e591e5cef2',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -577,7 +669,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Resolv USD',
+    name: 'wstETH / USR',
     id: '0xc2be602059f1218751ec6f137a8405166419ce408d191fc70f9714eeb301c32b',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -600,7 +692,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Mountain Protocol USD',
+    name: 'wstETH / wUSDM',
     id: '0xb95dd880d553f5d874534d66eb337a4811608331768c2b208440dfe0e6d901fa',
     loanAsset: {
       address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
@@ -623,7 +715,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Electronic Dollar',
+    name: 'cbETH / eUSD',
     id: '0xb5d424e4af49244b074790f1f2dc9c20df948ce291fc6bcc6b59149ecf91196d',
     loanAsset: {
       address: '0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4',
@@ -646,7 +738,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Savings USDS',
+    name: 'hyUSD / USDC',
+    id: '0xb5b3fc38249c9a0aadf7ff0fcc48ef2eec49ef746b9b74a95597132c7a614116',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xCc7FF230365bD730eE4B352cC2492CEdAC49383e',
+      symbol: 'hyUSD',
+      decimals: 18,
+      name: 'High Yield USD',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'wstETH / sUSDS',
     id: '0xb003f1eddcaece702f8b34d684840ef913e00d6c9b0e209f67f8524bfc095733',
     loanAsset: {
       address: '0x5875eEE11Cf8398102FdAd704C9E96607675467a',
@@ -669,30 +784,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Mountain Protocol USD / USD Coin',
-    id: '0xaf9d03bf28fdf54be154e4f307e2e6ab8a6c182e97d6fc227c2fdf26f89dbc22',
-    loanAsset: {
-      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
-      symbol: 'USDC',
-      decimals: 6,
-      name: 'USD Coin',
-    },
-    collateralAsset: {
-      address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
-      symbol: 'wUSDM',
-      decimals: 18,
-      name: 'Wrapped Mountain Protocol USD',
-    },
-    protocols: [Protocols.MORPHO],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.BORROW,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.REPAY,
-    ],
-  },
-  {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Ether',
+    name: 'wstETH / WETH',
     id: '0xade6749e981ae94420956cc22c299054e05ac3564cc196bf62f4c0924c03bfdf',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -715,7 +807,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Wrapped Mountain Protocol USD',
+    name: 'LP-USR-25SEP2025 / USR',
+    id: '0xad9a1896d6d8b07981f78601b2c91056658dc104c5f0b799dd52717704bd5221',
+    loanAsset: {
+      address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
+      symbol: 'USR',
+      decimals: 18,
+      name: 'Resolv USD',
+    },
+    collateralAsset: {
+      address: '0x715509Bde846104cF2cCeBF6fdF7eF1BB874Bc45',
+      symbol: 'LP-USR-25SEP2025',
+      decimals: 18,
+      name: 'Pendle LP USR 25SEP2025',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'cbETH / wUSDM',
     id: '0xabba004839c8ed6bd6f9b7ba61c7e6c4ae970530a6c4852d8f1f3aeed50888cb',
     loanAsset: {
       address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
@@ -738,19 +853,19 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Lombard LBTC 29MAY2025 / Coinbase Wrapped BTC',
-    id: '0xaa5b2464e10b40d9b9642337987eaee5e91ed4003da62c77d7ee2edfe910188e',
+    name: 'bsdETH / USDC',
+    id: '0xab3f5662f8308f7f425a4b6f7c968556b6ca9adc3e64a8d3a30c02c93f33ef0b',
     loanAsset: {
-      address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
-      symbol: 'cbBTC',
-      decimals: 8,
-      name: 'Coinbase Wrapped BTC',
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
     },
     collateralAsset: {
-      address: '0x5d746848005507DA0b1717C137A10C30AD9ee307',
-      symbol: 'PT-LBTC-29MAY2025',
-      decimals: 8,
-      name: 'PT Lombard LBTC 29MAY2025',
+      address: '0xCb327b99fF831bF8223cCEd12B1338FF3aA322Ff',
+      symbol: 'bsdETH',
+      decimals: 18,
+      name: 'Based ETH',
     },
     protocols: [Protocols.MORPHO],
     buildingBlocks: [
@@ -761,7 +876,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / EURC',
+    name: 'WETH / EURC',
     id: '0xa9b5142fa687a24c275faf731f13b52faa9873252bb4e1cb6077aa1f412edb0b',
     loanAsset: {
       address: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
@@ -784,7 +899,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / Coinbase Wrapped BTC',
+    name: 'WETH / cbBTC',
     id: '0xa7813c754ddd6a24e1a1a29ff3ea877803ac63d09efc2f121b1cf3f0bf3af2f6',
     loanAsset: {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -807,7 +922,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Solana (Universal) / USD Coin',
+    name: 'uSOL / USDC',
     id: '0xa60e9b888f343351dece4df8251abe5858fc5db96e8624d614a6500c3a3085ea',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -830,7 +945,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped eETH / USD Coin',
+    name: 'weETH / USDC',
     id: '0xa4e2843486610e6851f4e0a8fcdee819958598c71c7e99b0315904ccf162ddc3',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -853,7 +968,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'XRP (Universal) / USD Coin',
+    name: 'uXRP / USDC',
     id: '0xa426ca680bd5a7dc0f95942ba876a7df399cdf8149f798bcc4e94f03e35d08fa',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -876,7 +991,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Degen',
+    name: 'cbETH / DEGEN',
     id: '0xa15c6f1884276e208199ea5392bf8cce7ed02dceaef21a9bad35fbecc4de99e9',
     loanAsset: {
       address: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
@@ -899,7 +1014,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / USD Coin',
+    name: 'wstETH / USDC',
     id: '0xa066f3893b780833699043f824e5bb88b8df039886f524f62b9a1ac83cb7f1f0',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -922,7 +1037,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'US Yield Coin / Verified USDC',
+    name: 'USYC / verUSDC',
     id: '0x9cc8439780168e725db427fa130606f2c8ad0b78c7dbda316a80ad1f32685062',
     loanAsset: {
       address: '0x59aaF835D34b1E3dF2170e4872B785f11E2a964b',
@@ -945,7 +1060,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Lombard LBTC 29MAY2025 / Coinbase Wrapped BTC',
+    name: 'PT-LBTC-29MAY2025 / cbBTC',
     id: '0x9a697eb760dd12aaea23699c96ea2ebbfe48b7af64138d92c4d232b9ed380024',
     loanAsset: {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -968,7 +1083,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Compounding Open Dollar / USD Coin',
+    name: 'cUSDO / USDC',
     id: '0x99f294c452edc091c988688d501dca78a06ba559065c242b19653452e6affc7a',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -991,7 +1106,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Ether',
+    name: 'wstETH / WETH',
     id: '0x96d3ac6b4cf992e8bc3dd0855e0c84c18c34a6880f7e005e74c40096a82e0072',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1014,7 +1129,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / USD Coin',
+    name: 'cbBTC / USDC',
     id: '0x9103c3b4e834476c9a62ea009ba2c884ee42e94e6e314a26f04d312434191836',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1037,7 +1152,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Degen / USD Coin',
+    name: 'DEGEN / USDC',
     id: '0x8e1a07763061c6b9fe883ec888833674819614f5cab86af7558660e49c1942d7',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1060,7 +1175,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / USD Coin',
+    name: 'wstETH / USDC',
     id: '0x87ff0aad672898c24411f98555f958e232c048f41e6d3f2059d26c13fad07563',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1083,7 +1198,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / USD Coin',
+    name: 'WETH / USDC',
     id: '0x8793cf302b8ffd655ab97bd1c695dbd967807e8367a65cb2f4edaf1380ba1bda',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1106,7 +1221,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Renzo Restaked ETH / Wrapped Ether',
+    name: 'ezETH / WETH',
     id: '0x86021ffe2f778ed8aacecdf3dae2cdef77dbfa5e133b018cca16c52ceab58996',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1129,7 +1244,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Wrapped Ether',
+    name: 'cbETH / WETH',
     id: '0x84662b4f95b85d6b082b68d32cf71bb565b3f22f216a65509cc2ede7dccdfe8c',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1152,7 +1267,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Janus Henderson Anemoy Treasury Fund / Verified USDC',
+    name: 'JTRSY / verUSDC',
     id: '0x83262d91702f90d9edf6c737ceb46e59a2bcfc7ba856e1e8448b7824f83a07e3',
     loanAsset: {
       address: '0x59aaF835D34b1E3dF2170e4872B785f11E2a964b',
@@ -1175,7 +1290,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / EURC',
+    name: 'cbETH / EURC',
     id: '0x7fc498ddcb7707d6f85f6dc81f61edb6dc8d7f1b47a83b55808904790564929a',
     loanAsset: {
       address: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
@@ -1198,30 +1313,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Mountain Protocol USD / USD Coin',
-    id: '0x7fbf113321c898cbcff456160fe8f32b5507df1eaa611ab0b3330fc90d7f18ce',
-    loanAsset: {
-      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
-      symbol: 'USDC',
-      decimals: 6,
-      name: 'USD Coin',
-    },
-    collateralAsset: {
-      address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
-      symbol: 'wUSDM',
-      decimals: 18,
-      name: 'Wrapped Mountain Protocol USD',
-    },
-    protocols: [Protocols.MORPHO],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.BORROW,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.REPAY,
-    ],
-  },
-  {
-    name: 'Based ETH / Wrapped Ether',
+    name: 'bsdETH / WETH',
     id: '0x7f90d72667171d72d10d62b5828d6a5ef7254b1e33718fe0c1f7dcf56dd1edc7',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1244,7 +1336,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped eETH / Wrapped Ether',
+    name: 'hyUSD / USDC',
+    id: '0x7a4c2b2a0fbc16826013d41f7ca7910e4f5dcdca918a6e120be9531fc90841a3',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xCc7FF230365bD730eE4B352cC2492CEdAC49383e',
+      symbol: 'hyUSD',
+      decimals: 18,
+      name: 'High Yield USD',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'weETH / WETH',
     id: '0x78d11c03944e0dc298398f0545dc8195ad201a18b0388cb8058b1bcb89440971',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1267,7 +1382,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / EURA (previously agEUR)',
+    name: 'WETH / EURA',
     id: '0x738a72906ee7a6034458409dc185d4e40a5c64e93731eca818c386ba5e7d474d',
     loanAsset: {
       address: '0xA61BeB4A3d02decb01039e378237032B351125B4',
@@ -1290,7 +1405,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / Degen',
+    name: 'WETH / DEGEN',
     id: '0x718930c5327b0bece97a293c1f8e91c1505bea97e483a7a9dbc9bca4d559a848',
     loanAsset: {
       address: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
@@ -1313,30 +1428,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Staked USDA / USD Coin',
-    id: '0x6e0f34fc2f6de8c168f8f7abc875efb7b19aa97cb6a9288334d8285f9b62e6e5',
-    loanAsset: {
-      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
-      symbol: 'USDC',
-      decimals: 6,
-      name: 'USD Coin',
-    },
-    collateralAsset: {
-      address: '0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776',
-      symbol: 'stUSD',
-      decimals: 18,
-      name: 'Staked USDA',
-    },
-    protocols: [Protocols.MORPHO],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.BORROW,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.REPAY,
-    ],
-  },
-  {
-    name: 'USD Coin / Degen',
+    name: 'USDC / DEGEN',
     id: '0x6bac0f6c8b598a04e839a3fc048212291909c40181ee7a0da942ca5c5203a4b1',
     loanAsset: {
       address: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
@@ -1359,7 +1451,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Ether',
+    name: 'wstETH / WETH',
     id: '0x6aa81f51dfc955df598e18006deae56ce907ac02b0b5358705f1a28fcea23cc0',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1382,7 +1474,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped eETH / USD Coin',
+    name: 'weETH / USDC',
     id: '0x6a331b22b56c9c0ee32a1a7d6f852d2c682ea8b27a1b0f99a9c484a37a951eb7',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1405,7 +1497,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Coinbase Wrapped BTC',
+    name: 'wstETH / cbBTC',
     id: '0x68c9aa4a34df7133b8a72e20e453195f28b0bddb2f55d4b24008951033a20793',
     loanAsset: {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -1428,7 +1520,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / Savings USDS',
+    name: 'cbBTC / sUSDS',
     id: '0x680f4dfd7af2baa95465a72773e1865612ee0222808a7f8acca6becd70d1be45',
     loanAsset: {
       address: '0x5875eEE11Cf8398102FdAd704C9E96607675467a',
@@ -1451,7 +1543,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / EURC',
+    name: 'cbBTC / EURC',
     id: '0x67ebd84b2fb39e3bc5a13d97e4c07abe1ea617e40654826e9abce252e95f049e',
     loanAsset: {
       address: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
@@ -1474,7 +1566,53 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / Wrapped Ether',
+    name: 'PT-USR-25SEP2025 / USDC',
+    id: '0x669b68ae003954dde5b2be025fa373bfc6b6134fc3180ea746c31e892243ae81',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77',
+      symbol: 'PT-USR-25SEP2025',
+      decimals: 18,
+      name: 'PT Resolv USD 25SEP2025',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'smcbBTC / USDC',
+    id: '0x663d1c574cc5ec256c4256c8ed12f3cd7696f180a8f142a86a698f5989caa5d5',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0x5a47C803488FE2BB0A0EAaf346b420e4dF22F3C7',
+      symbol: 'smcbBTC',
+      decimals: 18,
+      name: 'Seamless cbBTC Vault',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'cbETH / WETH',
     id: '0x6600aae6c56d242fa6ba68bd527aff1a146e77813074413186828fd3f1cdca91',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1497,7 +1635,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Super OETH / Metronome Synth ETH',
+    name: 'wsuperOETHb / msETH',
     id: '0x5fda67e2274d50fb63955db09382daf24270ae32f2924d31039fec3c50cbfbe4',
     loanAsset: {
       address: '0x7Ba6F01772924a82D9626c126347A28299E98c98',
@@ -1520,7 +1658,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped BTC / Wrapped Ether',
+    name: 'cbBTC / WETH',
     id: '0x5dffffc7d75dc5abfa8dbe6fad9cbdadf6680cbe1428bafe661497520c84a94c',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1543,7 +1681,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Sui (Universal) / USD Coin',
+    name: 'uSUI / USDC',
     id: '0x5d96564285fc3830f51fe495f88c29cc1232fbca61ca8b6edc25bff921efdef2',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1566,7 +1704,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Stable AMM - USDC/cUSDO / USD Coin',
+    name: 'sAMM-USDC/cUSDO / USDC',
     id: '0x5b347b3dcfed096f09040cd30a174ae354ecc0a35c996493b8fa490d6d3e79d7',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1589,7 +1727,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Staked EURA / USDA',
+    name: 'stEUR / USDA',
     id: '0x592517a07d8bad6e0467661583d3c15a1fee06b7b7506ac14dba250568f67b4c',
     loanAsset: {
       address: '0x0000206329b97DB379d5E1Bf586BbDB969C63274',
@@ -1612,30 +1750,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'USDz / USD Coin',
-    id: '0x58bf7ed35b5d213336a68a5a42dff58f03ceaf417edaad0fc53e046f1742e20e',
-    loanAsset: {
-      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
-      symbol: 'USDC',
-      decimals: 6,
-      name: 'USD Coin',
-    },
-    collateralAsset: {
-      address: '0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938',
-      symbol: 'USDz',
-      decimals: 18,
-      name: 'USDz',
-    },
-    protocols: [Protocols.MORPHO],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.BORROW,
-      BuildingBlock.WITHDRAW,
-      BuildingBlock.REPAY,
-    ],
-  },
-  {
-    name: 'Lombard Staked Bitcoin / Resolv USD',
+    name: 'LBTC / USR',
     id: '0x5892b4715dcd668f7a8276c5d28ddbc04860b9caf474d1806585321a99aaca2b',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -1658,7 +1773,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Lombard Staked Bitcoin / USD Coin',
+    name: 'PT-USR-25SEP2025 / USR',
+    id: '0x580b0cfee735c839af1d15f09c8885ee6305a8bbd4fe14ace0b01454e57f48da',
+    loanAsset: {
+      address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
+      symbol: 'USR',
+      decimals: 18,
+      name: 'Resolv USD',
+    },
+    collateralAsset: {
+      address: '0xa6F0A4D18B6f6DdD408936e81b7b3A8BEFA18e77',
+      symbol: 'PT-USR-25SEP2025',
+      decimals: 18,
+      name: 'PT Resolv USD 25SEP2025',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'LBTC / USDC',
     id: '0x52a2a376586d0775e3e80621facc464f6e96d81c8cb70fd461527dde195a079f',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1681,7 +1819,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Degen',
+    name: 'steakSUSDS / USDC',
+    id: '0x5189c48e1d333d250642a96b90dc926c53f897d8b8f9e8fea71a4b14e9053fde',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xB17B070A56043e1a5a1AB7443AfAFDEbcc1168D7',
+      symbol: 'steakSUSDS',
+      decimals: 18,
+      name: 'Steakhouse sUSDS',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'wstETH / DEGEN',
     id: '0x4ef78b768698d176833bb61682e01a0752a8b0b8da6718dc4b7059e80ddab13d',
     loanAsset: {
       address: '0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed',
@@ -1704,7 +1865,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Lombard Staked Bitcoin / Coinbase Wrapped BTC',
+    name: 'LsETH / WETH',
+    id: '0x4dda3d40225ff86207164809ecd336f9908da885470c0526794f2064795794f3',
+    loanAsset: {
+      address: '0x4200000000000000000000000000000000000006',
+      symbol: 'WETH',
+      decimals: 18,
+      name: 'Wrapped Ether',
+    },
+    collateralAsset: {
+      address: '0xB29749498954A3A821ec37BdE86e386dF3cE30B6',
+      symbol: 'LsETH',
+      decimals: 18,
+      name: 'Liquid Staked ETH',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'LBTC / cbBTC',
     id: '0x4944a1169bc07b441473b830308ffe5bb535c10a9f824e33988b60738120c48e',
     loanAsset: {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -1727,7 +1911,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Midas Basis Trading Token / USD Coin',
+    name: 'mBASIS / USDC',
     id: '0x45f3b5688e7ba25071f78d1ce51d1b893faa3c86897b12204cdff3af6b3611f8',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1750,7 +1934,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / EURA (previously agEUR)',
+    name: 'wstETH / EURA',
     id: '0x4021eef32a72cd1c2bbf9203526bf17d10785de636b00cb1aaa6ca22ce1d1575',
     loanAsset: {
       address: '0xA61BeB4A3d02decb01039e378237032B351125B4',
@@ -1773,7 +1957,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped eETH / Wrapped Ether',
+    name: 'weETH / WETH',
     id: '0x3fa37d9cc9922c120972c89ae0da86843e7e51c0dd04668e6fac3e7cd1ada1d3',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1796,7 +1980,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'USD Coin / Wrapped Ether',
+    name: 'USDC / WETH',
     id: '0x3b3769cfca57be2eaed03fcc5299c25691b77781a1e124e7a8d520eb9a7eabb5',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1819,7 +2003,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'High Yield USD / Electronic Dollar',
+    name: 'hyUSD / eUSD',
     id: '0x3a5bdf0be8d820c1303654b078b14f8fc6d715efaeca56cec150b934bdcbff31',
     loanAsset: {
       address: '0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4',
@@ -1842,7 +2026,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Wrapped Ether',
+    name: 'wstETH / WETH',
     id: '0x3a4048c64ba1b375330d376b1ce40e4047d03b47ab4d48af484edec9fec801ba',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1865,7 +2049,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / USDA',
+    name: 'WETH / USDA',
     id: '0x395ec7a4fbbc91bb94c313d50cc95ee7e572ba5b85065a7168022cd4de464e1b',
     loanAsset: {
       address: '0x0000206329b97DB379d5E1Bf586BbDB969C63274',
@@ -1888,7 +2072,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / Resolv USD',
+    name: 'WETH / USR',
     id: '0x3858f17282016df1e08c920da8f55a16dbe98bd86ebc6871fbb507d877fb56c3',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -1911,7 +2095,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Lombard Staked Bitcoin / Coinbase Wrapped BTC',
+    name: 'wbCOIN / USDC',
+    id: '0x34f676bd8db106d6cdc90d0fb44145cea2f393310a794812cb1c5a8726b60913',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xDEc933e2392AD908263e70A386fbF34e703Ffe8F',
+      symbol: 'wbCOIN',
+      decimals: 18,
+      name: 'Wrapped Backed Coinbase Global',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'LBTC / cbBTC',
     id: '0x30767836635facec1282e6ef4a5981406ed4e72727b3a63a3a72c74e8279a8d7',
     loanAsset: {
       address: '0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf',
@@ -1934,7 +2141,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Resolv USD / USD Coin',
+    name: 'PT-cUSDO-15JUL2025 / USDC',
+    id: '0x2c10e050eb191f3e6ab9475a442d8d8b6a13e82dad7a9110475f4d22392a1a0c',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0x1155d1731B495BF22f016e13cAfb6aFA53BD8a28',
+      symbol: 'PT-cUSDO-15JUL2025',
+      decimals: 18,
+      name: 'Principal Token: cUSDO-15JUL2025',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'USR / USDC',
     id: '0x2a366fd267a5fd882c791781e3956e38b68108b4c17a9bb8090b90b37d47e0fb',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -1957,7 +2187,30 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'rsETHWrapper / Wrapped Ether',
+    name: 'bsdETH / USDC',
+    id: '0x261854c4c2c460f601d4a60208953af746b4d058980e19f54ab40396ff8a912f',
+    loanAsset: {
+      address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
+      symbol: 'USDC',
+      decimals: 6,
+      name: 'USD Coin',
+    },
+    collateralAsset: {
+      address: '0xCb327b99fF831bF8223cCEd12B1338FF3aA322Ff',
+      symbol: 'bsdETH',
+      decimals: 18,
+      name: 'Based ETH',
+    },
+    protocols: [Protocols.MORPHO],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.BORROW,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.REPAY,
+    ],
+  },
+  {
+    name: 'wrsETH / WETH',
     id: '0x214c2bf3c899c913efda9c4a49adff23f77bbc2dc525af7c05be7ec93f32d561',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -1980,7 +2233,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Coinbase Wrapped Staked ETH / USD Coin',
+    name: 'cbETH / USDC',
     id: '0x1c21c59df9db44bf6f645d854ee710a8ca17b479451447e9f56758aee10a2fad',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -2003,7 +2256,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Midas Basis Trading Token / Cod3x USD',
+    name: 'mBASIS / cdxUSD',
     id: '0x1c0b7ef209fb81f0dc49e84de46b988aa23c083449f6abc932f712439cf1fe26',
     loanAsset: {
       address: '0xC0D3700000987C99b3C9009069E4f8413fD22330',
@@ -2026,7 +2279,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Ether / Wrapped Mountain Protocol USD',
+    name: 'WETH / wUSDM',
     id: '0x1791920d6bab15c5f529d278b72aecb79c52ceed412ded44526d7198227e652e',
     loanAsset: {
       address: '0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812',
@@ -2049,7 +2302,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Resolv Liquidity Provider Token / USD Coin',
+    name: 'RLP / USDC',
     id: '0x1478d70d1fde3fd5b8eb5766e82b03aa56a1df72a54fc8cd33aad666b0bd5008',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -2072,7 +2325,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped Super OETH / Wrapped Ether',
+    name: 'wsuperOETHb / WETH',
     id: '0x144bf18d6bf4c59602548a825034f73bf1d20177fc5f975fc69d5a5eba929b45',
     loanAsset: {
       address: '0x4200000000000000000000000000000000000006',
@@ -2095,7 +2348,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / USD Coin',
+    name: 'wstETH / USDC',
     id: '0x13c42741a359ac4a8aa8287d2be109dcf28344484f91185f9a79bd5a805a55ae',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -2118,7 +2371,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Lombard LBTC 29MAY2025 / Lombard Staked Bitcoin',
+    name: 'PT-LBTC-29MAY2025 / LBTC',
     id: '0x12c37bd01e0050e15e85e37b6bfd9a9bc357e7881a4589b6873f94512af1ce66',
     loanAsset: {
       address: '0xecAc9C5F704e954931349Da37F60E39f515c11c1',
@@ -2141,7 +2394,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Resolv USD 24APR2025 / Resolv USD',
+    name: 'PT-USR-24APR2025 / USR',
     id: '0x10b0ce8c2db5e51338caa54effa56c4dd450527a31b12d60e8a33e8fdaa4ebb1',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -2164,7 +2417,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Pendle LP USR 24APR2025 / Resolv USD',
+    name: 'LP-USR-24APR2025 / USR',
     id: '0x0df0f6ca33322cff4111c2b7ff9b267a71f9b63701c3cbdbbc61d054662b1d3f',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -2187,7 +2440,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Wrapped liquid staked Ether 2.0 / Mai Stablecoin',
+    name: 'wstETH / MAI',
     id: '0x0b3bdf8627442f43607716b9e20475500fd62cb91bbb2c16c711e7c31038beb8',
     loanAsset: {
       address: '0xbf1aeA8670D2528E08334083616dD9C5F3B087aE',
@@ -2210,7 +2463,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Resolv Liquidity Provider Token / Resolv USD',
+    name: 'RLP / USR',
     id: '0x091e8908d5dc2916bc03c85ac72d6f9434c176b497532a94097101b0bec41cb7',
     loanAsset: {
       address: '0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9',
@@ -2233,7 +2486,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'PT Resolv USD 24APR2025 / USD Coin',
+    name: 'PT-USR-24APR2025 / USDC',
     id: '0x04f7605a25699d0eff9f92908d25da8702ff59596d159e8bb66eca24b021d99f',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -2256,7 +2509,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Renzo Restaked ETH / USD Coin',
+    name: 'ezETH / USDC',
     id: '0x026ecee9b3a8d0ce979837333349cfc2075a2af6cd9b41c1c1d9fa16c44e54c5',
     loanAsset: {
       address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913',
@@ -2279,7 +2532,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Rocket Pool ETH / EURC',
+    name: 'rETH / EURC',
     id: '0x0103cbcd14c690f68a91ec7c84607153311e9954c94ac6eac06c9462db3fabb6',
     loanAsset: {
       address: '0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42',
@@ -2302,7 +2555,7 @@ export const tokens: MorphoToken[] = [
     ],
   },
   {
-    name: 'Staked USDA / EURA (previously agEUR)',
+    name: 'stUSD / EURA',
     id: '0x00f00245cf0061f5a75b0ed737dce5a90e67e69f7a4649e7c2badd4e641958e4',
     loanAsset: {
       address: '0xA61BeB4A3d02decb01039e378237032B351125B4',
