@@ -46,4 +46,17 @@ export const tokens: AaveToken[] = [
       BuildingBlock.REPAY,
     ],
   },
+  {
+    aToken: '0xeAa74D7F42267eB907092AF4Bc700f667EeD0B8B',
+    variableDebtToken: '',
+    symbol: 'aSonwstS',
+    decimals: 18,
+    underlyingAddress: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
+    underlyingSymbol: 'stS',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [
+      BuildingBlock.LEND,
+      BuildingBlock.WITHDRAW,
+    ],
+  },
 ];
