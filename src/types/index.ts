@@ -168,7 +168,11 @@ export const ProtocolsByBuildingBlock: Partial<
   ],
   [BuildingBlock.LEND]: [Protocols.AAVE, Protocols.COMPOUND],
   [BuildingBlock.BORROW]: [Protocols.AAVE, Protocols.COMPOUND],
-  [BuildingBlock.FLASHLOAN]: [Protocols.BALANCER, Protocols.AAVE],
+  [BuildingBlock.FLASHLOAN]: [
+    Protocols.BALANCER,
+    Protocols.AAVE,
+    Protocols.MORPHO,
+  ],
   [BuildingBlock.PROVIDE_LIQUIDITY]: [Protocols.UNISWAP, Protocols.CAMELOT],
   [BuildingBlock.REMOVE_LIQUIDITY]: [Protocols.UNISWAP, Protocols.CAMELOT],
   [BuildingBlock.CREATE_LP]: [Protocols.UNISWAP, Protocols.CAMELOT],
