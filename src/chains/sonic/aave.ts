@@ -54,9 +54,6 @@ export const tokens: AaveToken[] = [
     underlyingAddress: '0xE5DA20F15420aD15DE0fa650600aFc998bbE3955',
     underlyingSymbol: 'stS',
     protocols: [Protocols.AAVE],
-    buildingBlocks: [
-      BuildingBlock.LEND,
-      BuildingBlock.WITHDRAW,
-    ],
+    buildingBlocks: [BuildingBlock.LEND, BuildingBlock.WITHDRAW],
   },
 ];

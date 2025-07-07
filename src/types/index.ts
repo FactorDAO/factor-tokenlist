@@ -5,6 +5,7 @@ export const ChainIdToNetwork: Record<number, string> = {
   10: 'optimism',
   8453: 'base',
   146: 'sonic',
+  1: 'ethereum',
 };
 
 export enum ChainId {
@@ -12,6 +13,7 @@ export enum ChainId {
   OPTIMISM = 10,
   BASE = 8453,
   SONIC = 146,
+  ETHEREUM = 1,
 }
 
 export interface TokenMetadata {

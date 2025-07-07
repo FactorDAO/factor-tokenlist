@@ -30,6 +30,7 @@ export const compileFile = (entireList: string[]) => {
   rawFile = rawFile.replace(/"SILO"/g, 'Protocols.SILO');
   rawFile = rawFile.replace(/"MORPHO"/g, 'Protocols.MORPHO');
   rawFile = rawFile.replace(/"BALANCER"/g, 'Protocols.BALANCER');
+  rawFile = rawFile.replace(/"CAMELOT"/g, 'Protocols.CAMELOT');
 
   return rawFile;
 };

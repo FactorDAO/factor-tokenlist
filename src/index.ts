@@ -25,6 +25,7 @@ import { tokens as arbitrumBalancer } from './chains/arbitrum/balancer';
 import { tokens as optimismBalancer } from './chains/optimism/balancer';
 import { tokens as baseBalancer } from './chains/base/balancer';
 import { tokens as sonicBalancer } from './chains/sonic/balancer';
+import { tokens as ethereum } from './chains/ethereum/general';
 
 // Import types
 import {
@@ -74,6 +75,7 @@ export class FactorTokenlist {
       optimism,
       base,
       sonic,
+      ethereum,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
