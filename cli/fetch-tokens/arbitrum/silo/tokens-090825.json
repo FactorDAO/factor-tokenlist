@@ -1,0 +1,1261 @@
+[
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "3",
+        "isVerified": true,
+        "configAddress": "0x78C246f67c8A6cE03a1d894d4Cf68004Bd55Deea",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0xE5DA20F15420aD15DE0fa650600aFc998bbE3955",
+            "symbol": "stS",
+            "name": "Beets Staked Sonic",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/52937/thumb/token-beets-staked-sonic.png?1734712659",
+                "small": "https://coin-images.coingecko.com/coins/images/52937/small/token-beets-staked-sonic.png?1734712659",
+                "large": "https://coin-images.coingecko.com/coins/images/52937/large/token-beets-staked-sonic.png?1734712659"
+            },
+            "decimals": 18,
+            "priceUsd": "313910",
+            "maxLtv": "950000000000000000",
+            "lt": "970000000000000000",
+            "solvencyOracle": "0xBDc15b6aaC4e7b4685A2d199bBfa8876730982F2",
+            "maxLtvOracle": "0xBDc15b6aaC4e7b4685A2d199bBfa8876730982F2",
+            "collateralBaseApr": "6058576386645172",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "20870642303136000",
+            "debtPrograms": [],
+            "liquidity": "131629955104732376085428374",
+            "tvl": "199965544506296999018456944",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "RedStone",
+            "oracleContentKey": "sonic-sts-s-3"
+        },
+        "silo1": {
+            "tokenAddress": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "symbol": "S",
+            "name": "Sonic",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/52857/thumb/wrapped_sonic.png?1734536585",
+                "small": "https://coin-images.coingecko.com/coins/images/52857/small/wrapped_sonic.png?1734536585",
+                "large": "https://coin-images.coingecko.com/coins/images/52857/large/wrapped_sonic.png?1734536585"
+            },
+            "decimals": 18,
+            "priceUsd": "305557",
+            "maxLtv": "950000000000000000",
+            "lt": "970000000000000000",
+            "solvencyOracle": "0x0000000000000000000000000000000000000000",
+            "maxLtvOracle": "0x0000000000000000000000000000000000000000",
+            "collateralBaseApr": "40537164715712655",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "53985510875520000",
+            "debtPrograms": [],
+            "liquidity": "22202127675457029517795949",
+            "tvl": "190417774356581046860650082",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "RedStone",
+            "oracleContentKey": "sonic-sts-s-3"
+        },
+        "marketId": "sonic-0x78C246f67c8A6cE03a1d894d4Cf68004Bd55Deea"
+    },
+    {
+        "chainKey": "avalanche",
+        "protocolKey": "avalanche",
+        "id": "123",
+        "isVerified": true,
+        "configAddress": "0x4B56F4Be99FA320557860844d19aF68B636dE3CE",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E",
+            "symbol": "savUSD",
+            "name": "Staked avUSD",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/53558/thumb/token-savusd.png?1736674786",
+                "small": "https://coin-images.coingecko.com/coins/images/53558/small/token-savusd.png?1736674786",
+                "large": "https://coin-images.coingecko.com/coins/images/53558/large/token-savusd.png?1736674786"
+            },
+            "decimals": 18,
+            "priceUsd": "1055074",
+            "maxLtv": "915000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0x4C60F932aE3A3A75Be04919f206DDE8FE4cBAF84",
+            "maxLtvOracle": "0x4C60F932aE3A3A75Be04919f206DDE8FE4cBAF84",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "0",
+            "debtPrograms": [],
+            "liquidity": "0",
+            "tvl": "21255734800182317724426434",
+            "isNonBorrowable": true,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "avalanche-123-savUSD"
+        },
+        "silo1": {
+            "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999978",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0x725a44921f3A574372A907b26ae99b4b92699Da6",
+            "maxLtvOracle": "0x725a44921f3A574372A907b26ae99b4b92699Da6",
+            "collateralBaseApr": "49330050893919631",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "75661762752288000",
+            "debtPrograms": [],
+            "liquidity": "7800515509555",
+            "tvl": "28306182616165",
+            "isNonBorrowable": false,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "avalanche-123-savUSD"
+        },
+        "marketId": "avalanche-0x4B56F4Be99FA320557860844d19aF68B636dE3CE"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "20",
+        "isVerified": true,
+        "configAddress": "0x062A36Bbe0306c2Fd7aecdf25843291fBAB96AD2",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "symbol": "S",
+            "name": "Sonic",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/52857/thumb/wrapped_sonic.png?1734536585",
+                "small": "https://coin-images.coingecko.com/coins/images/52857/small/wrapped_sonic.png?1734536585",
+                "large": "https://coin-images.coingecko.com/coins/images/52857/large/wrapped_sonic.png?1734536585"
+            },
+            "decimals": 18,
+            "priceUsd": "305557",
+            "maxLtv": "750000000000000000",
+            "lt": "800000000000000000",
+            "solvencyOracle": "0x5dA3510D19059394DAf8A5C0f50B0f6aBea9F4C5",
+            "maxLtvOracle": "0x5dA3510D19059394DAf8A5C0f50B0f6aBea9F4C5",
+            "collateralBaseApr": "4821702346982462",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "26330906662128000",
+            "debtPrograms": [],
+            "liquidity": "40066756128674652841413842",
+            "tvl": "51507665735750412135224668",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 6
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-8-s"
+        },
+        "silo1": {
+            "tokenAddress": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+            "symbol": "USDC",
+            "name": "USDC",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999917",
+            "maxLtv": "750000000000000000",
+            "lt": "800000000000000000",
+            "solvencyOracle": "0x688951Ad1FAfb55484Fd4a3f867aacA88B0Bfa4c",
+            "maxLtvOracle": "0x688951Ad1FAfb55484Fd4a3f867aacA88B0Bfa4c",
+            "collateralBaseApr": "53125760697932785",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "96465986108208000",
+            "debtPrograms": [],
+            "liquidity": "4792898587447",
+            "tvl": "13641685752881",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 6
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-usdc-chainlink"
+        },
+        "marketId": "sonic-0x062A36Bbe0306c2Fd7aecdf25843291fBAB96AD2"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "32",
+        "isVerified": true,
+        "configAddress": "0xe67cce118e9CcEaE51996E4d290f9B77D960E3d7",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+            "symbol": "LBTC",
+            "name": "Lombard Staked Bitcoin",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/39969/thumb/LBTC_Logo.png?1724959872",
+                "small": "https://coin-images.coingecko.com/coins/images/39969/small/LBTC_Logo.png?1724959872",
+                "large": "https://coin-images.coingecko.com/coins/images/39969/large/LBTC_Logo.png?1724959872"
+            },
+            "decimals": 8,
+            "priceUsd": "108664000000",
+            "maxLtv": "920000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0x0000000000000000000000000000000000000000",
+            "maxLtvOracle": "0x0000000000000000000000000000000000000000",
+            "collateralBaseApr": "1398314960947931",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "12685855498704000",
+            "debtPrograms": [],
+            "liquidity": "9319685502",
+            "tvl": "10708318931",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "lombard",
+                    "multiplier": 3
+                },
+                {
+                    "_tag": "babylon",
+                    "multiplier": 1
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "lombard",
+                    "multiplier": 3
+                },
+                {
+                    "_tag": "babylon",
+                    "multiplier": 1
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-btc-chainlink"
+        },
+        "silo1": {
+            "tokenAddress": "0xBb30e76d9Bb2CC9631F7fC5Eb8e87B5Aff32bFbd",
+            "symbol": "scBTC",
+            "name": "Sonic BTC",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/54997/thumb/scBTC_32.png?1743095543",
+                "small": "https://coin-images.coingecko.com/coins/images/54997/small/scBTC_32.png?1743095543",
+                "large": "https://coin-images.coingecko.com/coins/images/54997/large/scBTC_32.png?1743095543"
+            },
+            "decimals": 8,
+            "priceUsd": "108664000000",
+            "maxLtv": "920000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0x0000000000000000000000000000000000000000",
+            "maxLtvOracle": "0x0000000000000000000000000000000000000000",
+            "collateralBaseApr": "1398986609745324",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "12688901813232000",
+            "debtPrograms": [],
+            "liquidity": "10482713289",
+            "tvl": "12045068867",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 4
+                },
+                {
+                    "_tag": "rings",
+                    "multiplier": 0.125
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 4
+                },
+                {
+                    "_tag": "rings",
+                    "multiplier": 0.125
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-btc-chainlink"
+        },
+        "marketId": "sonic-0xe67cce118e9CcEaE51996E4d290f9B77D960E3d7"
+    },
+    {
+        "chainKey": "arbitrum",
+        "protocolKey": "arbitrum",
+        "id": "127",
+        "isVerified": true,
+        "configAddress": "0x6Cc53A49b2c50D2450D6c531a7B5C763BB9Cb758",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92",
+            "symbol": "sUSDX",
+            "name": "Staked USDX",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/50836/thumb/sUSDX200px.png?1731906119",
+                "small": "https://coin-images.coingecko.com/coins/images/50836/small/sUSDX200px.png?1731906119",
+                "large": "https://coin-images.coingecko.com/coins/images/50836/large/sUSDX200px.png?1731906119"
+            },
+            "decimals": 18,
+            "priceUsd": "1090864",
+            "maxLtv": "850000000000000000",
+            "lt": "920000000000000000",
+            "solvencyOracle": "0xe38eAbEAB0d194057fdE3dE1C63661E8FAB053b3",
+            "maxLtvOracle": "0xe38eAbEAB0d194057fdE3dE1C63661E8FAB053b3",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "0",
+            "debtPrograms": [],
+            "liquidity": "0",
+            "tvl": "11503068876713459417263158",
+            "isNonBorrowable": true,
+            "collateralPoints": [
+                {
+                    "_tag": "stables",
+                    "multiplier": 1.2
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "stables",
+                    "multiplier": 1.2
+                }
+            ],
+            "debtPoints": [],
+            "oracleLabel": "Redstone",
+            "oracleContentKey": "arbitrum-susdx-redstone"
+        },
+        "silo1": {
+            "tokenAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999930",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0x455ac445801Aa94A5Ee5E0767995c532F007F265",
+            "maxLtvOracle": "0x455ac445801Aa94A5Ee5E0767995c532F007F265",
+            "collateralBaseApr": "67026031455619534",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "87829304980176000",
+            "debtPrograms": [],
+            "liquidity": "1029278551564",
+            "tvl": "10072345888258",
+            "isNonBorrowable": false,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "arbitrum-usdc-chainlink"
+        },
+        "marketId": "arbitrum-0x6Cc53A49b2c50D2450D6c531a7B5C763BB9Cb758"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "46",
+        "isVerified": true,
+        "configAddress": "0xDa6787a3543a01Bf770DDF3953bE5B9C99c1cBD0",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x930441Aa7Ab17654dF5663781CA0C02CC17e6643",
+            "symbol": "PT-aUSDC (14 Aug)",
+            "name": "Aave • Pendle",
+            "cgLogos": null,
+            "decimals": 6,
+            "priceUsd": "993471",
+            "maxLtv": "920000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0xd2f96126a20Fd310C95A24e2ca91BB694Fa1046F",
+            "maxLtvOracle": "0xd2f96126a20Fd310C95A24e2ca91BB694Fa1046F",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "31536000",
+            "debtPrograms": [],
+            "liquidity": "974472888653",
+            "tvl": "7998672076279",
+            "isNonBorrowable": true,
+            "collateralPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "sonic-46-PT_aSonUSDC"
+        },
+        "silo1": {
+            "tokenAddress": "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
+            "symbol": "scUSD",
+            "name": "Sonic USD",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/53456/thumb/scusd_%281%29.png?1736404738",
+                "small": "https://coin-images.coingecko.com/coins/images/53456/small/scusd_%281%29.png?1736404738",
+                "large": "https://coin-images.coingecko.com/coins/images/53456/large/scusd_%281%29.png?1736404738"
+            },
+            "decimals": 6,
+            "priceUsd": "999917",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0xc0d9DA10f68B28D2Db02Fb7037609012c1E522eB",
+            "maxLtvOracle": "0xc0d9DA10f68B28D2Db02Fb7037609012c1E522eB",
+            "collateralBaseApr": "46472780162039939",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "65114698357440000",
+            "debtPrograms": [],
+            "liquidity": "1806535593040",
+            "tvl": "8727548229504",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "rings",
+                    "multiplier": 1.5
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "rings",
+                    "multiplier": 1.5
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "rings",
+                    "multiplier": 4
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "RedStone",
+            "oracleContentKey": "sonic-46-scUSD"
+        },
+        "marketId": "sonic-0xDa6787a3543a01Bf770DDF3953bE5B9C99c1cBD0"
+    },
+    {
+        "chainKey": "ethereum",
+        "protocolKey": "ethereum",
+        "id": "105",
+        "isVerified": true,
+        "configAddress": "0xeC7C5CAaEA12A1a6952F3a3D0e3ca5B678433934",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+            "symbol": "weETH",
+            "name": "Wrapped eETH",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/33033/thumb/weETH.png?1701438396",
+                "small": "https://coin-images.coingecko.com/coins/images/33033/small/weETH.png?1701438396",
+                "large": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396"
+            },
+            "decimals": 18,
+            "priceUsd": "2815314433",
+            "maxLtv": "920000000000000000",
+            "lt": "940000000000000000",
+            "solvencyOracle": "0xdEDa66589855CFf3795970183184fB57350daD6A",
+            "maxLtvOracle": "0xdEDa66589855CFf3795970183184fB57350daD6A",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "0",
+            "debtPrograms": [],
+            "liquidity": "1212327592766145198304",
+            "tvl": "2598504964377545890227",
+            "isNonBorrowable": false,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "RedStone",
+            "oracleContentKey": "ethereum-weeth-redstone"
+        },
+        "silo1": {
+            "tokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "ETH",
+            "name": "Ether",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/2518/thumb/weth.png?1696503332",
+                "small": "https://coin-images.coingecko.com/coins/images/2518/small/weth.png?1696503332",
+                "large": "https://coin-images.coingecko.com/coins/images/2518/large/weth.png?1696503332"
+            },
+            "decimals": 18,
+            "priceUsd": "2625455819",
+            "maxLtv": "850000000000000000",
+            "lt": "880000000000000000",
+            "solvencyOracle": "0x0000000000000000000000000000000000000000",
+            "maxLtvOracle": "0x0000000000000000000000000000000000000000",
+            "collateralBaseApr": "20384515148894002",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "33451477844544000",
+            "debtPrograms": [],
+            "liquidity": "991616580959763707694",
+            "tvl": "3502862444865996808840",
+            "isNonBorrowable": false,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "RedStone",
+            "oracleContentKey": "ethereum-weeth-redstone"
+        },
+        "marketId": "ethereum-0xeC7C5CAaEA12A1a6952F3a3D0e3ca5B678433934"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "111",
+        "isVerified": true,
+        "configAddress": "0x8cD31c996d51E37Da7535BC28E0f8cf91555830E",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x4772D2e014F9fC3a820C444e3313968e9a5C8121",
+            "symbol": "yUSD",
+            "name": "YieldFi yUSD",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/53607/thumb/yUSD.png?1739862886",
+                "small": "https://coin-images.coingecko.com/coins/images/53607/small/yUSD.png?1739862886",
+                "large": "https://coin-images.coingecko.com/coins/images/53607/large/yUSD.png?1739862886"
+            },
+            "decimals": 18,
+            "priceUsd": "1098359",
+            "maxLtv": "800000000000000000",
+            "lt": "850000000000000000",
+            "solvencyOracle": "0x2b45AbF63A21D604cc8EDB62848F462D4c0854e5",
+            "maxLtvOracle": "0x2b45AbF63A21D604cc8EDB62848F462D4c0854e5",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "31536000",
+            "debtPrograms": [],
+            "liquidity": "0",
+            "tvl": "6265895527181849584728256",
+            "isNonBorrowable": true,
+            "collateralPoints": [
+                {
+                    "_tag": "yield-fi",
+                    "multiplier": 1
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "yield-fi",
+                    "multiplier": 1
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "eOracle",
+            "oracleContentKey": "sonic-111-yUSD"
+        },
+        "silo1": {
+            "tokenAddress": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+            "symbol": "USDC",
+            "name": "USDC",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999917",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "maxLtvOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "collateralBaseApr": "67519051517169050",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "86463122255856000",
+            "debtPrograms": [],
+            "liquidity": "480432516386",
+            "tvl": "5909805886293",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "yield-fi",
+                    "multiplier": 2.5
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "yield-fi",
+                    "multiplier": 2.5
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-usdc-chainlink"
+        },
+        "marketId": "sonic-0x8cD31c996d51E37Da7535BC28E0f8cf91555830E"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "54",
+        "isVerified": true,
+        "configAddress": "0x0FF333b3c7e12Ae53cFAeD98232541C06D7CD2ab",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x9F0dF7799f6FDAd409300080cfF680f5A23df4b1",
+            "symbol": "wOS",
+            "name": "Wrapped OS",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/53774/thumb/wos-256x256.png?1737271865",
+                "small": "https://coin-images.coingecko.com/coins/images/53774/small/wos-256x256.png?1737271865",
+                "large": "https://coin-images.coingecko.com/coins/images/53774/large/wos-256x256.png?1737271865"
+            },
+            "decimals": 18,
+            "priceUsd": "305607",
+            "maxLtv": "900000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0x689783B8A4D8288fBacbeDCCA43e5b9B2A7ab174",
+            "maxLtvOracle": "0x689783B8A4D8288fBacbeDCCA43e5b9B2A7ab174",
+            "collateralBaseApr": "5618198378174000",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "20097817681248000",
+            "debtPrograms": [],
+            "liquidity": "9175767410408117468794737",
+            "tvl": "13672193180080885077607365",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 4
+                }
+            ],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "sonic-54-wOS"
+        },
+        "silo1": {
+            "tokenAddress": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+            "symbol": "S",
+            "name": "Sonic",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/52857/thumb/wrapped_sonic.png?1734536585",
+                "small": "https://coin-images.coingecko.com/coins/images/52857/small/wrapped_sonic.png?1734536585",
+                "large": "https://coin-images.coingecko.com/coins/images/52857/large/wrapped_sonic.png?1734536585"
+            },
+            "decimals": 18,
+            "priceUsd": "305557",
+            "maxLtv": "900000000000000000",
+            "lt": "950000000000000000",
+            "solvencyOracle": "0x0000000000000000000000000000000000000000",
+            "maxLtvOracle": "0x0000000000000000000000000000000000000000",
+            "collateralBaseApr": "18793742464451135",
+            "collateralPrograms": [
+                {
+                    "rewardTokenSymbol": "wOS",
+                    "apr": "29410072901007226"
+                }
+            ],
+            "protectedPrograms": [],
+            "debtBaseApr": "36758429055504000",
+            "debtPrograms": [],
+            "liquidity": "9597758558841481713736838",
+            "tvl": "24084862330033957351429116",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 12
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 2
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 4
+                }
+            ],
+            "oracleLabel": null,
+            "oracleContentKey": "sonic-54-S"
+        },
+        "marketId": "sonic-0x0FF333b3c7e12Ae53cFAeD98232541C06D7CD2ab"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "112",
+        "isVerified": true,
+        "configAddress": "0x60109Eab799ec246978A2ce89aa584e9190b71c8",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x6202B9f02E30E5e1c62Cc01E4305450E5d83b926",
+            "symbol": "xUSD",
+            "name": "Staked Stream USD",
+            "cgLogos": null,
+            "decimals": 6,
+            "priceUsd": "1211384",
+            "maxLtv": "850000000000000000",
+            "lt": "920000000000000000",
+            "solvencyOracle": "0x7A9Efa7CfE9a51922005056DC33Ac1a13a16953C",
+            "maxLtvOracle": "0x7A9Efa7CfE9a51922005056DC33Ac1a13a16953C",
+            "collateralBaseApr": "113985922338628",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "4048472663136000",
+            "debtPrograms": [],
+            "liquidity": "2697457122631",
+            "tvl": "4666715345489",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "eOracle",
+            "oracleContentKey": "sonic-112-xUSD"
+        },
+        "silo1": {
+            "tokenAddress": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+            "symbol": "USDC",
+            "name": "USDC",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999917",
+            "maxLtv": "850000000000000000",
+            "lt": "920000000000000000",
+            "solvencyOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "maxLtvOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "collateralBaseApr": "81432296750531272",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "108209108554128000",
+            "debtPrograms": [],
+            "liquidity": "538803815731",
+            "tvl": "4699465528870",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-usdc-chainlink"
+        },
+        "marketId": "sonic-0x60109Eab799ec246978A2ce89aa584e9190b71c8"
+    },
+    {
+        "chainKey": "sonic",
+        "protocolKey": "sonic",
+        "id": "121",
+        "isVerified": true,
+        "configAddress": "0x154F7A91a2C629CcCe888deAc959259B1869E4ac",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0xAaAaaAAac311D0572Bffb4772fe985A750E88805",
+            "symbol": "wmetaUSD",
+            "name": "Wrapped Stability USD",
+            "cgLogos": null,
+            "decimals": 18,
+            "priceUsd": "1005742",
+            "maxLtv": "870000000000000000",
+            "lt": "900000000000000000",
+            "solvencyOracle": "0x196e328A068487585910E53a4DeD09512a32bf28",
+            "maxLtvOracle": "0x196e328A068487585910E53a4DeD09512a32bf28",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "0",
+            "debtPrograms": [],
+            "liquidity": "0",
+            "tvl": "4881281212747181299721790",
+            "isNonBorrowable": true,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 10
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 10
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "sonic-wmetaUSD"
+        },
+        "silo1": {
+            "tokenAddress": "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+            "symbol": "USDC",
+            "name": "USDC",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+                "small": "https://coin-images.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                "large": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+            },
+            "decimals": 6,
+            "priceUsd": "999917",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "maxLtvOracle": "0x3FdbEf5621077E3cA3F49e62293d67399F25aB2B",
+            "collateralBaseApr": "53534683726839118",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "78493773004704000",
+            "debtPrograms": [],
+            "liquidity": "1022662419073",
+            "tvl": "5174942433725",
+            "isNonBorrowable": false,
+            "collateralPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "protectedPoints": [
+                {
+                    "_tag": "sonic",
+                    "multiplier": 8
+                },
+                {
+                    "_tag": "silo",
+                    "basePoints": 1,
+                    "multiplier": 1
+                }
+            ],
+            "debtPoints": [
+                {
+                    "_tag": "silo",
+                    "basePoints": 0.5,
+                    "multiplier": 1
+                }
+            ],
+            "oracleLabel": "Chainlink",
+            "oracleContentKey": "sonic-usdc-chainlink"
+        },
+        "marketId": "sonic-0x154F7A91a2C629CcCe888deAc959259B1869E4ac"
+    },
+    {
+        "chainKey": "avalanche",
+        "protocolKey": "avalanche",
+        "id": "121",
+        "isVerified": true,
+        "configAddress": "0x6137dC2e437747e51dD786a9F350063C6189CDeb",
+        "boostedContentKey": null,
+        "silo0": {
+            "tokenAddress": "0x649342c6bff544d82DF1B2bA3C93e0C22cDeBa84",
+            "symbol": "savBTC",
+            "name": "Staked avBTC",
+            "cgLogos": null,
+            "decimals": 18,
+            "priceUsd": "109376506534",
+            "maxLtv": "870000000000000000",
+            "lt": "920000000000000000",
+            "solvencyOracle": "0xA69fDB3250AE78a21dde06b48C09edd849a8d1fa",
+            "maxLtvOracle": "0xA69fDB3250AE78a21dde06b48C09edd849a8d1fa",
+            "collateralBaseApr": "0",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "0",
+            "debtPrograms": [],
+            "liquidity": "0",
+            "tvl": "41021752403392523270",
+            "isNonBorrowable": true,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "avalanche-121-savBTC"
+        },
+        "silo1": {
+            "tokenAddress": "0x152b9d0FdC40C096757F570A51E494bd4b943E50",
+            "symbol": "BTC.b",
+            "name": "Bitcoin",
+            "cgLogos": {
+                "source": "cg-pro",
+                "thumb": "https://coin-images.coingecko.com/coins/images/26115/thumb/btcb.png?1696525205",
+                "small": "https://coin-images.coingecko.com/coins/images/26115/small/btcb.png?1696525205",
+                "large": "https://coin-images.coingecko.com/coins/images/26115/large/btcb.png?1696525205"
+            },
+            "decimals": 8,
+            "priceUsd": "108748502303",
+            "maxLtv": "0",
+            "lt": "0",
+            "solvencyOracle": "0x9373407d92C211254ce381AC27A3D90Aa3fd15e8",
+            "maxLtvOracle": "0x9373407d92C211254ce381AC27A3D90Aa3fd15e8",
+            "collateralBaseApr": "18177134401675049",
+            "collateralPrograms": [],
+            "protectedPrograms": [],
+            "debtBaseApr": "27540893123712000",
+            "debtPrograms": [],
+            "liquidity": "1279003188",
+            "tvl": "4796367126",
+            "isNonBorrowable": false,
+            "collateralPoints": [],
+            "protectedPoints": [],
+            "debtPoints": [],
+            "oracleLabel": "Custom oracle",
+            "oracleContentKey": "avalanche-121-savBTC"
+        },
+        "marketId": "avalanche-0x6137dC2e437747e51dD786a9F350063C6189CDeb"
+    }
+]
