@@ -75,6 +75,7 @@ export enum Protocols {
   VLP = 'VLP',
   MORPHO = 'MORPHO',
   SILO_V2 = 'SILO_V2',
+  EULER = 'EULER',
 }
 
 export interface Token {
@@ -101,6 +102,18 @@ export type SiloAsset = {
   debtToken: TokenMetadata;
   collateralToken: TokenMetadata;
   collateralOnlyToken: TokenMetadata;
+};
+
+export type EulerToken = {
+  address: string;
+  dToken: string;
+  decimals: number;
+  oracle: string;
+  name: string;
+  asset: string;
+  evc: string;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 };
 
 export interface BalancerToken {
