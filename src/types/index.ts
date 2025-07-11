@@ -110,6 +110,7 @@ export type EulerToken = {
   decimals: number;
   oracle: string;
   name: string;
+  symbol: string;
   asset: string;
   evc: string;
   protocols: Protocols[];
