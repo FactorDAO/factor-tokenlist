@@ -35,8 +35,8 @@ export const tokens: Token[] = [
   },
   {
     address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-    symbol: 'USDC.e',
-    name: 'Bridged USDC (Sonic Labs)',
+    symbol: 'USDC',
+    name: 'USDC',
     decimals: 6,
     protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
     buildingBlocks: [
