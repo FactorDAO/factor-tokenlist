@@ -22,7 +22,7 @@ export const tokens: AaveToken[] = [
     symbol: 'aSonUSDC',
     decimals: 6,
     underlyingAddress: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-    underlyingSymbol: 'USDC.e',
+    underlyingSymbol: 'USDC',
     protocols: [Protocols.AAVE],
     buildingBlocks: [
       BuildingBlock.LEND,

@@ -92,7 +92,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -324,7 +324,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -498,7 +498,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -672,7 +672,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -730,7 +730,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -1078,7 +1078,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -1426,7 +1426,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -1484,7 +1484,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
@@ -1600,7 +1600,7 @@ export const tokens: SiloV2Token[] = [
       underlyingAsset: {
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         symbol: 'USDC',
-        name: 'Bridged USDC (Sonic Labs)',
+        name: 'USDC',
         decimals: 6,
       },
       collateralToken: {
