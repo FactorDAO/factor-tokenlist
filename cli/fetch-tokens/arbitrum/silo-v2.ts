@@ -6,11 +6,11 @@ import {
   SiloV2Token,
 } from '../../../src';
 import { exec } from 'child_process';
-import { tokens } from '../../../src/chains/sonic/silo';
+import { tokens } from '../../../src/chains/arbitrum/silo-v2';
 import fs from 'fs';
 import { compileFile } from '../../utils/format-file';
 import { createPublicClient, http, erc20Abi, PublicClient } from 'viem';
-import { sonic } from 'viem/chains';
+import { arbitrum } from 'viem/chains';
 import { siloV2Abi } from '../../utils/siloV2Abi';
 
 async function returnTokenMetadata(
@@ -42,11 +42,20 @@ async function returnTokenMetadata(
 }
 
 async function main() {
+  // Download the JSON from this API https://app.silo.finance/api/display-markets using the browser
+  // Save it to the cli/fetch-tokens/arbitrum/silo/tokens-.json file
   const siloTokens = JSON.parse(
-    fs.readFileSync('./cli/fetch-tokens/sonic/silo/tokens-050825.json', 'utf8'),
+    fs.readFileSync(
+      './cli/fetch-tokens/arbitrum/silo/tokens-090825.json',
+      'utf8',
+    ),
   );
 
   for (const token of siloTokens) {
+    if (token.chainKey !== 'arbitrum') {
+      console.log('👀 Skipping token:', token.chainKey);
+      continue;
+    }
     try {
       const existingToken = tokens.find(
         (t) =>
@@ -57,8 +66,8 @@ async function main() {
         continue;
       }
       const client = createPublicClient({
-        chain: sonic,
-        transport: http(sonic.rpcUrls.default.http[0]),
+        chain: arbitrum,
+        transport: http(arbitrum.rpcUrls.default.http[0]),
       });
 
       const silos = (await client.readContract({
@@ -160,7 +169,7 @@ async function main() {
     "import { Token, Protocols, BuildingBlock, SiloV2Token } from '../../types';",
   );
   // Save the file
-  fs.writeFileSync('./src/chains/sonic/silo.ts', rawFile);
+  fs.writeFileSync('./src/chains/arbitrum/silo-v2.ts', rawFile);
   exec('yarn format');
   console.log('🎉 Now tokens are:', tokens.length);
 }

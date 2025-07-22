@@ -5,6 +5,7 @@ export const ChainIdToNetwork: Record<number, string> = {
   10: 'optimism',
   8453: 'base',
   146: 'sonic',
+  1: 'ethereum',
 };
 
 export enum ChainId {
@@ -12,6 +13,7 @@ export enum ChainId {
   OPTIMISM = 10,
   BASE = 8453,
   SONIC = 146,
+  ETHEREUM = 1,
 }
 
 export interface TokenMetadata {
@@ -73,6 +75,7 @@ export enum Protocols {
   VLP = 'VLP',
   MORPHO = 'MORPHO',
   SILO_V2 = 'SILO_V2',
+  EULER = 'EULER',
 }
 
 export interface Token {
@@ -99,6 +102,19 @@ export type SiloAsset = {
   debtToken: TokenMetadata;
   collateralToken: TokenMetadata;
   collateralOnlyToken: TokenMetadata;
+};
+
+export type EulerToken = {
+  address: string;
+  dToken: string;
+  decimals: number;
+  oracle: string;
+  name: string;
+  symbol: string;
+  asset: string;
+  evc: string;
+  protocols: Protocols[];
+  buildingBlocks: BuildingBlock[];
 };
 
 export interface BalancerToken {

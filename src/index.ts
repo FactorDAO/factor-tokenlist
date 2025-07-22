@@ -5,6 +5,7 @@ import { tokens as arbitrumAave } from './chains/arbitrum/aave';
 import { tokens as arbitrumCompoundDebt } from './chains/arbitrum/compound';
 import { tokens as arbitrumSilo } from './chains/arbitrum/silo';
 import { tokens as arbitrumProVaults } from './chains/arbitrum/pro-vaults';
+import { tokens as arbitrumEuler } from './chains/arbitrum/euler';
 import { tokens as optimism } from './chains/optimism/general';
 import { tokens as optimismAave } from './chains/optimism/aave';
 import { tokens as optimismCompoundDebt } from './chains/optimism/compound';
@@ -25,6 +26,7 @@ import { tokens as arbitrumBalancer } from './chains/arbitrum/balancer';
 import { tokens as optimismBalancer } from './chains/optimism/balancer';
 import { tokens as baseBalancer } from './chains/base/balancer';
 import { tokens as sonicBalancer } from './chains/sonic/balancer';
+import { tokens as ethereum } from './chains/ethereum/general';
 
 // Import types
 import {
@@ -42,6 +44,7 @@ import {
   SiloAsset,
   SiloV2Token,
   BalancerToken,
+  EulerToken,
 } from './types';
 
 export class FactorTokenlist {
@@ -59,6 +62,7 @@ export class FactorTokenlist {
   private availableMorphoTokens: Record<string, MorphoToken[]>;
   private availableSiloV2Tokens: Record<string, SiloV2Token[]>;
   private availableBalancerTokens: Record<string, BalancerToken[]>;
+  private availableEulerTokens: Record<string, EulerToken[]>;
   private Aave: AaveToken[];
   private PendleTokens: ExtendedPendleToken[];
   private SiloTokens: ExtendedSiloToken[];
@@ -66,6 +70,8 @@ export class FactorTokenlist {
   private CompoundTokens: CompoundToken[];
   private MorphoTokens: MorphoToken[];
   private SiloV2Tokens: SiloV2Token[];
+  private EulerTokens: EulerToken[];
+
   constructor(chainId: ChainId) {
     this.chainId = chainId;
     this.generalTokens = new Map();
@@ -74,6 +80,7 @@ export class FactorTokenlist {
       optimism,
       base,
       sonic,
+      ethereum,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
@@ -109,6 +116,9 @@ export class FactorTokenlist {
       optimism: optimismBalancer,
       base: baseBalancer,
       sonic: sonicBalancer,
+    };
+    this.availableEulerTokens = {
+      arbitrum: arbitrumEuler,
     };
     this.protocols = [];
     this.buildingBlocks = [];
@@ -172,6 +182,11 @@ export class FactorTokenlist {
     this.BalancerTokens = this.availableBalancerTokens[network] ?? [];
     if (this.BalancerTokens.length > 0) {
       this.protocols.push(Protocols.BALANCER);
+    }
+    // Add euler tokens
+    this.EulerTokens = this.availableEulerTokens[network] ?? [];
+    if (this.EulerTokens.length > 0) {
+      this.protocols.push(Protocols.EULER);
     }
   }
 
@@ -283,6 +298,14 @@ export class FactorTokenlist {
   }
 
   /**
+   * Get all available euler tokens
+   * @returns Array of all euler tokens
+   */
+  public getAllEulerTokens(): EulerToken[] {
+    return this.EulerTokens;
+  }
+
+  /**
    * Get all available morpho tokens
    * @returns Array of all morpho tokens
    */
@@ -327,6 +350,22 @@ export class FactorTokenlist {
    */
   public getAllBalancerTokens(): BalancerToken[] {
     return this.BalancerTokens;
+  }
+
+  /**
+   * Get euler token by address
+   * @param address - Token address
+   * @returns Euler token
+   */
+  public getEulerToken(address: string): EulerToken {
+    const token = this.EulerTokens.find(
+      (token: EulerToken) =>
+        token.address.toLowerCase() === address.toLowerCase(),
+    );
+    if (!token) {
+      throw new Error(`Euler token with address ${address} not found`);
+    }
+    return token;
   }
 
   /**
@@ -387,7 +426,8 @@ export class FactorTokenlist {
     | AaveToken[]
     | CompoundToken[]
     | BalancerToken[]
-    | MorphoToken[] {
+    | MorphoToken[]
+    | EulerToken[] {
     if (protocol === Protocols.PENDLE) {
       return this.PendleTokens;
     }
@@ -405,6 +445,9 @@ export class FactorTokenlist {
     }
     if (protocol === Protocols.BALANCER) {
       return this.BalancerTokens;
+    }
+    if (protocol === Protocols.EULER) {
+      return this.EulerTokens;
     }
     // First get all tokens that have the protocol
     const tokensWithProtocol = Array.from(this.generalTokens.values()).filter(
@@ -463,6 +506,11 @@ export class FactorTokenlist {
         return token.buildingBlocks.includes(buildingBlock);
       },
     );
+    const eulerTokensWithBuildingBlock = this.EulerTokens.filter(
+      (token: EulerToken) => {
+        return token.buildingBlocks.includes(buildingBlock);
+      },
+    );
     const mergedTokens = [
       ...tokensWithBuildingBlock,
       ...aaveTokensWithBuildingBlock,
@@ -471,6 +519,7 @@ export class FactorTokenlist {
       ...compoundTokensWithBuildingBlock,
       ...balancerTokensWithBuildingBlock,
       ...morphoTokensWithBuildingBlock,
+      ...eulerTokensWithBuildingBlock,
     ];
     // Create new tokens with filtered protocols
     return mergedTokens.map((token: any) => ({
@@ -512,7 +561,8 @@ export class FactorTokenlist {
     | BalancerToken
     | SiloV2Token
     | CompoundToken
-    | AaveToken {
+    | AaveToken
+    | EulerToken {
     const token = this.generalTokens.get(address.toLowerCase());
     const pendleToken = this.PendleTokens.find(
       (token: ExtendedPendleToken) =>
@@ -542,6 +592,10 @@ export class FactorTokenlist {
       (token: AaveToken) =>
         token.aToken.toLowerCase() === address.toLowerCase(),
     );
+    const eulerToken = this.EulerTokens.find(
+      (token: EulerToken) =>
+        token.address.toLowerCase() === address.toLowerCase(),
+    );
     if (token) {
       return token;
     } else if (pendleToken) {
@@ -558,6 +612,8 @@ export class FactorTokenlist {
       return compoundToken;
     } else if (aaveToken) {
       return aaveToken;
+    } else if (eulerToken) {
+      return eulerToken;
     }
     throw new Error(`Token with address ${address} not found`);
   }
@@ -587,12 +643,13 @@ export class FactorTokenlist {
   public getDebtToken(
     underlyingAddress: string,
     protocol: Protocols,
-  ): AaveToken | CompoundToken | MorphoToken {
+  ): AaveToken | CompoundToken | MorphoToken | EulerToken {
     if (
       protocol !== Protocols.AAVE &&
       protocol !== Protocols.SILO &&
       protocol !== Protocols.COMPOUND &&
-      protocol !== Protocols.MORPHO
+      protocol !== Protocols.MORPHO &&
+      protocol !== Protocols.EULER
     ) {
       throw new Error(`Protocol ${protocol} is not supported`);
     }
@@ -614,6 +671,11 @@ export class FactorTokenlist {
         (token: MorphoToken) =>
           token.collateralAsset.address.toLowerCase() ===
           underlyingAddress.toLowerCase(),
+      );
+    } else if (protocol === Protocols.EULER) {
+      debtToken = this.EulerTokens.find(
+        (token: EulerToken) =>
+          token.asset.toLowerCase() === underlyingAddress.toLowerCase(),
       );
     }
     if (!debtToken) {
@@ -665,6 +727,16 @@ export class FactorTokenlist {
       }
     }
     if (!underlyingAsset) {
+      underlyingAsset = this.EulerTokens.find(
+        (token: EulerToken) =>
+          token.address.toLowerCase() === address.toLowerCase() ||
+          token.dToken.toLowerCase() === address.toLowerCase(),
+      )?.asset;
+      if (underlyingAsset) {
+        protocol = Protocols.EULER;
+      }
+    }
+    if (!underlyingAsset) {
       throw new Error(`Underlying asset with address ${address} not found`);
     }
     return {
@@ -684,6 +756,7 @@ export class FactorTokenlist {
       ...this.availablePendleTokens[ChainIdToNetwork[this.chainId]],
       ...this.availableSiloTokens[ChainIdToNetwork[this.chainId]],
       ...this.availableMorphoTokens[ChainIdToNetwork[this.chainId]],
+      ...this.availableEulerTokens[ChainIdToNetwork[this.chainId]],
     ];
     const token = allTokens.find(
       (
@@ -691,7 +764,8 @@ export class FactorTokenlist {
           | AaveToken
           | ExtendedPendleToken
           | ExtendedSiloToken
-          | MorphoToken,
+          | MorphoToken
+          | EulerToken,
       ) => {
         // Parsing Aave debt tokens
         if ('variableDebtToken' in token) {
@@ -724,6 +798,10 @@ export class FactorTokenlist {
           return (
             token.loanAsset.address.toLowerCase() === address.toLowerCase()
           );
+        }
+        // Parsing Euler tokens
+        if ('asset' in token) {
+          return token.asset.toLowerCase() === address.toLowerCase();
         }
       },
     );
