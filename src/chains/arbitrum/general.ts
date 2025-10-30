@@ -28,7 +28,7 @@ export const tokens: Token[] = [
   {
     address: '0xba5ddd1f9d7f570dc94a51479a000e3bce967196',
     name: 'Aave Token',
-    symbol: Protocols.AAVE,
+    symbol: 'AAVE',
     decimals: 18,
     buildingBlocks: [
       BuildingBlock.LEND,
