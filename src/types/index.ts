@@ -54,6 +54,7 @@ export enum BuildingBlock {
   CREATE_LP = 'CREATE_LP',
   CLAIM_REWARDS = 'CLAIM_REWARDS',
   ERC721 = 'ERC721',
+  YIELD_TRADING = 'YIELD_TRADING',
 }
 
 export enum Protocols {
