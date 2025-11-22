@@ -12665,6 +12665,6 @@ export const tokens: Token[] = [
       BuildingBlock.PROVIDE_LIQUIDITY,
     ],
     logoUrl:
-      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/GHO.png',
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/base/GHO.png',
   },
 ];
