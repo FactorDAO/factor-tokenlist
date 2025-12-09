@@ -1,7 +1,9 @@
 import { Token, Protocols, BuildingBlock, ChainId } from '../../types';
 
 const getTokens = async (): Promise<Token[]> => {
-  const endpoint = `https://subgraph.satsuma-prod.com/d65bfd62f3da/factor/studio-pro-sonic.production/api`;
+  // TODO: Add Pro Vaults for Sonic
+  return [];
+  const endpoint = `-`;
   const query = `
   query ProVaults {
     vaults  {
