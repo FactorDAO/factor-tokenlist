@@ -951,4 +951,39 @@ export const tokens: ExtendedPendleToken[] = [
       BuildingBlock.REMOVE_LIQUIDITY,
     ],
   },
+  {
+    chainId: 8453,
+    expiry: '2026-02-19T00:00:00.000Z',
+    address: '0x4ac60d0f9f98287764681df14298c1a11006aefd',
+    symbol: 'PT-uniBTC-scaled18-19FEB2026',
+    pt: {
+      address: '0xf2a69e0191aad3a7a124397972d0ca0405c1d8d1',
+      symbol: 'PT-uniBTC-scaled18-19FEB2026',
+      name: 'PT-uniBTC-scaled18-19FEB2026',
+      decimals: 18,
+    },
+    yt: {
+      address: '0x28888f74ca99924d5a2d48e82bf3d32cc7ec0355',
+      symbol: 'YT-uniBTC-scaled18-19FEB2026',
+      name: 'YT-uniBTC-scaled18-19FEB2026',
+      decimals: 18,
+    },
+    lp: {
+      address: '0x4ac60d0f9f98287764681df14298c1a11006aefd',
+      symbol: 'PLP-uniBTC-scaled18-19FEB2026',
+      name: 'PLP-uniBTC-scaled18-19FEB2026',
+      decimals: 18,
+    },
+    underlyingAsset: {
+      address: '0x93919784c523f39cacaa98ee0a9d96c3f32b593e',
+      symbol: 'uniBTC',
+      name: 'uniBTC',
+      decimals: 8,
+    },
+    protocols: [Protocols.PENDLE],
+    buildingBlocks: [
+      BuildingBlock.PROVIDE_LIQUIDITY,
+      BuildingBlock.REMOVE_LIQUIDITY,
+    ],
+  },
 ];
