@@ -17,11 +17,11 @@ async function main() {
   const tokenList = new FactorTokenlist(ChainId.BASE);
   for (const token of lifiTokens) {
     try {
-      const checkToken = tokenList.getToken(token.address);
+      const checkToken = tokenList.getToken(token.address) as any;
       if (checkToken) {
         console.log(
           '🤌 Token already exists:',
-          checkToken.symbol,
+          checkToken?.symbol,
           'checking logo..',
         );
         if (token.logoURI) {
