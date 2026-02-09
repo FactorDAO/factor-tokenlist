@@ -39,6 +39,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -74,6 +75,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -109,6 +111,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -144,6 +147,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -179,6 +183,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -214,6 +219,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -249,6 +255,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -284,6 +291,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -319,6 +327,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -354,6 +363,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -389,6 +399,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -424,6 +435,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -459,6 +471,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -494,6 +507,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -529,6 +543,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -564,6 +579,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -599,6 +615,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -634,6 +651,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -669,6 +687,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -704,6 +723,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -739,6 +759,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -774,6 +795,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -809,6 +831,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -844,6 +867,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -879,6 +903,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -914,6 +939,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -949,6 +975,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
   {
@@ -984,6 +1011,7 @@ export const tokens: ExtendedPendleToken[] = [
     buildingBlocks: [
       BuildingBlock.PROVIDE_LIQUIDITY,
       BuildingBlock.REMOVE_LIQUIDITY,
+      BuildingBlock.YIELD_TRADING,
     ],
   },
 ];
