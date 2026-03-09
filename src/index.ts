@@ -27,6 +27,9 @@ import { tokens as optimismBalancer } from './chains/optimism/balancer';
 import { tokens as baseBalancer } from './chains/base/balancer';
 import { tokens as sonicBalancer } from './chains/sonic/balancer';
 import { tokens as ethereum } from './chains/ethereum/general';
+import { tokens as ethereumAave } from './chains/ethereum/aave';
+import { tokens as ethereumCompound } from './chains/ethereum/compound';
+import { tokens as ethereumMorpho } from './chains/ethereum/morpho';
 
 // Import types
 import {
@@ -92,11 +95,13 @@ export class FactorTokenlist {
       optimism: optimismAave,
       base: baseAave,
       sonic: sonicAave,
+      ethereum: ethereumAave,
     };
     this.availableCompoundTokens = {
       arbitrum: arbitrumCompoundDebt,
       optimism: optimismCompoundDebt,
       base: baseCompoundDebt,
+      ethereum: ethereumCompound,
     };
     this.availableSiloTokens = {
       arbitrum: arbitrumSilo,
@@ -107,6 +112,7 @@ export class FactorTokenlist {
       arbitrum: arbitrumMorpho,
       optimism: optimismMorpho,
       base: baseMorpho,
+      ethereum: ethereumMorpho,
     };
     this.availableSiloV2Tokens = {
       sonic: sonicSiloV2,
