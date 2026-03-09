@@ -28,6 +28,10 @@ const cometAbi = [
 const MARKETS = [
   { address: '0xc3d688B66703497DAA19211EEdff47f25384cdc3' as `0x${string}`, symbol: 'cUSDCv3' },
   { address: '0xA17581A9E3356d9A858b789D68B4d866e593aE94' as `0x${string}`, symbol: 'cWETHv3' },
+  { address: '0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840' as `0x${string}`, symbol: 'cUSDTv3' },
+  { address: '0x3D0bb1ccaB520A66e607822fC55BC921738fAFE3' as `0x${string}`, symbol: 'cwstETHv3' },
+  { address: '0x5D409e56D886231aDAf00c8775665AD0f9897b56' as `0x${string}`, symbol: 'cUSDSv3' },
+  { address: '0xe85Dc543813B8c2CFEaAc371517b925a166a9293' as `0x${string}`, symbol: 'cWBTCv3' },
 ];
 
 async function main() {
