@@ -98,6 +98,20 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/WBTC.png',
   },
   {
+    address: '0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e',
+    symbol: 'pumpBTC',
+    name: 'pumpBTC',
+    decimals: 8,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/pumpBTC.png',
+  },
+  {
     address: '0xB0e1fc65C1a741b4662B813eB787d369b8614Af1',
     symbol: 'IF',
     name: 'IF',
