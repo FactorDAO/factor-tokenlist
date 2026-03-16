@@ -8190,6 +8190,21 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDA.png',
   },
   {
+    address: '0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF',
+    symbol: 'USDai',
+    name: 'USDai',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl: '',
+  },
+  {
     address: '0x0b2b2b2076d95dda7817e785989fe353fe955ef9',
     symbol: 'sUSDai',
     name: 'sUSDai',
