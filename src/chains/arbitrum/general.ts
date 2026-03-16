@@ -371,7 +371,7 @@ export const tokens: Token[] = [
   {
     address: '0xeb8E93A0c7504Bffd8A8fFa56CD754c63aAeBFe8',
     name: 'Overnight.fi DAI',
-    symbol: 'DAI',
+    symbol: 'DAI+',
     decimals: 18,
     buildingBlocks: [
       BuildingBlock.SWAP,
