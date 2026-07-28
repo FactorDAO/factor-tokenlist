@@ -14,6 +14,7 @@ export const compileFile = (entireList: string[]) => {
   rawFile = rawFile.replace(/"CREATE_LP"/g, 'BuildingBlock.CREATE_LP');
   rawFile = rawFile.replace(/"FLASHLOAN"/g, 'BuildingBlock.FLASHLOAN');
   rawFile = rawFile.replace(/"CLAIM_REWARDS"/g, 'BuildingBlock.CLAIM_REWARDS');
+  rawFile = rawFile.replace(/"YIELD"/g, 'BuildingBlock.YIELD');
   rawFile = rawFile.replace(/"YIELD_TRADING"/g, 'BuildingBlock.YIELD_TRADING');
   rawFile = rawFile.replace(
     /"PROVIDE_LIQUIDITY"/g,

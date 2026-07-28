@@ -1,6 +1,5 @@
 import { Token, Protocols, BuildingBlock } from '../../types';
 
-/** MVP 17 Chainlink stock tokens + USDG + WETH + steakUSDG (RHC 4663). */
 export const tokens: Token[] = [
   {
     address: '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168',
@@ -14,6 +13,8 @@ export const tokens: Token[] = [
       BuildingBlock.SWAP,
       BuildingBlock.YIELD,
     ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/robinhood/USDG.png',
   },
   {
     address: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
@@ -26,6 +27,8 @@ export const tokens: Token[] = [
       BuildingBlock.WITHDRAW,
       BuildingBlock.SWAP,
     ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/robinhood/WETH.png',
   },
   {
     address: '0xBeEff033F34C046626B8D0A041844C5d1A5409dd',
@@ -33,7 +36,13 @@ export const tokens: Token[] = [
     name: 'Steakhouse USDG',
     decimals: 18,
     protocols: [Protocols.MORPHO],
-    buildingBlocks: [BuildingBlock.YIELD, BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW],
+    buildingBlocks: [
+      BuildingBlock.YIELD,
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/robinhood/STEAKUSDG.png',
   },
   {
     address: '0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC',
@@ -41,7 +50,13 @@ export const tokens: Token[] = [
     name: 'NVDA • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec.png',
   },
   {
     address: '0xaF3D76f1834A1d425780943C99Ea8A608f8a93f9',
@@ -49,7 +64,13 @@ export const tokens: Token[] = [
     name: 'AAPL • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xaf3d76f1834a1d425780943c99ea8a608f8a93f9.png',
   },
   {
     address: '0x322F0929c4625eD5bAd873c95208D54E1c003b2d',
@@ -57,7 +78,13 @@ export const tokens: Token[] = [
     name: 'TSLA • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x322f0929c4625ed5bad873c95208d54e1c003b2d.png',
   },
   {
     address: '0xc0D6457C16Cc70d6790Dd43521C899C87ce02f35',
@@ -65,7 +92,13 @@ export const tokens: Token[] = [
     name: 'META • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xc0d6457c16cc70d6790dd43521c899c87ce02f35.png',
   },
   {
     address: '0x2e0847E8910a9732eB3fb1bb4b70a580ADAD4FE3',
@@ -73,7 +106,13 @@ export const tokens: Token[] = [
     name: 'GOOGL • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3.png',
   },
   {
     address: '0xe93237C50D904957Cf27E7B1133b510C669c2e74',
@@ -81,7 +120,13 @@ export const tokens: Token[] = [
     name: 'MSFT • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xe93237c50d904957cf27e7b1133b510c669c2e74.png',
   },
   {
     address: '0x12f190a9F9d7D37a250758b26824B97CE941bF54',
@@ -89,7 +134,13 @@ export const tokens: Token[] = [
     name: 'AMZN • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x12f190a9f9d7d37a250758b26824b97ce941bf54.png',
   },
   {
     address: '0x117cc2133c37B721F49dE2A7a74833232B3B4C0C',
@@ -97,7 +148,13 @@ export const tokens: Token[] = [
     name: 'SPY • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x117cc2133c37b721f49de2a7a74833232b3b4c0c.png',
   },
   {
     address: '0xD5f3879160bc7c32ebb4dC785F8a4F505888de68',
@@ -105,7 +162,13 @@ export const tokens: Token[] = [
     name: 'QQQ • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xd5f3879160bc7c32ebb4dc785f8a4f505888de68.png',
   },
   {
     address: '0x6330D8C3178a418788dF01a47479c0ce7CCF450b',
@@ -113,7 +176,13 @@ export const tokens: Token[] = [
     name: 'COIN • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x6330d8c3178a418788df01a47479c0ce7ccf450b.png',
   },
   {
     address: '0xec262a75e413fAfD0dF80480274532C79D42da09',
@@ -121,7 +190,13 @@ export const tokens: Token[] = [
     name: 'MSTR • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xec262a75e413fafd0df80480274532c79d42da09.png',
   },
   {
     address: '0x894E1EC2D74FFE5AEF8Dc8A9e84686acCB964F2A',
@@ -129,7 +204,13 @@ export const tokens: Token[] = [
     name: 'PLTR • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a.png',
   },
   {
     address: '0x86923f96303D656E4aa86D9d42D1e57ad2023fdC',
@@ -137,7 +218,13 @@ export const tokens: Token[] = [
     name: 'AMD • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x86923f96303d656e4aa86d9d42d1e57ad2023fdc.png',
   },
   {
     address: '0xb0992820E760d836549ba69BC7598b4af75dEE03',
@@ -145,7 +232,13 @@ export const tokens: Token[] = [
     name: 'ORCL • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xb0992820e760d836549ba69bc7598b4af75dee03.png',
   },
   {
     address: '0xc72b96e0E48ecd4DC75E1e45396e26300BC39681',
@@ -153,6 +246,12 @@ export const tokens: Token[] = [
     name: 'INTC • Robinhood Token',
     decimals: 18,
     protocols: [Protocols.OPENOCEAN],
-    buildingBlocks: [BuildingBlock.DEPOSIT, BuildingBlock.WITHDRAW, BuildingBlock.SWAP],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xc72b96e0e48ecd4dc75e1e45396e26300bc39681.png',
   },
 ];
