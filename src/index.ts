@@ -30,6 +30,7 @@ import { tokens as ethereum } from './chains/ethereum/general';
 import { tokens as ethereumAave } from './chains/ethereum/aave';
 import { tokens as ethereumCompound } from './chains/ethereum/compound';
 import { tokens as ethereumMorpho } from './chains/ethereum/morpho';
+import { tokens as robinhood } from './chains/robinhood/general';
 
 // Import types
 import {
@@ -84,6 +85,7 @@ export class FactorTokenlist {
       base,
       sonic,
       ethereum,
+      robinhood,
     };
     this.availablePendleTokens = {
       arbitrum: arbitrumPendle,
