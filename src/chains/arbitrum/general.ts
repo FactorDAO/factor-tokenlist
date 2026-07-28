@@ -28,7 +28,7 @@ export const tokens: Token[] = [
   {
     address: '0xba5ddd1f9d7f570dc94a51479a000e3bce967196',
     name: 'Aave Token',
-    symbol: Protocols.AAVE,
+    symbol: 'AAVE',
     decimals: 18,
     buildingBlocks: [
       BuildingBlock.LEND,
@@ -371,7 +371,7 @@ export const tokens: Token[] = [
   {
     address: '0xeb8E93A0c7504Bffd8A8fFa56CD754c63aAeBFe8',
     name: 'Overnight.fi DAI',
-    symbol: 'DAI',
+    symbol: 'DAI+',
     decimals: 18,
     buildingBlocks: [
       BuildingBlock.SWAP,
@@ -8188,6 +8188,36 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/arbitrum/USDA.png',
+  },
+  {
+    address: '0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF',
+    symbol: 'USDai',
+    name: 'USDai',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl: '',
+  },
+  {
+    address: '0x0b2b2b2076d95dda7817e785989fe353fe955ef9',
+    symbol: 'sUSDai',
+    name: 'sUSDai',
+    decimals: 18,
+    protocols: [Protocols.UNISWAP, Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+      BuildingBlock.CREATE_LP,
+      BuildingBlock.PROVIDE_LIQUIDITY,
+    ],
+    logoUrl: '',
   },
   {
     address: '0x06e90A57D1ECe8752d6CE92D1aD348EaD5Eae4f4',
