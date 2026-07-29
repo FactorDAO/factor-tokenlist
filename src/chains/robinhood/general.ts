@@ -45,6 +45,76 @@ export const tokens: Token[] = [
       'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/robinhood/STEAKUSDG.png',
   },
   {
+    address: '0x80e0e24718dbFcad49ECAA6F1e6C89A190586cA8',
+    symbol: 'USDC',
+    name: 'USD Coin',
+    decimals: 6,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/USDC.png',
+  },
+  {
+    address: '0xE246BC49b0598d7Cd9f0eAD48B885034f1254380',
+    symbol: 'USDT',
+    name: 'Tether USD',
+    decimals: 6,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/USDT.png',
+  },
+  {
+    address: '0x6bac06600D220Ac5Ac281AD1f504D2Cf0F90F6e6',
+    symbol: 'WBTC',
+    name: 'Wrapped BTC',
+    decimals: 8,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/WBTC.png',
+  },
+  {
+    address: '0x0822560CBDB92a0Af70397379ddb4Dcc4C95C8a7',
+    symbol: 'LINK',
+    name: 'Chainlink',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/LINK.png',
+  },
+  {
+    address: '0xcD26A6AA5BB008240A998E242F51232FE98B12Cb',
+    symbol: 'wstETH',
+    name: 'Wrapped liquid staked Ether',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://raw.githubusercontent.com/FactorDAO/factor-tokenlist/main/assets/ethereum/WSTETH.png',
+  },
+  {
     address: '0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC',
     symbol: 'NVDA',
     name: 'NVDA • Robinhood Token',
@@ -253,5 +323,201 @@ export const tokens: Token[] = [
     ],
     logoUrl:
       'https://cdn.robinhood.com/ncw_assets/logos/0xc72b96e0e48ecd4dc75e1e45396e26300bc39681.png',
+  },
+  {
+    address: '0xcBB95BBF36099d34dA091dc6Fa6F49EfA257Cee3',
+    symbol: 'CLSK',
+    name: 'CleanSpark • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xcbb95bbf36099d34da091dc6fa6f49efa257cee3.png',
+  },
+  {
+    address: '0x411eFb0E7f985935DAec3D4C3ebaEa0d0AD7D89f',
+    symbol: 'SLV',
+    name: 'iShares Silver Trust • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f.png',
+  },
+  {
+    address: '0xa30FA36Db767ad9eD3f7a60fC79526fB4d56D344',
+    symbol: 'USO',
+    name: 'United States Oil Fund • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344.png',
+  },
+  {
+    address: '0x7f0aBeF0C07280F82c6a08ead09dEd6BAE2C13Fc',
+    symbol: 'EWY',
+    name: 'iShares MSCI South Korea fund • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x7f0abef0c07280f82c6a08ead09ded6bae2c13fc.png',
+  },
+  {
+    address: '0x558378E000D634A36593E338eBacdd6207640EfE',
+    symbol: 'IONQ',
+    name: 'IonQ • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x558378e000d634a36593e338ebacdd6207640efe.png',
+  },
+  {
+    address: '0x284358abc07F9359f19f4b5b4aC91901Be2597Ba',
+    symbol: 'RGTI',
+    name: 'Rigetti Computing • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x284358abc07f9359f19f4b5b4ac91901be2597ba.png',
+  },
+  {
+    address: '0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa',
+    symbol: 'SPCX',
+    name: 'SPCX • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea.png',
+  },
+  {
+    address: '0x3b14C39E89D60D627b42a1A4CA45b5bb45Fc12e2',
+    symbol: 'RKLB',
+    name: 'Rocket Lab Corporation • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2.png',
+  },
+  {
+    address: '0x58FfE4a942d3885bAa22D7520691F611EF09e7AA',
+    symbol: 'TSM',
+    name: 'Taiwan Semiconductor Manufacturing • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x58ffe4a942d3885baa22d7520691f611ef09e7aa.png',
+  },
+  {
+    address: '0x47F93d52cBeC7C6D2CfC080e154002370a60dAEA',
+    symbol: 'ASML',
+    name: 'ASML Holding NV • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x47f93d52cbec7c6d2cfc080e154002370a60daea.png',
+  },
+  {
+    address: '0x9D9c6684F596F66a64C030B93A886D51Fd4D7931',
+    symbol: 'NBIS',
+    name: 'Nebius Group • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x9d9c6684f596f66a64c030b93a886d51fd4d7931.png',
+  },
+  {
+    address: '0x5f10A1C971B69e47e059e1dC91901B59b3fB49C3',
+    symbol: 'CRWV',
+    name: 'CoreWeave • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3.png',
+  },
+  {
+    address: '0x1b0E319c6A659F002271B69dB8A7df2F911c153E',
+    symbol: 'GME',
+    name: 'GameStop • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0x1b0e319c6a659f002271b69db8a7df2f911c153e.png',
+  },
+  {
+    address: '0xad25Ac6C84D497db898fa1E8387bf6Af3532a1c4',
+    symbol: 'BABA',
+    name: 'Alibaba • Robinhood Token',
+    decimals: 18,
+    protocols: [Protocols.OPENOCEAN],
+    buildingBlocks: [
+      BuildingBlock.DEPOSIT,
+      BuildingBlock.WITHDRAW,
+      BuildingBlock.SWAP,
+    ],
+    logoUrl:
+      'https://cdn.robinhood.com/ncw_assets/logos/0xad25ac6c84d497db898fa1e8387bf6af3532a1c4.png',
   },
 ];
