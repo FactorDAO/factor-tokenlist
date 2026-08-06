@@ -32,6 +32,8 @@ import { tokens as ethereumCompound } from './chains/ethereum/compound';
 import { tokens as ethereumMorpho } from './chains/ethereum/morpho';
 import { tokens as robinhood } from './chains/robinhood/general';
 import { tokens as gnosis } from './chains/gnosis/general';
+import { tokens as gnosisAave } from './chains/gnosis/aave';
+import { tokens as gnosisMorpho } from './chains/gnosis/morpho';
 
 // Import types
 import {
@@ -100,6 +102,7 @@ export class FactorTokenlist {
       base: baseAave,
       sonic: sonicAave,
       ethereum: ethereumAave,
+      gnosis: gnosisAave,
     };
     this.availableCompoundTokens = {
       arbitrum: arbitrumCompoundDebt,
@@ -117,6 +120,7 @@ export class FactorTokenlist {
       optimism: optimismMorpho,
       base: baseMorpho,
       ethereum: ethereumMorpho,
+      gnosis: gnosisMorpho,
     };
     this.availableSiloV2Tokens = {
       sonic: sonicSiloV2,
