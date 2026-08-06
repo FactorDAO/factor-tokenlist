@@ -61,8 +61,28 @@ export const tokens: AaveToken[] = [
     buildingBlocks: [...BB],
   },
   {
+    aToken: '0xc6B7AcA6DE8a6044E0e32d0c841a89244A10D284',
+    variableDebtToken: '0x5F6f7B0a87CA3CF3d0b431Ae03EF3305180BFf4d',
+    symbol: 'aGnoUSDC',
+    decimals: 6,
+    underlyingAddress: '0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83',
+    underlyingSymbol: 'USDC',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [...BB],
+  },
+  {
+    aToken: '0x3FdCeC11B4f15C79d483Aedc56F37D302837Cf4d',
+    variableDebtToken: '0x2766EEFE0311Bf7421cC30155b03d210BCE30dF8',
+    symbol: 'aGnoGHO',
+    decimals: 18,
+    underlyingAddress: '0xfc421aD3C883Bf9E7C4f42dE845C4e4405799e73',
+    underlyingSymbol: 'GHO',
+    protocols: [Protocols.AAVE],
+    buildingBlocks: [...BB],
+  },
+  {
     aToken: '0xEdBC7449a9b594CA4E053D9737EC5Dc4CbCcBfb2',
-    // No vDebtEURe in Phase 0 factory WL — placeholder zero; lend/withdraw only.
+    // No vDebtEURe on factory — lend/withdraw only.
     variableDebtToken: '0x0000000000000000000000000000000000000000',
     symbol: 'aGnoEURe',
     decimals: 18,
